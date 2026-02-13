@@ -1,111 +1,141 @@
 {
+  "seo": {
+    "title": "Seedance 2.0 - Unified Multimodal AI Video Generation",
+    "description": "Seedance 2.0 is a state-of-the-art AI video generation model supporting text, image, audio, and video inputs for cinematic quality content creation."
+  },
   "nav": {
     "home": "Home",
     "blog": "Blog",
-    "cta": "Start Creating Free"
+    "text_to_video": "Text to Video",
+    "image_to_video": "Image to Video",
+    "ai_tools": "AI Tools",
+    "cta": "Try Seedance Free"
+  },
+  "product_features": {
+    "text_to_video": {
+      "title": "Text to Video AI",
+      "desc": "Describe scenes, characters and camera moves in natural language and let our Text to Video AI turn them into coherent multi-shot videos."
+    },
+    "image_to_video": {
+      "title": "Image to Video AI",
+      "desc": "Upload a single reference photo and watch it become a short AI-generated video. Preserve identity and style with high fidelity."
+    },
+    "text_to_image": {
+      "title": "Text to Image AI",
+      "desc": "Turn text prompts into high-resolution images. Describe style, lighting and composition once, then generate multiple variations."
+    },
+    "ai_tools": {
+      "title": "AI Video Effects & Tools",
+      "desc": "Upload photos, choose an AI video effect template and let our system auto-generate a short stylized clip."
+    }
   },
   "hero": {
-    "title": "Unleash Infinite Creativity with",
-    "highlight": "Nano Banana AI",
-    "subtitle": "The professional AI image generator that respects your prompts. Create photorealistic assets, game sprites, and marketing visuals in seconds.",
-    "button": "Generate Images Now",
-    "users": "Trusted by 50,000+ Creators"
+    "title": "Director-Level Control with",
+    "highlight": "Seedance 2.0",
+    "subtitle": "The unified multimodal generation architecture. Create cinematic videos from text, images, and audio with unprecedented control and realism.",
+    "button": "Start Generating",
+    "users": "Trusted by Top Studios"
   },
   "stats": [
-    { "value": "0.8s", "label": "Generation Time" },
-    { "value": "8K", "label": "Max Resolution" },
-    { "value": "10M+", "label": "Images Created" }
+    { "value": "SOTA", "label": "Model Performance" },
+    { "value": "4", "label": "Modalities Supported" },
+    { "value": "1080p", "label": "HD Output" }
   ],
   "features": {
-    "title": "Why Professionals Choose Nano Banana?",
-    "subtitle": "Stop fighting with AI. Start creating exactly what you imagined.",
+    "title": "Why Choose Seedance 2.0?",
+    "subtitle": "Break the boundaries of creativity with the most comprehensive multimodal content generation capabilities.",
     "list": [
       {
-        "title": "Lightning Fast Engine",
-        "desc": "Powered by our exclusive 'Banana-Flow' architecture. Generate 4 images in the time it takes others to load the interface."
+        "title": "Unified Multimodal Architecture",
+        "desc": "Supports text, image, audio, and video inputs. Integrated editing capabilities for seamless content creation."
       },
       {
-        "title": "Text That Is Actually Readable",
-        "desc": "Finally, an AI that can spell. Generate logos, book covers, and posters with perfect typography rendering."
+        "title": "Director-Level Control",
+        "desc": "Precise control over acting, lighting, and camera movement. Turn your creative vision into reality exactly as you imagined."
       },
       {
-        "title": "Style Consistency (LoRA)",
-        "desc": "Keep your characters and art styles consistent across multiple generations. Perfect for comic books and game assets."
+        "title": "Hyper-Realistic Quality",
+        "desc": "Exceptional motion stability and physical law adherence. Native audio-visual synchronization for immersive experiences."
       },
       {
-        "title": "Private & Secure",
-        "desc": "Your prompts and generated images are private by default. We do not use your private data to train our public models."
+        "title": "Industrial Grade Workflow",
+        "desc": "Tailored for advertising, film, and social media. Output quality meets industrial delivery standards."
       }
     ]
   },
   "comparison": {
-    "title": "Nano Banana vs. The Rest",
-    "headers": ["Feature", "Nano Banana", "Traditional AI Models"],
+    "title": "Seedance 2.0 vs. Others",
+    "headers": ["Feature", "Seedance 2.0", "Other Models"],
     "rows": [
-      { "label": "Generation Speed", "us": "⚡ < 1 Second", "others": "🐢 10-30 Seconds" },
-      { "label": "Prompt Adherence", "us": "✅ High Precision", "others": "❌ Often Ignores Details" },
-      { "label": "Text Rendering", "us": "✅ Perfect Spelling", "others": "❌ Gibberish" },
-      { "label": "Usage Cost", "us": "✅ Free Tier Available", "others": "❌ Expensive Subscriptions" }
+      { "label": "Instruction Following", "us": "✅ High Precision", "others": "⚠️ Inconsistent" },
+      { "label": "Motion Quality", "us": "✅ Smooth & Realistic", "others": "❌ Jittery" },
+      { "label": "Multi-Shot Consistency", "us": "✅ Coherent", "others": "❌ Fragmented" },
+      { "label": "Audio-Visual Sync", "us": "✅ Native Support", "others": "❌ Separate Tools" }
     ]
   },
   "showcase": {
-    "title": "What Can You Build?",
+    "title": "Limitless Creativity",
     "items": [
-      { "title": "Game Assets", "desc": "Character sprites, textures, and UI elements." },
-      { "title": "E-Commerce", "desc": "Professional product photography without a studio." },
-      { "title": "Marketing", "desc": "Viral social media posts and ad creatives." },
-      { "title": "Concept Art", "desc": "Rapid prototyping for movies and architecture." }
+      { "title": "Film Production", "desc": "Generate storyboards and final shots." },
+      { "title": "Advertising", "desc": "Create high-converting video ads in minutes." },
+      { "title": "Social Media", "desc": "Viral content creation with ease." },
+      { "title": "Game Design", "desc": "Cutscenes and character animations." }
     ]
   },
   "testimonials": {
-    "title": "Loved by the Community",
+    "title": "Industry Acclaim",
     "list": [
       {
-        "review": "I switched from Midjourney because Nano Banana actually listens to my prompts. The workflow is 10x faster.",
-        "author": "Sarah Jenkins",
-        "role": "Game Developer"
+        "review": "Seedance 2.0's controllability is a game changer. It's like having a virtual film crew.",
+        "author": "Alex Rivera",
+        "role": "Film Director"
       },
       {
-        "review": "The text rendering capability is insane. I designed my entire brand identity in 20 minutes.",
-        "author": "Mike Chen",
-        "role": "Startup Founder"
+        "review": "The video quality and stability are unmatched. Perfect for our high-end commercial projects.",
+        "author": "Jessica Wu",
+        "role": "Creative Director"
       },
       {
-        "review": "Finally, a tool that offers consistent character styles. My webcomic production has never been smoother.",
-        "author": "Elena Rodriguez",
-        "role": "Illustrator"
+        "review": "Finally, an AI video tool that understands complex camera movements and lighting instructions.",
+        "author": "David Chen",
+        "role": "VFX Artist"
       }
     ]
+  },
+  "footer": {
+    "product": {
+      "title": "Product",
+      "items": ["Text to Video", "Image to Video", "Video Editing", "Pricing"]
+    },
+    "resources": {
+      "title": "Resources",
+      "items": ["Blog", "Community", "Help Center", "API Docs"]
+    },
+    "company": {
+      "title": "Company",
+      "items": ["About Us", "Careers", "Contact", "Legal"]
+    },
+    "copyright": "© 2026 Seedance AI. All rights reserved."
   },
   "faq": {
     "title": "Frequently Asked Questions",
     "items": [
       {
-        "q": "Is Nano Banana free to use?",
-        "a": "Yes! We provide a generous daily free quota that refreshes every 24 hours. No credit card required to start."
+        "q": "What is Seedance 2.0?",
+        "a": "Seedance 2.0 is a next-generation AI video model that generates high-quality videos from text, image, and audio inputs."
       },
       {
-        "q": "Do I own the images I generate?",
-        "a": "Absolutely. You own 100% of the commercial rights to any image you generate on our platform."
+        "q": "Can I use Seedance for commercial projects?",
+        "a": "Yes, our pro plans include full commercial rights for all generated content."
       },
       {
-        "q": "How is this different from Flux or Midjourney?",
-        "a": "Nano Banana is optimized for speed and control. We offer a web-based interface (no Discord required) and specific tools for consistency and text."
+        "q": "How does it compare to Sora or Kling?",
+        "a": "Seedance 2.0 excels in instruction following and motion stability, offering superior control for professional workflows."
       },
       {
-        "q": "Can I use it on my phone?",
-        "a": "Yes, our website is fully responsive and works perfectly on mobile devices."
+        "q": "Is there a free trial?",
+        "a": "Yes, you can try Seedance 2.0 for free with daily credits."
       }
     ]
-  },
-  "seo": {
-    "title": "Nano Banana - Professional AI Image Generator",
-    "description": "Create stunning AI art, game assets, and realistic photos with Nano Banana. Faster, smarter, and easier than competitors."
-  },
-  "footer": {
-    "product": { "title": "Product", "items": ["Features", "Pricing", "API", "Showcase"] },
-    "resources": { "title": "Resources", "items": ["Blog", "Community", "Help Center", "Status"] },
-    "company": { "title": "Company", "items": ["About Us", "Careers", "Legal", "Contact"] },
-    "copyright": "© 2026 Nano Banana Inc. All rights reserved."
   }
 }

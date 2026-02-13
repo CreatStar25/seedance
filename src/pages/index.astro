@@ -4,11 +4,7 @@ import SEOHead from '../components/SEOHead.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 
-export async function getStaticPaths() {
-  return Object.keys(languages).filter(l => l !== 'en').map((lang) => ({ params: { lang } }));
-}
-
-const { lang } = Astro.params;
+const { lang = 'en' } = Astro.params;
 let translations;
 try { translations = await import(`../i18n/${lang}.json`); } 
 catch (e) { translations = await import(`../i18n/en.json`); }
@@ -30,7 +26,7 @@ const t = translations.default || translations;
 
         <div class="max-w-7xl mx-auto px-6 text-center">
           <div class="inline-flex items-center px-4 py-1.5 rounded-full bg-yellow-50 border border-yellow-200 text-yellow-700 text-sm font-bold mb-8 animate-fade-in-up">
-            🚀 New Feature: Text Rendering V2
+            🚀 New Release: Seedance 2.0
           </div>
           
           <h1 class="text-5xl md:text-7xl lg:text-8xl font-black tracking-tight text-gray-900 mb-8 leading-[1.1]">
@@ -45,7 +41,7 @@ const t = translations.default || translations;
           </p>
           
           <div class="flex flex-col sm:flex-row justify-center items-center gap-6">
-            <a href="https://app.nanobanana.com" class="w-full sm:w-auto px-10 py-4 bg-black text-white rounded-full font-bold text-lg hover:bg-gray-800 hover:scale-105 transition-all shadow-xl hover:shadow-yellow-500/20">
+            <a href="#" class="w-full sm:w-auto px-10 py-4 bg-black text-white rounded-full font-bold text-lg hover:bg-gray-800 hover:scale-105 transition-all shadow-xl hover:shadow-yellow-500/20">
               {t.hero.button}
             </a>
             <p class="text-sm font-semibold text-gray-500 flex items-center gap-2">
@@ -68,7 +64,7 @@ const t = translations.default || translations;
                       <div class="w-2 h-2 rounded-full bg-yellow-500"></div>
                       <div class="w-2 h-2 rounded-full bg-green-500"></div>
                    </div>
-                   <div class="text-sm font-mono text-gray-600">"A futuristic banana space station, cinematic lighting, 8k..."</div>
+                   <div class="text-sm font-mono text-gray-600">"Cinematic drone shot of a futuristic city at sunset, 4k, smooth motion..."</div>
                 </div>
              </div>
           </div>
@@ -77,13 +73,167 @@ const t = translations.default || translations;
 
       <section class="border-y border-gray-100 bg-gray-50/50 py-16">
          <div class="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-8 text-center divide-y md:divide-y-0 md:divide-x divide-gray-200">
-            {t.stats && t.stats.map(stat => (
+            {t.stats && t.stats.map((stat: any) => (
               <div class="pt-4 md:pt-0">
                 <div class="text-4xl md:text-5xl font-black text-gray-900 mb-2">{stat.value}</div>
                 <div class="text-gray-500 font-bold uppercase tracking-wider text-sm">{stat.label}</div>
               </div>
             ))}
          </div>
+      </section>
+
+      <!-- Text to Video Section -->
+      <section id="text-to-video" class="py-24 bg-white overflow-hidden">
+        <div class="max-w-7xl mx-auto px-6">
+          <div class="flex flex-col md:flex-row items-center gap-16">
+            <div class="md:w-1/2">
+              <div class="inline-flex items-center px-3 py-1 rounded-full bg-purple-100 text-purple-700 text-xs font-bold mb-6 uppercase tracking-wider">
+                Flagship Model
+              </div>
+              <h2 class="text-4xl md:text-5xl font-black text-gray-900 mb-6 leading-tight">
+                {t.product_features?.text_to_video?.title || "Text to Video AI"}
+              </h2>
+              <p class="text-xl text-gray-500 mb-8 leading-relaxed">
+                {t.product_features?.text_to_video?.desc || "Describe scenes, characters and camera moves in natural language."}
+              </p>
+              <ul class="space-y-4 mb-8">
+                <li class="flex items-center gap-3 text-gray-700 font-medium">
+                  <svg class="w-5 h-5 text-green-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                  Cinematic Camera Control
+                </li>
+                <li class="flex items-center gap-3 text-gray-700 font-medium">
+                  <svg class="w-5 h-5 text-green-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                  Multi-Shot Consistency
+                </li>
+                <li class="flex items-center gap-3 text-gray-700 font-medium">
+                  <svg class="w-5 h-5 text-green-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                  Physics-Based Motion
+                </li>
+              </ul>
+              <a href="#" class="inline-flex items-center justify-center px-8 py-3 bg-black text-white rounded-full font-bold hover:bg-gray-800 transition-all group">
+                Create Video
+                <svg class="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
+              </a>
+            </div>
+            <div class="md:w-1/2 relative">
+              <div class="absolute inset-0 bg-gradient-to-tr from-purple-200 to-pink-200 rounded-3xl blur-2xl opacity-50 -z-10 transform rotate-3"></div>
+              <div class="bg-gray-900 rounded-3xl overflow-hidden shadow-2xl aspect-video relative group border border-gray-800">
+                <div class="absolute inset-0 flex items-center justify-center bg-black/50 group-hover:bg-black/30 transition-all">
+                   <div class="w-16 h-16 rounded-full bg-white/20 backdrop-blur-sm flex items-center justify-center group-hover:scale-110 transition-transform cursor-pointer">
+                      <svg class="w-8 h-8 text-white ml-1" fill="currentColor" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+                   </div>
+                </div>
+                <div class="absolute bottom-4 left-4 right-4 bg-black/60 backdrop-blur p-3 rounded-xl border border-white/10">
+                  <p class="text-xs text-gray-300 font-mono">Prompt: "Cyberpunk street market, neon lights, rain reflections, 4k..."</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Image to Video Section -->
+      <section id="image-to-video" class="py-24 bg-gray-50 overflow-hidden">
+        <div class="max-w-7xl mx-auto px-6">
+          <div class="flex flex-col md:flex-row-reverse items-center gap-16">
+            <div class="md:w-1/2">
+              <div class="inline-flex items-center px-3 py-1 rounded-full bg-blue-100 text-blue-700 text-xs font-bold mb-6 uppercase tracking-wider">
+                Static to Motion
+              </div>
+              <h2 class="text-4xl md:text-5xl font-black text-gray-900 mb-6 leading-tight">
+                {t.product_features?.image_to_video?.title || "Image to Video AI"}
+              </h2>
+              <p class="text-xl text-gray-500 mb-8 leading-relaxed">
+                {t.product_features?.image_to_video?.desc || "Animate your photos with incredible realism."}
+              </p>
+              <ul class="space-y-4 mb-8">
+                 <li class="flex items-center gap-3 text-gray-700 font-medium">
+                  <svg class="w-5 h-5 text-blue-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                  Preserve Subject Identity
+                </li>
+                <li class="flex items-center gap-3 text-gray-700 font-medium">
+                  <svg class="w-5 h-5 text-blue-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                  Control Motion Strength
+                </li>
+              </ul>
+              <a href="#" class="inline-flex items-center justify-center px-8 py-3 bg-white text-black border border-gray-200 rounded-full font-bold hover:bg-gray-100 transition-all group shadow-sm">
+                Animate Image
+                <svg class="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
+              </a>
+            </div>
+            <div class="md:w-1/2 relative">
+               <div class="grid grid-cols-2 gap-4">
+                  <div class="relative group rounded-2xl overflow-hidden shadow-lg hover:-translate-y-1 transition-transform duration-300">
+                    <div class="aspect-[4/5] bg-gray-200 relative">
+                       <div class="absolute inset-0 flex items-center justify-center text-gray-400 font-medium">Original</div>
+                    </div>
+                  </div>
+                  <div class="relative group rounded-2xl overflow-hidden shadow-lg hover:-translate-y-1 transition-transform duration-300 mt-8">
+                    <div class="aspect-[4/5] bg-gray-800 relative">
+                       <div class="absolute inset-0 flex items-center justify-center text-white font-medium">
+                          <svg class="w-12 h-12 opacity-80" fill="currentColor" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+                       </div>
+                    </div>
+                  </div>
+               </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- AI Tools Section -->
+      <section id="ai-tools" class="py-24 bg-white overflow-hidden">
+        <div class="max-w-7xl mx-auto px-6">
+          <div class="flex flex-col md:flex-row items-center gap-16">
+            <div class="md:w-1/2">
+              <div class="inline-flex items-center px-3 py-1 rounded-full bg-green-100 text-green-700 text-xs font-bold mb-6 uppercase tracking-wider">
+                Creative Suite
+              </div>
+              <h2 class="text-4xl md:text-5xl font-black text-gray-900 mb-6 leading-tight">
+                {t.product_features?.ai_tools?.title || "AI Video Effects"}
+              </h2>
+              <p class="text-xl text-gray-500 mb-8 leading-relaxed">
+                {t.product_features?.ai_tools?.desc || "Instant professional effects with one click."}
+              </p>
+              <div class="grid grid-cols-2 gap-4 mb-8">
+                <div class="p-4 bg-gray-50 rounded-2xl border border-gray-100 hover:border-yellow-300 transition-colors">
+                   <h4 class="font-bold text-gray-900 mb-1">Face Swap</h4>
+                   <p class="text-sm text-gray-500">Perfect for memes & marketing</p>
+                </div>
+                <div class="p-4 bg-gray-50 rounded-2xl border border-gray-100 hover:border-yellow-300 transition-colors">
+                   <h4 class="font-bold text-gray-900 mb-1">Style Transfer</h4>
+                   <p class="text-sm text-gray-500">Anime, Clay, 3D Render...</p>
+                </div>
+              </div>
+              <a href="#" class="inline-flex items-center justify-center px-8 py-3 bg-black text-white rounded-full font-bold hover:bg-gray-800 transition-all group">
+                Explore Tools
+                <svg class="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
+              </a>
+            </div>
+            <div class="md:w-1/2">
+               <div class="bg-gray-100 rounded-3xl p-8 border border-gray-200">
+                  <div class="grid grid-cols-2 gap-4">
+                     <div class="aspect-square bg-white rounded-xl shadow-sm p-4 flex flex-col items-center justify-center text-center">
+                        <div class="w-12 h-12 bg-yellow-100 rounded-full mb-3 flex items-center justify-center text-yellow-600">✨</div>
+                        <span class="font-bold text-sm">Magic Edit</span>
+                     </div>
+                     <div class="aspect-square bg-white rounded-xl shadow-sm p-4 flex flex-col items-center justify-center text-center">
+                        <div class="w-12 h-12 bg-blue-100 rounded-full mb-3 flex items-center justify-center text-blue-600">🎭</div>
+                        <span class="font-bold text-sm">Face Swap</span>
+                     </div>
+                     <div class="aspect-square bg-white rounded-xl shadow-sm p-4 flex flex-col items-center justify-center text-center">
+                        <div class="w-12 h-12 bg-purple-100 rounded-full mb-3 flex items-center justify-center text-purple-600">🎨</div>
+                        <span class="font-bold text-sm">Restyle</span>
+                     </div>
+                     <div class="aspect-square bg-white rounded-xl shadow-sm p-4 flex flex-col items-center justify-center text-center">
+                        <div class="w-12 h-12 bg-green-100 rounded-full mb-3 flex items-center justify-center text-green-600">🔍</div>
+                        <span class="font-bold text-sm">Upscale</span>
+                     </div>
+                  </div>
+               </div>
+            </div>
+          </div>
+        </div>
       </section>
 
       <section class="py-32 bg-white">
@@ -94,7 +244,7 @@ const t = translations.default || translations;
           </div>
           
           <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
-            {t.features.list.map((feature, i) => (
+            {t.features.list.map((feature: any, i: number) => (
               <div class="group p-10 rounded-[2rem] bg-gray-50 border border-gray-100 hover:border-yellow-300 hover:shadow-xl hover:shadow-yellow-100/50 transition-all duration-300">
                 <div class="w-14 h-14 rounded-2xl bg-yellow-100 flex items-center justify-center text-yellow-600 mb-6 group-hover:scale-110 transition-transform">
                   {i === 0 && <svg class="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" /></svg>}
@@ -124,7 +274,7 @@ const t = translations.default || translations;
                 </tr>
               </thead>
               <tbody class="divide-y divide-gray-800">
-                {t.comparison.rows.map(row => (
+                {t.comparison.rows.map((row: any) => (
                   <tr class="group hover:bg-white/5 transition-colors">
                     <td class="p-6 font-bold text-white">{row.label}</td>
                     <td class="p-6 font-medium text-white" set:html={row.us}></td>
@@ -141,7 +291,7 @@ const t = translations.default || translations;
         <div class="max-w-7xl mx-auto px-6">
           <h2 class="text-4xl font-black text-center mb-20">{t.showcase.title}</h2>
           <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-            {t.showcase.items.map((item, i) => (
+            {t.showcase.items.map((item: any, i: number) => (
               <div class="group relative rounded-2xl overflow-hidden aspect-[3/4] bg-gray-100 cursor-pointer">
                 <div class={`absolute inset-0 transition-transform duration-700 group-hover:scale-110 ${i % 2 === 0 ? 'bg-gray-200' : 'bg-gray-300'}`}></div>
                 <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent"></div>
@@ -161,16 +311,12 @@ const t = translations.default || translations;
         <div class="max-w-7xl mx-auto px-6">
           <h2 class="text-4xl font-black text-center mb-16">{t.testimonials.title}</h2>
           <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {t.testimonials.list.map((item) => (
-              <div class="bg-white p-8 rounded-3xl shadow-sm border border-yellow-100 hover:shadow-lg transition-shadow">
-                <div class="flex text-yellow-400 mb-4 space-x-1">
-                  <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
-                </div>
-                <p class="text-lg text-gray-700 font-medium mb-6 leading-relaxed">"{item.review}"</p>
+            {t.testimonials.list.map((item: any) => (
+              <div class="bg-gray-50 p-8 rounded-3xl border border-gray-100 relative">
+                <svg class="w-10 h-10 text-yellow-300 absolute top-6 left-6 -z-0" fill="currentColor" viewBox="0 0 24 24"><path d="M14.017 21L14.017 18C14.017 16.896 14.389 16.03 15.133 15.401C15.877 14.773 16.924 14.459 18.274 14.459L18.736 14.459L18.736 11.459L18.064 11.459C16.974 11.459 15.897 11.085 14.833 10.338C13.769 9.591 13.044 8.528 12.658 7.149L12.5 6.5L15.5 6.5L15.659 7.426C15.877 8.653 16.38 9.576 17.169 10.194C17.958 10.812 19.096 11.121 20.582 11.121L21 11.121L21 21L14.017 21ZM5.01699 21L5.01699 18C5.01699 16.896 5.389 16.03 6.13299 15.401C6.87699 14.773 7.92399 14.459 9.27399 14.459L9.73599 14.459L9.73599 11.459L9.06399 11.459C7.97399 11.459 6.89699 11.085 5.83299 10.338C4.76899 9.591 4.04399 8.528 3.65799 7.149L3.49999 6.5L6.49999 6.5L6.65899 7.426C6.87699 8.653 7.37999 9.576 8.16899 10.194C8.95799 10.812 10.096 11.121 11.582 11.121L12 11.121L12 21L5.01699 21Z" /></svg>
+                <p class="text-gray-700 italic mb-6 relative z-10">"{item.review}"</p>
                 <div class="flex items-center gap-4">
-                  <div class="w-12 h-12 rounded-full bg-gradient-to-tr from-yellow-300 to-orange-300 flex items-center justify-center text-white font-bold text-lg">
-                    {item.author.charAt(0)}
-                  </div>
+                  <div class="w-10 h-10 rounded-full bg-gray-300"></div>
                   <div>
                     <div class="font-bold text-gray-900">{item.author}</div>
                     <div class="text-sm text-gray-500">{item.role}</div>
@@ -185,7 +331,7 @@ const t = translations.default || translations;
       <section class="py-32 bg-white max-w-4xl mx-auto px-6" itemscope itemtype="https://schema.org/FAQPage">
         <h2 class="text-4xl font-black text-center mb-16">{t.faq.title}</h2>
         <div class="space-y-4">
-          {t.faq.items.map((item) => (
+          {t.faq.items.map((item: any) => (
             <details class="group bg-gray-50 rounded-2xl border border-gray-100 overflow-hidden" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
               <summary class="flex justify-between items-center font-bold cursor-pointer list-none p-6 text-lg text-gray-900 hover:bg-gray-100 transition-colors select-none">
                 <span itemprop="name">{item.q}</span>

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://seedance22.com/sitemap-index.xml

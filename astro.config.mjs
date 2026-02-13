@@ -7,7 +7,7 @@ export default defineConfig({
   // -------------------------------------------------
   // 关键修复：必须添加 site 属性，且必须带 https://
   // -------------------------------------------------
-  site: 'https://nanobanana.com', 
+  site: 'https://seedance22.com', 
   
   output: 'static',
   adapter: cloudflare(),

@@ -21,12 +21,21 @@ if (cleanPath.startsWith('/')) cleanPath = cleanPath.substring(1);
     
     <a href={lang === 'en' ? '/' : `/${lang}/`} class="flex items-center gap-2 group">
       <div class="w-10 h-10 bg-yellow-400 rounded-xl rotate-3 group-hover:rotate-12 transition-transform duration-300 shadow-lg"></div>
-      <span class="text-2xl font-black tracking-tighter text-gray-900">Nano<span class="text-yellow-500">Banana</span></span>
+      <span class="text-2xl font-black tracking-tighter text-gray-900">Seed<span class="text-yellow-500">ance</span></span>
     </a>
 
     <nav class="hidden md:flex items-center gap-10">
       <a href={lang === 'en' ? '/' : `/${lang}/`} class="text-lg font-bold text-gray-700 hover:text-yellow-600 transition-colors">
         {t.nav.home}
+      </a>
+      <a href="#text-to-video" class="text-lg font-bold text-gray-700 hover:text-yellow-600 transition-colors">
+        {t.nav.text_to_video}
+      </a>
+      <a href="#image-to-video" class="text-lg font-bold text-gray-700 hover:text-yellow-600 transition-colors">
+        {t.nav.image_to_video}
+      </a>
+      <a href="#ai-tools" class="text-lg font-bold text-gray-700 hover:text-yellow-600 transition-colors">
+        {t.nav.ai_tools}
       </a>
       <a href={lang === 'en' ? '/blog/' : `/${lang}/blog/`} class="text-lg font-bold text-gray-700 hover:text-yellow-600 transition-colors">
         {t.nav.blog}
@@ -38,7 +47,7 @@ if (cleanPath.startsWith('/')) cleanPath = cleanPath.substring(1);
       <div class="relative group">
         <button class="flex items-center gap-2 text-base font-bold text-gray-700 hover:text-black py-2 px-3 rounded-lg hover:bg-gray-100 transition-colors">
           <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5h12M9 3v2m1.048 9.5A18.022 18.022 0 016.412 9m6.088 9h7M11 21l5-10 5 10M12.751 5C11.783 10.77 8.07 15.61 3 18.129"></path></svg>
-          <span>{languages[lang]}</span>
+          <span>{languages[lang as keyof typeof languages]}</span>
           <svg class="w-4 h-4 text-gray-400 group-hover:rotate-180 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
         </button>
         
@@ -64,7 +73,7 @@ if (cleanPath.startsWith('/')) cleanPath = cleanPath.substring(1);
         </div>
       </div>
       
-      <a href="https://app.nanobanana.com" class="hidden sm:inline-flex items-center justify-center px-6 py-2.5 border border-transparent text-base font-black rounded-full text-white bg-black hover:bg-gray-800 hover:shadow-lg hover:-translate-y-0.5 transition-all">
+      <a href="#" class="hidden sm:inline-flex items-center justify-center px-6 py-2.5 border border-transparent text-base font-black rounded-full text-white bg-black hover:bg-gray-800 hover:shadow-lg hover:-translate-y-0.5 transition-all">
         {t.nav.cta}
       </a>
     </div>
