@@ -1,0 +1,74 @@
+---
+// src/components/SEOHead.astro
+import { languages } from '../i18n/locales';
+
+interface Props {
+  title: string;
+  description: string;
+  lang: string;
+}
+
+const { title, description, lang } = Astro.props;
+
+// ---------------------------------------------------------------------------
+// 修复逻辑：获取 Base URL
+// 优先使用 astro.config.mjs 中的 site，如果没配置，则使用当前请求的 origin (例如 http://localhost:4321)
+// ---------------------------------------------------------------------------
+const siteBase = Astro.site ? Astro.site.href : Astro.url.origin;
+
+// 生成 Canonical URL
+// 确保 pathname 正确拼接
+const canonicalURL = new URL(Astro.url.pathname, siteBase);
+
+// 生成所有语言的替代链接 (Hreflang)
+const alternateLinks = Object.keys(languages).map((l) => {
+  // 获取当前不带语言前缀的路径
+  let currentPath = Astro.url.pathname;
+  
+  // 如果当前不在根路径且不是英文，移除语言前缀
+  // 例如 /ja/blog/ -> /blog/
+  if (lang !== 'en') {
+     // 注意：这里要小心替换，确保只替换开头的 /lang/
+     // 使用正则替换更安全
+     const regex = new RegExp(`^/${lang}`);
+     currentPath = currentPath.replace(regex, '');
+  }
+  
+  // 确保路径以 / 开头（如果是根路径，currentPath可能是空字符串或/）
+  if (!currentPath.startsWith('/')) {
+    currentPath = '/' + currentPath;
+  }
+
+  // 构建新的链接前缀
+  // en -> /
+  // ja -> /ja
+  const prefix = l === 'en' ? '' : `/${l}`;
+  
+  // 拼接完整路径
+  // 这里的 siteBase 保证了 new URL 永远不会报错
+  const fullPath = `${prefix}${currentPath}`.replace('//', '/'); // 清理双斜杠
+  
+  return {
+    lang: l,
+    href: new URL(fullPath, siteBase).toString()
+  };
+});
+---
+
+<title>{title}</title>
+<meta name="description" content={description} />
+<link rel="canonical" href={canonicalURL} />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta charset="UTF-8" />
+<meta name="generator" content={Astro.generator} />
+
+<meta property="og:type" content="website" />
+<meta property="og:url" content={canonicalURL} />
+<meta property="og:title" content={title} />
+<meta property="og:description" content={description} />
+<meta property="og:locale" content={lang === 'en' ? 'en_US' : lang} />
+
+{alternateLinks.map((link) => (
+  <link rel="alternate" hreflang={link.lang} href={link.href} />
+))}
+<link rel="alternate" hreflang="x-default" href={alternateLinks.find(l => l.lang === 'en')?.href} />

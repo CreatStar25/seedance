@@ -1,0 +1,81 @@
+---
+import { getCollection } from 'astro:content';
+import { languages } from '../../../i18n/locales';
+import Header from '../../../components/Header.astro';
+import Footer from '../../../components/Footer.astro';
+import SEOHead from '../../../components/SEOHead.astro';
+
+// 1. 生成所有文章的静态路径
+export async function getStaticPaths() {
+  const posts = await getCollection('blog');
+
+  // 我们需要为每一篇文章生成对应的 [lang] 和 [slug] 路径
+  // 假设文件路径是 src/content/blog/en/hello.md，slug 是 'en/hello'
+  return posts.map((post) => {
+    const [lang, ...slugParts] = post.slug.split('/');
+    const slug = slugParts.join('/'); // 获取纯文件名部分 "hello"
+
+    return {
+      params: { lang, slug },
+      props: { post },
+    };
+  });
+}
+
+const { post } = Astro.props;
+const { lang } = Astro.params;
+const { Content } = await post.render();
+
+// 获取翻译配置
+let t;
+try { t = (await import(`../../../i18n/${lang}.json`)).default; } 
+catch (e) { t = (await import(`../../../i18n/en.json`)).default; }
+
+// 格式化日期
+const formattedDate = new Date(post.data.pubDate).toLocaleDateString(lang, {
+  year: 'numeric', month: 'long', day: 'numeric'
+});
+---
+
+<html lang={lang}>
+  <head>
+    <SEOHead 
+      title={post.data.title} 
+      description={post.data.description} 
+      lang={lang} 
+    />
+  </head>
+  <body class="bg-white text-gray-900 font-sans antialiased flex flex-col min-h-screen">
+    <Header lang={lang} t={t} />
+
+    <main class="flex-grow py-20">
+      <article class="max-w-3xl mx-auto px-6">
+        
+        <header class="text-center mb-12">
+          <div class="inline-block px-3 py-1 bg-yellow-100 text-yellow-800 rounded-full text-xs font-bold mb-4 tracking-wider uppercase">
+            Blog Post
+          </div>
+          <h1 class="text-4xl md:text-5xl font-black mb-6 leading-tight">{post.data.title}</h1>
+          <div class="flex items-center justify-center gap-4 text-gray-500 text-sm">
+            <span>By <span class="text-black font-bold">{post.data.author}</span></span>
+            <span>•</span>
+            <time>{formattedDate}</time>
+          </div>
+        </header>
+
+        {post.data.image && (
+          <div class="rounded-3xl overflow-hidden shadow-2xl mb-12 border border-gray-100 aspect-video">
+            <img src={post.data.image} alt={post.data.title} class="w-full h-full object-cover" />
+          </div>
+        )}
+
+        <div class="prose prose-lg prose-yellow mx-auto prose-headings:font-black prose-img:rounded-2xl">
+          <Content />
+        </div>
+
+      </article>
+    </main>
+
+    <Footer t={t} />
+  </body>
+</html>

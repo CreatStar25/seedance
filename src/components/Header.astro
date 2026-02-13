@@ -1,0 +1,72 @@
+---
+import { languages } from '../i18n/locales';
+
+const { lang, t } = Astro.props;
+
+// 获取当前路径，以便切换语言时保持在同一页面
+const pathname = Astro.url.pathname;
+let cleanPath = pathname;
+
+// 如果不是英文，移除语言前缀 (例如 /zh/blog -> /blog)
+if (lang !== 'en') {
+  cleanPath = pathname.replace(`/${lang}`, '');
+}
+// 清理根路径和开头的斜杠
+if (cleanPath === '/') cleanPath = '';
+if (cleanPath.startsWith('/')) cleanPath = cleanPath.substring(1);
+---
+
+<header class="sticky top-0 z-50 w-full bg-white/90 backdrop-blur-md border-b border-gray-100 transition-all">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+    
+    <a href={lang === 'en' ? '/' : `/${lang}/`} class="flex items-center gap-2 group">
+      <div class="w-10 h-10 bg-yellow-400 rounded-xl rotate-3 group-hover:rotate-12 transition-transform duration-300 shadow-lg"></div>
+      <span class="text-2xl font-black tracking-tighter text-gray-900">Nano<span class="text-yellow-500">Banana</span></span>
+    </a>
+
+    <nav class="hidden md:flex items-center gap-10">
+      <a href={lang === 'en' ? '/' : `/${lang}/`} class="text-lg font-bold text-gray-700 hover:text-yellow-600 transition-colors">
+        {t.nav.home}
+      </a>
+      <a href={lang === 'en' ? '/blog/' : `/${lang}/blog/`} class="text-lg font-bold text-gray-700 hover:text-yellow-600 transition-colors">
+        {t.nav.blog}
+      </a>
+    </nav>
+
+    <div class="flex items-center gap-4">
+      
+      <div class="relative group">
+        <button class="flex items-center gap-2 text-base font-bold text-gray-700 hover:text-black py-2 px-3 rounded-lg hover:bg-gray-100 transition-colors">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5h12M9 3v2m1.048 9.5A18.022 18.022 0 016.412 9m6.088 9h7M11 21l5-10 5 10M12.751 5C11.783 10.77 8.07 15.61 3 18.129"></path></svg>
+          <span>{languages[lang]}</span>
+          <svg class="w-4 h-4 text-gray-400 group-hover:rotate-180 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+        </button>
+        
+        <div class="absolute right-0 mt-2 w-[600px] bg-white border border-gray-100 rounded-2xl shadow-2xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 transform origin-top-right scale-95 group-hover:scale-100 z-50 p-4">
+          <div class="grid grid-cols-3 gap-2">
+            {Object.entries(languages).map(([code, name]) => {
+              // 构建目标链接
+              const prefix = code === 'en' ? '' : `/${code}`;
+              // 确保路径拼接没有双斜杠
+              let targetUrl = `${prefix}/${cleanPath}`.replace('//', '/');
+              if (targetUrl === '') targetUrl = '/'; // 根路径修正
+
+              return (
+                <a 
+                  href={targetUrl} 
+                  class={`px-4 py-3 rounded-xl text-sm font-medium transition-all hover:bg-yellow-50 hover:text-yellow-700 hover:scale-105 ${code === lang ? 'bg-yellow-100 text-yellow-800 ring-2 ring-yellow-200' : 'text-gray-600 bg-gray-50'}`}
+                >
+                  {name}
+                </a>
+              );
+            })}
+          </div>
+        </div>
+      </div>
+      
+      <a href="https://app.nanobanana.com" class="hidden sm:inline-flex items-center justify-center px-6 py-2.5 border border-transparent text-base font-black rounded-full text-white bg-black hover:bg-gray-800 hover:shadow-lg hover:-translate-y-0.5 transition-all">
+        {t.nav.cta}
+      </a>
+    </div>
+  </div>
+</header>

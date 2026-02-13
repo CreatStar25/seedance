@@ -1,0 +1,111 @@
+{
+  "nav": {
+    "home": "Home",
+    "blog": "Blog",
+    "cta": "Start Creating Free"
+  },
+  "hero": {
+    "title": "Unleash Infinite Creativity with",
+    "highlight": "Nano Banana AI",
+    "subtitle": "The professional AI image generator that respects your prompts. Create photorealistic assets, game sprites, and marketing visuals in seconds.",
+    "button": "Generate Images Now",
+    "users": "Trusted by 50,000+ Creators"
+  },
+  "stats": [
+    { "value": "0.8s", "label": "Generation Time" },
+    { "value": "8K", "label": "Max Resolution" },
+    { "value": "10M+", "label": "Images Created" }
+  ],
+  "features": {
+    "title": "Why Professionals Choose Nano Banana?",
+    "subtitle": "Stop fighting with AI. Start creating exactly what you imagined.",
+    "list": [
+      {
+        "title": "Lightning Fast Engine",
+        "desc": "Powered by our exclusive 'Banana-Flow' architecture. Generate 4 images in the time it takes others to load the interface."
+      },
+      {
+        "title": "Text That Is Actually Readable",
+        "desc": "Finally, an AI that can spell. Generate logos, book covers, and posters with perfect typography rendering."
+      },
+      {
+        "title": "Style Consistency (LoRA)",
+        "desc": "Keep your characters and art styles consistent across multiple generations. Perfect for comic books and game assets."
+      },
+      {
+        "title": "Private & Secure",
+        "desc": "Your prompts and generated images are private by default. We do not use your private data to train our public models."
+      }
+    ]
+  },
+  "comparison": {
+    "title": "Nano Banana vs. The Rest",
+    "headers": ["Feature", "Nano Banana", "Traditional AI Models"],
+    "rows": [
+      { "label": "Generation Speed", "us": "⚡ < 1 Second", "others": "🐢 10-30 Seconds" },
+      { "label": "Prompt Adherence", "us": "✅ High Precision", "others": "❌ Often Ignores Details" },
+      { "label": "Text Rendering", "us": "✅ Perfect Spelling", "others": "❌ Gibberish" },
+      { "label": "Usage Cost", "us": "✅ Free Tier Available", "others": "❌ Expensive Subscriptions" }
+    ]
+  },
+  "showcase": {
+    "title": "What Can You Build?",
+    "items": [
+      { "title": "Game Assets", "desc": "Character sprites, textures, and UI elements." },
+      { "title": "E-Commerce", "desc": "Professional product photography without a studio." },
+      { "title": "Marketing", "desc": "Viral social media posts and ad creatives." },
+      { "title": "Concept Art", "desc": "Rapid prototyping for movies and architecture." }
+    ]
+  },
+  "testimonials": {
+    "title": "Loved by the Community",
+    "list": [
+      {
+        "review": "I switched from Midjourney because Nano Banana actually listens to my prompts. The workflow is 10x faster.",
+        "author": "Sarah Jenkins",
+        "role": "Game Developer"
+      },
+      {
+        "review": "The text rendering capability is insane. I designed my entire brand identity in 20 minutes.",
+        "author": "Mike Chen",
+        "role": "Startup Founder"
+      },
+      {
+        "review": "Finally, a tool that offers consistent character styles. My webcomic production has never been smoother.",
+        "author": "Elena Rodriguez",
+        "role": "Illustrator"
+      }
+    ]
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "items": [
+      {
+        "q": "Is Nano Banana free to use?",
+        "a": "Yes! We provide a generous daily free quota that refreshes every 24 hours. No credit card required to start."
+      },
+      {
+        "q": "Do I own the images I generate?",
+        "a": "Absolutely. You own 100% of the commercial rights to any image you generate on our platform."
+      },
+      {
+        "q": "How is this different from Flux or Midjourney?",
+        "a": "Nano Banana is optimized for speed and control. We offer a web-based interface (no Discord required) and specific tools for consistency and text."
+      },
+      {
+        "q": "Can I use it on my phone?",
+        "a": "Yes, our website is fully responsive and works perfectly on mobile devices."
+      }
+    ]
+  },
+  "seo": {
+    "title": "Nano Banana - Professional AI Image Generator",
+    "description": "Create stunning AI art, game assets, and realistic photos with Nano Banana. Faster, smarter, and easier than competitors."
+  },
+  "footer": {
+    "product": { "title": "Product", "items": ["Features", "Pricing", "API", "Showcase"] },
+    "resources": { "title": "Resources", "items": ["Blog", "Community", "Help Center", "Status"] },
+    "company": { "title": "Company", "items": ["About Us", "Careers", "Legal", "Contact"] },
+    "copyright": "© 2026 Nano Banana Inc. All rights reserved."
+  }
+}
