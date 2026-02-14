@@ -1,15 +1,22 @@
 {
   "seo": {
-    "title": "Seedance 2.0 - Intelligent AI Video Generation Platform | Seedance English Version",
-    "description": "Seedance 2.0 is a state-of-the-art AI video generation model supporting text, image, audio, and video inputs for cinematic quality content creation."
+    "title": "Seedance 2.0 - Platformă Inteligentă de Generare Video AI | Seedance Versiunea Română",
+    "description": "Seedance 2.0 este un model de generare video AI de ultimă generație care acceptă intrări text, imagine, audio și video pentru crearea de conținut de calitate cinematografică."
   },
   "nav": {
-    "home": "Home",
+    "home": "Acasă",
     "blog": "Blog",
-    "text_to_video": "Text to Video",
-    "image_to_video": "Image to Video",
-    "ai_tools": "AI Tools",
-    "cta": "Try Seedance Free"
+    "text_to_video": "Text în Video",
+    "image_to_video": "Imagine în Video",
+    "ai_tools": "Instrumente AI",
+    "cta": "Încearcă Gratuit"
+  },
+  "hero": {
+    "title": "Control la Nivel de Regizor cu",
+    "highlight": "Seedance 2.0",
+    "subtitle": "Arhitectura de generare multimodală unificată. Creați videoclipuri cinematografice din text, imagini și audio cu un control și realism fără precedent.",
+    "button": "Începe Generarea",
+    "users": "De Încredere pentru Studiouri de Top"
   },
   "product_features": {
     "text_to_video": {
@@ -29,18 +36,36 @@
       "desc": "Upload photos, choose an AI video effect template and let our system auto-generate a short stylized clip."
     }
   },
-  "hero": {
-    "title": "Director-Level Control with",
-    "highlight": "Seedance 2.0",
-    "subtitle": "The unified multimodal generation architecture. Create cinematic videos from text, images, and audio with unprecedented control and realism.",
-    "button": "Start Generating",
-    "users": "Trusted by Top Studios"
+  "footer": {
+    "product": {
+      "title": "Produs",
+      "items": [
+        "Text în Video",
+        "Imagine în Video",
+        "Editare Video",
+        "Prețuri"
+      ]
+    },
+    "resources": {
+      "title": "Resurse",
+      "items": [
+        "Blog",
+        "Comunitate",
+        "Centru de Ajutor",
+        "Documentație API"
+      ]
+    },
+    "company": {
+      "title": "Companie",
+      "items": [
+        "Despre Noi",
+        "Cariere",
+        "Contact",
+        "Legal"
+      ]
+    },
+    "copyright": "© 2026 Seedance AI. Toate drepturile rezervate."
   },
-  "stats": [
-    { "value": "SOTA", "label": "Model Performance" },
-    { "value": "4", "label": "Modalities Supported" },
-    { "value": "1080p", "label": "HD Output" }
-  ],
   "features": {
     "title": "Why Choose Seedance 2.0?",
     "subtitle": "Break the boundaries of creativity with the most comprehensive multimodal content generation capabilities.",
@@ -65,21 +90,53 @@
   },
   "comparison": {
     "title": "Seedance 2.0 vs. Others",
-    "headers": ["Feature", "Seedance 2.0", "Other Models"],
+    "headers": [
+      "Feature",
+      "Seedance 2.0",
+      "Other Models"
+    ],
     "rows": [
-      { "label": "Instruction Following", "us": "✅ High Precision", "others": "⚠️ Inconsistent" },
-      { "label": "Motion Quality", "us": "✅ Smooth & Realistic", "others": "❌ Jittery" },
-      { "label": "Multi-Shot Consistency", "us": "✅ Coherent", "others": "❌ Fragmented" },
-      { "label": "Audio-Visual Sync", "us": "✅ Native Support", "others": "❌ Separate Tools" }
+      {
+        "label": "Instruction Following",
+        "us": "✅ High Precision",
+        "others": "⚠️ Inconsistent"
+      },
+      {
+        "label": "Motion Quality",
+        "us": "✅ Smooth & Realistic",
+        "others": "❌ Jittery"
+      },
+      {
+        "label": "Multi-Shot Consistency",
+        "us": "✅ Coherent",
+        "others": "❌ Fragmented"
+      },
+      {
+        "label": "Audio-Visual Sync",
+        "us": "✅ Native Support",
+        "others": "❌ Separate Tools"
+      }
     ]
   },
   "showcase": {
     "title": "Limitless Creativity",
     "items": [
-      { "title": "Film Production", "desc": "Generate storyboards and final shots." },
-      { "title": "Advertising", "desc": "Create high-converting video ads in minutes." },
-      { "title": "Social Media", "desc": "Viral content creation with ease." },
-      { "title": "Game Design", "desc": "Cutscenes and character animations." }
+      {
+        "title": "Film Production",
+        "desc": "Generate storyboards and final shots."
+      },
+      {
+        "title": "Advertising",
+        "desc": "Create high-converting video ads in minutes."
+      },
+      {
+        "title": "Social Media",
+        "desc": "Viral content creation with ease."
+      },
+      {
+        "title": "Game Design",
+        "desc": "Cutscenes and character animations."
+      }
     ]
   },
   "testimonials": {
@@ -101,21 +158,6 @@
         "role": "VFX Artist"
       }
     ]
-  },
-  "footer": {
-    "product": {
-      "title": "Product",
-      "items": ["Text to Video", "Image to Video", "Video Editing", "Pricing"]
-    },
-    "resources": {
-      "title": "Resources",
-      "items": ["Blog", "Community", "Help Center", "API Docs"]
-    },
-    "company": {
-      "title": "Company",
-      "items": ["About Us", "Careers", "Contact", "Legal"]
-    },
-    "copyright": "© 2026 Seedance AI. All rights reserved."
   },
   "faq": {
     "title": "Frequently Asked Questions",

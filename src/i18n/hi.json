@@ -1,15 +1,22 @@
 {
   "seo": {
-    "title": "Seedance 2.0 - Intelligent AI Video Generation Platform | Seedance English Version",
-    "description": "Seedance 2.0 is a state-of-the-art AI video generation model supporting text, image, audio, and video inputs for cinematic quality content creation."
+    "title": "Seedance 2.0 - बुद्धिमान एआई वीडियो निर्माण मंच | Seedance हिंदी संस्करण",
+    "description": "Seedance 2.0 एक अत्याधुनिक AI वीडियो जनरेशन मॉडल है जो सिनेमाई गुणवत्ता वाली सामग्री निर्माण के लिए टेक्स्ट, छवि, ऑडियो और वीडियो इनपुट का समर्थन करता है।"
   },
   "nav": {
-    "home": "Home",
-    "blog": "Blog",
-    "text_to_video": "Text to Video",
-    "image_to_video": "Image to Video",
-    "ai_tools": "AI Tools",
-    "cta": "Try Seedance Free"
+    "home": "होम",
+    "blog": "ब्लॉग",
+    "text_to_video": "टेक्स्ट से वीडियो",
+    "image_to_video": "इमेज से वीडियो",
+    "ai_tools": "AI टूल्स",
+    "cta": "मुफ्त में आजमाएं"
+  },
+  "hero": {
+    "title": "निर्देशक स्तर का नियंत्रण",
+    "highlight": "Seedance 2.0",
+    "subtitle": "एकीकृत मल्टीमो달 जनरेशन आर्किटेक्चर। अभूतपूर्व नियंत्रण और यथार्थवाद के साथ टेक्स्ट, छवियों और ऑडियो से सिनेमाई वीडियो बनाएं।",
+    "button": "बनाना शुरू करें",
+    "users": "शीर्ष स्टूडियो द्वारा विश्वसनीय"
   },
   "product_features": {
     "text_to_video": {
@@ -29,18 +36,36 @@
       "desc": "Upload photos, choose an AI video effect template and let our system auto-generate a short stylized clip."
     }
   },
-  "hero": {
-    "title": "Director-Level Control with",
-    "highlight": "Seedance 2.0",
-    "subtitle": "The unified multimodal generation architecture. Create cinematic videos from text, images, and audio with unprecedented control and realism.",
-    "button": "Start Generating",
-    "users": "Trusted by Top Studios"
+  "footer": {
+    "product": {
+      "title": "उत्पाद",
+      "items": [
+        "टेक्स्ट से वीडियो",
+        "इमेज से वीडियो",
+        "वीडियो संपादन",
+        "मूल्य निर्धारण"
+      ]
+    },
+    "resources": {
+      "title": "संसाधन",
+      "items": [
+        "ब्लॉग",
+        "समुदाय",
+        "सहायता केंद्र",
+        "API दस्तावेज़"
+      ]
+    },
+    "company": {
+      "title": "कंपनी",
+      "items": [
+        "हमारे बारे में",
+        "करियर",
+        "संपर्क",
+        "कानूनी"
+      ]
+    },
+    "copyright": "© 2026 Seedance AI. सर्वाधिकार सुरक्षित।"
   },
-  "stats": [
-    { "value": "SOTA", "label": "Model Performance" },
-    { "value": "4", "label": "Modalities Supported" },
-    { "value": "1080p", "label": "HD Output" }
-  ],
   "features": {
     "title": "Why Choose Seedance 2.0?",
     "subtitle": "Break the boundaries of creativity with the most comprehensive multimodal content generation capabilities.",
@@ -65,21 +90,53 @@
   },
   "comparison": {
     "title": "Seedance 2.0 vs. Others",
-    "headers": ["Feature", "Seedance 2.0", "Other Models"],
+    "headers": [
+      "Feature",
+      "Seedance 2.0",
+      "Other Models"
+    ],
     "rows": [
-      { "label": "Instruction Following", "us": "✅ High Precision", "others": "⚠️ Inconsistent" },
-      { "label": "Motion Quality", "us": "✅ Smooth & Realistic", "others": "❌ Jittery" },
-      { "label": "Multi-Shot Consistency", "us": "✅ Coherent", "others": "❌ Fragmented" },
-      { "label": "Audio-Visual Sync", "us": "✅ Native Support", "others": "❌ Separate Tools" }
+      {
+        "label": "Instruction Following",
+        "us": "✅ High Precision",
+        "others": "⚠️ Inconsistent"
+      },
+      {
+        "label": "Motion Quality",
+        "us": "✅ Smooth & Realistic",
+        "others": "❌ Jittery"
+      },
+      {
+        "label": "Multi-Shot Consistency",
+        "us": "✅ Coherent",
+        "others": "❌ Fragmented"
+      },
+      {
+        "label": "Audio-Visual Sync",
+        "us": "✅ Native Support",
+        "others": "❌ Separate Tools"
+      }
     ]
   },
   "showcase": {
     "title": "Limitless Creativity",
     "items": [
-      { "title": "Film Production", "desc": "Generate storyboards and final shots." },
-      { "title": "Advertising", "desc": "Create high-converting video ads in minutes." },
-      { "title": "Social Media", "desc": "Viral content creation with ease." },
-      { "title": "Game Design", "desc": "Cutscenes and character animations." }
+      {
+        "title": "Film Production",
+        "desc": "Generate storyboards and final shots."
+      },
+      {
+        "title": "Advertising",
+        "desc": "Create high-converting video ads in minutes."
+      },
+      {
+        "title": "Social Media",
+        "desc": "Viral content creation with ease."
+      },
+      {
+        "title": "Game Design",
+        "desc": "Cutscenes and character animations."
+      }
     ]
   },
   "testimonials": {
@@ -101,21 +158,6 @@
         "role": "VFX Artist"
       }
     ]
-  },
-  "footer": {
-    "product": {
-      "title": "Product",
-      "items": ["Text to Video", "Image to Video", "Video Editing", "Pricing"]
-    },
-    "resources": {
-      "title": "Resources",
-      "items": ["Blog", "Community", "Help Center", "API Docs"]
-    },
-    "company": {
-      "title": "Company",
-      "items": ["About Us", "Careers", "Contact", "Legal"]
-    },
-    "copyright": "© 2026 Seedance AI. All rights reserved."
   },
   "faq": {
     "title": "Frequently Asked Questions",

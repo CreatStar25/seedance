@@ -1,0 +1,183 @@
+{
+  "seo": {
+    "title": "Seedance 2.0 - Plateforme de Génération Vidéo IA Intelligente | Seedance Version Française",
+    "description": "Seedance 2.0 est un modèle de génération vidéo IA de pointe prenant en charge les entrées texte, image, audio et vidéo pour la création de contenu de qualité cinématographique."
+  },
+  "nav": {
+    "home": "Accueil",
+    "blog": "Blog",
+    "text_to_video": "Texte en Vidéo",
+    "image_to_video": "Image en Vidéo",
+    "ai_tools": "Outils IA",
+    "cta": "Essai Gratuit"
+  },
+  "hero": {
+    "title": "Contrôle de Niveau Réalisateur avec",
+    "highlight": "Seedance 2.0",
+    "subtitle": "L'architecture de génération multimodale unifiée. Créez des vidéos cinématographiques à partir de texte, d'images et d'audio avec un contrôle et un réalisme sans précédent.",
+    "button": "Commencer à Générer",
+    "users": "Approuvé par les Meilleurs Studios"
+  },
+  "product_features": {
+    "text_to_video": {
+      "title": "IA Texte en Vidéo",
+      "desc": "Décrivez des scènes, des personnages et des mouvements de caméra en langage naturel et laissez notre IA les transformer en vidéos cohérentes à plusieurs plans."
+    },
+    "image_to_video": {
+      "title": "IA Image en Vidéo",
+      "desc": "Téléchargez une photo de référence et regardez-la devenir une courte vidéo générée par IA. Préservez l'identité et le style avec une haute fidélité."
+    },
+    "text_to_image": {
+      "title": "IA Texte en Image",
+      "desc": "Transformez des invites textuelles en images haute résolution. Décrivez le style, l'éclairage et la composition une fois, puis générez plusieurs variations."
+    },
+    "ai_tools": {
+      "title": "Effets et Outils Vidéo IA",
+      "desc": "Téléchargez des photos, choisissez un modèle d'effet vidéo IA et laissez notre système générer automatiquement un clip stylisé."
+    }
+  },
+  "footer": {
+    "product": {
+      "title": "Produit",
+      "items": [
+        "Texte en Vidéo",
+        "Image en Vidéo",
+        "Édition Vidéo",
+        "Tarification"
+      ]
+    },
+    "resources": {
+      "title": "Ressources",
+      "items": [
+        "Blog",
+        "Communauté",
+        "Centre d'aide",
+        "Documentation API"
+      ]
+    },
+    "company": {
+      "title": "Entreprise",
+      "items": [
+        "À propos",
+        "Carrières",
+        "Contact",
+        "Légal"
+      ]
+    },
+    "copyright": "© 2026 Seedance AI. Tous droits réservés."
+  },
+  "features": {
+    "title": "Why Choose Seedance 2.0?",
+    "subtitle": "Break the boundaries of creativity with the most comprehensive multimodal content generation capabilities.",
+    "list": [
+      {
+        "title": "Unified Multimodal Architecture",
+        "desc": "Supports text, image, audio, and video inputs. Integrated editing capabilities for seamless content creation."
+      },
+      {
+        "title": "Director-Level Control",
+        "desc": "Precise control over acting, lighting, and camera movement. Turn your creative vision into reality exactly as you imagined."
+      },
+      {
+        "title": "Hyper-Realistic Quality",
+        "desc": "Exceptional motion stability and physical law adherence. Native audio-visual synchronization for immersive experiences."
+      },
+      {
+        "title": "Industrial Grade Workflow",
+        "desc": "Tailored for advertising, film, and social media. Output quality meets industrial delivery standards."
+      }
+    ]
+  },
+  "comparison": {
+    "title": "Seedance 2.0 vs. Others",
+    "headers": [
+      "Feature",
+      "Seedance 2.0",
+      "Other Models"
+    ],
+    "rows": [
+      {
+        "label": "Instruction Following",
+        "us": "✅ High Precision",
+        "others": "⚠️ Inconsistent"
+      },
+      {
+        "label": "Motion Quality",
+        "us": "✅ Smooth & Realistic",
+        "others": "❌ Jittery"
+      },
+      {
+        "label": "Multi-Shot Consistency",
+        "us": "✅ Coherent",
+        "others": "❌ Fragmented"
+      },
+      {
+        "label": "Audio-Visual Sync",
+        "us": "✅ Native Support",
+        "others": "❌ Separate Tools"
+      }
+    ]
+  },
+  "showcase": {
+    "title": "Limitless Creativity",
+    "items": [
+      {
+        "title": "Film Production",
+        "desc": "Generate storyboards and final shots."
+      },
+      {
+        "title": "Advertising",
+        "desc": "Create high-converting video ads in minutes."
+      },
+      {
+        "title": "Social Media",
+        "desc": "Viral content creation with ease."
+      },
+      {
+        "title": "Game Design",
+        "desc": "Cutscenes and character animations."
+      }
+    ]
+  },
+  "testimonials": {
+    "title": "Industry Acclaim",
+    "list": [
+      {
+        "review": "Seedance 2.0's controllability is a game changer. It's like having a virtual film crew.",
+        "author": "Alex Rivera",
+        "role": "Film Director"
+      },
+      {
+        "review": "The video quality and stability are unmatched. Perfect for our high-end commercial projects.",
+        "author": "Jessica Wu",
+        "role": "Creative Director"
+      },
+      {
+        "review": "Finally, an AI video tool that understands complex camera movements and lighting instructions.",
+        "author": "David Chen",
+        "role": "VFX Artist"
+      }
+    ]
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "items": [
+      {
+        "q": "What is Seedance 2.0?",
+        "a": "Seedance 2.0 is a next-generation AI video model that generates high-quality videos from text, image, and audio inputs."
+      },
+      {
+        "q": "Can I use Seedance for commercial projects?",
+        "a": "Yes, our pro plans include full commercial rights for all generated content."
+      },
+      {
+        "q": "How does it compare to Sora or Kling?",
+        "a": "Seedance 2.0 excels in instruction following and motion stability, offering superior control for professional workflows."
+      },
+      {
+        "q": "Is there a free trial?",
+        "a": "Yes, you can try Seedance 2.0 for free with daily credits."
+      }
+    ]
+  }
+}

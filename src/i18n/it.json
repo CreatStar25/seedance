@@ -1,0 +1,183 @@
+{
+  "seo": {
+    "title": "Seedance 2.0 - Piattaforma Intelligente di Generazione Video AI | Seedance Versione Italiana",
+    "description": "Seedance 2.0 è un modello di generazione video AI all'avanguardia che supporta input di testo, immagini, audio e video per la creazione di contenuti di qualità cinematografica."
+  },
+  "nav": {
+    "home": "Home",
+    "blog": "Blog",
+    "text_to_video": "Testo a Video",
+    "image_to_video": "Immagine a Video",
+    "ai_tools": "Strumenti AI",
+    "cta": "Prova Gratis"
+  },
+  "hero": {
+    "title": "Controllo da Regista con",
+    "highlight": "Seedance 2.0",
+    "subtitle": "L'architettura di generazione multimodale unificata. Crea video cinematografici da testo, immagini e audio con un controllo e un realismo senza precedenti.",
+    "button": "Inizia a Generare",
+    "users": "Scelto dai Migliori Studi"
+  },
+  "product_features": {
+    "text_to_video": {
+      "title": "IA Testo a Video",
+      "desc": "Descrivi scene, personaggi e movimenti di macchina in linguaggio naturale e lascia che la nostra IA li trasformi in video coerenti a più inquadrature."
+    },
+    "image_to_video": {
+      "title": "IA Immagine a Video",
+      "desc": "Carica una foto di riferimento e guardala diventare un breve video generato dall'IA. Preserva l'identità e lo stile con alta fedeltà."
+    },
+    "text_to_image": {
+      "title": "IA Testo a Immagine",
+      "desc": "Trasforma i prompt di testo in immagini ad alta risoluzione. Descrivi stile, illuminazione e composizione una volta, poi genera diverse varianti."
+    },
+    "ai_tools": {
+      "title": "Effetti e Strumenti Video IA",
+      "desc": "Carica foto, scegli un modello di effetto video IA e lascia che il nostro sistema generi automaticamente una clip stilizzata."
+    }
+  },
+  "footer": {
+    "product": {
+      "title": "Prodotto",
+      "items": [
+        "Testo a Video",
+        "Immagine a Video",
+        "Montaggio Video",
+        "Prezzi"
+      ]
+    },
+    "resources": {
+      "title": "Risorse",
+      "items": [
+        "Blog",
+        "Community",
+        "Centro Assistenza",
+        "Documentazione API"
+      ]
+    },
+    "company": {
+      "title": "Azienda",
+      "items": [
+        "Chi Siamo",
+        "Carriere",
+        "Contatti",
+        "Legale"
+      ]
+    },
+    "copyright": "© 2026 Seedance AI. Tutti i diritti riservati."
+  },
+  "features": {
+    "title": "Why Choose Seedance 2.0?",
+    "subtitle": "Break the boundaries of creativity with the most comprehensive multimodal content generation capabilities.",
+    "list": [
+      {
+        "title": "Unified Multimodal Architecture",
+        "desc": "Supports text, image, audio, and video inputs. Integrated editing capabilities for seamless content creation."
+      },
+      {
+        "title": "Director-Level Control",
+        "desc": "Precise control over acting, lighting, and camera movement. Turn your creative vision into reality exactly as you imagined."
+      },
+      {
+        "title": "Hyper-Realistic Quality",
+        "desc": "Exceptional motion stability and physical law adherence. Native audio-visual synchronization for immersive experiences."
+      },
+      {
+        "title": "Industrial Grade Workflow",
+        "desc": "Tailored for advertising, film, and social media. Output quality meets industrial delivery standards."
+      }
+    ]
+  },
+  "comparison": {
+    "title": "Seedance 2.0 vs. Others",
+    "headers": [
+      "Feature",
+      "Seedance 2.0",
+      "Other Models"
+    ],
+    "rows": [
+      {
+        "label": "Instruction Following",
+        "us": "✅ High Precision",
+        "others": "⚠️ Inconsistent"
+      },
+      {
+        "label": "Motion Quality",
+        "us": "✅ Smooth & Realistic",
+        "others": "❌ Jittery"
+      },
+      {
+        "label": "Multi-Shot Consistency",
+        "us": "✅ Coherent",
+        "others": "❌ Fragmented"
+      },
+      {
+        "label": "Audio-Visual Sync",
+        "us": "✅ Native Support",
+        "others": "❌ Separate Tools"
+      }
+    ]
+  },
+  "showcase": {
+    "title": "Limitless Creativity",
+    "items": [
+      {
+        "title": "Film Production",
+        "desc": "Generate storyboards and final shots."
+      },
+      {
+        "title": "Advertising",
+        "desc": "Create high-converting video ads in minutes."
+      },
+      {
+        "title": "Social Media",
+        "desc": "Viral content creation with ease."
+      },
+      {
+        "title": "Game Design",
+        "desc": "Cutscenes and character animations."
+      }
+    ]
+  },
+  "testimonials": {
+    "title": "Industry Acclaim",
+    "list": [
+      {
+        "review": "Seedance 2.0's controllability is a game changer. It's like having a virtual film crew.",
+        "author": "Alex Rivera",
+        "role": "Film Director"
+      },
+      {
+        "review": "The video quality and stability are unmatched. Perfect for our high-end commercial projects.",
+        "author": "Jessica Wu",
+        "role": "Creative Director"
+      },
+      {
+        "review": "Finally, an AI video tool that understands complex camera movements and lighting instructions.",
+        "author": "David Chen",
+        "role": "VFX Artist"
+      }
+    ]
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "items": [
+      {
+        "q": "What is Seedance 2.0?",
+        "a": "Seedance 2.0 is a next-generation AI video model that generates high-quality videos from text, image, and audio inputs."
+      },
+      {
+        "q": "Can I use Seedance for commercial projects?",
+        "a": "Yes, our pro plans include full commercial rights for all generated content."
+      },
+      {
+        "q": "How does it compare to Sora or Kling?",
+        "a": "Seedance 2.0 excels in instruction following and motion stability, offering superior control for professional workflows."
+      },
+      {
+        "q": "Is there a free trial?",
+        "a": "Yes, you can try Seedance 2.0 for free with daily credits."
+      }
+    ]
+  }
+}
