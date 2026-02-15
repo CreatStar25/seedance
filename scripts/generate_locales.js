@@ -8,14 +8,15 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 const locales = [
-  'zh', 'zh-tw', 'es', 'ar', 'pt', 'id', 'ms', 'fr', 'ru', 'hi', 
+  'zh-cn', 'zh-tw', 'es', 'ar', 'pt', 'id', 'ms', 'fr', 'ru', 'hi', 
   'ja', 'de', 'ko', 'tr', 'vi', 'th', 'it', 'fa', 'nl', 'pl', 'sv', 'uk', 'ro'
 ];
 
 const en = require('../src/i18n/en.json');
 
 const translations = {
-  zh: {
+  'zh-cn': {
+    // 直接复用 zh 的文案
     seo: { title: "Seedance 2.0 - 智能AI视频生成平台｜Seedance中文版", description: "Seedance 2.0 是最先进的AI视频生成模型，支持文本、图像、音频和视频输入，创造电影级内容。" },
     nav: { home: "首页", blog: "博客", text_to_video: "文生视频", image_to_video: "图生视频", ai_tools: "AI工具箱", cta: "免费试用" },
     hero: { title: "导演级控制力", highlight: "Seedance 2.0", subtitle: "统一多模态生成架构。通过文本、图像和音频创造电影级视频，拥有前所未有的控制力和真实感。", button: "开始创作", users: "顶级工作室信赖" },
@@ -81,6 +82,52 @@ const translations = {
       resources: { title: "Recursos", items: ["Blog", "Comunidad", "Centro de Ayuda", "Documentación API"] },
       company: { title: "Compañía", items: ["Sobre Nosotros", "Carreras", "Contacto", "Legal"] },
       copyright: "© 2026 Seedance AI. Todos los derechos reservados."
+    },
+    features: {
+      title: "¿Por qué elegir Seedance 2.0?",
+      subtitle: "Rompe los límites de la creatividad con capacidades multimodales completas.",
+      list: [
+        { title: "Arquitectura Multimodal Unificada", desc: "Soporta entradas de texto, imagen, audio y video. Edición integrada para una creación fluida." },
+        { title: "Control a Nivel de Director", desc: "Control preciso de actuación, iluminación y movimiento de cámara. Tu visión creativa, tal como la imaginaste." },
+        { title: "Calidad Hiperrealista", desc: "Estabilidad de movimiento y respeto por las leyes físicas. Sincronización nativa audio‑video." },
+        { title: "Flujo de Trabajo de Grado Industrial", desc: "Ideal para publicidad, cine y redes sociales. Calidad de salida a nivel profesional." }
+      ]
+    },
+    comparison: {
+      title: "Seedance 2.0 vs. Otros",
+      headers: ["Función", "Seedance 2.0", "Otros Modelos"],
+      rows: [
+        { label: "Seguimiento de Instrucciones", us: "✅ Alta Precisión", others: "⚠️ Inconsistente" },
+        { label: "Calidad de Movimiento", us: "✅ Suave y Realista", others: "❌ Tembloroso" },
+        { label: "Consistencia Multitoma", us: "✅ Coherente", others: "❌ Fragmentado" },
+        { label: "Sincronización Audio‑Video", us: "✅ Soporte Nativo", others: "❌ Herramientas Separadas" }
+      ]
+    },
+    showcase: {
+      title: "Creatividad Ilimitada",
+      items: [
+        { title: "Producción Cinematográfica", desc: "Genera guiones gráficos y planos finales." },
+        { title: "Publicidad", desc: "Crea anuncios de video de alta conversión en minutos." },
+        { title: "Redes Sociales", desc: "Contenido viral con facilidad." },
+        { title: "Diseño de Juegos", desc: "Cinemáticas y animaciones de personajes." }
+      ]
+    },
+    testimonials: {
+      title: "Reconocimiento de la Industria",
+      list: [
+        { review: "La controlabilidad de Seedance 2.0 es un cambio de juego. Es como tener un equipo de filmación virtual.", author: "Alex Rivera", role: "Director de Cine" },
+        { review: "La calidad y estabilidad del video no tienen rival. Perfecto para nuestros proyectos comerciales de alto nivel.", author: "Jessica Wu", role: "Directora Creativa" },
+        { review: "Por fin, una herramienta de video con IA que entiende movimientos de cámara y instrucciones de iluminación complejas.", author: "David Chen", role: "Artista de VFX" }
+      ]
+    },
+    faq: {
+      title: "Preguntas Frecuentes",
+      items: [
+        { q: "¿Qué es Seedance 2.0?", a: "Seedance 2.0 es un modelo de IA de nueva generación que genera videos de alta calidad a partir de texto, imágenes y audio." },
+        { q: "¿Puedo usar Seedance en proyectos comerciales?", a: "Sí. Los planes Pro incluyen derechos comerciales completos para todo el contenido generado." },
+        { q: "¿Cómo se compara con Sora o Kling?", a: "Seedance 2.0 destaca en seguimiento de instrucciones y estabilidad del movimiento, ofreciendo control superior para flujos profesionales." },
+        { q: "¿Hay prueba gratuita?", a: "Sí. Puedes probar Seedance 2.0 gratis con créditos diarios." }
+      ]
     }
   },
   fr: {
@@ -98,6 +145,52 @@ const translations = {
       resources: { title: "Ressources", items: ["Blog", "Communauté", "Centre d'aide", "Documentation API"] },
       company: { title: "Entreprise", items: ["À propos", "Carrières", "Contact", "Légal"] },
       copyright: "© 2026 Seedance AI. Tous droits réservés."
+    },
+    features: {
+      title: "Pourquoi choisir Seedance 2.0 ?",
+      subtitle: "Repoussez les limites de la créativité avec des capacités multimodales complètes.",
+      list: [
+        { title: "Architecture Multimodale Unifiée", desc: "Prend en charge le texte, l'image, l'audio et la vidéo. Édition intégrée pour une création fluide." },
+        { title: "Contrôle de Niveau Réalisateur", desc: "Contrôle précis du jeu, de l'éclairage et des mouvements de caméra. Votre vision créative, telle que vous l'aviez imaginée." },
+        { title: "Qualité Hyper‑Réaliste", desc: "Grande stabilité des mouvements et respect des lois physiques. Synchronisation audio‑vidéo native." },
+        { title: "Flux de Travail de Niveau Industriel", desc: "Adapté à la publicité, au cinéma et aux réseaux sociaux. Qualité d'export répondant aux standards professionnels." }
+      ]
+    },
+    comparison: {
+      title: "Seedance 2.0 vs. Les autres",
+      headers: ["Fonction", "Seedance 2.0", "Autres modèles"],
+      rows: [
+        { label: "Suivi des instructions", us: "✅ Haute précision", others: "⚠️ Inconstant" },
+        { label: "Qualité du mouvement", us: "✅ Fluide et réaliste", others: "❌ Tremblant" },
+        { label: "Cohérence multi‑plans", us: "✅ Cohérent", others: "❌ Fragmenté" },
+        { label: "Synchronisation audio‑vidéo", us: "✅ Support natif", others: "❌ Outils séparés" }
+      ]
+    },
+    showcase: {
+      title: "Créativité Illimitée",
+      items: [
+        { title: "Production Film", desc: "Générez des storyboards et des plans finaux." },
+        { title: "Publicité", desc: "Créez des publicités vidéo performantes en quelques minutes." },
+        { title: "Réseaux Sociaux", desc: "Création de contenus viraux en toute simplicité." },
+        { title: "Conception de Jeux", desc: "Cinétiques et animations de personnages." }
+      ]
+    },
+    testimonials: {
+      title: "Reconnaissance de l'Industrie",
+      list: [
+        { review: "La contrôlabilité de Seedance 2.0 change la donne. C'est comme avoir une équipe de tournage virtuelle.", author: "Alex Rivera", role: "Réalisateur" },
+        { review: "La qualité et la stabilité vidéo sont inégalées. Parfaites pour nos projets publicitaires haut de gamme.", author: "Jessica Wu", role: "Directrice Créative" },
+        { review: "Enfin, un outil vidéo IA qui comprend les mouvements de caméra et les instructions d'éclairage complexes.", author: "David Chen", role: "Artiste VFX" }
+      ]
+    },
+    faq: {
+      title: "Questions Fréquemment Posées",
+      items: [
+        { q: "Qu'est‑ce que Seedance 2.0 ?", a: "Seedance 2.0 est un modèle vidéo IA de nouvelle génération, capable de générer des vidéos de haute qualité à partir de texte, d'images et d'audio." },
+        { q: "Puis‑je l'utiliser pour des projets commerciaux ?", a: "Oui. Les offres Pro incluent des droits commerciaux complets sur tous les contenus générés." },
+        { q: "Comment se compare‑t‑il à Sora ou Kling ?", a: "Seedance 2.0 excelle dans le suivi des instructions et la stabilité des mouvements, offrant un contrôle supérieur pour les workflows professionnels." },
+        { q: "Y a‑t‑il un essai gratuit ?", a: "Oui. Essayez Seedance 2.0 gratuitement avec des crédits quotidiens." }
+      ]
     }
   },
   de: {
@@ -115,6 +208,52 @@ const translations = {
       resources: { title: "Ressourcen", items: ["Blog", "Community", "Hilfe-Center", "API-Dokumentation"] },
       company: { title: "Unternehmen", items: ["Über uns", "Karriere", "Kontakt", "Rechtliches"] },
       copyright: "© 2026 Seedance AI. Alle Rechte vorbehalten."
+    },
+    features: {
+      title: "Warum Seedance 2.0 wählen?",
+      subtitle: "Sprengen Sie kreative Grenzen mit umfassenden multimodalen Fähigkeiten.",
+      list: [
+        { title: "Einheitliche Multimodale Architektur", desc: "Unterstützt Text-, Bild-, Audio- und Videoeingaben. Integrierte Bearbeitung für nahtlose Erstellung." },
+        { title: "Regie‑Level Kontrolle", desc: "Präzise Steuerung von Schauspiel, Licht und Kamerabewegung. Ihre Vision exakt wie vorgestellt." },
+        { title: "Hyper‑Realistische Qualität", desc: "Außergewöhnliche Bewegungsstabilität und physikalische Konsistenz. Native Audio‑Video‑Synchronisation." },
+        { title: "Industrieller Workflow", desc: "Geeignet für Werbung, Film und Social Media. Ausgabestandard auf professionellem Niveau." }
+      ]
+    },
+    comparison: {
+      title: "Seedance 2.0 vs. Andere",
+      headers: ["Funktion", "Seedance 2.0", "Andere Modelle"],
+      rows: [
+        { label: "Befolgen von Anweisungen", us: "✅ Hohe Präzision", others: "⚠️ Inkonsistent" },
+        { label: "Bewegungsqualität", us: "✅ Sanft & Realistisch", others: "❌ Ruckelig" },
+        { label: "Konsistenz über mehrere Aufnahmen", us: "✅ Kohärent", others: "❌ Fragmentiert" },
+        { label: "Audio‑Video‑Synchronisation", us: "✅ Native Unterstützung", others: "❌ Separate Tools" }
+      ]
+    },
+    showcase: {
+      title: "Grenzenlose Kreativität",
+      items: [
+        { title: "Filmproduktion", desc: "Erstellen Sie Storyboards und finale Einstellungen." },
+        { title: "Werbung", desc: "Erzeugen Sie leistungsstarke Videoanzeigen in Minuten." },
+        { title: "Soziale Medien", desc: "Einfache Erstellung viraler Inhalte." },
+        { title: "Spieldesign", desc: "Zwischensequenzen und Charakteranimationen." }
+      ]
+    },
+    testimonials: {
+      title: "Anerkennung der Branche",
+      list: [
+        { review: "Die Kontrollierbarkeit von Seedance 2.0 ist revolutionär. Es ist wie ein virtuelles Filmteam.", author: "Alex Rivera", role: "Filmregisseur" },
+        { review: "Bildqualität und Stabilität sind unübertroffen. Perfekt für unsere hochwertigen Projekte.", author: "Jessica Wu", role: "Creative Director" },
+        { review: "Endlich ein KI‑Videotool, das komplexe Kamerabewegungen und Lichtanweisungen versteht.", author: "David Chen", role: "VFX‑Künstler" }
+      ]
+    },
+    faq: {
+      title: "Häufig gestellte Fragen",
+      items: [
+        { q: "Was ist Seedance 2.0?", a: "Seedance 2.0 ist ein KI‑Videomodell der nächsten Generation, das hochwertige Videos aus Text, Bildern und Audio generiert." },
+        { q: "Kann ich Seedance für kommerzielle Projekte verwenden?", a: "Ja. In den Pro‑Plänen sind umfassende kommerzielle Rechte für alle generierten Inhalte enthalten." },
+        { q: "Wie schneidet es im Vergleich zu Sora oder Kling ab?", a: "Seedance 2.0 überzeugt beim Befolgen von Anweisungen und bei der Bewegungsstabilität und bietet überlegene Kontrolle für professionelle Workflows." },
+        { q: "Gibt es eine kostenlose Testversion?", a: "Ja. Sie können Seedance 2.0 mit täglichen Credits kostenlos testen." }
+      ]
     }
   },
   pt: {
@@ -132,6 +271,52 @@ const translations = {
       resources: { title: "Recursos", items: ["Blog", "Comunidade", "Centro de Ajuda", "Documentação API"] },
       company: { title: "Empresa", items: ["Sobre Nós", "Carreiras", "Contato", "Legal"] },
       copyright: "© 2026 Seedance AI. Todos os direitos reservados."
+    },
+    features: {
+      title: "Por que escolher o Seedance 2.0?",
+      subtitle: "Rompa limites criativos com capacidades multimodais completas.",
+      list: [
+        { title: "Arquitetura Multimodal Unificada", desc: "Suporta entradas de texto, imagem, áudio e vídeo. Edição integrada para criação fluida." },
+        { title: "Controle em Nível de Diretor", desc: "Controle preciso de atuação, iluminação e movimentos de câmera. Sua visão exatamente como imaginou." },
+        { title: "Qualidade Hiper‑Realista", desc: "Estabilidade de movimento excepcional e aderência às leis físicas. Sincronização nativa áudio‑vídeo." },
+        { title: "Fluxo de Trabalho de Grau Industrial", desc: "Ideal para publicidade, cinema e redes sociais. Qualidade de saída em nível profissional." }
+      ]
+    },
+    comparison: {
+      title: "Seedance 2.0 vs. Outros",
+      headers: ["Recurso", "Seedance 2.0", "Outros Modelos"],
+      rows: [
+        { label: "Seguimento de Instruções", us: "✅ Alta Precisão", others: "⚠️ Inconsistente" },
+        { label: "Qualidade de Movimento", us: "✅ Suave e Realista", others: "❌ Trêmulo" },
+        { label: "Consistência entre Tomadas", us: "✅ Coerente", others: "❌ Fragmentado" },
+        { label: "Sincronização Áudio‑Vídeo", us: "✅ Suporte Nativo", others: "❌ Ferramentas Separadas" }
+      ]
+    },
+    showcase: {
+      title: "Criatividade Ilimitada",
+      items: [
+        { title: "Produção Cinematográfica", desc: "Gere storyboards e planos finais." },
+        { title: "Publicidade", desc: "Crie anúncios de vídeo de alta conversão em minutos." },
+        { title: "Redes Sociais", desc: "Criação de conteúdo viral com facilidade." },
+        { title: "Design de Jogos", desc: "Cutscenes e animações de personagens." }
+      ]
+    },
+    testimonials: {
+      title: "Reconhecimento da Indústria",
+      list: [
+        { review: "A controlabilidade do Seedance 2.0 muda o jogo. É como ter uma equipe de filmagem virtual.", author: "Alex Rivera", role: "Diretor de Cinema" },
+        { review: "Qualidade e estabilidade de vídeo incomparáveis. Perfeito para nossos projetos comerciais de alto padrão.", author: "Jessica Wu", role: "Diretora Criativa" },
+        { review: "Finalmente, uma ferramenta de vídeo com IA que entende movimentos de câmera e instruções de iluminação complexas.", author: "David Chen", role: "Artista de VFX" }
+      ]
+    },
+    faq: {
+      title: "Perguntas Frequentes",
+      items: [
+        { q: "O que é o Seedance 2.0?", a: "Seedance 2.0 é um modelo de vídeo de IA de nova geração que gera vídeos de alta qualidade a partir de texto, imagens e áudio." },
+        { q: "Posso usar o Seedance em projetos comerciais?", a: "Sim. Os planos Pro incluem direitos comerciais completos para todo o conteúdo gerado." },
+        { q: "Como se compara ao Sora ou Kling?", a: "Seedance 2.0 se destaca em seguimento de instruções e estabilidade de movimento, oferecendo controle superior para fluxos profissionais." },
+        { q: "Existe teste gratuito?", a: "Sim. Você pode experimentar o Seedance 2.0 gratuitamente com créditos diários." }
+      ]
     }
   },
   ko: {
@@ -149,6 +334,52 @@ const translations = {
       resources: { title: "리소스", items: ["블로그", "커뮤니티", "도움말 센터", "API 문서"] },
       company: { title: "회사", items: ["소개", "채용", "연락처", "법적 고지"] },
       copyright: "© 2026 Seedance AI. 판권 소유."
+    },
+    features: {
+      title: "왜 Seedance 2.0인가?",
+      subtitle: "가장 포괄적인 멀티모달 생성 능력으로 창의성의 경계를 넘다.",
+      list: [
+        { title: "통합 멀티모달 아키텍처", desc: "텍스트·이미지·오디오·비디오 입력 지원. 통합 편집으로 매끄러운 제작." },
+        { title: "감독 수준의 제어력", desc: "연기·조명·운镜을 정밀하게 통제. 상상한 그대로의 결과물." },
+        { title: "초현실적 품질", desc: "탁월한 모션 안정성과 물리 법칙 준수. 네이티브 음영상 동기화." },
+        { title: "산업급 워크플로우", desc: "광고·영화·소셜에 최적화. 산업交付 기준의 출력 품질." }
+      ]
+    },
+    comparison: {
+      title: "Seedance 2.0 vs. 기타",
+      headers: ["기능", "Seedance 2.0", "타 모델"],
+      rows: [
+        { label: "지시 따르기", us: "✅ 고정밀", others: "⚠️ 불안정" },
+        { label: "모션 품질", us: "✅ 부드럽고 현실적", others: "❌ 흔들림" },
+        { label: "멀티샷 일관성", us: "✅ 일관됨", others: "❌ 단편적" },
+        { label: "음영상 동기화", us: "✅ 네이티브 지원", others: "❌ 별도 도구" }
+      ]
+    },
+    showcase: {
+      title: "무한한 창의성",
+      items: [
+        { title: "영화 제작", desc: "스토리보드와 최종 샷 생성." },
+        { title: "광고", desc: "분 단위로 전환률 높은 영상 광고 제작." },
+        { title: "소셜 미디어", desc: "쉬운 바이럴 콘텐츠 제작." },
+        { title: "게임 디자인", desc: "컷신과 캐릭터 애니메이션." }
+      ]
+    },
+    testimonials: {
+      title: "업계의 찬사",
+      list: [
+        { review: "Seedance 2.0의 제어력은 판도를 바꿉니다. 가상 촬영팀을 가진 것 같습니다.", author: "Alex Rivera", role: "영화 감독" },
+        { review: "영상 품질과 안정성은 타의 추종을 불허합니다. 하이엔드 상업 프로젝트에 완벽합니다.", author: "Jessica Wu", role: "크리에이티브 디렉터" },
+        { review: "복잡한 운镜과 조명 지시를 이해하는 최초의 AI 비디오 도구입니다.", author: "David Chen", role: "VFX 아티스트" }
+      ]
+    },
+    faq: {
+      title: "자주 묻는 질문",
+      items: [
+        { q: "Seedance 2.0란?", a: "Seedance 2.0은 텍스트·이미지·오디오 입력으로 고품질 영상을 생성하는 차세대 AI 영상 모델입니다." },
+        { q: "상업 프로젝트에 사용 가능한가요?", a: "예. Pro 요금제는 생성 콘텐츠에 대한 상업적 권리를 포함합니다." },
+        { q: "Sora/Kling과 비교하면?", a: "Seedance 2.0은 지시 추종성과 모션 안정성에서 탁월하여 전문 워크플로우에 적합한 제어력을 제공합니다." },
+        { q: "무료 체험이 있나요?", a: "예. 일일 크레딧으로 무료로 체험할 수 있습니다." }
+      ]
     }
   },
   ru: {
@@ -166,6 +397,52 @@ const translations = {
       resources: { title: "Ресурсы", items: ["Блог", "Сообщество", "Центр помощи", "API Документация"] },
       company: { title: "Компания", items: ["О нас", "Карьера", "Контакты", "Правовая информация"] },
       copyright: "© 2026 Seedance AI. Все права защищены."
+    },
+    features: {
+      title: "Почему выбрать Seedance 2.0?",
+      subtitle: "Разрушайте границы творчества благодаря полным мультимодальным возможностям.",
+      list: [
+        { title: "Единая мультимодальная архитектура", desc: "Поддержка текста, изображений, аудио и видео. Встроенное редактирование для плавного создания." },
+        { title: "Контроль на уровне режиссера", desc: "Точный контроль актерской игры, света и движения камеры. Результат в точности как задумывалось." },
+        { title: "Гиперреалистичное качество", desc: "Исключительная стабильность движения и соблюдение физических законов. Родная аудиовидеосинхронизация." },
+        { title: "Промышленный рабочий процесс", desc: "Подходит для рекламы, кино и соцсетей. Качество выхода соответствует отраслевым стандартам." }
+      ]
+    },
+    comparison: {
+      title: "Seedance 2.0 против других",
+      headers: ["Функция", "Seedance 2.0", "Другие модели"],
+      rows: [
+        { label: "Следование инструкциям", us: "✅ Высокая точность", others: "⚠️ Непоследовательно" },
+        { label: "Качество движения", us: "✅ Плавно и реалистично", others: "❌ Дрожит" },
+        { label: "Согласованность между кадрами", us: "✅ Коорентно", others: "❌ Фрагментарно" },
+        { label: "Аудиовидеосинхронизация", us: "✅ Родная поддержка", others: "❌ Отдельные инструменты" }
+      ]
+    },
+    showcase: {
+      title: "Безграничное творчество",
+      items: [
+        { title: "Кинопроизводство", desc: "Генерация раскадровок и финальных кадров." },
+        { title: "Реклама", desc: "Создание высококонверсионных видеореклам за минуты." },
+        { title: "Социальные сети", desc: "Легкое создание вирусного контента." },
+        { title: "Дизайн игр", desc: "Катсцены и анимации персонажей." }
+      ]
+    },
+    testimonials: {
+      title: "Признание индустрии",
+      list: [
+        { review: "Контролируемость Seedance 2.0 меняет правила игры. Как будто у вас есть виртуальная съемочная группа.", author: "Alex Rivera", role: "Режиссёр" },
+        { review: "Качество и стабильность видео непревзойденны. Идеально для наших премиальных коммерческих проектов.", author: "Jessica Wu", role: "Креативный директор" },
+        { review: "Наконец‑то инструмент ИИ‑видео, который понимает сложные движения камеры и световые инструкции.", author: "David Chen", role: "VFX‑художник" }
+      ]
+    },
+    faq: {
+      title: "Часто задаваемые вопросы",
+      items: [
+        { q: "Что такое Seedance 2.0?", a: "Seedance 2.0 — это видеомодель ИИ нового поколения, генерирующая высококачественные видео из текста, изображений и аудио." },
+        { q: "Можно ли использовать Seedance в коммерческих проектах?", a: "Да. В тарифах Pro включены полные коммерческие права на весь сгенерированный контент." },
+        { q: "Как он сравнивается с Sora или Kling?", a: "Seedance 2.0 превосходит в следовании инструкциям и стабильности движения, предоставляя превосходный контроль для профессиональных процессов." },
+        { q: "Есть ли бесплатная пробная версия?", a: "Да. Вы можете попробовать Seedance 2.0 бесплатно благодаря ежедневным кредитам." }
+      ]
     }
   },
   it: {
@@ -183,13 +460,105 @@ const translations = {
       resources: { title: "Risorse", items: ["Blog", "Community", "Centro Assistenza", "Documentazione API"] },
       company: { title: "Azienda", items: ["Chi Siamo", "Carriere", "Contatti", "Legale"] },
       copyright: "© 2026 Seedance AI. Tutti i diritti riservati."
+    },
+    features: {
+      title: "Perché scegliere Seedance 2.0?",
+      subtitle: "Supera i limiti della creatività con capacità multimodali complete.",
+      list: [
+        { title: "Architettura Multimodale Unificata", desc: "Supporto per input di testo, immagini, audio e video. Editing integrato per una creazione fluida." },
+        { title: "Controllo a Livello di Regista", desc: "Controllo preciso di recitazione, illuminazione e movimenti di camera. La tua visione esattamente come l'hai immaginata." },
+        { title: "Qualità Iper‑Realistica", desc: "Stabilità del movimento eccezionale e rispetto delle leggi fisiche. Sincronizzazione nativa audio‑video." },
+        { title: "Workflow di Grado Industriale", desc: "Ideale per pubblicità, cinema e social media. Qualità di output a livello professionale." }
+      ]
+    },
+    comparison: {
+      title: "Seedance 2.0 vs. Altri",
+      headers: ["Funzione", "Seedance 2.0", "Altri Modelli"],
+      rows: [
+        { label: "Seguito delle Istruzioni", us: "✅ Alta Precisione", others: "⚠️ Incoerente" },
+        { label: "Qualità del Movimento", us: "✅ Fluido e Realistico", others: "❌ Tremolante" },
+        { label: "Coerenza Multi‑Shot", us: "✅ Coerente", others: "❌ Frammentato" },
+        { label: "Sincronizzazione Audio‑Video", us: "✅ Supporto Nativo", others: "❌ Strumenti Separati" }
+      ]
+    },
+    showcase: {
+      title: "Creatività Senza Limiti",
+      items: [
+        { title: "Produzione Cinematografica", desc: "Genera storyboard e riprese finali." },
+        { title: "Pubblicità", desc: "Crea video ads ad alta conversione in pochi minuti." },
+        { title: "Social Media", desc: "Creazione di contenuti virali con facilità." },
+        { title: "Game Design", desc: "Cutscene e animazioni dei personaggi." }
+      ]
+    },
+    testimonials: {
+      title: "Riconoscimento del Settore",
+      list: [
+        { review: "La controllabilità di Seedance 2.0 cambia le regole del gioco. È come avere una troupe virtuale.", author: "Alex Rivera", role: "Regista" },
+        { review: "Qualità e stabilità video senza pari. Perfetto per i nostri progetti commerciali di alto livello.", author: "Jessica Wu", role: "Direttrice Creativa" },
+        { review: "Finalmente uno strumento video AI che comprende movimenti di camera e istruzioni di illuminazione complesse.", author: "David Chen", role: "Artista VFX" }
+      ]
+    },
+    faq: {
+      title: "Domande Frequenti",
+      items: [
+        { q: "Cos’è Seedance 2.0?", a: "Seedance 2.0 è un modello video AI di nuova generazione che genera video di alta qualità da testo, immagini e audio." },
+        { q: "Posso usarlo per progetti commerciali?", a: "Sì. I piani Pro includono pieni diritti commerciali per tutti i contenuti generati." },
+        { q: "Come si confronta con Sora o Kling?", a: "Seedance 2.0 eccelle nel seguire le istruzioni e nella stabilità del movimento, offrendo un controllo superiore per workflow professionali." },
+        { q: "Esiste una prova gratuita?", a: "Sì. Puoi provare Seedance 2.0 gratuitamente con crediti giornalieri." }
+      ]
     }
   },
   ar: {
     seo: { title: "Seedance 2.0 - منصة إنشاء فيديو ذكية بالذكاء الاصطناعي | Seedance النسخة العربية", description: "Seedance 2.0 هو نموذج متطور لإنشاء الفيديو بالذكاء الاصطناعي يدعم إدخال النصوص والصور والصوت والفيديو لإنشاء محتوى بجودة سينمائية." },
     nav: { home: "الرئيسية", blog: "المدونة", text_to_video: "نص إلى فيديو", image_to_video: "صورة إلى فيديو", ai_tools: "أدوات الذكاء الاصطناعي", cta: "جرب مجاناً" },
     hero: { title: "تحكم بمستوى المخرج مع", highlight: "Seedance 2.0", subtitle: "بنية التوليد متعددة الوسائط الموحدة. أنشئ فيديوهات سينمائية من النصوص والصور والصوت بتحكم وواقعية غير مسبوقة.", button: "ابدأ التوليد", users: "موثوق به من قبل أفضل الاستوديوهات" },
-    footer: { product: { title: "المنتج", items: ["نص إلى فيديو", "صورة إلى فيديو", "تحرير الفيديو", "الأسعار"] }, resources: { title: "الموارد", items: ["المدونة", "المجتمع", "مركز المساعدة", "وثائق API"] }, company: { title: "الشركة", items: ["عنا", "وظائف", "اتصال", "قانوني"] }, copyright: "© 2026 Seedance AI. جميع الحقوق محفوظة." }
+    footer: { product: { title: "المنتج", items: ["نص إلى فيديو", "صورة إلى فيديو", "تحرير الفيديو", "الأسعار"] }, resources: { title: "الموارد", items: ["المدونة", "المجتمع", "مركز المساعدة", "وثائق API"] }, company: { title: "الشركة", items: ["عنا", "وظائف", "اتصال", "قانوني"] }, copyright: "© 2026 Seedance AI. جميع الحقوق محفوظة." },
+    features: {
+      title: "لماذا تختار Seedance 2.0؟",
+      subtitle: "اكسر حدود الإبداع بقدرات توليد متعددة الوسائط شاملة.",
+      list: [
+        { title: "بنية متعددة الوسائط موحدة", desc: "يدعم إدخال النصوص والصور والصوت والفيديو. تحرير مدمج لإنشاء سلس." },
+        { title: "تحكم بمستوى المخرج", desc: "تحكم دقيق في الأداء والإضاءة وحركة الكاميرا. رؤيتك كما تخيلتها." },
+        { title: "جودة فائقة الواقعية", desc: "ثبات حركة استثنائي وامتثال للقوانين الفيزيائية. تزامن صوتي بصري أصلي." },
+        { title: "سير عمل بمستوى صناعي", desc: "ملائم للإعلانات والسينما والشبكات الاجتماعية. جودة مخرجات بمعايير احترافية." }
+      ]
+    },
+    comparison: {
+      title: "Seedance 2.0 مقابل الآخرين",
+      headers: ["الميزة", "Seedance 2.0", "نماذج أخرى"],
+      rows: [
+        { label: "اتباع التعليمات", us: "✅ دقة عالية", others: "⚠️ غير ثابت" },
+        { label: "جودة الحركة", us: "✅ سلس وواقعي", others: "❌ اهتزاز" },
+        { label: "الاتساق عبر اللقطات", us: "✅ متماسك", others: "❌ مجزأ" },
+        { label: "تزامن صوتي بصري", us: "✅ دعم أصلي", others: "❌ أدوات منفصلة" }
+      ]
+    },
+    showcase: {
+      title: "إبداع بلا حدود",
+      items: [
+        { title: "إنتاج الأفلام", desc: "توليد لوحات القصص واللقطات النهائية." },
+        { title: "الإعلانات", desc: "إنشاء إعلانات فيديو عالية التحويل خلال دقائق." },
+        { title: "وسائل التواصل", desc: "صناعة محتوى فيروسي بسهولة." },
+        { title: "تصميم الألعاب", desc: "مشاهد سردية ورسوم شخصيات." }
+      ]
+    },
+    testimonials: {
+      title: "إشادة الصناعة",
+      list: [
+        { review: "قابلية التحكم في Seedance 2.0 تغير قواعد اللعبة. إنه كامتلاك فريق تصوير افتراضي.", author: "Alex Rivera", role: "مخرج أفلام" },
+        { review: "جودة الفيديو واستقراره لا مثيل لهما. مثالي لمشاريعنا التجارية الراقية.", author: "Jessica Wu", role: "مديرة إبداعية" },
+        { review: "أخيراً، أداة فيديو بالذكاء الاصطناعي تفهم حركات كاميرا وتعليمات إضاءة معقدة.", author: "David Chen", role: "فنان المؤثرات البصرية" }
+      ]
+    },
+    faq: {
+      title: "الأسئلة الشائعة",
+      items: [
+        { q: "ما هو Seedance 2.0؟", a: "Seedance 2.0 هو نموذج فيديو بالذكاء الاصطناعي من الجيل الجديد ينشئ فيديوهات عالية الجودة من النصوص والصور والصوت." },
+        { q: "هل يمكن استخدامه في مشاريع تجارية؟", a: "نعم. تتضمن باقات Pro حقوقًا تجارية كاملة لكل المحتوى المُنشأ." },
+        { q: "كيف يقارن بـ Sora أو Kling؟", a: "يتفوق Seedance 2.0 في اتباع التعليمات واستقرار الحركة، مما يوفر تحكمًا متقدمًا لعمليات احترافية." },
+        { q: "هل توجد تجربة مجانية؟", a: "نعم. يمكنك تجربة Seedance 2.0 مجانًا مع أرصدة يومية." }
+      ]
+    }
   },
   id: {
     seo: { title: "Seedance 2.0 - Platform Pembuatan Video AI Cerdas | Seedance Versi Bahasa Indonesia", description: "Seedance 2.0 adalah model pembuatan video AI canggih yang mendukung input teks, gambar, audio, dan video untuk pembuatan konten berkualitas sinematik." },
@@ -269,13 +638,15 @@ const defaultTranslations = {
   seo: en.seo,
   nav: en.nav,
   hero: en.hero,
+  stats: en.stats || [],
   product_features: en.product_features,
   footer: en.footer,
   features: en.features,
   comparison: en.comparison,
   showcase: en.showcase,
   testimonials: en.testimonials,
-  faq: en.faq
+  faq: en.faq,
+  blog: en.blog || { read: "Read Article →", no_posts: "No posts found for this language yet." }
 };
 
 function deepMerge(target, source) {

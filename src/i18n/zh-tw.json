@@ -16,16 +16,42 @@
     "highlight": "Seedance 2.0",
     "subtitle": "統一多模態生成架構。通過文本、圖像和音頻創造電影級視頻，擁有前所未有的控制力和真實感。",
     "button": "開始創作",
-    "users": "頂級工作室信賴"
+    "users": "頂級工作室信賴",
+    "badge": "🚀 New Release: Seedance 2.0"
   },
+  "stats": [
+    {
+      "value": "SOTA",
+      "label": "Model Performance"
+    },
+    {
+      "value": "4",
+      "label": "Modalities Supported"
+    },
+    {
+      "value": "1080p",
+      "label": "HD Output"
+    }
+  ],
   "product_features": {
     "text_to_video": {
       "title": "文生視頻 AI",
-      "desc": "用自然語言描述場景、角色和運鏡，讓AI將其轉化為連貫的多鏡頭視頻。"
+      "desc": "用自然語言描述場景、角色和運鏡，讓AI將其轉化為連貫的多鏡頭視頻。",
+      "bullets": [
+        "Cinematic Camera Control",
+        "Multi-Shot Consistency",
+        "Physics-Based Motion"
+      ],
+      "cta": "Create Video"
     },
     "image_to_video": {
       "title": "圖生視頻 AI",
-      "desc": "上傳一張參考圖，讓它變成短視頻。保持高度一致的角色和風格。"
+      "desc": "上傳一張參考圖，讓它變成短視頻。保持高度一致的角色和風格。",
+      "bullets": [
+        "Preserve Subject Identity",
+        "Control Motion Strength"
+      ],
+      "cta": "Animate Image"
     },
     "text_to_image": {
       "title": "文生圖 AI",
@@ -33,7 +59,24 @@
     },
     "ai_tools": {
       "title": "AI 視頻特效與工具",
-      "desc": "上傳照片，選擇AI視頻特效模板，自動生成風格化短片。"
+      "desc": "上傳照片，選擇AI視頻特效模板，自動生成風格化短片。",
+      "cards": [
+        {
+          "title": "Face Swap",
+          "desc": "Perfect for memes & marketing"
+        },
+        {
+          "title": "Style Transfer",
+          "desc": "Anime, Clay, 3D Render..."
+        }
+      ],
+      "grid": [
+        "Magic Edit",
+        "Face Swap",
+        "Restyle",
+        "Upscale"
+      ],
+      "cta": "Explore Tools"
     }
   },
   "footer": {
@@ -179,5 +222,9 @@
         "a": "Yes, you can try Seedance 2.0 for free with daily credits."
       }
     ]
+  },
+  "blog": {
+    "read": "Read Article →",
+    "no_posts": "No posts found for this language yet."
   }
 }

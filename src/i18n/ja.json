@@ -16,16 +16,42 @@
     "highlight": "Seedance 2.0",
     "subtitle": "統合マルチモーダル生成アーキテクチャ。テキスト、画像、音声から映画のような動画を作成し、前例のない制御とリアリズムを実現します。",
     "button": "作成を開始",
-    "users": "トップスタジオが信頼"
+    "users": "トップスタジオが信頼",
+    "badge": "🚀 New Release: Seedance 2.0"
   },
+  "stats": [
+    {
+      "value": "SOTA",
+      "label": "Model Performance"
+    },
+    {
+      "value": "4",
+      "label": "Modalities Supported"
+    },
+    {
+      "value": "1080p",
+      "label": "HD Output"
+    }
+  ],
   "product_features": {
     "text_to_video": {
       "title": "テキスト動画生成 AI",
-      "desc": "自然言語でシーン、キャラクター、カメラワークを記述し、AIが一貫したマルチショット動画に変換します。"
+      "desc": "自然言語でシーン、キャラクター、カメラワークを記述し、AIが一貫したマルチショット動画に変換します。",
+      "bullets": [
+        "Cinematic Camera Control",
+        "Multi-Shot Consistency",
+        "Physics-Based Motion"
+      ],
+      "cta": "Create Video"
     },
     "image_to_video": {
       "title": "画像動画生成 AI",
-      "desc": "参照画像をアップロードして、短いAI生成動画にします。アイデンティティとスタイルを高精度に保持します。"
+      "desc": "参照画像をアップロードして、短いAI生成動画にします。アイデンティティとスタイルを高精度に保持します。",
+      "bullets": [
+        "Preserve Subject Identity",
+        "Control Motion Strength"
+      ],
+      "cta": "Animate Image"
     },
     "text_to_image": {
       "title": "テキスト画像生成 AI",
@@ -33,7 +59,24 @@
     },
     "ai_tools": {
       "title": "AI 動画エフェクト＆ツール",
-      "desc": "写真をアップロードし、AI動画エフェクトテンプレートを選択して、スタイリッシュなクリップを自動生成します。"
+      "desc": "写真をアップロードし、AI動画エフェクトテンプレートを選択して、スタイリッシュなクリップを自動生成します。",
+      "cards": [
+        {
+          "title": "Face Swap",
+          "desc": "Perfect for memes & marketing"
+        },
+        {
+          "title": "Style Transfer",
+          "desc": "Anime, Clay, 3D Render..."
+        }
+      ],
+      "grid": [
+        "Magic Edit",
+        "Face Swap",
+        "Restyle",
+        "Upscale"
+      ],
+      "cta": "Explore Tools"
     }
   },
   "footer": {
@@ -179,5 +222,9 @@
         "a": "Yes, you can try Seedance 2.0 for free with daily credits."
       }
     ]
+  },
+  "blog": {
+    "read": "Read Article →",
+    "no_posts": "No posts found for this language yet."
   }
 }

@@ -16,16 +16,42 @@
     "highlight": "Seedance 2.0",
     "subtitle": "Единая архитектура мультимодальной генерации. Создавайте кинематографические видео из текста, изображений и аудио с беспрецедентным контролем и реализмом.",
     "button": "Начать генерацию",
-    "users": "Доверяют лучшие студии"
+    "users": "Доверяют лучшие студии",
+    "badge": "🚀 New Release: Seedance 2.0"
   },
+  "stats": [
+    {
+      "value": "SOTA",
+      "label": "Model Performance"
+    },
+    {
+      "value": "4",
+      "label": "Modalities Supported"
+    },
+    {
+      "value": "1080p",
+      "label": "HD Output"
+    }
+  ],
   "product_features": {
     "text_to_video": {
       "title": "ИИ Текст в Видео",
-      "desc": "Опишите сцены, персонажей и движения камеры на естественном языке, и позвольте нашему ИИ превратить их в связные многокадровые видео."
+      "desc": "Опишите сцены, персонажей и движения камеры на естественном языке, и позвольте нашему ИИ превратить их в связные многокадровые видео.",
+      "bullets": [
+        "Cinematic Camera Control",
+        "Multi-Shot Consistency",
+        "Physics-Based Motion"
+      ],
+      "cta": "Create Video"
     },
     "image_to_video": {
       "title": "ИИ Изображение в Видео",
-      "desc": "Загрузите эталонное фото и посмотрите, как оно станет коротким видео, сгенерированным ИИ. Сохраняйте идентичность и стиль с высокой точностью."
+      "desc": "Загрузите эталонное фото и посмотрите, как оно станет коротким видео, сгенерированным ИИ. Сохраняйте идентичность и стиль с высокой точностью.",
+      "bullets": [
+        "Preserve Subject Identity",
+        "Control Motion Strength"
+      ],
+      "cta": "Animate Image"
     },
     "text_to_image": {
       "title": "ИИ Текст в Изображение",
@@ -33,7 +59,24 @@
     },
     "ai_tools": {
       "title": "ИИ Видеоэффекты и Инструменты",
-      "desc": "Загрузите фотографии, выберите шаблон видеоэффекта ИИ, и наша система автоматически сгенерирует стилизованный клип."
+      "desc": "Загрузите фотографии, выберите шаблон видеоэффекта ИИ, и наша система автоматически сгенерирует стилизованный клип.",
+      "cards": [
+        {
+          "title": "Face Swap",
+          "desc": "Perfect for memes & marketing"
+        },
+        {
+          "title": "Style Transfer",
+          "desc": "Anime, Clay, 3D Render..."
+        }
+      ],
+      "grid": [
+        "Magic Edit",
+        "Face Swap",
+        "Restyle",
+        "Upscale"
+      ],
+      "cta": "Explore Tools"
     }
   },
   "footer": {
@@ -67,117 +110,121 @@
     "copyright": "© 2026 Seedance AI. Все права защищены."
   },
   "features": {
-    "title": "Why Choose Seedance 2.0?",
-    "subtitle": "Break the boundaries of creativity with the most comprehensive multimodal content generation capabilities.",
+    "title": "Почему выбрать Seedance 2.0?",
+    "subtitle": "Разрушайте границы творчества благодаря полным мультимодальным возможностям.",
     "list": [
       {
-        "title": "Unified Multimodal Architecture",
-        "desc": "Supports text, image, audio, and video inputs. Integrated editing capabilities for seamless content creation."
+        "title": "Единая мультимодальная архитектура",
+        "desc": "Поддержка текста, изображений, аудио и видео. Встроенное редактирование для плавного создания."
       },
       {
-        "title": "Director-Level Control",
-        "desc": "Precise control over acting, lighting, and camera movement. Turn your creative vision into reality exactly as you imagined."
+        "title": "Контроль на уровне режиссера",
+        "desc": "Точный контроль актерской игры, света и движения камеры. Результат в точности как задумывалось."
       },
       {
-        "title": "Hyper-Realistic Quality",
-        "desc": "Exceptional motion stability and physical law adherence. Native audio-visual synchronization for immersive experiences."
+        "title": "Гиперреалистичное качество",
+        "desc": "Исключительная стабильность движения и соблюдение физических законов. Родная аудиовидеосинхронизация."
       },
       {
-        "title": "Industrial Grade Workflow",
-        "desc": "Tailored for advertising, film, and social media. Output quality meets industrial delivery standards."
+        "title": "Промышленный рабочий процесс",
+        "desc": "Подходит для рекламы, кино и соцсетей. Качество выхода соответствует отраслевым стандартам."
       }
     ]
   },
   "comparison": {
-    "title": "Seedance 2.0 vs. Others",
+    "title": "Seedance 2.0 против других",
     "headers": [
-      "Feature",
+      "Функция",
       "Seedance 2.0",
-      "Other Models"
+      "Другие модели"
     ],
     "rows": [
       {
-        "label": "Instruction Following",
-        "us": "✅ High Precision",
-        "others": "⚠️ Inconsistent"
+        "label": "Следование инструкциям",
+        "us": "✅ Высокая точность",
+        "others": "⚠️ Непоследовательно"
       },
       {
-        "label": "Motion Quality",
-        "us": "✅ Smooth & Realistic",
-        "others": "❌ Jittery"
+        "label": "Качество движения",
+        "us": "✅ Плавно и реалистично",
+        "others": "❌ Дрожит"
       },
       {
-        "label": "Multi-Shot Consistency",
-        "us": "✅ Coherent",
-        "others": "❌ Fragmented"
+        "label": "Согласованность между кадрами",
+        "us": "✅ Коорентно",
+        "others": "❌ Фрагментарно"
       },
       {
-        "label": "Audio-Visual Sync",
-        "us": "✅ Native Support",
-        "others": "❌ Separate Tools"
+        "label": "Аудиовидеосинхронизация",
+        "us": "✅ Родная поддержка",
+        "others": "❌ Отдельные инструменты"
       }
     ]
   },
   "showcase": {
-    "title": "Limitless Creativity",
+    "title": "Безграничное творчество",
     "items": [
       {
-        "title": "Film Production",
-        "desc": "Generate storyboards and final shots."
+        "title": "Кинопроизводство",
+        "desc": "Генерация раскадровок и финальных кадров."
       },
       {
-        "title": "Advertising",
-        "desc": "Create high-converting video ads in minutes."
+        "title": "Реклама",
+        "desc": "Создание высококонверсионных видеореклам за минуты."
       },
       {
-        "title": "Social Media",
-        "desc": "Viral content creation with ease."
+        "title": "Социальные сети",
+        "desc": "Легкое создание вирусного контента."
       },
       {
-        "title": "Game Design",
-        "desc": "Cutscenes and character animations."
+        "title": "Дизайн игр",
+        "desc": "Катсцены и анимации персонажей."
       }
     ]
   },
   "testimonials": {
-    "title": "Industry Acclaim",
+    "title": "Признание индустрии",
     "list": [
       {
-        "review": "Seedance 2.0's controllability is a game changer. It's like having a virtual film crew.",
+        "review": "Контролируемость Seedance 2.0 меняет правила игры. Как будто у вас есть виртуальная съемочная группа.",
         "author": "Alex Rivera",
-        "role": "Film Director"
+        "role": "Режиссёр"
       },
       {
-        "review": "The video quality and stability are unmatched. Perfect for our high-end commercial projects.",
+        "review": "Качество и стабильность видео непревзойденны. Идеально для наших премиальных коммерческих проектов.",
         "author": "Jessica Wu",
-        "role": "Creative Director"
+        "role": "Креативный директор"
       },
       {
-        "review": "Finally, an AI video tool that understands complex camera movements and lighting instructions.",
+        "review": "Наконец‑то инструмент ИИ‑видео, который понимает сложные движения камеры и световые инструкции.",
         "author": "David Chen",
-        "role": "VFX Artist"
+        "role": "VFX‑художник"
       }
     ]
   },
   "faq": {
-    "title": "Frequently Asked Questions",
+    "title": "Часто задаваемые вопросы",
     "items": [
       {
-        "q": "What is Seedance 2.0?",
-        "a": "Seedance 2.0 is a next-generation AI video model that generates high-quality videos from text, image, and audio inputs."
+        "q": "Что такое Seedance 2.0?",
+        "a": "Seedance 2.0 — это видеомодель ИИ нового поколения, генерирующая высококачественные видео из текста, изображений и аудио."
       },
       {
-        "q": "Can I use Seedance for commercial projects?",
-        "a": "Yes, our pro plans include full commercial rights for all generated content."
+        "q": "Можно ли использовать Seedance в коммерческих проектах?",
+        "a": "Да. В тарифах Pro включены полные коммерческие права на весь сгенерированный контент."
       },
       {
-        "q": "How does it compare to Sora or Kling?",
-        "a": "Seedance 2.0 excels in instruction following and motion stability, offering superior control for professional workflows."
+        "q": "Как он сравнивается с Sora или Kling?",
+        "a": "Seedance 2.0 превосходит в следовании инструкциям и стабильности движения, предоставляя превосходный контроль для профессиональных процессов."
       },
       {
-        "q": "Is there a free trial?",
-        "a": "Yes, you can try Seedance 2.0 for free with daily credits."
+        "q": "Есть ли бесплатная пробная версия?",
+        "a": "Да. Вы можете попробовать Seedance 2.0 бесплатно благодаря ежедневным кредитам."
       }
     ]
+  },
+  "blog": {
+    "read": "Read Article →",
+    "no_posts": "No posts found for this language yet."
   }
 }

@@ -16,16 +16,42 @@
     "highlight": "Seedance 2.0",
     "subtitle": "Єдина архітектура мультимодальної генерації. Створюйте кінематографічні відео з тексту, зображень та аудіо з безпрецедентним контролем і реалізмом.",
     "button": "Почати генерацію",
-    "users": "Довіряють найкращі студії"
+    "users": "Довіряють найкращі студії",
+    "badge": "🚀 New Release: Seedance 2.0"
   },
+  "stats": [
+    {
+      "value": "SOTA",
+      "label": "Model Performance"
+    },
+    {
+      "value": "4",
+      "label": "Modalities Supported"
+    },
+    {
+      "value": "1080p",
+      "label": "HD Output"
+    }
+  ],
   "product_features": {
     "text_to_video": {
       "title": "Text to Video AI",
-      "desc": "Describe scenes, characters and camera moves in natural language and let our Text to Video AI turn them into coherent multi-shot videos."
+      "desc": "Describe scenes, characters and camera moves in natural language and let our Text to Video AI turn them into coherent multi-shot videos.",
+      "bullets": [
+        "Cinematic Camera Control",
+        "Multi-Shot Consistency",
+        "Physics-Based Motion"
+      ],
+      "cta": "Create Video"
     },
     "image_to_video": {
       "title": "Image to Video AI",
-      "desc": "Upload a single reference photo and watch it become a short AI-generated video. Preserve identity and style with high fidelity."
+      "desc": "Upload a single reference photo and watch it become a short AI-generated video. Preserve identity and style with high fidelity.",
+      "bullets": [
+        "Preserve Subject Identity",
+        "Control Motion Strength"
+      ],
+      "cta": "Animate Image"
     },
     "text_to_image": {
       "title": "Text to Image AI",
@@ -33,7 +59,24 @@
     },
     "ai_tools": {
       "title": "AI Video Effects & Tools",
-      "desc": "Upload photos, choose an AI video effect template and let our system auto-generate a short stylized clip."
+      "desc": "Upload photos, choose an AI video effect template and let our system auto-generate a short stylized clip.",
+      "cards": [
+        {
+          "title": "Face Swap",
+          "desc": "Perfect for memes & marketing"
+        },
+        {
+          "title": "Style Transfer",
+          "desc": "Anime, Clay, 3D Render..."
+        }
+      ],
+      "grid": [
+        "Magic Edit",
+        "Face Swap",
+        "Restyle",
+        "Upscale"
+      ],
+      "cta": "Explore Tools"
     }
   },
   "footer": {
@@ -179,5 +222,9 @@
         "a": "Yes, you can try Seedance 2.0 for free with daily credits."
       }
     ]
+  },
+  "blog": {
+    "read": "Read Article →",
+    "no_posts": "No posts found for this language yet."
   }
 }

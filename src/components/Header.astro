@@ -7,10 +7,9 @@ const { lang, t } = Astro.props;
 const pathname = Astro.url.pathname;
 let cleanPath = pathname;
 
-// 如果不是英文，移除语言前缀 (例如 /zh/blog -> /blog)
-if (lang !== 'en') {
-  cleanPath = pathname.replace(`/${lang}`, '');
-}
+// 移除当前语言前缀 (例如 /zh/blog 或 /en/blog -> /blog)
+const langPrefix = new RegExp(`^/${lang}`);
+cleanPath = pathname.replace(langPrefix, '');
 // 清理根路径和开头的斜杠
 if (cleanPath === '/') cleanPath = '';
 if (cleanPath.startsWith('/')) cleanPath = cleanPath.substring(1);
@@ -37,7 +36,7 @@ if (cleanPath.startsWith('/')) cleanPath = cleanPath.substring(1);
       <a href="#ai-tools" class="text-lg font-bold text-gray-700 hover:text-yellow-600 transition-colors">
         {t.nav.ai_tools}
       </a>
-      <a href={lang === 'en' ? '/blog/' : `/${lang}/blog/`} class="text-lg font-bold text-gray-700 hover:text-yellow-600 transition-colors">
+      <a href={`/${lang}/blog/`} class="text-lg font-bold text-gray-700 hover:text-yellow-600 transition-colors">
         {t.nav.blog}
       </a>
     </nav>
@@ -54,7 +53,8 @@ if (cleanPath.startsWith('/')) cleanPath = cleanPath.substring(1);
           <div class="grid grid-cols-3 gap-2">
             {Object.entries(languages).map(([code, name]) => {
               // 构建目标链接
-              const prefix = code === 'en' ? '' : `/${code}`;
+              const isRoot = cleanPath === '';
+              const prefix = code === 'en' ? (isRoot ? '' : '/en') : `/${code}`;
               // 确保路径拼接没有双斜杠
               let targetUrl = `${prefix}/${cleanPath}`.replace('//', '/');
               if (targetUrl === '') targetUrl = '/'; // 根路径修正

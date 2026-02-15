@@ -6,7 +6,8 @@
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "test:blog": "node scripts/test_blog_routes.js"
   },
   "dependencies": {
     "@astrojs/cloudflare": "^12.6.12",
@@ -14,5 +15,8 @@
     "@astrojs/tailwind": "^6.0.2",
     "astro": "^5.16.11",
     "tailwindcss": "^3.4.19"
+  },
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.5.19"
   }
 }

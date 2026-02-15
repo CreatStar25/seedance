@@ -14,8 +14,7 @@ export async function getStaticPaths() {
 
 const { lang } = Astro.params;
 
-// 2. 获取当前语言的博客文章
-// 逻辑：获取所有文章 -> 过滤出 ID 以 "en/" 或 "zh/" 开头的文章
+// 2. 获取当前语言的博客文章（严格按语言前缀过滤）
 const allPosts = await getCollection('blog');
 const posts = allPosts.filter((post) => post.id.startsWith(`${lang}/`));
 
@@ -28,7 +27,7 @@ try { t = (await import(`../../../i18n/${lang}.json`)).default; }
 catch (e) { t = (await import(`../../../i18n/en.json`)).default; }
 
 // 格式化日期的辅助函数
-function formatDate(date) {
+function formatDate(date: Date) {
   return new Date(date).toLocaleDateString(lang, {
     year: 'numeric',
     month: 'long',
@@ -37,11 +36,11 @@ function formatDate(date) {
 }
 ---
 
-<html lang={lang}>
+<html lang={lang} dir={['ar','fa'].includes(lang) ? 'rtl' : 'ltr'}>
   <head>
     <SEOHead 
-      title={`${t.nav.blog} - Nano Banana`} 
-      description="Latest news and updates from Nano Banana." 
+      title={`${t.nav.blog} - Seedance`} 
+      description={t.seo.description} 
       lang={lang} 
     />
   </head>
@@ -82,7 +81,7 @@ function formatDate(date) {
                       {post.data.description}
                     </p>
                     <div class="mt-6 flex items-center text-sm font-bold text-black group-hover:underline">
-                      Read Article →
+                      {t.blog?.read || "Read Article →"}
                     </div>
                   </div>
                 </a>
@@ -93,7 +92,7 @@ function formatDate(date) {
         
         {posts.length === 0 && (
           <div class="text-center text-gray-500 py-20">
-            <p class="text-xl">No posts found for this language yet.</p>
+            <p class="text-xl">{t.blog?.no_posts || "No posts found for this language yet."}</p>
           </div>
         )}
       </div>

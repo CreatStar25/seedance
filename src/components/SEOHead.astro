@@ -25,14 +25,10 @@ const alternateLinks = Object.keys(languages).map((l) => {
   // 获取当前不带语言前缀的路径
   let currentPath = Astro.url.pathname;
   
-  // 如果当前不在根路径且不是英文，移除语言前缀
-  // 例如 /ja/blog/ -> /blog/
-  if (lang !== 'en') {
-     // 注意：这里要小心替换，确保只替换开头的 /lang/
-     // 使用正则替换更安全
-     const regex = new RegExp(`^/${lang}`);
-     currentPath = currentPath.replace(regex, '');
-  }
+  // 无论当前是否英文，都移除开头的语言前缀，得到裸路径
+  // 例如 /ja/blog/ 或 /en/blog/ -> /blog/
+  const regex = new RegExp(`^/${lang}`);
+  currentPath = currentPath.replace(regex, '');
   
   // 确保路径以 / 开头（如果是根路径，currentPath可能是空字符串或/）
   if (!currentPath.startsWith('/')) {
@@ -42,16 +38,14 @@ const alternateLinks = Object.keys(languages).map((l) => {
   // 构建新的链接前缀
   // en -> /
   // ja -> /ja
-  const prefix = l === 'en' ? '' : `/${l}`;
+  const isRoot = currentPath === '/' || currentPath === '';
+  const prefix = l === 'en' ? (isRoot ? '' : '/en') : `/${l}`;
   
   // 拼接完整路径
   // 这里的 siteBase 保证了 new URL 永远不会报错
   const fullPath = `${prefix}${currentPath}`.replace('//', '/'); // 清理双斜杠
   
-  return {
-    lang: l,
-    href: new URL(fullPath, siteBase).toString()
-  };
+  return { lang: l, href: new URL(fullPath, siteBase).toString() };
 });
 ---
 

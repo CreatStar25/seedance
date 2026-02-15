@@ -11,7 +11,7 @@ catch (e) { translations = await import(`../i18n/en.json`); }
 const t = translations.default || translations;
 ---
 
-<html lang={lang} class="scroll-smooth">
+<html lang={lang} dir={['ar','fa'].includes(lang) ? 'rtl' : 'ltr'} class="scroll-smooth">
   <head>
     <SEOHead title={t.seo.title} description={t.seo.description} lang={lang} />
   </head>
@@ -26,7 +26,7 @@ const t = translations.default || translations;
 
         <div class="max-w-7xl mx-auto px-6 text-center">
           <div class="inline-flex items-center px-4 py-1.5 rounded-full bg-yellow-50 border border-yellow-200 text-yellow-700 text-sm font-bold mb-8 animate-fade-in-up">
-            🚀 New Release: Seedance 2.0
+            {t.hero?.badge || "🚀 New Release: Seedance 2.0"}
           </div>
           
           <h1 class="text-5xl md:text-7xl lg:text-8xl font-black tracking-tight text-gray-900 mb-8 leading-[1.1]">
@@ -55,17 +55,16 @@ const t = translations.default || translations;
 
           <div class="mt-20 p-2 bg-gray-900/5 rounded-3xl backdrop-blur-sm max-w-5xl mx-auto">
              <div class="rounded-2xl border-4 border-white shadow-2xl overflow-hidden aspect-[16/9] bg-gray-900 relative group">
-                <div class="absolute inset-0 flex items-center justify-center">
-                   <span class="text-gray-500 font-medium">Interactive Demo Interface (Placeholder)</span>
-                   </div>
-                <div class="absolute bottom-8 left-8 right-8 md:right-auto md:w-96 bg-white/90 backdrop-blur p-4 rounded-xl shadow-lg border border-white/20">
-                   <div class="flex gap-2 mb-2">
-                      <div class="w-2 h-2 rounded-full bg-red-500"></div>
-                      <div class="w-2 h-2 rounded-full bg-yellow-500"></div>
-                      <div class="w-2 h-2 rounded-full bg-green-500"></div>
-                   </div>
-                   <div class="text-sm font-mono text-gray-600">"Cinematic drone shot of a futuristic city at sunset, 4k, smooth motion..."</div>
-                </div>
+                <video
+                  src="https://img.seedance22.com/seedance/seedance-2-cover.webp"
+                  autoplay
+                  loop
+                  muted
+                  playsinline
+                  class="absolute inset-0 w-full h-full object-cover"
+                >
+                  <img src="https://img.seedance22.com/seedance/seedance-2-cover.webp" alt="Seedance 2.0 Preview" class="w-full h-full object-cover" />
+                </video>
              </div>
           </div>
         </div>
@@ -88,7 +87,7 @@ const t = translations.default || translations;
           <div class="flex flex-col md:flex-row items-center gap-16">
             <div class="md:w-1/2">
               <div class="inline-flex items-center px-3 py-1 rounded-full bg-purple-100 text-purple-700 text-xs font-bold mb-6 uppercase tracking-wider">
-                Flagship Model
+                {t.product_features?.text_to_video?.badge || "Flagship Model"}
               </div>
               <h2 class="text-4xl md:text-5xl font-black text-gray-900 mb-6 leading-tight">
                 {t.product_features?.text_to_video?.title || "Text to Video AI"}
@@ -99,33 +98,35 @@ const t = translations.default || translations;
               <ul class="space-y-4 mb-8">
                 <li class="flex items-center gap-3 text-gray-700 font-medium">
                   <svg class="w-5 h-5 text-green-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
-                  Cinematic Camera Control
+                  {t.product_features?.text_to_video?.bullets?.[0] || "Cinematic Camera Control"}
                 </li>
                 <li class="flex items-center gap-3 text-gray-700 font-medium">
                   <svg class="w-5 h-5 text-green-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
-                  Multi-Shot Consistency
+                  {t.product_features?.text_to_video?.bullets?.[1] || "Multi-Shot Consistency"}
                 </li>
                 <li class="flex items-center gap-3 text-gray-700 font-medium">
                   <svg class="w-5 h-5 text-green-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
-                  Physics-Based Motion
+                  {t.product_features?.text_to_video?.bullets?.[2] || "Physics-Based Motion"}
                 </li>
               </ul>
               <a href="#" class="inline-flex items-center justify-center px-8 py-3 bg-black text-white rounded-full font-bold hover:bg-gray-800 transition-all group">
-                Create Video
+                {t.product_features?.text_to_video?.cta || "Create Video"}
                 <svg class="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
               </a>
             </div>
             <div class="md:w-1/2 relative">
               <div class="absolute inset-0 bg-gradient-to-tr from-purple-200 to-pink-200 rounded-3xl blur-2xl opacity-50 -z-10 transform rotate-3"></div>
               <div class="bg-gray-900 rounded-3xl overflow-hidden shadow-2xl aspect-video relative group border border-gray-800">
-                <div class="absolute inset-0 flex items-center justify-center bg-black/50 group-hover:bg-black/30 transition-all">
-                   <div class="w-16 h-16 rounded-full bg-white/20 backdrop-blur-sm flex items-center justify-center group-hover:scale-110 transition-transform cursor-pointer">
-                      <svg class="w-8 h-8 text-white ml-1" fill="currentColor" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
-                   </div>
-                </div>
-                <div class="absolute bottom-4 left-4 right-4 bg-black/60 backdrop-blur p-3 rounded-xl border border-white/10">
-                  <p class="text-xs text-gray-300 font-mono">Prompt: "Cyberpunk street market, neon lights, rain reflections, 4k..."</p>
-                </div>
+                <video
+                  src="https://img.seedance22.com/seedance/seedance-2-demo1.webp"
+                  autoplay
+                  loop
+                  muted
+                  playsinline
+                  class="absolute inset-0 w-full h-full object-cover"
+                >
+                  <img src="https://img.seedance22.com/seedance/seedance-2-demo1.webp" alt="Seedance 2.0 Demo" class="w-full h-full object-cover" />
+                </video>
               </div>
             </div>
           </div>
@@ -138,7 +139,7 @@ const t = translations.default || translations;
           <div class="flex flex-col md:flex-row-reverse items-center gap-16">
             <div class="md:w-1/2">
               <div class="inline-flex items-center px-3 py-1 rounded-full bg-blue-100 text-blue-700 text-xs font-bold mb-6 uppercase tracking-wider">
-                Static to Motion
+                {t.product_features?.image_to_video?.badge || "Static to Motion"}
               </div>
               <h2 class="text-4xl md:text-5xl font-black text-gray-900 mb-6 leading-tight">
                 {t.product_features?.image_to_video?.title || "Image to Video AI"}
@@ -149,15 +150,15 @@ const t = translations.default || translations;
               <ul class="space-y-4 mb-8">
                  <li class="flex items-center gap-3 text-gray-700 font-medium">
                   <svg class="w-5 h-5 text-blue-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
-                  Preserve Subject Identity
+                  {t.product_features?.image_to_video?.bullets?.[0] || "Preserve Subject Identity"}
                 </li>
                 <li class="flex items-center gap-3 text-gray-700 font-medium">
                   <svg class="w-5 h-5 text-blue-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
-                  Control Motion Strength
+                  {t.product_features?.image_to_video?.bullets?.[1] || "Control Motion Strength"}
                 </li>
               </ul>
               <a href="#" class="inline-flex items-center justify-center px-8 py-3 bg-white text-black border border-gray-200 rounded-full font-bold hover:bg-gray-100 transition-all group shadow-sm">
-                Animate Image
+                {t.product_features?.image_to_video?.cta || "Animate Image"}
                 <svg class="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
               </a>
             </div>
@@ -165,14 +166,21 @@ const t = translations.default || translations;
                <div class="grid grid-cols-2 gap-4">
                   <div class="relative group rounded-2xl overflow-hidden shadow-lg hover:-translate-y-1 transition-transform duration-300">
                     <div class="aspect-[4/5] bg-gray-200 relative">
-                       <div class="absolute inset-0 flex items-center justify-center text-gray-400 font-medium">Original</div>
+                       <img src="https://img.seedance22.com/seedance/seedance-2-demo2.webp" alt="Seedance demo image" class="absolute inset-0 w-full h-full object-cover object-[50%_30%]" />
                     </div>
                   </div>
                   <div class="relative group rounded-2xl overflow-hidden shadow-lg hover:-translate-y-1 transition-transform duration-300 mt-8">
-                    <div class="aspect-[4/5] bg-gray-800 relative">
-                       <div class="absolute inset-0 flex items-center justify-center text-white font-medium">
-                          <svg class="w-12 h-12 opacity-80" fill="currentColor" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
-                       </div>
+                    <div class="aspect-[4/5] bg-black relative">
+                       <video
+                         src="https://img.seedance22.com/seedance/seedance-2-demo3.webp"
+                         autoplay
+                         loop
+                         muted
+                         playsinline
+                         class="absolute inset-0 w-full h-full object-cover object-[50%_30%]"
+                       >
+                         <img src="https://img.seedance22.com/seedance/seedance-2-demo3.webp" alt="Seedance demo video" class="absolute inset-0 w-full h-full object-cover object-[50%_30%]" />
+                       </video>
                     </div>
                   </div>
                </div>
@@ -187,7 +195,7 @@ const t = translations.default || translations;
           <div class="flex flex-col md:flex-row items-center gap-16">
             <div class="md:w-1/2">
               <div class="inline-flex items-center px-3 py-1 rounded-full bg-green-100 text-green-700 text-xs font-bold mb-6 uppercase tracking-wider">
-                Creative Suite
+                {t.product_features?.ai_tools?.badge || "Creative Suite"}
               </div>
               <h2 class="text-4xl md:text-5xl font-black text-gray-900 mb-6 leading-tight">
                 {t.product_features?.ai_tools?.title || "AI Video Effects"}
@@ -197,16 +205,16 @@ const t = translations.default || translations;
               </p>
               <div class="grid grid-cols-2 gap-4 mb-8">
                 <div class="p-4 bg-gray-50 rounded-2xl border border-gray-100 hover:border-yellow-300 transition-colors">
-                   <h4 class="font-bold text-gray-900 mb-1">Face Swap</h4>
-                   <p class="text-sm text-gray-500">Perfect for memes & marketing</p>
+                   <h4 class="font-bold text-gray-900 mb-1">{t.product_features?.ai_tools?.cards?.[0]?.title || "Face Swap"}</h4>
+                   <p class="text-sm text-gray-500">{t.product_features?.ai_tools?.cards?.[0]?.desc || "Perfect for memes & marketing"}</p>
                 </div>
                 <div class="p-4 bg-gray-50 rounded-2xl border border-gray-100 hover:border-yellow-300 transition-colors">
-                   <h4 class="font-bold text-gray-900 mb-1">Style Transfer</h4>
-                   <p class="text-sm text-gray-500">Anime, Clay, 3D Render...</p>
+                   <h4 class="font-bold text-gray-900 mb-1">{t.product_features?.ai_tools?.cards?.[1]?.title || "Style Transfer"}</h4>
+                   <p class="text-sm text-gray-500">{t.product_features?.ai_tools?.cards?.[1]?.desc || "Anime, Clay, 3D Render..."}</p>
                 </div>
               </div>
               <a href="#" class="inline-flex items-center justify-center px-8 py-3 bg-black text-white rounded-full font-bold hover:bg-gray-800 transition-all group">
-                Explore Tools
+                {t.product_features?.ai_tools?.cta || "Explore Tools"}
                 <svg class="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
               </a>
             </div>
@@ -215,19 +223,19 @@ const t = translations.default || translations;
                   <div class="grid grid-cols-2 gap-4">
                      <div class="aspect-square bg-white rounded-xl shadow-sm p-4 flex flex-col items-center justify-center text-center">
                         <div class="w-12 h-12 bg-yellow-100 rounded-full mb-3 flex items-center justify-center text-yellow-600">✨</div>
-                        <span class="font-bold text-sm">Magic Edit</span>
+                        <span class="font-bold text-sm">{t.product_features?.ai_tools?.grid?.[0] || "Magic Edit"}</span>
                      </div>
                      <div class="aspect-square bg-white rounded-xl shadow-sm p-4 flex flex-col items-center justify-center text-center">
                         <div class="w-12 h-12 bg-blue-100 rounded-full mb-3 flex items-center justify-center text-blue-600">🎭</div>
-                        <span class="font-bold text-sm">Face Swap</span>
+                        <span class="font-bold text-sm">{t.product_features?.ai_tools?.grid?.[1] || "Face Swap"}</span>
                      </div>
                      <div class="aspect-square bg-white rounded-xl shadow-sm p-4 flex flex-col items-center justify-center text-center">
                         <div class="w-12 h-12 bg-purple-100 rounded-full mb-3 flex items-center justify-center text-purple-600">🎨</div>
-                        <span class="font-bold text-sm">Restyle</span>
+                        <span class="font-bold text-sm">{t.product_features?.ai_tools?.grid?.[2] || "Restyle"}</span>
                      </div>
                      <div class="aspect-square bg-white rounded-xl shadow-sm p-4 flex flex-col items-center justify-center text-center">
                         <div class="w-12 h-12 bg-green-100 rounded-full mb-3 flex items-center justify-center text-green-600">🔍</div>
-                        <span class="font-bold text-sm">Upscale</span>
+                        <span class="font-bold text-sm">{t.product_features?.ai_tools?.grid?.[3] || "Upscale"}</span>
                      </div>
                   </div>
                </div>
@@ -292,9 +300,21 @@ const t = translations.default || translations;
           <h2 class="text-4xl font-black text-center mb-20">{t.showcase.title}</h2>
           <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {t.showcase.items.map((item: any, i: number) => (
-              <div class="group relative rounded-2xl overflow-hidden aspect-[3/4] bg-gray-100 cursor-pointer">
-                <div class={`absolute inset-0 transition-transform duration-700 group-hover:scale-110 ${i % 2 === 0 ? 'bg-gray-200' : 'bg-gray-300'}`}></div>
-                <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent"></div>
+              <div class="group relative rounded-2xl overflow-hidden aspect-[3/4] cursor-pointer">
+                <div class={`absolute inset-0 transition-transform duration-700 group-hover:scale-110 ${i % 2 === 0 ? 'bg-gradient-to-b from-slate-800 via-slate-900 to-black' : 'bg-gradient-to-b from-indigo-900 via-slate-900 to-black'}`}>
+                  <div class="absolute inset-0 opacity-25 mix-blend-overlay">
+                    <svg class="w-full h-full" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+                      <defs>
+                        <pattern id={`dots-${i}`} width="8" height="8" patternUnits="userSpaceOnUse">
+                          <circle cx="1" cy="1" r="1" fill="#ffffff" />
+                        </pattern>
+                      </defs>
+                      <rect width="100" height="100" fill={`url(#dots-${i})`} />
+                    </svg>
+                  </div>
+                  <div class="absolute inset-0 bg-[radial-gradient(ellipse_at_top,_rgba(253,224,71,0.15),transparent_60%)]"></div>
+                </div>
+                <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/10 to-transparent"></div>
                 
                 <div class="absolute bottom-0 left-0 p-6 w-full">
                   <h3 class="text-xl font-bold text-white mb-2">{item.title}</h3>
@@ -311,12 +331,12 @@ const t = translations.default || translations;
         <div class="max-w-7xl mx-auto px-6">
           <h2 class="text-4xl font-black text-center mb-16">{t.testimonials.title}</h2>
           <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {t.testimonials.list.map((item: any) => (
+            {t.testimonials.list.map((item: any, i: number) => (
               <div class="bg-gray-50 p-8 rounded-3xl border border-gray-100 relative">
                 <svg class="w-10 h-10 text-yellow-300 absolute top-6 left-6 -z-0" fill="currentColor" viewBox="0 0 24 24"><path d="M14.017 21L14.017 18C14.017 16.896 14.389 16.03 15.133 15.401C15.877 14.773 16.924 14.459 18.274 14.459L18.736 14.459L18.736 11.459L18.064 11.459C16.974 11.459 15.897 11.085 14.833 10.338C13.769 9.591 13.044 8.528 12.658 7.149L12.5 6.5L15.5 6.5L15.659 7.426C15.877 8.653 16.38 9.576 17.169 10.194C17.958 10.812 19.096 11.121 20.582 11.121L21 11.121L21 21L14.017 21ZM5.01699 21L5.01699 18C5.01699 16.896 5.389 16.03 6.13299 15.401C6.87699 14.773 7.92399 14.459 9.27399 14.459L9.73599 14.459L9.73599 11.459L9.06399 11.459C7.97399 11.459 6.89699 11.085 5.83299 10.338C4.76899 9.591 4.04399 8.528 3.65799 7.149L3.49999 6.5L6.49999 6.5L6.65899 7.426C6.87699 8.653 7.37999 9.576 8.16899 10.194C8.95799 10.812 10.096 11.121 11.582 11.121L12 11.121L12 21L5.01699 21Z" /></svg>
                 <p class="text-gray-700 italic mb-6 relative z-10">"{item.review}"</p>
                 <div class="flex items-center gap-4">
-                  <div class="w-10 h-10 rounded-full bg-gray-300"></div>
+                  <img src={['https://img.seedance22.com/seedance/avatar1.webp','https://img.seedance22.com/seedance/avatar2.webp','https://img.seedance22.com/seedance/avatar3.webp'][i % 3]} alt={item.author} class="w-10 h-10 rounded-full object-cover" loading="lazy" />
                   <div>
                     <div class="font-bold text-gray-900">{item.author}</div>
                     <div class="text-sm text-gray-500">{item.role}</div>
