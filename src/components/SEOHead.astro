@@ -16,6 +16,13 @@ const { title, description, lang } = Astro.props;
 // ---------------------------------------------------------------------------
 const siteBase = Astro.site ? Astro.site.href : Astro.url.origin;
 
+// 语言与地区映射，用于 hreflang 与 OG locale
+const localeMap: Record<string, string> = {
+  en: 'en-US',
+  'zh-cn': 'zh-CN',
+  'zh-tw': 'zh-TW',
+};
+
 // 生成 Canonical URL
 // 确保 pathname 正确拼接
 const canonicalURL = new URL(Astro.url.pathname, siteBase);
@@ -45,8 +52,11 @@ const alternateLinks = Object.keys(languages).map((l) => {
   // 这里的 siteBase 保证了 new URL 永远不会报错
   const fullPath = `${prefix}${currentPath}`.replace('//', '/'); // 清理双斜杠
   
-  return { lang: l, href: new URL(fullPath, siteBase).toString() };
+  const hreflang = localeMap[l] || l;
+  return { lang: hreflang, href: new URL(fullPath, siteBase).toString() };
 });
+
+const ogLocale = localeMap[lang] || (lang === 'en' ? 'en-US' : lang);
 ---
 
 <!-- Google tag (gtag.js) -->
@@ -63,6 +73,7 @@ const alternateLinks = Object.keys(languages).map((l) => {
 
 <title>{title}</title>
 <meta name="description" content={description} />
+<meta name="keywords" content="Seedance, Seedance 2.0, AI video, AI 视频生成, 文生视频" />
 <link rel="canonical" href={canonicalURL} />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <meta charset="UTF-8" />
@@ -72,7 +83,7 @@ const alternateLinks = Object.keys(languages).map((l) => {
 <meta property="og:url" content={canonicalURL} />
 <meta property="og:title" content={title} />
 <meta property="og:description" content={description} />
-<meta property="og:locale" content={lang === 'en' ? 'en_US' : lang} />
+<meta property="og:locale" content={ogLocale} />
 
 {alternateLinks.map((link) => (
   <link rel="alternate" hreflang={link.lang} href={link.href} />

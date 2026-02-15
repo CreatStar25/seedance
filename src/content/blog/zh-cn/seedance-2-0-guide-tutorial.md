@@ -75,8 +75,8 @@ author: "Seedance Team"
     controls 
     preload="metadata" 
     width="100%" 
-    poster="https://img.seedance22.com/seedance/seedance-camera-poster.webp"
-    src="https://img.aixzip.com/videos/seedance-consistency-demo.mp4">
+    poster="https://img.seedance22.com/seedance/seedance-consistency-poster.webp"
+    src="https://img.seedance22.com/seedance/seedance-consistency-poster.mp4">
     您的浏览器不支持 video 标签。
   </video>
   <p class="caption">演示：通过多图输入保持角色在不同场景中的一致性</p>
@@ -98,8 +98,8 @@ Seedance 2.0 在物理模型上做了重大升级。它能理解重力、惯性�
     controls 
     preload="metadata" 
     width="100%" 
-    poster="https://img.seedance22.com/seedance/seedance-consistency-poster.webp"
-    src="https://img.aixzip.com/videos/seedance-motion-demo.mp4">
+    poster="https://img.seedance22.com/seedance/seedance-motion-poster.webp"
+    src="https://img.seedance22.com/seedance/seedance-motion-poster.mp4">
     您的浏览器不支持 video 标签。
   </video>
   <p class="caption">演示：Seedance 2.0 处理复杂人物动作的流畅度</p>
@@ -127,8 +127,8 @@ Seedance 2.0 在物理模型上做了重大升级。它能理解重力、惯性�
     controls 
     preload="metadata" 
     width="100%" 
-    poster="https://img.seedance22.com/seedance/seedance-motion-poster.webp"
-    src="https://img.aixzip.com/videos/seedance-camera-control.mp4">
+    poster="https://img.seedance22.com/seedance/seedance-camera-poster.webp"
+    src="https://img.seedance22.com/seedance/seedance-camera-poster.mp4">
     您的浏览器不支持 video 标签。
   </video>
   <p class="caption">演示：精准的镜头推拉与环绕效果</p>
