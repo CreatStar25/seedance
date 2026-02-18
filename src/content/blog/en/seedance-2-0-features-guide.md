@@ -1,7 +1,8 @@
 ---
 title: "Seedance 2.0: The Ultimate Guide to ByteDance's New AI Video Generator"
 description: "Discover Seedance 2.0, the revolutionary AI video generation tool. Learn about its true physics engine, multi-shot consistency, and cinematic camera controls. Start creating at Seedance22.com."
-slug: seedance-2-0-features-guide
+lang: "en"
+slugKey: seedance-2-0-features-guide
 date: 2026-02-18
 author: "Seedance Team"
 image: "https://img.seedance22.com/seedance/eedance-2-0-cover-1.png"

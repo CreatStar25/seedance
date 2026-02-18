@@ -1,8 +1,8 @@
 ---
 title: "シネマティックAI動画のマスタリング：Seedance 2.0のカメラ操作と物理演算を深掘り"
 description: "Seedance 2.0の可能性を最大限に引き出しましょう。カメラの動きを制御する方法、リアルな動きのための真の物理演算の活用方法、そしてクリエイターがなぜSeedance22.comに集まるのかを学びます。"
-slug: mastering-seedance-2-0-camera-physics
-date: 2026-02-19
+lang: "ja"
+pubDate: 2026-02-19
 author: "Seedance Team"
 image: "https://img.seedance22.com/seedance/eedance-2-0-cover-2.png"
 tags: ["Seedance 2.0", "sedance2", "seedsnce", "AI Video Creation", "Camera Control"]

@@ -1,8 +1,8 @@
 ---
 title: "إتقان الفيديو السينمائي بالذكاء الاصطناعي: نظرة متعمقة على كاميرا Seedance 2.0 والفيزياء"
 description: "أطلق العنان للإمكانات الكاملة لـ Seedance 2.0. تعلم كيفية التحكم بحركات الكاميرا، واستخدام الفيزياء الحقيقية لحركة واقعية، ولماذا يتدفق المبدعون إلى Seedance22.com."
-slug: mastering-seedance-2-0-camera-physics
-date: 2026-02-19
+lang: "ar"
+pubDate: 2026-02-19
 author: "Seedance Team"
 image: "https://img.seedance22.com/seedance/eedance-2-0-cover-2.png"
 tags: ["Seedance 2.0", "sedance2", "seedsnce", "AI Video Creation", "Camera Control"]

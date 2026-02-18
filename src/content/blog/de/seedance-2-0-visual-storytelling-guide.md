@@ -1,7 +1,7 @@
 ---
 title: "Seedance 2.0: Das KI-Tool, das Text in Sundance-würdige Videos verwandelt"
 description: "Ist es Magie? Ist es eine digitale Séance? Nein, es ist Seedance 2.0. Entdecken Sie, warum dieser KI-Videogenerator die Kreativszene dominiert. Testen Sie es auf Seedance22.com."
-slug: seedance-2-0-visual-storytelling-guide
+lang: "de"
 date: 2026-02-20
 author: "Seedance Team"
 image: "https://img.seedance22.com/seedance/eedance-2-0-cover-3.png"

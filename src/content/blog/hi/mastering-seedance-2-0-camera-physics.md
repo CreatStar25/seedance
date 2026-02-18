@@ -1,8 +1,8 @@
 ---
 title: "सिनेमाई एआई वीडियो में महारत: सीडेंस 2.0 कैमरा और फिजिक्स की गहन जाँच"
 description: "सीडेंस 2.0 की पूरी क्षमता को उजागर करें। कैमरा मूवमेंट को नियंत्रित करना, यथार्थवादी गति के लिए वास्तविक भौतिकी का उपयोग करना सीखें, और जानें कि क्यों रचनाकार सीडेंस22.com की ओर आकर्षित हो रहे हैं।"
-slug: mastering-seedance-2-0-camera-physics
-date: 2026-02-19
+lang: "hi"
+pubDate: 2026-02-19
 author: "Seedance Team"
 image: "https://img.seedance22.com/seedance/eedance-2-0-cover-2.png"
 tags: ["Seedance 2.0", "sedance2", "seedsnce", "AI Video Creation", "Camera Control"]

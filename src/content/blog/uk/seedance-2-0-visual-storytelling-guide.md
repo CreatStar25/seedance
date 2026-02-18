@@ -1,7 +1,7 @@
 ---
 title: "Seedance 2.0: Інструмент ШІ, який перетворює текст на відео рівня Sundance"
 description: "Це магія? Це цифровий сеанс? Ні, це Seedance 2.0. Дізнайтеся, чому цей генератор відео на основі ШІ підкорює творчий світ. Спробуйте на Seedance22.com."
-slug: seedance-2-0-visual-storytelling-guide
+lang: "uk"
 date: 2026-02-20
 author: "Seedance Team"
 image: "https://img.seedance22.com/seedance/eedance-2-0-cover-3.png"

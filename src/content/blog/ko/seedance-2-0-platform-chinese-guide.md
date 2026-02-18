@@ -1,7 +1,7 @@
 ---
 title: "Seedance 2.0 플랫폼 심층 분석: 바이트댄스 최강 AI 비디오 생성기 사용 가이드 (Seedance 한국어 튜토리얼)"
 description: "좋은 AI 비디오 도구를 찾고 계신가요? 본문은 Seedance 2.0 플랫폼의 핵심 기능, 물리 엔진 업그레이드와 영화급 카메라 워크 제어를 심층 분석합니다. Seedance22.com을 방문하여 창작을 시작해보세요."
-slug: seedance-2-0-platform-chinese-guide
+lang: "ko"
 date: 2026-02-21
 author: "Seedance Team"
 image: "https://img.seedance22.com/seedance/eedance-2-0-cover-4.png"

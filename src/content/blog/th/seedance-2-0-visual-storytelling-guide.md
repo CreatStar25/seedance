@@ -1,7 +1,7 @@
 ---
 title: "Seedance 2.0: เครื่องมือ AI ที่เปลี่ยนข้อความให้เป็นวิดีโอระดับซันแดนซ์"
 description: "นี่คือเวทมนตร์หรือการเรียกผีดิจิทัล? ไม่ใช่หรอก นี่คือ Seedance 2.0 ค้นพบว่าทำไมเครื่องมือสร้างวิดีโอด้วย AI นี้ถึงครองใจโลกครีเอทีฟ ลองใช้ได้ที่ Seedance22.com"
-slug: seedance-2-0-visual-storytelling-guide
+lang: "th"
 date: 2026-02-20
 author: "Seedance Team"
 image: "https://img.seedance22.com/seedance/eedance-2-0-cover-3.png"

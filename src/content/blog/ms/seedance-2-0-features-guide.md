@@ -1,8 +1,8 @@
 ---
 title: "Seedance 2.0: Panduan Muktamad untuk Penjana Video AI Baharu ByteDance"
 description: "Temui Seedance 2.0, alat penjanaan video AI yang revolusioner. Ketahui tentang enjin fizik sebenar, konsistensi pelbagai rakaman, dan kawalan kamera sinematiknya. Mula mencipta di Seedance22.com."
-slug: seedance-2-0-features-guide
-date: 2026-02-18
+lang: "ms"
+pubDate: 2026-02-18
 author: "Seedance Team"
 image: "https://img.seedance22.com/seedance/eedance-2-0-cover-1.png"
 tags: ["Seedance 2.0", "Seedance", "AI Video Generator", "Text to Video", "AI Tools"]

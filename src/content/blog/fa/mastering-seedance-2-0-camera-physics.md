@@ -1,8 +1,8 @@
 ---
 title: "تسلط بر ویدیوهای سینمایی هوش مصنوعی: بررسی عمیق دوربین و فیزیک Seedance 2.0"
 description: "قدرت کامل Seedance 2.0 را آزاد کنید. بیاموزید که چگونه حرکات دوربین را کنترل کنید، از فیزیک واقعی برای حرکت‌های طبیعی استفاده کنید و بفهمید چرا خالقان به سمت Seedance22.com می‌آیند."
-slug: mastering-seedance-2-0-camera-physics
-date: 2026-02-19
+lang: "fa"
+pubDate: 2026-02-19
 author: "Seedance Team"
 image: "https://img.seedance22.com/seedance/eedance-2-0-cover-2.png"
 tags: ["Seedance 2.0", "sedance2", "seedsnce", "AI Video Creation", "Camera Control"]

@@ -1,8 +1,8 @@
 ---
 title: "Mastering Cinematic AI Video: Deep Dive into Seedance 2.0 Camera & Physics"
 description: "Unlock the full potential of Seedance 2.0. Learn how to control camera movements, utilize true physics for realistic motion, and why creators are flocking to Seedance22.com."
-slug: mastering-seedance-2-0-camera-physics
-date: 2026-02-19
+lang: "en"
+pubDate: 2026-02-19
 author: "Seedance Team"
 image: "https://img.seedance22.com/seedance/eedance-2-0-cover-2.png"
 tags: ["Seedance 2.0", "sedance2", "seedsnce", "AI Video Creation", "Camera Control"]

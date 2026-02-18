@@ -1,7 +1,7 @@
 ---
 title: "Seedance 2.0: Alat AI yang Mengubah Teks Menjadi Video Setaraf Sundance"
 description: "Adakah ini sihir? Adakah ini sejenis seans digital? Tidak, ini Seedance 2.0. Ketahui mengapa penjana video AI ini menguasai dunia kreatif. Cubanya di Seedance22.com."
-slug: seedance-2-0-visual-storytelling-guide
+lang: "ms"
 date: 2026-02-20
 author: "Seedance Team"
 image: "https://img.seedance22.com/seedance/eedance-2-0-cover-3.png"

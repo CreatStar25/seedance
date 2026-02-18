@@ -1,8 +1,8 @@
 ---
 title: "Seedance 2.0: De Ultieme Gids voor ByteDance's Nieuwe AI-videogenerator"
 description: "Ontdek Seedance 2.0, het revolutionaire AI-videogeneratietool. Leer over zijn echte fysica-engine, multi-shot consistentie en cinematografische camerabediening. Begin met creëren op Seedance22.com."
-slug: seedance-2-0-features-guide
-date: 2026-02-18
+lang: "nl"
+pubDate: 2026-02-18
 author: "Seedance Team"
 image: "https://img.seedance22.com/seedance/eedance-2-0-cover-1.png"
 tags: ["Seedance 2.0", "Seedance", "AI Video Generator", "Text to Video", "AI Tools"]

@@ -1,7 +1,7 @@
 ---
 title: "Análisis en Profundidad de la Plataforma Seedance 2.0: Guía de Inicio para el Generador de Vídeo AI más Potente de ByteDance (Tutorial en Chino de Seedance)"
 description: "¿Sigues buscando una buena herramienta de vídeo AI? Este artículo analiza en profundidad las funciones principales de la plataforma Seedance 2.0, incluyendo la actualización del motor físico y el control cinematográfico de cámara. Haz clic para visitar Seedance22.com y comenzar a crear."
-slug: seedance-2-0-platform-chinese-guide
+lang: "es"
 date: 2026-02-21
 author: "Seedance Team"
 image: "https://img.seedance22.com/seedance/eedance-2-0-cover-4.png"

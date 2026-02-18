@@ -1,7 +1,7 @@
 ---
 title: "Phân Tích Chuyên Sâu Nền Tảng Seedance 2.0: Hướng Dẫn Sử Dụng Trình Tạo Video AI Mạnh Nhất Của ByteDance (Hướng Dẫn Tiếng Trung Seedance)"
 description: "Vẫn đang tìm kiếm công cụ AI tạo video tốt? Bài viết này phân tích chuyên sâu các tính năng cốt lõi của nền tảng Seedance 2.0, bao gồm nâng cấp động lực học và điều khiển chuyển động máy quay cấp điện ảnh. Nhấp để truy cập Seedance22.com và bắt đầu sáng tạo."
-slug: seedance-2-0-platform-chinese-guide
+lang: "vi"
 date: 2026-02-21
 author: "Seedance Team"
 image: "https://img.seedance22.com/seedance/eedance-2-0-cover-4.png"

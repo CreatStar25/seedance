@@ -1,7 +1,7 @@
 ---
 title: "Seedance 2.0: ابزار هوش مصنوعی که متن را به ویدیو در سطح ساندنس تبدیل می‌کند"
 description: "آیا این جادو است؟ آیا یک احضار روح دیجیتال است؟ نه، این Seedance 2.0 است. کشف کنید چرا این تولیدکننده ویدیوی هوش مصنوعی در حال تسخیر دنیای خلاقیت است. آن را در Seedance22.com امتحان کنید."
-slug: seedance-2-0-visual-storytelling-guide
+lang: "fa"
 date: 2026-02-20
 author: "Seedance Team"
 image: "https://img.seedance22.com/seedance/eedance-2-0-cover-3.png"

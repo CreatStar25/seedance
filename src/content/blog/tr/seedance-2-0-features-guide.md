@@ -1,8 +1,8 @@
 ---
 title: "Seedance 2.0: ByteDance'ın Yeni AI Video Üreticisine Dair Nihai Rehber"
 description: "Devrim niteliğindeki AI video oluşturma aracı Seedance 2.0'ı keşfedin. Gerçek fizik motoru, çoklu çekim tutarlılığı ve sinematik kamera kontrolleri hakkında bilgi edinin. Seedance22.com'da oluşturmaya başlayın."
-slug: seedance-2-0-features-guide
-date: 2026-02-18
+lang: "tr"
+pubDate: 2026-02-18
 author: "Seedance Team"
 image: "https://img.seedance22.com/seedance/eedance-2-0-cover-1.png"
 tags: ["Seedance 2.0", "Seedance", "AI Video Generator", "Text to Video", "AI Tools"]

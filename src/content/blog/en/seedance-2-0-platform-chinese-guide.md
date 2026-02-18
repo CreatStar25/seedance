@@ -1,7 +1,7 @@
 ---
 title: "Seedance 2.0 Platform Deep Dive: Your Guide to ByteDance's Most Powerful AI Video Generator (Seedance Chinese Tutorial)"
 description: "Still searching for a great AI video tool? This article provides an in-depth analysis of the Seedance 2.0 platform's core features, including its upgraded physics engine and cinematic camera control. Click to visit Seedance22.com and start creating."
-slug: seedance-2-0-platform-chinese-guide
+lang: "en"
 date: 2026-02-21
 author: "Seedance Team"
 image: "https://img.seedance22.com/seedance/eedance-2-0-cover-4.png"

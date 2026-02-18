@@ -1,8 +1,8 @@
 ---
-title: "Dominando o Vídeo AI Cinematográfico: Um Mergulho Profundo na Câmera e Física do Seedance 2.0"
-description: "Desbloqueie todo o potencial do Seedance 2.0. Aprenda a controlar movimentos de câmera, utilizar física realista para movimento e descubra por que criadores estão migrando para o Seedance22.com."
-slug: mastering-seedance-2-0-camera-physics
-date: 2026-02-19
+title: "Dominando Vídeo Cinematográfico com IA: Um Mergulho Profundo na Câmera e Física do Seedance 2.0"
+description: "Desbloqueie todo o potencial do Seedance 2.0. Aprenda a controlar movimentos de câmera, usar física realista para movimentos naturais e entenda por que criadores estão migrando para Seedance22.com."
+lang: "pt"
+pubDate: 2026-02-19
 author: "Seedance Team"
 image: "https://img.seedance22.com/seedance/eedance-2-0-cover-2.png"
 tags: ["Seedance 2.0", "sedance2", "seedsnce", "AI Video Creation", "Camera Control"]

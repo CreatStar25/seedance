@@ -1,7 +1,7 @@
 ---
 title: "Analisis Mendalam Platform Seedance 2.0: Panduan Lengkap untuk Generator Video AI Terkuat ByteDance (Tutorial Seedance Bahasa Indonesia)"
 description: "Masih mencari alat video AI yang bagus? Artikel ini menganalisis secara mendalam fungsi inti Platform Seedance 2.0, termasuk peningkatan mesin fisika dan kontrol pergerakan kamera tingkat film. Klik untuk mengunjungi Seedance22.com dan mulai berkreasi."
-slug: seedance-2-0-platform-chinese-guide
+lang: "id"
 date: 2026-02-21
 author: "Seedance Team"
 image: "https://img.seedance22.com/seedance/eedance-2-0-cover-4.png"

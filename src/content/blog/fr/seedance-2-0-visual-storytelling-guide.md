@@ -1,7 +1,7 @@
 ---
 title: "Seedance 2.0 : L'outil d'IA qui transforme le texte en vidéo de niveau Sundance"
 description: "Est-ce de la magie ? Une séance de spiritisme numérique ? Non, c'est Seedance 2.0. Découvrez pourquoi ce générateur de vidéo IA domine le monde créatif. Essayez-le sur Seedance22.com."
-slug: seedance-2-0-visual-storytelling-guide
+lang: "fr"
 date: 2026-02-20
 author: "Seedance Team"
 image: "https://img.seedance22.com/seedance/eedance-2-0-cover-3.png"

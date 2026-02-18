@@ -1,7 +1,7 @@
 ---
 title: "تحليل عميق لمنصة Seedance 2.0: دليل استخدام أقوى مولد فيديو بالذكاء الاصطناعي من ByteDance (دليل Seedance باللغة الصينية)"
 description: "هل لا تزال تبحث عن أدوات فيديو بالذكاء الاصطناعي مفيدة؟ يقدم هذا المقال تحليلًا عميقًا للوظائف الأساسية لمنصة Seedance 2.0، بما في ذلك ترقية محرك الفيزياء والتحكم في حركة الكاميرا السينمائية. انقر للوصول إلى Seedance22.com وابدأ الإبداع."
-slug: seedance-2-0-platform-chinese-guide
+lang: "ar"
 date: 2026-02-21
 author: "Seedance Team"
 image: "https://img.seedance22.com/seedance/eedance-2-0-cover-4.png"

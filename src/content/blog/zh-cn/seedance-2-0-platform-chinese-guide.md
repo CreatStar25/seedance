@@ -1,7 +1,7 @@
 ---
 title: "Seedance 2.0 平台深度解析：字节跳动最强 AI 视频生成器上手指南 (Seedance 中文教程)"
 description: "还在寻找好用的AI视频工具？本文为您深度解析 Seedance 2.0 平台的核心功能，包括物理引擎升级与电影级运镜控制。点击访问 Seedance22.com 开始创作。"
-slug: seedance-2-0-platform-chinese-guide
+lang: "zh-cn"
 date: 2026-02-21
 author: "Seedance Team"
 image: "https://img.seedance22.com/seedance/eedance-2-0-cover-4.png"

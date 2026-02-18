@@ -7,7 +7,8 @@
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "test:blog": "node scripts/test_blog_routes.js"
+    "test:blog": "node scripts/test_blog_routes.js",
+    "test:multilang": "node scripts/test_multilang_http.js"
   },
   "dependencies": {
     "@astrojs/cloudflare": "^12.6.12",

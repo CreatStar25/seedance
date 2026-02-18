@@ -1,7 +1,7 @@
 ---
 title: "تحلیل عمیق پلتفرم Seedance 2.0: راهنمای جامع استفاده از قدرتمندترین تولیدکننده ویدیوی هوش مصنوعی بایت‌دنس (آموزش چینی Seedance)"
 description: "هنوز در جستجوی ابزارهای مفید تولید ویدیوی هوش مصنوعی هستید؟ این مقاله به تحلیل عمیق قابلیت‌های اصلی پلتفرم Seedance 2.0، از جمله ارتقای موتور فیزیکی و کنترل فیلم‌برداری در سطح سینمایی می‌پردازد. برای شروع خلق آثار خود، به Seedance22.com مراجعه کنید."
-slug: seedance-2-0-platform-chinese-guide
+lang: "fa"
 date: 2026-02-21
 author: "Seedance Team"
 image: "https://img.seedance22.com/seedance/eedance-2-0-cover-4.png"

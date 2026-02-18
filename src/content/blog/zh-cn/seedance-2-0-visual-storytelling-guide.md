@@ -1,7 +1,7 @@
 ---
 title: "Seedance 2.0：将文本转化为圣丹斯级视频的AI工具"
 description: "是魔法吗？是数字通灵吗？不，是Seedance 2.0。探索这款AI视频生成器为何风靡创意世界。立即在Seedance22.com体验。"
-slug: seedance-2-0-visual-storytelling-guide
+lang: "zh-cn"
 date: 2026-02-20
 author: "Seedance Team"
 image: "https://img.seedance22.com/seedance/eedance-2-0-cover-3.png"

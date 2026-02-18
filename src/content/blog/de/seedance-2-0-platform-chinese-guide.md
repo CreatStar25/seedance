@@ -1,7 +1,7 @@
 ---
 title: "Seedance 2.0 Plattform Tiefenanalyse: Der ultimative Leitfaden zu ByteDance's stärkstem KI-Video-Generator (Seedance Tutorial auf Deutsch)"
 description: "Auf der Suche nach einem guten KI-Video-Tool? Dieser Artikel analysiert die Kernfunktionen der Seedance 2.0 Plattform, einschließlich Upgrades der Physik-Engine und filmreifer Kameraführung. Klicken Sie auf Seedance22.com, um mit der Kreation zu beginnen."
-slug: seedance-2-0-platform-chinese-guide
+lang: "de"
 date: 2026-02-21
 author: "Seedance Team"
 image: "https://img.seedance22.com/seedance/eedance-2-0-cover-4.png"

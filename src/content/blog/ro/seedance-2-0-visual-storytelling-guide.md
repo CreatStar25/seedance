@@ -1,7 +1,7 @@
 ---
 title: "Seedance 2.0: Instrumentul de IA care Transformă Textul în Videoclipuri de Nivel Sundance"
 description: "Este magie? Este un seans digital? Nu, este Seedance 2.0. Descoperă de ce acest generator de videoclipuri AI domină lumea creativă. Încearcă-l la Seedance22.com."
-slug: seedance-2-0-visual-storytelling-guide
+lang: "ro"
 date: 2026-02-20
 author: "Seedance Team"
 image: "https://img.seedance22.com/seedance/eedance-2-0-cover-3.png"

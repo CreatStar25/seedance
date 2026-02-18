@@ -1,8 +1,8 @@
 ---
 title: "Sinematik AI Video Ustalaşmak: Seedance 2.0 Kamera & Fizik Derinlemesine İnceleme"
 description: "Seedance 2.0'ın tüm potansiyelini açığa çıkarın. Kamera hareketlerini kontrol etmeyi, gerçekçi hareket için gerçek fizikten yararlanmayı öğrenin ve yaratıcıların neden Seedance22.com'a akın ettiğini keşfedin."
-slug: mastering-seedance-2-0-camera-physics
-date: 2026-02-19
+lang: "tr"
+pubDate: 2026-02-19
 author: "Seedance Team"
 image: "https://img.seedance22.com/seedance/eedance-2-0-cover-2.png"
 tags: ["Seedance 2.0", "sedance2", "seedsnce", "AI Video Creation", "Camera Control"]

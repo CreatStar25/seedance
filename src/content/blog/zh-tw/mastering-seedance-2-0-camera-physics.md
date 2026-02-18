@@ -1,8 +1,8 @@
 ---
 title: "掌握電影級 AI 影片：深入解析 Seedance 2.0 鏡頭控制與物理引擎"
 description: "釋放 Seedance 2.0 的全部潛能。學習如何控制鏡頭運動、運用真實物理引擎實現逼真動作，以及為何創作者紛紛湧向 Seedance22.com。"
-slug: mastering-seedance-2-0-camera-physics
-date: 2026-02-19
+lang: "zh-tw"
+pubDate: 2026-02-19
 author: "Seedance Team"
 image: "https://img.seedance22.com/seedance/eedance-2-0-cover-2.png"
 tags: ["Seedance 2.0", "sedance2", "seedsnce", "AI Video Creation", "Camera Control"]

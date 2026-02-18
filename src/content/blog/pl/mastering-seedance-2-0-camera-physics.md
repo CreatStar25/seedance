@@ -1,8 +1,8 @@
 ---
 title: "Opanuj Kinematograficzne Wideo AI: Dogłębna analiza kamery i fizyki Seedance 2.0"
 description: "Odkryj pełny potencjał Seedance 2.0. Dowiedz się, jak kontrolować ruchy kamery, wykorzystywać realistyczną fizykę do naturalnego ruchu i dlaczego twórcy tłumnie odwiedzają Seedance22.com."
-slug: mastering-seedance-2-0-camera-physics
-date: 2026-02-19
+lang: "pl"
+pubDate: 2026-02-19
 author: "Seedance Team"
 image: "https://img.seedance22.com/seedance/eedance-2-0-cover-2.png"
 tags: ["Seedance 2.0", "sedance2", "seedsnce", "AI Video Creation", "Camera Control"]

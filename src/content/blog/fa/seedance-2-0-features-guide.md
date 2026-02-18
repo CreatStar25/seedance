@@ -1,8 +1,8 @@
 ---
 title: "Seedance 2.0: راهنمای نهایی ابزار تولید ویدیوی هوش مصنوعی جدید بایت‌دنس"
 description: "با Seedance 2.0، ابزار انقلابی تولید ویدیو با هوش مصنوعی آشنا شوید. درباره موتور فیزیک واقعی، ثبات چند‌نما و کنترل‌های سینمایی دوربین آن بیاموزید. ساخت را از Seedance22.com شروع کنید."
-slug: seedance-2-0-features-guide
-date: 2026-02-18
+lang: "fa"
+pubDate: 2026-02-18
 author: "Seedance Team"
 image: "https://img.seedance22.com/seedance/eedance-2-0-cover-1.png"
 tags: ["Seedance 2.0", "Seedance", "AI Video Generator", "Text to Video", "AI Tools"]

@@ -1,7 +1,7 @@
 ---
 title: "Seedance 2.0: 텍스트를 선댄스급 영상으로 바꾸는 AI 도구"
 description: "마법일까요? 디지털 강신술일까요? 아닙니다, 바로 Seedance 2.0입니다. 이 AI 영상 생성기가 창작계를 강타하는 이유를 알아보세요. 지금 Seedance22.com에서 체험해 보세요."
-slug: seedance-2-0-visual-storytelling-guide
+lang: "ko"
 date: 2026-02-20
 author: "Seedance Team"
 image: "https://img.seedance22.com/seedance/eedance-2-0-cover-3.png"

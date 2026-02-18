@@ -1,8 +1,8 @@
 ---
 title: "Maîtriser la Vidéo IA Cinématographique : Plongée dans la Caméra et la Physique de Seedance 2.0"
 description: "Libérez tout le potentiel de Seedance 2.0. Apprenez à contrôler les mouvements de caméra, à utiliser la vraie physique pour des mouvements réalistes, et découvrez pourquoi les créateurs affluent sur Seedance22.com."
-slug: mastering-seedance-2-0-camera-physics
-date: 2026-02-19
+lang: "fr"
+pubDate: 2026-02-19
 author: "Seedance Team"
 image: "https://img.seedance22.com/seedance/eedance-2-0-cover-2.png"
 tags: ["Seedance 2.0", "sedance2", "seedsnce", "AI Video Creation", "Camera Control"]

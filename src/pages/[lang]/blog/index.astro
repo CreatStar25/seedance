@@ -18,8 +18,13 @@ const { lang } = Astro.params;
 const allPosts = await getCollection('blog');
 const posts = allPosts.filter((post) => post.id.startsWith(`${lang}/`));
 
+// 安全获取日期（兼容 pubDate 与 date 两种字段）
+function getPostDate(data: { pubDate?: Date; date?: Date }) {
+  return data.pubDate ?? data.date ?? new Date(0);
+}
+
 // 按日期倒序排列
-posts.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+posts.sort((a, b) => getPostDate(b.data).valueOf() - getPostDate(a.data).valueOf());
 
 // 获取翻译文案
 let t;
@@ -53,10 +58,8 @@ function formatDate(date: Date) {
 
         <div class="grid gap-10 md:grid-cols-2">
           {posts.map((post) => {
-            // 处理 Slug：移除语言前缀，用于生成链接
-            // 例如 post.slug 是 "en/hello-world"，我们要提取 "hello-world"
-            // 链接变成 /en/blog/hello-world
-            const cleanSlug = post.slug.split('/').slice(1).join('/');
+            const slugParts = post.id.split('/').slice(1);
+            const cleanSlug = slugParts.join('/').replace(/\.md$/, '');
             
             return (
               <article class="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100 group">
@@ -72,7 +75,7 @@ function formatDate(date: Date) {
                   )}
                   <div class="p-8">
                     <div class="text-sm text-yellow-600 font-bold mb-3">
-                      {formatDate(post.data.pubDate)}
+                      {formatDate(getPostDate(post.data))}
                     </div>
                     <h2 class="text-2xl font-bold mb-3 group-hover:text-yellow-600 transition-colors">
                       {post.data.title}

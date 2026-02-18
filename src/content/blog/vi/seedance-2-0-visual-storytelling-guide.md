@@ -1,7 +1,7 @@
 ---
 title: "Seedance 2.0: Công Cụ AI Biến Văn Bản Thành Video Đẳng Cấp Sundance"
 description: "Đó là phép thuật? Là một buổi gọi hồn kỹ thuật số? Không, đó là Seedance 2.0. Khám phá lý do công cụ tạo video AI này đang thống trị thế giới sáng tạo. Dùng thử tại Seedance22.com."
-slug: seedance-2-0-visual-storytelling-guide
+lang: "vi"
 date: 2026-02-20
 author: "Seedance Team"
 image: "https://img.seedance22.com/seedance/eedance-2-0-cover-3.png"

@@ -1,8 +1,8 @@
 ---
 title: "Làm Chủ AI Video Điện Ảnh: Khám Phá Chuyên Sâu Camera & Vật Lý Seedance 2.0"
 description: "Mở khóa toàn bộ tiềm năng của Seedance 2.0. Tìm hiểu cách điều khiển chuyển động camera, sử dụng vật lý thực cho chuyển động chân thực, và lý do các nhà sáng tạo đang đổ xô đến Seedance22.com."
-slug: mastering-seedance-2-0-camera-physics
-date: 2026-02-19
+lang: "vi"
+pubDate: 2026-02-19
 author: "Seedance Team"
 image: "https://img.seedance22.com/seedance/eedance-2-0-cover-2.png"
 tags: ["Seedance 2.0", "sedance2", "seedsnce", "AI Video Creation", "Camera Control"]

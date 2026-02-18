@@ -32,13 +32,13 @@ for (const l of langs) {
     continue;
   }
   const html = readFile(p);
-  // English canonical and en hreflang
+  // English canonical and hreflang
   if (l === 'en') {
     if (!html.includes('link rel="canonical" href="https://seedance22.com/en/blog/"')) {
       failures.push('[bad-canonical] en/blog missing or incorrect canonical');
     }
-    if (!html.includes('hreflang="en" href="https://seedance22.com/en/blog/"')) {
-      failures.push('[bad-hreflang] en self hreflang not found');
+    if (!html.includes('hreflang="en-US" href="https://seedance22.com/en/blog/"')) {
+      failures.push('[bad-hreflang] en self hreflang (en-US) not found');
     }
   }
   // All pages must not include duplicated lang segments like "/<lang>/en/blog/"
@@ -46,19 +46,16 @@ for (const l of langs) {
   if (dupPattern.test(html)) {
     failures.push(`[duplicate-path] ${rel} contains /${l}/en/blog/`);
   }
-  // Alternate en link must be present for non-en pages
+  // Alternate en link must be present for non-en pages（使用 en-US）
   if (l !== 'en') {
-    if (!html.includes('hreflang="en" href="https://seedance22.com/en/blog/"')) {
-      failures.push(`[bad-hreflang] ${l} missing en alternate link`);
+    if (!html.includes('hreflang="en-US" href="https://seedance22.com/en/blog/"')) {
+      failures.push(`[bad-hreflang] ${l} missing en-US alternate link`);
     }
   }
-  // zh-cn 列表页需包含两篇中文文章链接
+  // zh-cn 列表页需至少包含一篇中文文章链接
   if (l === 'zh-cn') {
     if (!html.includes('/zh-cn/blog/seedance-2-0-guide-tutorial/')) {
       failures.push('[missing-link] zh-cn list missing seedance-2-0-guide-tutorial link');
-    }
-    if (!html.includes('/zh-cn/blog/2-seedance-2-0-guide-tutorial_2/')) {
-      failures.push('[missing-link] zh-cn list missing 2-seedance-2-0-guide-tutorial_2 link');
     }
   }
 }

@@ -1,7 +1,7 @@
 ---
 title: "Seedance 2.0 วิเคราะห์เชิงลึก: คู่มือเริ่มต้นใช้งานเครื่องมือสร้างวิดีโอ AI ที่ทรงพลังที่สุดจาก ByteDance (Seedance คู่มือภาษาไทย)"
 description: "กำลังมองหาเครื่องมือสร้างวิดีโอ AI ที่ดีอยู่หรือไม่? บทความนี้จะวิเคราะห์เชิงลึกถึงฟีเจอร์หลักของ Seedance 2.0 รวมถึงการอัปเกรดฟิสิกส์เอนจิ้นและการควบคุมการเคลื่อนกล้องระดับภาพยนตร์ คลิกเพื่อเข้าชม Seedance22.com และเริ่มต้นการสร้างสรรค์"
-slug: seedance-2-0-platform-chinese-guide
+lang: "th"
 date: 2026-02-21
 author: "Seedance Team"
 image: "https://img.seedance22.com/seedance/eedance-2-0-cover-4.png"

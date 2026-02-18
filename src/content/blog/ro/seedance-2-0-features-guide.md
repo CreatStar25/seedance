@@ -1,8 +1,8 @@
 ---
 title: "Seedance 2.0: Ghidul Definitiv pentru Noul Generator de Video AI de la ByteDance"
 description: "Descoperă Seedance 2.0, instrumentul revoluționar de generare video AI. Află despre motorul său de fizică reală, consistența multi-cadru și controalele cinematografice. Începe să creezi pe Seedance22.com."
-slug: seedance-2-0-features-guide
-date: 2026-02-18
+lang: "ro"
+pubDate: 2026-02-18
 author: "Seedance Team"
 image: "https://img.seedance22.com/seedance/eedance-2-0-cover-1.png"
 tags: ["Seedance 2.0", "Seedance", "AI Video Generator", "Text to Video", "AI Tools"]

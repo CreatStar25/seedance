@@ -1,7 +1,7 @@
 ---
 title: "Seedance 2.0 プラットフォーム徹底解説：ByteDance最強AI動画ジェネレーター入門ガイド (Seedance 日本語チュートリアル)"
 description: "使いやすいAI動画ツールをお探しですか？本記事では、物理エンジンのアップグレードや映画級のカメラワーク制御を含む、Seedance 2.0 プラットフォームのコア機能を深く解説します。Seedance22.com にアクセスして創作を始めましょう。"
-slug: seedance-2-0-platform-chinese-guide
+lang: "ja"
 date: 2026-02-21
 author: "Seedance Team"
 image: "https://img.seedance22.com/seedance/eedance-2-0-cover-4.png"

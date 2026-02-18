@@ -1,7 +1,7 @@
 ---
 title: "Seedance 2.0：將文字轉化為聖丹斯級影片的 AI 工具"
 description: "是魔法？是數位降靈會？不，這是 Seedance 2.0。探索這款 AI 影片生成器為何席捲創意世界。立即在 Seedance22.com 試用。"
-slug: seedance-2-0-visual-storytelling-guide
+lang: "zh-tw"
 date: 2026-02-20
 author: "Seedance Team"
 image: "https://img.seedance22.com/seedance/eedance-2-0-cover-3.png"

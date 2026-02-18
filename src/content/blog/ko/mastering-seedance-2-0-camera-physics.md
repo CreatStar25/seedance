@@ -1,8 +1,8 @@
 ---
 title: "시네마틱 AI 비디오 마스터하기: Seedance 2.0 카메라 & 물리 엔진 심층 분석"
 description: "Seedance 2.0의 모든 잠재력을 해제하세요. 카메라 움직임을 제어하는 방법, 사실적인 모션을 위한 진정한 물리 법칙 활용법, 그리고 제작자들이 왜 Seedance22.com으로 모여드는지 알아보세요."
-slug: mastering-seedance-2-0-camera-physics
-date: 2026-02-19
+lang: "ko"
+pubDate: 2026-02-19
 author: "Seedance Team"
 image: "https://img.seedance22.com/seedance/eedance-2-0-cover-2.png"
 tags: ["Seedance 2.0", "sedance2", "seedsnce", "AI Video Creation", "Camera Control"]

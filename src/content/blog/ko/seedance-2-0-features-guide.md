@@ -1,8 +1,8 @@
 ---
 title: "Seedance 2.0: 바이트댄스의 새로운 AI 비디오 생성기 최종 가이드"
 description: "혁신적인 AI 비디오 생성 도구 Seedance 2.0을 발견하세요. 진정한 물리 엔진, 멀티샷 일관성, 시네마틱 카메라 제어에 대해 알아보고 Seedance22.com에서 제작을 시작하세요."
-slug: seedance-2-0-features-guide
-date: 2026-02-18
+lang: "ko"
+pubDate: 2026-02-18
 author: "Seedance Team"
 image: "https://img.seedance22.com/seedance/eedance-2-0-cover-1.png"
 tags: ["Seedance 2.0", "Seedance", "AI Video Generator", "Text to Video", "AI Tools"]

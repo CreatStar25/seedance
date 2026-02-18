@@ -1,7 +1,7 @@
 ---
 title: "Analyse approfondie de la plateforme Seedance 2.0 : Guide de prise en main du générateur vidéo IA le plus puissant de ByteDance (Tutoriel Seedance en chinois)"
 description: "Vous cherchez encore un bon outil vidéo IA ? Cet article vous propose une analyse approfondie des fonctionnalités clés de la plateforme Seedance 2.0, y compris la mise à niveau du moteur physique et le contrôle cinématographique des mouvements de caméra. Cliquez pour visiter Seedance22.com et commencer à créer."
-slug: seedance-2-0-platform-chinese-guide
+lang: "fr"
 date: 2026-02-21
 author: "Seedance Team"
 image: "https://img.seedance22.com/seedance/eedance-2-0-cover-4.png"

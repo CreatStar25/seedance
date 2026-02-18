@@ -1,8 +1,8 @@
 ---
 title: "Menguasai Video AI Sinematik: Panduan Mendalam untuk Kamera & Fizik Seedance 2.0"
 description: "Buka potensi penuh Seedance 2.0. Pelajari cara mengawal pergerakan kamera, menggunakan fizik sebenar untuk pergerakan realistik, dan sebab pencipta ramai beralih ke Seedance22.com."
-slug: mastering-seedance-2-0-camera-physics
-date: 2026-02-19
+lang: "ms"
+pubDate: 2026-02-19
 author: "Seedance Team"
 image: "https://img.seedance22.com/seedance/eedance-2-0-cover-2.png"
 tags: ["Seedance 2.0", "sedance2", "seedsnce", "AI Video Creation", "Camera Control"]

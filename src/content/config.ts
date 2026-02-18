@@ -5,12 +5,19 @@ const blogCollection = defineCollection({
   schema: z.object({
     title: z.string(),
     description: z.string(),
-    pubDate: z.date(),
+    pubDate: z.date().optional(),
+    date: z.date().optional(),
     author: z.string(),
     image: z.string().optional(),
-    translationKey: z.string().optional(), // 用于关联不同语言
+    translationKey: z.string().optional(),
   }),
-});
+  slug: ({ id }: { id: string }) => {
+    const [lang, ...rest] = id.split('/');
+    const file = rest.join('/');
+    const base = file.replace(/\.md$/, '');
+    return `${lang}/${base}`;
+  },
+} as any);
 
 export const collections = {
   'blog': blogCollection,

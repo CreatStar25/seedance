@@ -1,8 +1,8 @@
 ---
 title: "Seedance 2.0: คู่มือฉบับสมบูรณ์สำหรับเครื่องมือสร้างวิดีโอ AI ใหม่จาก ByteDance"
 description: "ค้นพบ Seedance 2.0 เครื่องมือสร้างวิดีโอ AI ที่ปฏิวัติวงการ เรียนรู้เกี่ยวกับเครื่องมือฟิสิกส์สมจริง ความสม่ำเสมอของหลายช็อต และการควบคุมกล้องระดับภาพยนตร์ เริ่มต้นสร้างสรรค์ได้ที่ Seedance22.com"
-slug: seedance-2-0-features-guide
-date: 2026-02-18
+lang: "th"
+pubDate: 2026-02-18
 author: "Seedance Team"
 image: "https://img.seedance22.com/seedance/eedance-2-0-cover-1.png"
 tags: ["Seedance 2.0", "Seedance", "AI Video Generator", "Text to Video", "AI Tools"]

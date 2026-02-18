@@ -1,8 +1,8 @@
 ---
 title: "Seedance 2.0：字节跳动全新AI视频生成器终极指南"
 description: "探索革命性的AI视频生成工具Seedance 2.0。了解其真实物理引擎、多镜头一致性和电影级摄像机控制。立即访问Seedance22.com开始创作。"
-slug: seedance-2-0-features-guide
-date: 2026-02-18
+lang: "zh-cn"
+pubDate: 2026-02-18
 author: "Seedance Team"
 image: "https://img.seedance22.com/seedance/eedance-2-0-cover-1.png"
 tags: ["Seedance 2.0", "Seedance", "AI Video Generator", "Text to Video", "AI Tools"]

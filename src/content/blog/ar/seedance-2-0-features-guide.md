@@ -1,8 +1,8 @@
 ---
 title: "Seedance 2.0: الدليل الشامل لأداة توليد الفيديو بالذكاء الاصطناعي الجديدة من ByteDance"
 description: "اكتشف Seedance 2.0، أداة توليد الفيديو بالذكاء الاصطناعي الثورية. تعرف على محرك الفيزياء الحقيقي، واتساق المشاهد المتعددة، وضوابط الكاميرا السينمائية. ابدأ في الإبداع على Seedance22.com."
-slug: seedance-2-0-features-guide
-date: 2026-02-18
+lang: "ar"
+pubDate: 2026-02-18
 author: "Seedance Team"
 image: "https://img.seedance22.com/seedance/eedance-2-0-cover-1.png"
 tags: ["Seedance 2.0", "Seedance", "AI Video Generator", "Text to Video", "AI Tools"]

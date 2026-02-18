@@ -1,7 +1,7 @@
 ---
 title: "Глибокий аналіз платформи Seedance 2.0: Посібник з найпотужнішого генератора AI-відео від ByteDance (Китайський туторіал Seedance)"
 description: "Все ще шукаєте зручний інструмент для створення AI-відео? У цій статті ми детально розберемо ключові функції платформи Seedance 2.0, включаючи оновлення фізичного рушія та кінематографічний контроль камери. Переходьте на Seedance22.com, щоб розпочати творчість."
-slug: seedance-2-0-platform-chinese-guide
+lang: "uk"
 date: 2026-02-21
 author: "Seedance Team"
 image: "https://img.seedance22.com/seedance/eedance-2-0-cover-4.png"

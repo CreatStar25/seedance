@@ -1,7 +1,7 @@
 ---
 title: "Analiză aprofundată a platformei Seedance 2.0: Ghid complet pentru cel mai puternic generator de videoclipuri AI al ByteDance (Tutorial Seedance în română)"
 description: "Încă cauți un instrument bun de AI pentru videoclipuri? Acest articol oferă o analiză detaliată a funcțiilor esențiale ale platformei Seedance 2.0, inclusiv upgrade-ul motorului fizic și controlul cinematografic al cadrelor. Accesează Seedance22.com pentru a începe creația."
-slug: seedance-2-0-platform-chinese-guide
+lang: "ro"
 date: 2026-02-21
 author: "Seedance Team"
 image: "https://img.seedance22.com/seedance/eedance-2-0-cover-4.png"

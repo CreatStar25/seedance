@@ -1,7 +1,7 @@
 ---
 title: "Diepgaande Analyse van het Seedance 2.0 Platform: Complete Handleiding voor ByteDance's Krachtigste AI-Videogenerator (Seedance Chinese Tutorial)"
 description: "Op zoek naar een goede AI-videotool? Dit artikel biedt een diepgaande analyse van de kernfuncties van het Seedance 2.0 platform, inclusief de geüpgradede physics engine en cinematografische camerabewegingen. Klik om naar Seedance22.com te gaan en begin met creëren."
-slug: seedance-2-0-platform-chinese-guide
+lang: "nl"
 date: 2026-02-21
 author: "Seedance Team"
 image: "https://img.seedance22.com/seedance/eedance-2-0-cover-4.png"

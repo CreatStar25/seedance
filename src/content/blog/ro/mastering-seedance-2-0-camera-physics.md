@@ -1,8 +1,8 @@
 ---
 title: "Stăpânește Crearea Video Cinematografică cu AI: O Analiză Aprofundată a Camerei și Fizicii din Seedance 2.0"
 description: "Deblochează întregul potențial al Seedance 2.0. Află cum să controlezi mișcările camerei, să utilizezi fizica reală pentru mișcări autentice și de ce creatorii se îndreaptă spre Seedance22.com."
-slug: mastering-seedance-2-0-camera-physics
-date: 2026-02-19
+lang: "ro"
+pubDate: 2026-02-19
 author: "Seedance Team"
 image: "https://img.seedance22.com/seedance/eedance-2-0-cover-2.png"
 tags: ["Seedance 2.0", "sedance2", "seedsnce", "AI Video Creation", "Camera Control"]

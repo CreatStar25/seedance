@@ -1,7 +1,7 @@
 ---
 title: "Seedance 2.0: टेक्स्ट को सुनडांस-स्तरीय वीडियो में बदलने वाला एआई टूल"
 description: "क्या यह जादू है? क्या यह एक डिजिटल सीएंस है? नहीं, यह Seedance 2.0 है। जानें कि यह एआई वीडियो जनरेटर रचनात्मक दुनिया में छाया हुआ क्यों है। इसे Seedance22.com पर आज़माएं।"
-slug: seedance-2-0-visual-storytelling-guide
+lang: "hi"
 date: 2026-02-20
 author: "Seedance Team"
 image: "https://img.seedance22.com/seedance/eedance-2-0-cover-3.png"

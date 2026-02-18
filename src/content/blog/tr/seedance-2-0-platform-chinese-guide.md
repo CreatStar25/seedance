@@ -1,7 +1,7 @@
 ---
 title: "Seedance 2.0 Platform Derinlemesine Analiz: ByteDance'ın En Güçlü AI Video Oluşturucusu Başlangıç Rehberi (Seedance Türkçe Eğitimi)"
 description: "Kullanışlı bir AI video aracı mı arıyorsunuz? Bu makale, fizik motoru yükseltmesi ve sinematik kamera hareketi kontrolü dahil olmak üzere Seedance 2.0 Platform'unun temel özelliklerini derinlemesine analiz ediyor. Yaratıcılığınıza başlamak için Seedance22.com'u ziyaret edin."
-slug: seedance-2-0-platform-chinese-guide
+lang: "tr"
 date: 2026-02-21
 author: "Seedance Team"
 image: "https://img.seedance22.com/seedance/eedance-2-0-cover-4.png"

@@ -1,7 +1,7 @@
 ---
 title: "Seedance 2.0 प्लेटफॉर्म गहन विश्लेषण: बाइटडांस के सबसे शक्तिशाली AI वीडियो जनरेटर की शुरुआती गाइड (Seedance हिंदी ट्यूटोरियल)"
 description: "अभी भी एक अच्छा AI वीडियो टूल ढूंढ रहे हैं? यह लेख आपके लिए Seedance 2.0 प्लेटफॉर्म की मुख्य विशेषताओं का गहन विश्लेषण करता है, जिसमें भौतिक इंजन अपग्रेड और सिनेमाई शॉट कंट्रोल शामिल है। Seedance22.com पर जाकर अपनी रचना शुरू करने के लिए क्लिक करें।"
-slug: seedance-2-0-platform-chinese-guide
+lang: "hi"
 date: 2026-02-21
 author: "Seedance Team"
 image: "https://img.seedance22.com/seedance/eedance-2-0-cover-4.png"

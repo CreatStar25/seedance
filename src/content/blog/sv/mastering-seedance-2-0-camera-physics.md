@@ -1,8 +1,8 @@
 ---
 title: "Bemästra Cinematisk AI-video: Djupdykning i Seedance 2.0 Kamerakontroll & Fysik"
 description: "Lås upp hela potentialen hos Seedance 2.0. Lär dig kontrollera kamerarörelser, använda sann fysik för realistisk rörelse och varför skapare flockas till Seedance22.com."
-slug: mastering-seedance-2-0-camera-physics
-date: 2026-02-19
+lang: "sv"
+pubDate: 2026-02-19
 author: "Seedance Team"
 image: "https://img.seedance22.com/seedance/eedance-2-0-cover-2.png"
 tags: ["Seedance 2.0", "sedance2", "seedsnce", "AI Video Creation", "Camera Control"]

@@ -1,7 +1,7 @@
 ---
 title: "Djupgående analys av Seedance 2.0-plattformen: En guide till ByteDances kraftfullaste AI-videogenerator (Seedance-handledning på svenska)"
 description: "Letar du fortfarande efter ett bra AI-videoverktyg? Den här artikeln ger en djupgående analys av Seedance 2.0-plattformens kärnfunktioner, inklusive uppgraderingar av fysikmotorn och filmatisk kamerakontroll. Besök Seedance22.com för att börja skapa."
-slug: seedance-2-0-platform-chinese-guide
+lang: "sv"
 date: 2026-02-21
 author: "Seedance Team"
 image: "https://img.seedance22.com/seedance/eedance-2-0-cover-4.png"

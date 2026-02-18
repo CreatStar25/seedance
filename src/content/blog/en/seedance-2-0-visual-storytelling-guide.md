@@ -1,7 +1,7 @@
 ---
 title: "Seedance 2.0: The AI Tool Turning Text into Sundance-Level Video"
 description: "Is it magic? Is it a digital seance? No, it's Seedance 2.0. Discover why this AI video generator is dominating the creative world. Try it at Seedance22.com."
-slug: seedance-2-0-visual-storytelling-guide
+lang: "en"
 date: 2026-02-20
 author: "Seedance Team"
 image: "https://img.seedance22.com/seedance/eedance-2-0-cover-3.png"

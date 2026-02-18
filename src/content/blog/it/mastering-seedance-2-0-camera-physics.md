@@ -1,8 +1,8 @@
 ---
 title: "Padroneggiare i Video AI Cinematografici: Approfondimento su Seedance 2.0 Camera & Fisica"
 description: "Sblocca tutto il potenziale di Seedance 2.0. Scopri come controllare i movimenti della telecamera, utilizzare una fisica realistica per movimenti credibili e perché i creativi stanno accorrendo su Seedance22.com."
-slug: mastering-seedance-2-0-camera-physics
-date: 2026-02-19
+lang: "it"
+pubDate: 2026-02-19
 author: "Seedance Team"
 image: "https://img.seedance22.com/seedance/eedance-2-0-cover-2.png"
 tags: ["Seedance 2.0", "sedance2", "seedsnce", "AI Video Creation", "Camera Control"]

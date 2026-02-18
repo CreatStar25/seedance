@@ -1,7 +1,7 @@
 ---
 title: "Seedance 2.0: ИИ-инструмент, превращающий текст в видео уровня Sundance"
 description: "Это магия? Цифровое спиритическое сеанс? Нет, это Seedance 2.0. Узнайте, почему этот генератор видео на основе ИИ покоряет творческий мир. Попробуйте на Seedance22.com."
-slug: seedance-2-0-visual-storytelling-guide
+lang: "ru"
 date: 2026-02-20
 author: "Seedance Team"
 image: "https://img.seedance22.com/seedance/eedance-2-0-cover-3.png"

@@ -1,7 +1,7 @@
 ---
 title: "Seedance 2.0: Metni Sundance Seviyesinde Videoya Dönüştüren AI Aracı"
 description: "Bu bir sihir mi? Yoksa dijital bir seans mı? Hayır, bu Seedance 2.0. Bu AI video üreticisinin yaratıcı dünyayı neden fethettiğini keşfedin. Seedance22.com'da deneyin."
-slug: seedance-2-0-visual-storytelling-guide
+lang: "tr"
 date: 2026-02-20
 author: "Seedance Team"
 image: "https://img.seedance22.com/seedance/eedance-2-0-cover-3.png"

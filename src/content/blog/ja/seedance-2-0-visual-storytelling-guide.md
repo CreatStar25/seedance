@@ -1,7 +1,7 @@
 ---
 title: "Seedance 2.0：テキストをサンダンス映画祭レベルの映像に変えるAIツール"
 description: "それは魔法か？デジタルな交霊会か？いいえ、Seedance 2.0です。このAIビデオ生成ツールがクリエイティブ界を席巻する理由を発見しましょう。Seedance22.comでお試しください。"
-slug: seedance-2-0-visual-storytelling-guide
+lang: "ja"
 date: 2026-02-20
 author: "Seedance Team"
 image: "https://img.seedance22.com/seedance/eedance-2-0-cover-3.png"

@@ -1,8 +1,8 @@
 ---
 title: "Опанування кінематографічного AI-відео: Поглиблений огляд камери та фізики Seedance 2.0"
 description: "Розкрийте весь потенціал Seedance 2.0. Дізнайтеся, як керувати рухами камери, використовувати справжню фізику для реалістичного руху, і чому творці переходять на Seedance22.com."
-slug: mastering-seedance-2-0-camera-physics
-date: 2026-02-19
+lang: "uk"
+pubDate: 2026-02-19
 author: "Seedance Team"
 image: "https://img.seedance22.com/seedance/eedance-2-0-cover-2.png"
 tags: ["Seedance 2.0", "sedance2", "seedsnce", "AI Video Creation", "Camera Control"]

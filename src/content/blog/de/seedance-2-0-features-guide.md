@@ -1,8 +1,8 @@
 ---
 title: "Seedance 2.0: Der ultimative Leitfaden zu ByteDances neuem KI-Video-Generator"
 description: "Entdecken Sie Seedance 2.0, das revolutionäre KI-Videoerstellungstool. Erfahren Sie mehr über seine echte Physik-Engine, Multi-Shot-Konsistenz und filmischen Kamerasteuerungen. Beginnen Sie mit der Erstellung auf Seedance22.com."
-slug: seedance-2-0-features-guide
-date: 2026-02-18
+lang: "de"
+pubDate: 2026-02-18
 author: "Seedance Team"
 image: "https://img.seedance22.com/seedance/eedance-2-0-cover-1.png"
 tags: ["Seedance 2.0", "Seedance", "AI Video Generator", "Text to Video", "AI Tools"]

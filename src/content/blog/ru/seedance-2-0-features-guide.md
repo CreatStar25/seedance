@@ -1,8 +1,8 @@
 ---
 title: "Seedance 2.0: Полное руководство по новому генератору видео от ByteDance"
 description: "Откройте для себя Seedance 2.0 — революционный инструмент для генерации видео с помощью ИИ. Узнайте о его физическом движке, согласованности кадров и кинематографическом контроле камеры. Начните творить на Seedance22.com."
-slug: seedance-2-0-features-guide
-date: 2026-02-18
+lang: "ru"
+pubDate: 2026-02-18
 author: "Seedance Team"
 image: "https://img.seedance22.com/seedance/eedance-2-0-cover-1.png"
 tags: ["Seedance 2.0", "Seedance", "AI Video Generator", "Text to Video", "AI Tools"]

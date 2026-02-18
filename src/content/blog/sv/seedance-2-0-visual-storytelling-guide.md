@@ -1,7 +1,7 @@
 ---
 title: "Seedance 2.0: AI-verktyget som förvandlar text till videor i Sundance-klass"
 description: "Är det magi? Är det en digital seans? Nej, det är Seedance 2.0. Upptäck varför denna AI-videogenerator tar den kreativa världen med storm. Prova det på Seedance22.com."
-slug: seedance-2-0-visual-storytelling-guide
+lang: "sv"
 date: 2026-02-20
 author: "Seedance Team"
 image: "https://img.seedance22.com/seedance/eedance-2-0-cover-3.png"
