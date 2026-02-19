@@ -43,10 +43,10 @@ const alternateLinks = Object.keys(languages).map((l) => {
   }
 
   // 构建新的链接前缀
-  // en -> /
+  // en -> 不加语言前缀（默认语言走根路径）
   // ja -> /ja
   const isRoot = currentPath === '/' || currentPath === '';
-  const prefix = l === 'en' ? (isRoot ? '' : '/en') : `/${l}`;
+  const prefix = l === 'en' ? '' : `/${l}`;
   
   // 拼接完整路径
   // 这里的 siteBase 保证了 new URL 永远不会报错
@@ -55,6 +55,9 @@ const alternateLinks = Object.keys(languages).map((l) => {
   const hreflang = localeMap[l] || l;
   return { lang: hreflang, href: new URL(fullPath, siteBase).toString() };
 });
+
+const defaultLocaleCode = localeMap['en'] || 'en';
+const xDefaultHref = (alternateLinks.find((l) => l.lang === defaultLocaleCode) ?? alternateLinks[0] ?? { href: canonicalURL.toString() }).href;
 
 const ogLocale = localeMap[lang] || (lang === 'en' ? 'en-US' : lang);
 ---
@@ -88,4 +91,4 @@ const ogLocale = localeMap[lang] || (lang === 'en' ? 'en-US' : lang);
 {alternateLinks.map((link) => (
   <link rel="alternate" hreflang={link.lang} href={link.href} />
 ))}
-<link rel="alternate" hreflang="x-default" href={alternateLinks.find(l => l.lang === 'en')?.href} />
+<link rel="alternate" hreflang="x-default" href={xDefaultHref} />
