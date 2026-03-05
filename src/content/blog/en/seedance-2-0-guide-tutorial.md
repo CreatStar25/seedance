@@ -2,7 +2,7 @@
 title: "Seedance 2.0 Complete Getting Started Guide: Master ByteDance's Latest AI Video Generation Powerhouse in 15 Minutes"
 description: "How to use ByteDance's newly released Seedance 2.0 AI video model? This article provides an in-depth analysis of Seedance 2.0's parameter limits, the universal prompt formula, and 5 core features including multi-image consistency, camera movement control, and style replication, helping you quickly generate high-quality AI short videos."
 pubDate: 2026-02-14
-coverImage: "https://img.seedance22.com/seedance/eedance-2-0-cover-4.png"
+image: "https://img.seedance22.com/seedance/eedance-2-0-cover-4.png"
 tags: ["Seedance 2.0", "AI Video Generation", "ByteDance", "Jimeng", "AI Tutorial"]
 lang: "en"
 author: "Seedance Team"

@@ -1,0 +1,36 @@
+---
+import { languages } from '../../i18n/locales';
+import SEOHead from '../../components/SEOHead.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+
+export async function getStaticPaths() {
+  return Object.keys(languages).filter((l) => l !== 'en').map((lang) => ({ params: { lang } }));
+}
+
+const { lang } = Astro.params;
+let t;
+try {
+  t = (await import(`../../i18n/${lang}.json`)).default;
+} catch {
+  t = (await import('../../i18n/en.json')).default;
+}
+if (!t.privacy) {
+  const en = (await import('../../i18n/en.json')).default;
+  t = { ...t, privacy: en.privacy };
+}
+---
+
+<html lang={lang} dir={['ar','fa'].includes(lang) ? 'rtl' : 'ltr'} class="scroll-smooth">
+  <head>
+    <SEOHead title={t.privacy?.title ?? 'Privacy'} description={t.privacy?.description ?? ''} lang={lang} />
+  </head>
+  <body class="bg-white text-gray-900 font-sans antialiased">
+    <Header lang={lang} t={t} />
+    <main class="max-w-3xl mx-auto px-4 sm:px-6 py-16">
+      <h1 class="text-3xl font-black text-gray-900 mb-6">{t.privacy?.heading ?? 'Privacy Policy'}</h1>
+      <p class="text-gray-600 leading-relaxed whitespace-pre-line">{t.privacy?.content ?? ''}</p>
+    </main>
+    <Footer lang={lang} t={t} />
+  </body>
+</html>

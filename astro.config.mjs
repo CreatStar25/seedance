@@ -14,6 +14,14 @@ export default defineConfig({
   integrations: [
     tailwind(),
     sitemap({
+      // 提高中文路径在 sitemap 中的优先级，便于百度/360 优先发现和收录
+      serialize(item) {
+        if (item.url && item.url.includes('/zh-cn/')) {
+          item.priority = 0.95;
+          item.changefreq = 'weekly';
+        }
+        return item;
+      },
       i18n: {
         defaultLocale: 'en',
         locales: {

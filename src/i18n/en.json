@@ -114,17 +114,50 @@
     ]
   },
   "footer": {
-    "product": {
-      "title": "Product",
-      "items": ["Text to Video", "Image to Video", "Video Editing", "Pricing"]
+    "brand": {
+      "title": "Seedance 2.0",
+      "intro": "The unified multimodal AI video generation platform. Empowering creators with director-level control and cinematic quality.",
+      "email": "starwk@gmx.com"
     },
-    "resources": {
-      "title": "Resources",
-      "items": ["Blog", "Community", "Help Center", "API Docs"]
+    "ai_tools": {
+      "title": "AI Tools",
+      "links": [
+        { "label": "LimaxAI", "href": "https://www.limaxai.com/" },
+        { "label": "Suno", "href": "https://suno.hk/" },
+        { "label": "deepseek 4", "href": "https://deepseek4.hk/" },
+        { "label": "Notebooklm", "href": "https://notebooklm.vip/" },
+        { "label": "Openclaw", "href": "https://openclawd.hk/" },
+        { "label": "Gemini 3.0", "href": "https://gemini3.hk/" }
+      ]
+    },
+    "ai_video": {
+      "title": "AI Video",
+      "links": [
+        { "label": "Seedance 2.0", "href": "https://seedance22.com/" },
+        { "label": "Seedance 1.5", "href": "https://seedance2.hk/" },
+        { "label": "Veo 3.1", "href": "https://veo3.hk/" },
+        { "label": "Veo 3", "href": "https://veo3.hk/" },
+        { "label": "Sora", "href": "https://www.limaxai.com/generate/video-tools/so" },
+        { "label": "Sora 2", "href": "https://www.limaxai.com/generate/video-tools/so" }
+      ]
+    },
+    "ai_image": {
+      "title": "AI Image",
+      "links": [
+        { "label": "Midjourney", "href": "https://www.limaxai.com/generate/image-tools/mjpro" },
+        { "label": "Nano Banana 2", "href": "https://nanobananapro.hk/" },
+        { "label": "Nano Banana Pro", "href": "https://nanobanana-pro.vip/" },
+        { "label": "Nano Banana 3", "href": "https://nanobanana3.top/" }
+      ]
     },
     "company": {
       "title": "Company",
-      "items": ["About Us", "Careers", "Contact", "Legal"]
+      "links": [
+        { "label": "Blog", "path": "blog" },
+        { "label": "About", "path": "about" },
+        { "label": "Privacy", "path": "privacy" },
+        { "label": "Terms", "path": "terms" }
+      ]
     },
     "copyright": "© 2026 Seedance AI. All rights reserved."
   },
@@ -152,5 +185,23 @@
   "blog": {
     "read": "Read Article →",
     "no_posts": "No posts found for this language yet."
+  },
+  "about": {
+    "title": "About",
+    "description": "About Seedance 2.0 - AI video generation platform.",
+    "heading": "About Seedance 2.0",
+    "content": "Seedance 2.0 is a unified multimodal AI video generation platform, empowering creators with director-level control and cinematic quality. We support text, image, audio, and video inputs for professional content creation."
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "description": "Privacy Policy for Seedance 2.0.",
+    "heading": "Privacy Policy",
+    "content": "We respect your privacy. This policy describes how we collect, use, and protect your information when you use our services. We use data to improve our AI video platform and to provide you with a better experience. We do not sell your personal information to third parties."
+  },
+  "terms": {
+    "title": "Terms of Service",
+    "description": "Terms of Service for Seedance 2.0.",
+    "heading": "Terms of Service",
+    "content": "By using Seedance 2.0, you agree to these terms. Our service is provided for lawful use. You retain rights to content you create; we may use anonymized data to improve our models. We reserve the right to update these terms; continued use constitutes acceptance."
   }
 }

@@ -110,116 +110,84 @@
     "copyright": "© 2026 Seedance AI. สงวนลิขสิทธิ์."
   },
   "features": {
-    "title": "Why Choose Seedance 2.0?",
-    "subtitle": "Break the boundaries of creativity with the most comprehensive multimodal content generation capabilities.",
+    "title": "ทำไมต้องเลือก Seedance 2.0?",
+    "subtitle": "ก้าวข้ามขีดจำกัดของความคิดสร้างสรรค์ด้วยความสามารถสร้างเนื้อหาหลายรูปแบบที่ครบวงจรที่สุด",
     "list": [
       {
-        "title": "Unified Multimodal Architecture",
-        "desc": "Supports text, image, audio, and video inputs. Integrated editing capabilities for seamless content creation."
+        "title": "สถาปัตยกรรมหลายรูปแบบแบบรวมศูนย์",
+        "desc": "รองรับข้อความ ภาพ เสียง และวิดีโอ การแก้ไขแบบบูรณาการเพื่อการสร้างเนื้อหาที่ราบรื่น"
       },
       {
-        "title": "Director-Level Control",
-        "desc": "Precise control over acting, lighting, and camera movement. Turn your creative vision into reality exactly as you imagined."
+        "title": "การควบคุมระดับผู้กำกับ",
+        "desc": "ควบคุมการแสดง แสง และการเคลื่อนกล้องอย่างแม่นยำ เปลี่ยนวิสัยทัศน์สร้างสรรค์เป็นจริงตามที่จินตนาการ"
       },
       {
-        "title": "Hyper-Realistic Quality",
-        "desc": "Exceptional motion stability and physical law adherence. Native audio-visual synchronization for immersive experiences."
+        "title": "คุณภาพเหนือจริง",
+        "desc": "ความเสถียรของการเคลื่อนไหวและปฏิบัติตามกฎฟิสิกส์ การซิงค์ภาพ-เสียงแบบเนทีฟเพื่อประสบการณ์ immersive"
       },
       {
-        "title": "Industrial Grade Workflow",
-        "desc": "Tailored for advertising, film, and social media. Output quality meets industrial delivery standards."
+        "title": "เวิร์กโฟลว์ระดับอุตสาหกรรม",
+        "desc": "เหมาะสำหรับโฆษณา ภาพยนตร์ และโซเชียล มีเดีย คุณภาพผลลัพธ์ตรงตามมาตรฐานการส่งมอบอุตสาหกรรม"
       }
     ]
   },
   "comparison": {
-    "title": "Seedance 2.0 vs. Others",
-    "headers": [
-      "Feature",
-      "Seedance 2.0",
-      "Other Models"
-    ],
+    "title": "Seedance 2.0 เทียบกับอื่นๆ",
+    "headers": ["ฟีเจอร์", "Seedance 2.0", "โมเดลอื่น"],
     "rows": [
-      {
-        "label": "Instruction Following",
-        "us": "✅ High Precision",
-        "others": "⚠️ Inconsistent"
-      },
-      {
-        "label": "Motion Quality",
-        "us": "✅ Smooth & Realistic",
-        "others": "❌ Jittery"
-      },
-      {
-        "label": "Multi-Shot Consistency",
-        "us": "✅ Coherent",
-        "others": "❌ Fragmented"
-      },
-      {
-        "label": "Audio-Visual Sync",
-        "us": "✅ Native Support",
-        "others": "❌ Separate Tools"
-      }
+      { "label": "การทำตามคำสั่ง", "us": "✅ ความแม่นยำสูง", "others": "⚠️ ไม่สม่ำเสมอ" },
+      { "label": "คุณภาพการเคลื่อนไหว", "us": "✅ ลื่นไหลและสมจริง", "others": "❌ สั่น" },
+      { "label": "ความสอดคล้องหลายช็อต", "us": "✅ สอดคล้อง", "others": "❌ กระจัดกระจาย" },
+      { "label": "ซิงค์ภาพ-เสียง", "us": "✅ รองรับเนทีฟ", "others": "❌ เครื่องมือแยก" }
     ]
   },
   "showcase": {
-    "title": "Limitless Creativity",
+    "title": "ความคิดสร้างสรรค์ไร้ขีดจำกัด",
     "items": [
-      {
-        "title": "Film Production",
-        "desc": "Generate storyboards and final shots."
-      },
-      {
-        "title": "Advertising",
-        "desc": "Create high-converting video ads in minutes."
-      },
-      {
-        "title": "Social Media",
-        "desc": "Viral content creation with ease."
-      },
-      {
-        "title": "Game Design",
-        "desc": "Cutscenes and character animations."
-      }
+      { "title": "การผลิตภาพยนตร์", "desc": "สร้างสตอรี่บอร์ดและช็อตสุดท้าย" },
+      { "title": "โฆษณา", "desc": "สร้างวิดีโอโฆษณา Conversion สูงในไม่กี่นาที" },
+      { "title": "โซเชียลมีเดีย", "desc": "สร้างคอนเทนต์ไวรัลได้ง่าย" },
+      { "title": "ออกแบบเกม", "desc": "คัตซีนและแอนิเมชันตัวละคร" }
     ]
   },
   "testimonials": {
-    "title": "Industry Acclaim",
+    "title": "การยอมรับจากอุตสาหกรรม",
     "list": [
       {
-        "review": "Seedance 2.0's controllability is a game changer. It's like having a virtual film crew.",
+        "review": "ความสามารถควบคุมได้ของ Seedance 2.0 เปลี่ยนเกม เหมือนมีทีมถ่ายแบบเสมือนจริง",
         "author": "Alex Rivera",
-        "role": "Film Director"
+        "role": "ผู้กำกับภาพยนตร์"
       },
       {
-        "review": "The video quality and stability are unmatched. Perfect for our high-end commercial projects.",
+        "review": "คุณภาพและความเสถียรของวิดีโอไม่มีใครเทียบ เหมาะกับโปรเจกต์เชิงพาณิชย์ระดับไฮเอนด์ของเรา",
         "author": "Jessica Wu",
-        "role": "Creative Director"
+        "role": "ครีเอทีฟไดเรกเตอร์"
       },
       {
-        "review": "Finally, an AI video tool that understands complex camera movements and lighting instructions.",
+        "review": "ในที่สุดก็มีเครื่องมือวิดีโอ AI ที่เข้าใจการเคลื่อนกล้องและคำสั่งแสงที่ซับซ้อน",
         "author": "David Chen",
-        "role": "VFX Artist"
+        "role": "ศิลปิน VFX"
       }
     ]
   },
   "faq": {
-    "title": "Frequently Asked Questions",
+    "title": "คำถามที่พบบ่อย",
     "items": [
       {
-        "q": "What is Seedance 2.0?",
-        "a": "Seedance 2.0 is a next-generation AI video model that generates high-quality videos from text, image, and audio inputs."
+        "q": "Seedance 2.0 คืออะไร?",
+        "a": "Seedance 2.0 คือโมเดลวิดีโอ AI รุ่นใหม่ที่สร้างวิดีโอคุณภาพสูงจากข้อความ ภาพ และเสียง"
       },
       {
-        "q": "Can I use Seedance for commercial projects?",
-        "a": "Yes, our pro plans include full commercial rights for all generated content."
+        "q": "ใช้ Seedance สำหรับโปรเจกต์เชิงพาณิชย์ได้ไหม?",
+        "a": "ได้ แผน Pro รวมสิทธิ์เชิงพาณิชย์เต็มสำหรับเนื้อหาที่สร้างทั้งหมด"
       },
       {
-        "q": "How does it compare to Sora or Kling?",
-        "a": "Seedance 2.0 excels in instruction following and motion stability, offering superior control for professional workflows."
+        "q": "เทียบกับ Sora หรือ Kling อย่างไร?",
+        "a": "Seedance 2.0 โดดเด่นในการทำตามคำสั่งและความเสถียรของการเคลื่อนไหว ให้การควบคุมที่ดีกว่าในเวิร์กโฟลว์มืออาชีพ"
       },
       {
-        "q": "Is there a free trial?",
-        "a": "Yes, you can try Seedance 2.0 for free with daily credits."
+        "q": "มีทดลองใช้ฟรีไหม?",
+        "a": "มี ทดลอง Seedance 2.0 ฟรีได้ด้วยเครดิตรายวัน"
       }
     ]
   },

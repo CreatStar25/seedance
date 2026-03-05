@@ -1,65 +1,116 @@
 ---
-const { t } = Astro.props;
+const { lang, t } = Astro.props;
+
+const defaultBrand = {
+  title: 'Seedance 2.0',
+  intro: 'The unified multimodal AI video generation platform. Empowering creators with director-level control and cinematic quality.',
+  email: 'starwk@gmx.com',
+};
+const defaultColumns = {
+  ai_tools: { title: 'AI Tools', links: [
+    { label: 'LimaxAI', href: 'https://www.limaxai.com/' },
+    { label: 'Suno', href: 'https://suno.hk/' },
+    { label: 'deepseek 4', href: 'https://deepseek4.hk/' },
+    { label: 'Notebooklm', href: 'https://notebooklm.vip/' },
+    { label: 'Openclaw', href: 'https://openclawd.hk/' },
+    { label: 'Gemini 3.0', href: 'https://gemini3.hk/' },
+  ]},
+  ai_video: { title: 'AI Video', links: [
+    { label: 'Seedance 2.0', href: 'https://seedance22.com/' },
+    { label: 'Seedance 1.5', href: 'https://seedance2.hk/' },
+    { label: 'Veo 3.1', href: 'https://veo3.hk/' },
+    { label: 'Veo 3', href: 'https://veo3.hk/' },
+    { label: 'Sora', href: 'https://www.limaxai.com/generate/video-tools/so' },
+    { label: 'Sora 2', href: 'https://www.limaxai.com/generate/video-tools/so' },
+  ]},
+  ai_image: { title: 'AI Image', links: [
+    { label: 'Midjourney', href: 'https://www.limaxai.com/generate/image-tools/mjpro' },
+    { label: 'Nano Banana 2', href: 'https://nanobananapro.hk/' },
+    { label: 'Nano Banana Pro', href: 'https://nanobanana-pro.vip/' },
+    { label: 'Nano Banana 3', href: 'https://nanobanana3.top/' },
+  ]},
+  company: { title: 'Company', links: [
+    { label: 'Blog', path: 'blog' },
+    { label: 'About', path: 'about' },
+    { label: 'Privacy', path: 'privacy' },
+    { label: 'Terms', path: 'terms' },
+  ]},
+};
+
+const brand = t.footer?.brand ?? defaultBrand;
+const aiTools = t.footer?.ai_tools ?? defaultColumns.ai_tools;
+const aiVideo = t.footer?.ai_video ?? defaultColumns.ai_video;
+const aiImage = t.footer?.ai_image ?? defaultColumns.ai_image;
+const company = t.footer?.company ?? defaultColumns.company;
+const copyright = t.footer?.copyright ?? '© 2026 Seedance AI. All rights reserved.';
+
+function companyHref(path: string) {
+  if (lang === 'en') return `/${path === 'blog' ? 'en/blog' : path}/`;
+  return `/${lang}/${path}/`;
+}
 ---
 
-<footer class="bg-black text-white border-t border-gray-900 font-sans">
-  <div class="max-w-7xl mx-auto px-6 py-12 md:py-20">
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-12 lg:gap-8">
-      
-      <div class="lg:col-span-2">
-        <a href="/" class="flex items-center gap-2 mb-6 group w-fit">
-          <div class="w-8 h-8 bg-yellow-400 rounded-lg rotate-3 group-hover:rotate-12 transition-transform duration-300"></div>
-          <span class="text-2xl font-black tracking-tighter text-white">Seed<span class="text-yellow-500">ance</span></span>
+<footer class="bg-gray-900 text-gray-300 font-sans border-t border-gray-800">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-16">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10 lg:gap-8">
+      <!-- 左侧：品牌区 -->
+      <div class="lg:col-span-1 flex flex-col">
+        <a href={lang === 'en' ? '/' : `/${lang}/`} class="flex items-center gap-2 mb-4 w-fit group">
+          <div class="w-10 h-10 bg-yellow-400 rounded-xl rotate-3 group-hover:rotate-12 transition-transform duration-300 shadow-lg"></div>
+          <span class="text-xl font-black tracking-tighter text-white">Seed<span class="text-yellow-500">ance</span></span>
         </a>
-        <p class="text-gray-400 text-sm leading-relaxed max-w-sm mb-8">
-          The unified multimodal AI video generation platform. 
-          Empowering creators with director-level control and cinematic quality.
-        </p>
-        <div class="flex gap-4">
-          <a href="#" class="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-yellow-500 hover:text-black transition-all">
-            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"/></svg>
-          </a>
-          <a href="#" class="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-yellow-500 hover:text-black transition-all">
-            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
-          </a>
+        <h2 class="text-lg font-bold text-white mb-2">{brand.title}</h2>
+        <p class="text-sm leading-relaxed max-w-xs mb-4">{brand.intro}</p>
+        <a href={`mailto:${brand.email}`} class="text-sm text-gray-400 hover:text-yellow-400 transition-colors">{brand.email}</a>
+      </div>
+
+      <!-- 右侧：四列导航 -->
+      <div class="lg:col-span-4 grid grid-cols-2 sm:grid-cols-4 gap-8 sm:gap-6">
+        <div>
+          <h3 class="font-bold text-lg text-white mb-4">{aiTools.title}</h3>
+          <ul class="space-y-3">
+            {(aiTools.links || []).map((link: { label: string; href: string }) => (
+              <li>
+                <a href={link.href} target="_blank" rel="noopener noreferrer" class="text-sm text-gray-400 hover:text-white transition-colors">{link.label}</a>
+              </li>
+            ))}
+          </ul>
+        </div>
+        <div>
+          <h3 class="font-bold text-lg text-white mb-4">{aiVideo.title}</h3>
+          <ul class="space-y-3">
+            {(aiVideo.links || []).map((link: { label: string; href: string }) => (
+              <li>
+                <a href={link.href} target="_blank" rel="noopener noreferrer" class="text-sm text-gray-400 hover:text-white transition-colors">{link.label}</a>
+              </li>
+            ))}
+          </ul>
+        </div>
+        <div>
+          <h3 class="font-bold text-lg text-white mb-4">{aiImage.title}</h3>
+          <ul class="space-y-3">
+            {(aiImage.links || []).map((link: { label: string; href: string }) => (
+              <li>
+                <a href={link.href} target="_blank" rel="noopener noreferrer" class="text-sm text-gray-400 hover:text-white transition-colors">{link.label}</a>
+              </li>
+            ))}
+          </ul>
+        </div>
+        <div>
+          <h3 class="font-bold text-lg text-white mb-4">{company.title}</h3>
+          <ul class="space-y-3">
+            {(company.links || []).map((link: { label: string; path: string }) => (
+              <li>
+                <a href={companyHref(link.path)} class="text-sm text-gray-400 hover:text-white transition-colors">{link.label}</a>
+              </li>
+            ))}
+          </ul>
         </div>
       </div>
-
-      <div>
-        <h3 class="font-bold text-lg mb-6 text-yellow-500">{t.footer?.product?.title || 'Product'}</h3>
-        <ul class="space-y-4">
-          {t.footer?.product?.items?.map(item => (
-            <li><a href="#" class="text-gray-400 hover:text-white transition-colors text-sm">{item}</a></li>
-          )) || <li>Loading...</li>}
-        </ul>
-      </div>
-
-      <div>
-        <h3 class="font-bold text-lg mb-6 text-yellow-500">{t.footer?.resources?.title || 'Resources'}</h3>
-        <ul class="space-y-4">
-          {t.footer?.resources?.items?.map(item => (
-             <li><a href="#" class="text-gray-400 hover:text-white transition-colors text-sm">{item}</a></li>
-          )) || <li>Loading...</li>}
-        </ul>
-      </div>
-
-      <div>
-        <h3 class="font-bold text-lg mb-6 text-yellow-500">{t.footer?.company?.title || 'Company'}</h3>
-        <ul class="space-y-4">
-           {t.footer?.company?.items?.map(item => (
-             <li><a href="#" class="text-gray-400 hover:text-white transition-colors text-sm">{item}</a></li>
-          )) || <li>Loading...</li>}
-        </ul>
-      </div>
-
     </div>
 
-    <div class="border-t border-gray-800 mt-16 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
-      <p class="text-gray-500 text-sm">{t.footer?.copyright || '© 2026 Nano Banana Inc.'}</p>
-      <div class="flex gap-6 text-sm text-gray-500">
-        <a href="#" class="hover:text-white transition-colors">Privacy Policy</a>
-        <a href="#" class="hover:text-white transition-colors">Terms of Service</a>
-      </div>
+    <div class="border-t border-gray-800 mt-12 pt-8">
+      <p class="text-sm text-gray-500">{copyright}</p>
     </div>
   </div>
 </footer>

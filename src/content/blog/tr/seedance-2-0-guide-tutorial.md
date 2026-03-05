@@ -2,7 +2,7 @@
 title: "Seedance 2.0 Tam Kılavuzu: ByteDance'ın En Yeni AI Video Oluşturma Harikasının Temel Özelliklerini 15 Dakikada Öğrenin"
 description: "ByteDance'ın yeni yayınladığı Seedance 2.0 AI video modeli nasıl kullanılır? Bu makale, Seedance 2.0'ın parametre sınırlarını, prompt'lar için evrensel formülü ve çoklu resim tutarlılığı, kamera hareketi kontrolü, stil taklidi gibi 5 temel özelliğini derinlemesine analiz ediyor, yüksek kaliteli AI kısa videolar hızlıca oluşturmanıza yardımcı oluyor."
 pubDate: 2026-02-14
-coverImage: "https://img.aixzip.com/blog/seedance-2-0-cover.jpg"
+image: "https://img.aixzip.com/blog/seedance-2-0-cover.jpg"
 tags: ["Seedance 2.0", "AI视频生成", "字节跳动", "即梦", "AI教程"]
 lang: "tr"
 author: "Seedance Team"

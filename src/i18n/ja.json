@@ -110,116 +110,84 @@
     "copyright": "© 2026 Seedance AI. All rights reserved."
   },
   "features": {
-    "title": "Why Choose Seedance 2.0?",
-    "subtitle": "Break the boundaries of creativity with the most comprehensive multimodal content generation capabilities.",
+    "title": "なぜ Seedance 2.0 を選ぶのか？",
+    "subtitle": "最も包括的なマルチモーダルコンテンツ生成で、クリエイティブの境界を超える。",
     "list": [
       {
-        "title": "Unified Multimodal Architecture",
-        "desc": "Supports text, image, audio, and video inputs. Integrated editing capabilities for seamless content creation."
+        "title": "統一マルチモーダルアーキテクチャ",
+        "desc": "テキスト・画像・音声・動画の入力をサポート。統合編集でシームレスなコンテンツ制作。"
       },
       {
-        "title": "Director-Level Control",
-        "desc": "Precise control over acting, lighting, and camera movement. Turn your creative vision into reality exactly as you imagined."
+        "title": "監督レベルの制御",
+        "desc": "演技・照明・カメラワークを精密にコントロール。想像どおりの映像を実現。"
       },
       {
-        "title": "Hyper-Realistic Quality",
-        "desc": "Exceptional motion stability and physical law adherence. Native audio-visual synchronization for immersive experiences."
+        "title": "ハイパーリアルな品質",
+        "desc": "優れたモーション安定性と物理法則の遵守。ネイティブ音声・映像同期で没入感。"
       },
       {
-        "title": "Industrial Grade Workflow",
-        "desc": "Tailored for advertising, film, and social media. Output quality meets industrial delivery standards."
+        "title": "産業グレードのワークフロー",
+        "desc": "広告・映画・SNS向け。出力品質は産業納品基準を満たします。"
       }
     ]
   },
   "comparison": {
-    "title": "Seedance 2.0 vs. Others",
-    "headers": [
-      "Feature",
-      "Seedance 2.0",
-      "Other Models"
-    ],
+    "title": "Seedance 2.0 vs. 他",
+    "headers": ["機能", "Seedance 2.0", "他モデル"],
     "rows": [
-      {
-        "label": "Instruction Following",
-        "us": "✅ High Precision",
-        "others": "⚠️ Inconsistent"
-      },
-      {
-        "label": "Motion Quality",
-        "us": "✅ Smooth & Realistic",
-        "others": "❌ Jittery"
-      },
-      {
-        "label": "Multi-Shot Consistency",
-        "us": "✅ Coherent",
-        "others": "❌ Fragmented"
-      },
-      {
-        "label": "Audio-Visual Sync",
-        "us": "✅ Native Support",
-        "others": "❌ Separate Tools"
-      }
+      { "label": "指示の遵守", "us": "✅ 高精度", "others": "⚠️ ばらつき" },
+      { "label": "モーション品質", "us": "✅ 滑らかでリアル", "others": "❌ ブレ" },
+      { "label": "マルチショット一貫性", "us": "✅ 一貫", "others": "❌ 断片的" },
+      { "label": "音声・映像同期", "us": "✅ ネイティブ対応", "others": "❌ 別ツール" }
     ]
   },
   "showcase": {
-    "title": "Limitless Creativity",
+    "title": "無限のクリエイティブ",
     "items": [
-      {
-        "title": "Film Production",
-        "desc": "Generate storyboards and final shots."
-      },
-      {
-        "title": "Advertising",
-        "desc": "Create high-converting video ads in minutes."
-      },
-      {
-        "title": "Social Media",
-        "desc": "Viral content creation with ease."
-      },
-      {
-        "title": "Game Design",
-        "desc": "Cutscenes and character animations."
-      }
+      { "title": "映画制作", "desc": "絵コンテと本番カットを生成。" },
+      { "title": "広告", "desc": "高コンバージョンの動画広告を数分で作成。" },
+      { "title": "ソーシャルメディア", "desc": "バズるコンテンツを手軽に制作。" },
+      { "title": "ゲームデザイン", "desc": "カットシーンとキャラクターアニメ。" }
     ]
   },
   "testimonials": {
-    "title": "Industry Acclaim",
+    "title": "業界の評価",
     "list": [
       {
-        "review": "Seedance 2.0's controllability is a game changer. It's like having a virtual film crew.",
+        "review": "Seedance 2.0 の制御性はゲームチェンジャー。仮想の撮影チームを持つようなものです。",
         "author": "Alex Rivera",
-        "role": "Film Director"
+        "role": "映画監督"
       },
       {
-        "review": "The video quality and stability are unmatched. Perfect for our high-end commercial projects.",
+        "review": "画質と安定性は他に類がありません。ハイエンド商業プロジェクトに最適です。",
         "author": "Jessica Wu",
-        "role": "Creative Director"
+        "role": "クリエイティブディレクター"
       },
       {
-        "review": "Finally, an AI video tool that understands complex camera movements and lighting instructions.",
+        "review": "複雑なカメラワークと照明指示を理解する AI 動画ツールがついに登場しました。",
         "author": "David Chen",
-        "role": "VFX Artist"
+        "role": "VFX アーティスト"
       }
     ]
   },
   "faq": {
-    "title": "Frequently Asked Questions",
+    "title": "よくある質問",
     "items": [
       {
-        "q": "What is Seedance 2.0?",
-        "a": "Seedance 2.0 is a next-generation AI video model that generates high-quality videos from text, image, and audio inputs."
+        "q": "Seedance 2.0 とは？",
+        "a": "Seedance 2.0 は、テキスト・画像・音声から高品質動画を生成する次世代 AI 動画モデルです。"
       },
       {
-        "q": "Can I use Seedance for commercial projects?",
-        "a": "Yes, our pro plans include full commercial rights for all generated content."
+        "q": "商用プロジェクトに使えますか？",
+        "a": "はい。Pro プランには生成コンテンツの商用利用権が含まれます。"
       },
       {
-        "q": "How does it compare to Sora or Kling?",
-        "a": "Seedance 2.0 excels in instruction following and motion stability, offering superior control for professional workflows."
+        "q": "Sora や Kling と比べてどうですか？",
+        "a": "Seedance 2.0 は指示遵守とモーション安定性に優れ、プロ向けワークフローに適した制御を提供します。"
       },
       {
-        "q": "Is there a free trial?",
-        "a": "Yes, you can try Seedance 2.0 for free with daily credits."
+        "q": "無料トライアルはありますか？",
+        "a": "はい。日次クレジットで Seedance 2.0 を無料でお試しいただけます。"
       }
     ]
   },

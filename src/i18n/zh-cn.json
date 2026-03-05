@@ -80,151 +80,155 @@
     }
   },
   "footer": {
-    "product": {
-      "title": "产品",
-      "items": [
-        "文生视频",
-        "图生视频",
-        "视频编辑",
-        "价格"
+    "brand": {
+      "title": "Seedance 2.0",
+      "intro": "统一多模态 AI 视频生成平台。为创作者提供导演级控制与电影级画质。",
+      "email": "starwk@gmx.com"
+    },
+    "ai_tools": {
+      "title": "AI 工具",
+      "links": [
+        { "label": "LimaxAI", "href": "https://www.limaxai.com/" },
+        { "label": "Suno", "href": "https://suno.hk/" },
+        { "label": "deepseek 4", "href": "https://deepseek4.hk/" },
+        { "label": "Notebooklm", "href": "https://notebooklm.vip/" },
+        { "label": "Openclaw", "href": "https://openclawd.hk/" },
+        { "label": "Gemini 3.0", "href": "https://gemini3.hk/" }
       ]
     },
-    "resources": {
-      "title": "资源",
-      "items": [
-        "博客",
-        "社区",
-        "帮助中心",
-        "API文档"
+    "ai_video": {
+      "title": "AI 视频",
+      "links": [
+        { "label": "Seedance 2.0", "href": "https://seedance22.com/" },
+        { "label": "Seedance 1.5", "href": "https://seedance2.hk/" },
+        { "label": "Veo 3.1", "href": "https://veo3.hk/" },
+        { "label": "Veo 3", "href": "https://veo3.hk/" },
+        { "label": "Sora", "href": "https://www.limaxai.com/generate/video-tools/so" },
+        { "label": "Sora 2", "href": "https://www.limaxai.com/generate/video-tools/so" }
+      ]
+    },
+    "ai_image": {
+      "title": "AI 图像",
+      "links": [
+        { "label": "Midjourney", "href": "https://www.limaxai.com/generate/image-tools/mjpro" },
+        { "label": "Nano Banana 2", "href": "https://nanobananapro.hk/" },
+        { "label": "Nano Banana Pro", "href": "https://nanobanana-pro.vip/" },
+        { "label": "Nano Banana 3", "href": "https://nanobanana3.top/" }
       ]
     },
     "company": {
       "title": "公司",
-      "items": [
-        "关于我们",
-        "招聘",
-        "联系方式",
-        "法律"
+      "links": [
+        { "label": "博客", "path": "blog" },
+        { "label": "关于", "path": "about" },
+        { "label": "隐私", "path": "privacy" },
+        { "label": "条款", "path": "terms" }
       ]
     },
     "copyright": "© 2026 Seedance AI. 保留所有权利。"
   },
   "features": {
-    "title": "Why Choose Seedance 2.0?",
-    "subtitle": "Break the boundaries of creativity with the most comprehensive multimodal content generation capabilities.",
+    "title": "为什么选择 Seedance 2.0？",
+    "subtitle": "以最全面的多模态内容生成能力突破创意边界。",
     "list": [
       {
-        "title": "Unified Multimodal Architecture",
-        "desc": "Supports text, image, audio, and video inputs. Integrated editing capabilities for seamless content creation."
+        "title": "统一多模态架构",
+        "desc": "支持文本、图像、音频与视频输入。集成编辑能力，无缝创作内容。"
       },
       {
-        "title": "Director-Level Control",
-        "desc": "Precise control over acting, lighting, and camera movement. Turn your creative vision into reality exactly as you imagined."
+        "title": "导演级控制",
+        "desc": "精准控制表演、灯光与运镜。将创意设想原样变为现实。"
       },
       {
-        "title": "Hyper-Realistic Quality",
-        "desc": "Exceptional motion stability and physical law adherence. Native audio-visual synchronization for immersive experiences."
+        "title": "超真实画质",
+        "desc": "出色的运动稳定性与物理规律遵循。原生音画同步，沉浸体验。"
       },
       {
-        "title": "Industrial Grade Workflow",
-        "desc": "Tailored for advertising, film, and social media. Output quality meets industrial delivery standards."
+        "title": "工业级工作流",
+        "desc": "面向广告、影视与社媒。输出质量满足工业交付标准。"
       }
     ]
   },
   "comparison": {
-    "title": "Seedance 2.0 vs. Others",
-    "headers": [
-      "Feature",
-      "Seedance 2.0",
-      "Other Models"
-    ],
+    "title": "Seedance 2.0 对比其他",
+    "headers": ["功能", "Seedance 2.0", "其他模型"],
     "rows": [
-      {
-        "label": "Instruction Following",
-        "us": "✅ High Precision",
-        "others": "⚠️ Inconsistent"
-      },
-      {
-        "label": "Motion Quality",
-        "us": "✅ Smooth & Realistic",
-        "others": "❌ Jittery"
-      },
-      {
-        "label": "Multi-Shot Consistency",
-        "us": "✅ Coherent",
-        "others": "❌ Fragmented"
-      },
-      {
-        "label": "Audio-Visual Sync",
-        "us": "✅ Native Support",
-        "others": "❌ Separate Tools"
-      }
+      { "label": "指令遵循", "us": "✅ 高精度", "others": "⚠️ 不稳定" },
+      { "label": "运动质量", "us": "✅ 流畅真实", "others": "❌ 抖动" },
+      { "label": "多镜头一致性", "us": "✅ 连贯", "others": "❌ 割裂" },
+      { "label": "音画同步", "us": "✅ 原生支持", "others": "❌ 需单独工具" }
     ]
   },
   "showcase": {
-    "title": "Limitless Creativity",
+    "title": "无限创意",
     "items": [
-      {
-        "title": "Film Production",
-        "desc": "Generate storyboards and final shots."
-      },
-      {
-        "title": "Advertising",
-        "desc": "Create high-converting video ads in minutes."
-      },
-      {
-        "title": "Social Media",
-        "desc": "Viral content creation with ease."
-      },
-      {
-        "title": "Game Design",
-        "desc": "Cutscenes and character animations."
-      }
+      { "title": "影视制作", "desc": "生成分镜与成片镜头。" },
+      { "title": "广告", "desc": "分钟级打造高转化视频广告。" },
+      { "title": "社交媒体", "desc": "轻松创作病毒式内容。" },
+      { "title": "游戏设计", "desc": "过场动画与角色动画。" }
     ]
   },
   "testimonials": {
-    "title": "Industry Acclaim",
+    "title": "行业认可",
     "list": [
       {
-        "review": "Seedance 2.0's controllability is a game changer. It's like having a virtual film crew.",
+        "review": "Seedance 2.0 的可控性改变游戏规则，就像拥有一支虚拟摄制组。",
         "author": "Alex Rivera",
-        "role": "Film Director"
+        "role": "电影导演"
       },
       {
-        "review": "The video quality and stability are unmatched. Perfect for our high-end commercial projects.",
+        "review": "画质与稳定性无可匹敌，非常适合我们的高端商业项目。",
         "author": "Jessica Wu",
-        "role": "Creative Director"
+        "role": "创意总监"
       },
       {
-        "review": "Finally, an AI video tool that understands complex camera movements and lighting instructions.",
+        "review": "终于有一款能理解复杂运镜与灯光指令的 AI 视频工具。",
         "author": "David Chen",
-        "role": "VFX Artist"
+        "role": "VFX 艺术家"
       }
     ]
   },
   "faq": {
-    "title": "Frequently Asked Questions",
+    "title": "常见问题",
     "items": [
       {
-        "q": "What is Seedance 2.0?",
-        "a": "Seedance 2.0 is a next-generation AI video model that generates high-quality videos from text, image, and audio inputs."
+        "q": "什么是 Seedance 2.0？",
+        "a": "Seedance 2.0 是下一代 AI 视频模型，可从文本、图像与音频生成高质量视频。"
       },
       {
-        "q": "Can I use Seedance for commercial projects?",
-        "a": "Yes, our pro plans include full commercial rights for all generated content."
+        "q": "能否用于商业项目？",
+        "a": "可以。专业版包含所生成内容的完整商业使用权。"
       },
       {
-        "q": "How does it compare to Sora or Kling?",
-        "a": "Seedance 2.0 excels in instruction following and motion stability, offering superior control for professional workflows."
+        "q": "与 Sora、Kling 相比如何？",
+        "a": "Seedance 2.0 在指令遵循与运动稳定性上更优，为专业工作流提供更强控制力。"
       },
       {
-        "q": "Is there a free trial?",
-        "a": "Yes, you can try Seedance 2.0 for free with daily credits."
+        "q": "有免费试用吗？",
+        "a": "有。可使用每日额度免费体验 Seedance 2.0。"
       }
     ]
   },
   "blog": {
     "read": "Read Article →",
     "no_posts": "No posts found for this language yet."
+  },
+  "about": {
+    "title": "关于",
+    "description": "关于 Seedance 2.0 - AI 视频生成平台。",
+    "heading": "关于 Seedance 2.0",
+    "content": "Seedance 2.0 是统一多模态 AI 视频生成平台，为创作者提供导演级控制与电影级画质。我们支持文本、图像、音频与视频输入，用于专业内容创作。"
+  },
+  "privacy": {
+    "title": "隐私政策",
+    "description": "Seedance 2.0 隐私政策。",
+    "heading": "隐私政策",
+    "content": "我们尊重您的隐私。本政策说明我们如何收集、使用与保护您在使用我们服务时的信息。我们使用数据以改进 AI 视频平台并为您提供更好体验。我们不会向第三方出售您的个人信息。"
+  },
+  "terms": {
+    "title": "服务条款",
+    "description": "Seedance 2.0 服务条款。",
+    "heading": "服务条款",
+    "content": "使用 Seedance 2.0 即表示您同意本条款。我们的服务仅供合法使用。您保留所创作内容的权利；我们可能使用匿名数据改进模型。我们保留更新本条款的权利；继续使用即视为接受。"
   }
 }

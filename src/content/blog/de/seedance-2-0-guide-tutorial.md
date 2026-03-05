@@ -2,7 +2,7 @@
 title: "Seedance 2.0 Vollständige Anleitung: In 15 Minuten die Kernfunktionen von Bytechances neuestem KI-Videogenerator meistern"
 description: "Wie verwendet man Bytechances neuestes KI-Videomodell Seedance 2.0? Dieser Artikel analysiert tiefgehend die Parameterbeschränkungen, die universelle Prompt-Formel sowie die 5 Kernfunktionen wie Multi-Bild-Konsistenz, Kamerabewegungskontrolle und Stilreplikation von Seedance 2.0, um Ihnen zu helfen, schnell hochwertige KI-Kurzvideos zu erstellen."
 pubDate: 2026-02-14
-coverImage: "https://img.aixzip.com/blog/seedance-2-0-cover.jpg"
+image: "https://img.aixzip.com/blog/seedance-2-0-cover.jpg"
 tags: ["Seedance 2.0", "AI视频生成", "字节跳动", "即梦", "AI教程"]
 lang: "de"
 author: "Seedance Team"

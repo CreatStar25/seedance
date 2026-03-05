@@ -110,116 +110,84 @@
     "copyright": "© 2026 Seedance AI. 保留所有權利。"
   },
   "features": {
-    "title": "Why Choose Seedance 2.0?",
-    "subtitle": "Break the boundaries of creativity with the most comprehensive multimodal content generation capabilities.",
+    "title": "為什麼選擇 Seedance 2.0？",
+    "subtitle": "以最全面的多模態內容生成能力突破創意邊界。",
     "list": [
       {
-        "title": "Unified Multimodal Architecture",
-        "desc": "Supports text, image, audio, and video inputs. Integrated editing capabilities for seamless content creation."
+        "title": "統一多模態架構",
+        "desc": "支援文字、圖像、音訊與影片輸入。整合編輯能力，無縫創作內容。"
       },
       {
-        "title": "Director-Level Control",
-        "desc": "Precise control over acting, lighting, and camera movement. Turn your creative vision into reality exactly as you imagined."
+        "title": "導演級控制",
+        "desc": "精準控制表演、燈光與運鏡。將創意設想原樣化為現實。"
       },
       {
-        "title": "Hyper-Realistic Quality",
-        "desc": "Exceptional motion stability and physical law adherence. Native audio-visual synchronization for immersive experiences."
+        "title": "超真實畫質",
+        "desc": "出色的運動穩定性與物理規律遵循。原生音畫同步，沉浸體驗。"
       },
       {
-        "title": "Industrial Grade Workflow",
-        "desc": "Tailored for advertising, film, and social media. Output quality meets industrial delivery standards."
+        "title": "工業級工作流",
+        "desc": "面向廣告、影視與社媒。輸出品質滿足工業交付標準。"
       }
     ]
   },
   "comparison": {
-    "title": "Seedance 2.0 vs. Others",
-    "headers": [
-      "Feature",
-      "Seedance 2.0",
-      "Other Models"
-    ],
+    "title": "Seedance 2.0 對比其他",
+    "headers": ["功能", "Seedance 2.0", "其他模型"],
     "rows": [
-      {
-        "label": "Instruction Following",
-        "us": "✅ High Precision",
-        "others": "⚠️ Inconsistent"
-      },
-      {
-        "label": "Motion Quality",
-        "us": "✅ Smooth & Realistic",
-        "others": "❌ Jittery"
-      },
-      {
-        "label": "Multi-Shot Consistency",
-        "us": "✅ Coherent",
-        "others": "❌ Fragmented"
-      },
-      {
-        "label": "Audio-Visual Sync",
-        "us": "✅ Native Support",
-        "others": "❌ Separate Tools"
-      }
+      { "label": "指令遵循", "us": "✅ 高精度", "others": "⚠️ 不穩定" },
+      { "label": "運動品質", "us": "✅ 流暢真實", "others": "❌ 抖動" },
+      { "label": "多鏡頭一致性", "us": "✅ 連貫", "others": "❌ 割裂" },
+      { "label": "音畫同步", "us": "✅ 原生支援", "others": "❌ 需單獨工具" }
     ]
   },
   "showcase": {
-    "title": "Limitless Creativity",
+    "title": "無限創意",
     "items": [
-      {
-        "title": "Film Production",
-        "desc": "Generate storyboards and final shots."
-      },
-      {
-        "title": "Advertising",
-        "desc": "Create high-converting video ads in minutes."
-      },
-      {
-        "title": "Social Media",
-        "desc": "Viral content creation with ease."
-      },
-      {
-        "title": "Game Design",
-        "desc": "Cutscenes and character animations."
-      }
+      { "title": "影視製作", "desc": "生成分鏡與成片鏡頭。" },
+      { "title": "廣告", "desc": "分鐘級打造高轉化影片廣告。" },
+      { "title": "社群媒體", "desc": "輕鬆創作病毒式內容。" },
+      { "title": "遊戲設計", "desc": "過場動畫與角色動畫。" }
     ]
   },
   "testimonials": {
-    "title": "Industry Acclaim",
+    "title": "業界認可",
     "list": [
       {
-        "review": "Seedance 2.0's controllability is a game changer. It's like having a virtual film crew.",
+        "review": "Seedance 2.0 的可控性改變遊戲規則，就像擁有一支虛擬攝製組。",
         "author": "Alex Rivera",
-        "role": "Film Director"
+        "role": "電影導演"
       },
       {
-        "review": "The video quality and stability are unmatched. Perfect for our high-end commercial projects.",
+        "review": "畫質與穩定性無可匹敵，非常適合我們的高端商業專案。",
         "author": "Jessica Wu",
-        "role": "Creative Director"
+        "role": "創意總監"
       },
       {
-        "review": "Finally, an AI video tool that understands complex camera movements and lighting instructions.",
+        "review": "終於有一款能理解複雜運鏡與燈光指令的 AI 影片工具。",
         "author": "David Chen",
-        "role": "VFX Artist"
+        "role": "VFX 藝術家"
       }
     ]
   },
   "faq": {
-    "title": "Frequently Asked Questions",
+    "title": "常見問題",
     "items": [
       {
-        "q": "What is Seedance 2.0?",
-        "a": "Seedance 2.0 is a next-generation AI video model that generates high-quality videos from text, image, and audio inputs."
+        "q": "什麼是 Seedance 2.0？",
+        "a": "Seedance 2.0 是下一代 AI 影片模型，可從文字、圖像與音訊生成高品質影片。"
       },
       {
-        "q": "Can I use Seedance for commercial projects?",
-        "a": "Yes, our pro plans include full commercial rights for all generated content."
+        "q": "能否用於商業專案？",
+        "a": "可以。專業版包含所生成內容的完整商業使用權。"
       },
       {
-        "q": "How does it compare to Sora or Kling?",
-        "a": "Seedance 2.0 excels in instruction following and motion stability, offering superior control for professional workflows."
+        "q": "與 Sora、Kling 相比如何？",
+        "a": "Seedance 2.0 在指令遵循與運動穩定性上更優，為專業工作流提供更強控制力。"
       },
       {
-        "q": "Is there a free trial?",
-        "a": "Yes, you can try Seedance 2.0 for free with daily credits."
+        "q": "有免費試用嗎？",
+        "a": "有。可使用每日額度免費體驗 Seedance 2.0。"
       }
     ]
   },

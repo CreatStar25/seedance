@@ -2,7 +2,7 @@
 title: "Ghid complet pentru Seedance 2.0: Stăpânește funcțiile esențiale ale noului instrument de generare video AI de la ByteDance în 15 minute"
 description: "Cum se folosește noul model AI video Seedance 2.0 lansat de ByteDance? Acest articol analizează în profunzime limitele parametrilor, formula universală pentru prompturi și cele 5 funcții esențiale ale Seedance 2.0, precum consistența multi-imagine, controlul mișcării camerei și replicarea stilului, pentru a te ajuta să generezi rapid videoclipuri AI de înaltă calitate."
 pubDate: 2026-02-14
-coverImage: "https://img.aixzip.com/blog/seedance-2-0-cover.jpg"
+image: "https://img.aixzip.com/blog/seedance-2-0-cover.jpg"
 tags: ["Seedance 2.0", "AI视频生成", "字节跳动", "即梦", "AI教程"]
 lang: "ro"
 author: "Seedance Team"

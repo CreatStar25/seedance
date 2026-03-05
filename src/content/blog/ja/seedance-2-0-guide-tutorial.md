@@ -2,7 +2,7 @@
 title: "Seedance 2.0 完全マスターガイド：15分でByteDance最新AI動画生成ツールの核心機能を習得"
 description: "ByteDanceが発表した最新AI動画モデルSeedance 2.0の使い方は？本記事では、Seedance 2.0のパラメータ制限、プロンプト万能公式、およびマルチ画像一貫性、カメラワーク制御、スタイル複製など5つの核心機能を深く解説し、高品質なAIショート動画を素早く生成するお手伝いをします。"
 pubDate: 2026-02-14
-coverImage: "https://img.aixzip.com/blog/seedance-2-0-cover.jpg"
+image: "https://img.aixzip.com/blog/seedance-2-0-cover.jpg"
 tags: ["Seedance 2.0", "AI動画生成", "ByteDance", "即夢", "AIチュートリアル"]
 lang: "ja"
 author: "Seedance Team"

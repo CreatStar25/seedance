@@ -110,116 +110,84 @@
     "copyright": "© 2026 Seedance AI. Đã đăng ký bản quyền."
   },
   "features": {
-    "title": "Why Choose Seedance 2.0?",
-    "subtitle": "Break the boundaries of creativity with the most comprehensive multimodal content generation capabilities.",
+    "title": "Tại sao chọn Seedance 2.0?",
+    "subtitle": "Phá vỡ giới hạn sáng tạo với khả năng tạo nội dung đa phương thức toàn diện nhất.",
     "list": [
       {
-        "title": "Unified Multimodal Architecture",
-        "desc": "Supports text, image, audio, and video inputs. Integrated editing capabilities for seamless content creation."
+        "title": "Kiến trúc đa phương thức thống nhất",
+        "desc": "Hỗ trợ đầu vào văn bản, hình ảnh, âm thanh và video. Khả năng chỉnh sửa tích hợp để tạo nội dung liền mạch."
       },
       {
-        "title": "Director-Level Control",
-        "desc": "Precise control over acting, lighting, and camera movement. Turn your creative vision into reality exactly as you imagined."
+        "title": "Kiểm soát cấp đạo diễn",
+        "desc": "Kiểm soát chính xác diễn xuất, ánh sáng và chuyển động máy quay. Biến tầm nhìn sáng tạo thành hiện thực đúng như bạn tưởng tượng."
       },
       {
-        "title": "Hyper-Realistic Quality",
-        "desc": "Exceptional motion stability and physical law adherence. Native audio-visual synchronization for immersive experiences."
+        "title": "Chất lượng siêu chân thực",
+        "desc": "Độ ổn định chuyển động và tuân thủ quy luật vật lý vượt trội. Đồng bộ âm thanh-hình ảnh gốc cho trải nghiệm sống động."
       },
       {
-        "title": "Industrial Grade Workflow",
-        "desc": "Tailored for advertising, film, and social media. Output quality meets industrial delivery standards."
+        "title": "Quy trình cấp công nghiệp",
+        "desc": "Phù hợp quảng cáo, điện ảnh và mạng xã hội. Chất lượng đầu ra đáp ứng tiêu chuẩn giao hàng công nghiệp."
       }
     ]
   },
   "comparison": {
-    "title": "Seedance 2.0 vs. Others",
-    "headers": [
-      "Feature",
-      "Seedance 2.0",
-      "Other Models"
-    ],
+    "title": "Seedance 2.0 so với các nền tảng khác",
+    "headers": ["Tính năng", "Seedance 2.0", "Mô hình khác"],
     "rows": [
-      {
-        "label": "Instruction Following",
-        "us": "✅ High Precision",
-        "others": "⚠️ Inconsistent"
-      },
-      {
-        "label": "Motion Quality",
-        "us": "✅ Smooth & Realistic",
-        "others": "❌ Jittery"
-      },
-      {
-        "label": "Multi-Shot Consistency",
-        "us": "✅ Coherent",
-        "others": "❌ Fragmented"
-      },
-      {
-        "label": "Audio-Visual Sync",
-        "us": "✅ Native Support",
-        "others": "❌ Separate Tools"
-      }
+      { "label": "Tuân thủ chỉ dẫn", "us": "✅ Độ chính xác cao", "others": "⚠️ Không ổn định" },
+      { "label": "Chất lượng chuyển động", "us": "✅ Mượt và chân thực", "others": "❌ Rung giật" },
+      { "label": "Nhất quán đa cảnh", "us": "✅ Mạch lạc", "others": "❌ Rời rạc" },
+      { "label": "Đồng bộ âm thanh-hình ảnh", "us": "✅ Hỗ trợ gốc", "others": "❌ Công cụ riêng" }
     ]
   },
   "showcase": {
-    "title": "Limitless Creativity",
+    "title": "Sáng tạo không giới hạn",
     "items": [
-      {
-        "title": "Film Production",
-        "desc": "Generate storyboards and final shots."
-      },
-      {
-        "title": "Advertising",
-        "desc": "Create high-converting video ads in minutes."
-      },
-      {
-        "title": "Social Media",
-        "desc": "Viral content creation with ease."
-      },
-      {
-        "title": "Game Design",
-        "desc": "Cutscenes and character animations."
-      }
+      { "title": "Sản xuất phim", "desc": "Tạo phân cảnh và cảnh quay cuối cùng." },
+      { "title": "Quảng cáo", "desc": "Tạo quảng cáo video chuyển đổi cao trong vài phút." },
+      { "title": "Mạng xã hội", "desc": "Tạo nội dung viral dễ dàng." },
+      { "title": "Thiết kế game", "desc": "Cảnh cắt và hoạt hình nhân vật." }
     ]
   },
   "testimonials": {
-    "title": "Industry Acclaim",
+    "title": "Đánh giá từ ngành",
     "list": [
       {
-        "review": "Seedance 2.0's controllability is a game changer. It's like having a virtual film crew.",
+        "review": "Khả năng kiểm soát của Seedance 2.0 thay đổi cuộc chơi. Giống như có một đoàn làm phim ảo.",
         "author": "Alex Rivera",
-        "role": "Film Director"
+        "role": "Đạo diễn phim"
       },
       {
-        "review": "The video quality and stability are unmatched. Perfect for our high-end commercial projects.",
+        "review": "Chất lượng và độ ổn định video không ai sánh bằng. Hoàn hảo cho dự án thương mại cao cấp của chúng tôi.",
         "author": "Jessica Wu",
-        "role": "Creative Director"
+        "role": "Giám đốc sáng tạo"
       },
       {
-        "review": "Finally, an AI video tool that understands complex camera movements and lighting instructions.",
+        "review": "Cuối cùng đã có công cụ video AI hiểu chuyển động máy quay và chỉ dẫn ánh sáng phức tạp.",
         "author": "David Chen",
-        "role": "VFX Artist"
+        "role": "Nghệ sĩ VFX"
       }
     ]
   },
   "faq": {
-    "title": "Frequently Asked Questions",
+    "title": "Câu hỏi thường gặp",
     "items": [
       {
-        "q": "What is Seedance 2.0?",
-        "a": "Seedance 2.0 is a next-generation AI video model that generates high-quality videos from text, image, and audio inputs."
+        "q": "Seedance 2.0 là gì?",
+        "a": "Seedance 2.0 là mô hình video AI thế hệ mới tạo video chất lượng cao từ văn bản, hình ảnh và âm thanh."
       },
       {
-        "q": "Can I use Seedance for commercial projects?",
-        "a": "Yes, our pro plans include full commercial rights for all generated content."
+        "q": "Tôi có thể dùng Seedance cho dự án thương mại không?",
+        "a": "Có. Gói pro bao gồm quyền thương mại đầy đủ cho mọi nội dung tạo ra."
       },
       {
-        "q": "How does it compare to Sora or Kling?",
-        "a": "Seedance 2.0 excels in instruction following and motion stability, offering superior control for professional workflows."
+        "q": "So với Sora hay Kling thì sao?",
+        "a": "Seedance 2.0 vượt trội về tuân thủ chỉ dẫn và độ ổn định chuyển động, mang lại kiểm soát cao hơn cho quy trình chuyên nghiệp."
       },
       {
-        "q": "Is there a free trial?",
-        "a": "Yes, you can try Seedance 2.0 for free with daily credits."
+        "q": "Có bản dùng thử miễn phí không?",
+        "a": "Có. Bạn có thể dùng thử Seedance 2.0 miễn phí với credit hàng ngày."
       }
     ]
   },

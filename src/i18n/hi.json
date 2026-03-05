@@ -110,116 +110,84 @@
     "copyright": "© 2026 Seedance AI. सर्वाधिकार सुरक्षित।"
   },
   "features": {
-    "title": "Why Choose Seedance 2.0?",
-    "subtitle": "Break the boundaries of creativity with the most comprehensive multimodal content generation capabilities.",
+    "title": "Seedance 2.0 क्यों चुनें?",
+    "subtitle": "सबसे व्यापक मल्टीमॉडल कंटेंट जनरेशन क्षमताओं से रचनात्मकता की सीमाओं को तोड़ें।",
     "list": [
       {
-        "title": "Unified Multimodal Architecture",
-        "desc": "Supports text, image, audio, and video inputs. Integrated editing capabilities for seamless content creation."
+        "title": "एकीकृत मल्टीमॉडल आर्किटेक्चर",
+        "desc": "टेक्स्ट, इमेज, ऑडियो और वीडियो इनपुट का समर्थन। सहज कंटेंट निर्माण के लिए एकीकृत एडिटिंग।"
       },
       {
-        "title": "Director-Level Control",
-        "desc": "Precise control over acting, lighting, and camera movement. Turn your creative vision into reality exactly as you imagined."
+        "title": "निर्देशक-स्तरीय नियंत्रण",
+        "desc": "अभिनय, लाइटिंग और कैमरा मूवमेंट पर सटीक नियंत्रण। आपकी कल्पना को वैसा ही हकीकत में।"
       },
       {
-        "title": "Hyper-Realistic Quality",
-        "desc": "Exceptional motion stability and physical law adherence. Native audio-visual synchronization for immersive experiences."
+        "title": "हाइपर-यथार्थवादी गुणवत्ता",
+        "desc": "उत्कृष्ट मोशन स्थिरता और भौतिक नियम अनुपालन। इमर्सिव अनुभव के लिए नेटिव ऑडियो-विज़ुअल सिंक।"
       },
       {
-        "title": "Industrial Grade Workflow",
-        "desc": "Tailored for advertising, film, and social media. Output quality meets industrial delivery standards."
+        "title": "औद्योगिक ग्रेड वर्कफ़्लो",
+        "desc": "विज्ञापन, फिल्म और सोशल मीडिया के लिए। आउटपुट गुणवत्ता औद्योगिक डिलीवरी मानकों को पूरा करती है।"
       }
     ]
   },
   "comparison": {
-    "title": "Seedance 2.0 vs. Others",
-    "headers": [
-      "Feature",
-      "Seedance 2.0",
-      "Other Models"
-    ],
+    "title": "Seedance 2.0 बनाम अन्य",
+    "headers": ["फीचर", "Seedance 2.0", "अन्य मॉडल"],
     "rows": [
-      {
-        "label": "Instruction Following",
-        "us": "✅ High Precision",
-        "others": "⚠️ Inconsistent"
-      },
-      {
-        "label": "Motion Quality",
-        "us": "✅ Smooth & Realistic",
-        "others": "❌ Jittery"
-      },
-      {
-        "label": "Multi-Shot Consistency",
-        "us": "✅ Coherent",
-        "others": "❌ Fragmented"
-      },
-      {
-        "label": "Audio-Visual Sync",
-        "us": "✅ Native Support",
-        "others": "❌ Separate Tools"
-      }
+      { "label": "निर्देश अनुपालन", "us": "✅ उच्च सटीकता", "others": "⚠️ असंगत" },
+      { "label": "मोशन क्वालिटी", "us": "✅ स्मूद और यथार्थवादी", "others": "❌ कंपकंपी" },
+      { "label": "मल्टी-शॉट स्थिरता", "us": "✅ सुसंगत", "others": "❌ खंडित" },
+      { "label": "ऑडियो-विज़ुअल सिंक", "us": "✅ नेटिव सपोर्ट", "others": "❌ अलग टूल्स" }
     ]
   },
   "showcase": {
-    "title": "Limitless Creativity",
+    "title": "असीम रचनात्मकता",
     "items": [
-      {
-        "title": "Film Production",
-        "desc": "Generate storyboards and final shots."
-      },
-      {
-        "title": "Advertising",
-        "desc": "Create high-converting video ads in minutes."
-      },
-      {
-        "title": "Social Media",
-        "desc": "Viral content creation with ease."
-      },
-      {
-        "title": "Game Design",
-        "desc": "Cutscenes and character animations."
-      }
+      { "title": "फिल्म निर्माण", "desc": "स्टोरीबोर्ड और फाइनल शॉट जनरेट करें।" },
+      { "title": "विज्ञापन", "desc": "मिनटों में हाई-कन्वर्ज़न वीडियो ऐड बनाएं।" },
+      { "title": "सोशल मीडिया", "desc": "आसानी से वायरल कंटेंट बनाएं।" },
+      { "title": "गेम डिज़ाइन", "desc": "कटसीन और कैरेक्टर एनिमेशन।" }
     ]
   },
   "testimonials": {
-    "title": "Industry Acclaim",
+    "title": "उद्योग की प्रशंसा",
     "list": [
       {
-        "review": "Seedance 2.0's controllability is a game changer. It's like having a virtual film crew.",
+        "review": "Seedance 2.0 की नियंत्रणीयता गेम-चेंजर है। जैसे वर्चुअल फिल्म क्रू हो।",
         "author": "Alex Rivera",
-        "role": "Film Director"
+        "role": "फिल्म निर्देशक"
       },
       {
-        "review": "The video quality and stability are unmatched. Perfect for our high-end commercial projects.",
+        "review": "वीडियो क्वालिटी और स्थिरता बेजोड़। हमारे हाई-एंड कॉमर्शियल प्रोजेक्ट्स के लिए परफेक्ट।",
         "author": "Jessica Wu",
-        "role": "Creative Director"
+        "role": "क्रिएटिव डायरेक्टर"
       },
       {
-        "review": "Finally, an AI video tool that understands complex camera movements and lighting instructions.",
+        "review": "आखिरकार एक AI वीडियो टूल जो जटिल कैमरा मूवमेंट और लाइटिंग निर्देश समझता है।",
         "author": "David Chen",
-        "role": "VFX Artist"
+        "role": "VFX आर्टिस्ट"
       }
     ]
   },
   "faq": {
-    "title": "Frequently Asked Questions",
+    "title": "अक्सर पूछे जाने वाले प्रश्न",
     "items": [
       {
-        "q": "What is Seedance 2.0?",
-        "a": "Seedance 2.0 is a next-generation AI video model that generates high-quality videos from text, image, and audio inputs."
+        "q": "Seedance 2.0 क्या है?",
+        "a": "Seedance 2.0 अगली पीढ़ी का AI वीडियो मॉडल है जो टेक्स्ट, इमेज और ऑडियो से हाई-क्वालिटी वीडियो जनरेट करता है।"
       },
       {
-        "q": "Can I use Seedance for commercial projects?",
-        "a": "Yes, our pro plans include full commercial rights for all generated content."
+        "q": "क्या मैं कॉमर्शियल प्रोजेक्ट्स के लिए Seedance इस्तेमाल कर सकता हूं?",
+        "a": "हां। हमारे प्रो प्लान में सभी जनरेटेड कंटेंट के लिए पूर्ण कॉमर्शियल अधिकार शामिल हैं।"
       },
       {
-        "q": "How does it compare to Sora or Kling?",
-        "a": "Seedance 2.0 excels in instruction following and motion stability, offering superior control for professional workflows."
+        "q": "Sora या Kling से तुलना कैसी?",
+        "a": "Seedance 2.0 निर्देश अनुपालन और मोशन स्थिरता में बेहतर है, प्रोफेशनल वर्कफ़्लो के लिए श्रेष्ठ नियंत्रण देता है।"
       },
       {
-        "q": "Is there a free trial?",
-        "a": "Yes, you can try Seedance 2.0 for free with daily credits."
+        "q": "क्या फ्री ट्रायल है?",
+        "a": "हां। दैनिक क्रेडिट के साथ Seedance 2.0 मुफ्त में ट्राय कर सकते हैं।"
       }
     ]
   },

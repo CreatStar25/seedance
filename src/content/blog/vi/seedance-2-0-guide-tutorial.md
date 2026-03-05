@@ -2,7 +2,7 @@
 title: "Hướng Dẫn Toàn Diện Seedance 2.0: Nắm Vững 5 Tính Năng Cốt Lõi Của Công Cụ Tạo Video AI Mới Nhất Từ ByteDance Trong 15 Phút"
 description: "Cách sử dụng mô hình AI tạo video Seedance 2.0 mới nhất của ByteDance? Bài viết phân tích sâu về giới hạn tham số, công thức gợi ý vạn năng và 5 tính năng cốt lõi như tính nhất quán đa ảnh, điều khiển chuyển động máy quay, sao chép phong cách của Seedance 2.0, giúp bạn nhanh chóng tạo ra video AI chất lượng cao."
 pubDate: 2026-02-14
-coverImage: "https://img.aixzip.com/blog/seedance-2-0-cover.jpg"
+image: "https://img.aixzip.com/blog/seedance-2-0-cover.jpg"
 tags: ["Seedance 2.0", "AI视频生成", "字节跳动", "即梦", "AI教程"]
 lang: "vi"
 author: "Seedance Team"

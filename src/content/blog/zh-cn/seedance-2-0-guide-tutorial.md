@@ -2,7 +2,7 @@
 title: "Seedance 2.0 完全上手指南：15分钟掌握字节跳动最新AI视频生成神器的核心功能"
 description: "字节跳动最新发布的Seedance 2.0 AI视频模型怎么用？本文深度解析Seedance 2.0的参数限制、提示词万能公式以及多图一致性、运镜控制、风格复刻等5大核心功能，助你快速生成高质量AI短视频。"
 pubDate: 2026-02-14
-coverImage: "https://img.aixzip.com/blog/seedance-2-0-cover.jpg"
+image: "https://img.aixzip.com/blog/seedance-2-0-cover.jpg"
 tags: ["Seedance 2.0", "AI视频生成", "字节跳动", "即梦", "AI教程"]
 lang: "zh-cn"
 author: "Seedance Team"

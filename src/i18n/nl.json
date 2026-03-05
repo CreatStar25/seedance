@@ -110,116 +110,84 @@
     "copyright": "© 2026 Seedance AI. Alle rechten voorbehouden."
   },
   "features": {
-    "title": "Why Choose Seedance 2.0?",
-    "subtitle": "Break the boundaries of creativity with the most comprehensive multimodal content generation capabilities.",
+    "title": "Waarom Seedance 2.0?",
+    "subtitle": "Doorbreek de grenzen van creativiteit met de meest uitgebreide multimodale contentgeneratie.",
     "list": [
       {
-        "title": "Unified Multimodal Architecture",
-        "desc": "Supports text, image, audio, and video inputs. Integrated editing capabilities for seamless content creation."
+        "title": "Verenigde multimodale architectuur",
+        "desc": "Ondersteunt tekst-, beeld-, audio- en video-input. Geïntegreerde bewerking voor naadloze contentcreatie."
       },
       {
-        "title": "Director-Level Control",
-        "desc": "Precise control over acting, lighting, and camera movement. Turn your creative vision into reality exactly as you imagined."
+        "title": "Regisseursniveau-controle",
+        "desc": "Precieze controle over acteren, belichting en camerabeweging. Je creatieve visie exact zoals je je voorstelde."
       },
       {
-        "title": "Hyper-Realistic Quality",
-        "desc": "Exceptional motion stability and physical law adherence. Native audio-visual synchronization for immersive experiences."
+        "title": "Hyperrealistische kwaliteit",
+        "desc": "Uitzonderlijke bewegingsstabiliteit en naleving van fysica. Native audio-visuele synchronisatie voor meeslepende ervaringen."
       },
       {
-        "title": "Industrial Grade Workflow",
-        "desc": "Tailored for advertising, film, and social media. Output quality meets industrial delivery standards."
+        "title": "Workflow op industrieniveau",
+        "desc": "Afgestemd op reclame, film en sociale media. Outputkwaliteit voldoet aan industriële leveringsnormen."
       }
     ]
   },
   "comparison": {
-    "title": "Seedance 2.0 vs. Others",
-    "headers": [
-      "Feature",
-      "Seedance 2.0",
-      "Other Models"
-    ],
+    "title": "Seedance 2.0 vs. anderen",
+    "headers": ["Functie", "Seedance 2.0", "Andere modellen"],
     "rows": [
-      {
-        "label": "Instruction Following",
-        "us": "✅ High Precision",
-        "others": "⚠️ Inconsistent"
-      },
-      {
-        "label": "Motion Quality",
-        "us": "✅ Smooth & Realistic",
-        "others": "❌ Jittery"
-      },
-      {
-        "label": "Multi-Shot Consistency",
-        "us": "✅ Coherent",
-        "others": "❌ Fragmented"
-      },
-      {
-        "label": "Audio-Visual Sync",
-        "us": "✅ Native Support",
-        "others": "❌ Separate Tools"
-      }
+      { "label": "Instructie-opvolging", "us": "✅ Hoge precisie", "others": "⚠️ Inconsistent" },
+      { "label": "Bewegingskwaliteit", "us": "✅ Vloeiend en realistisch", "others": "❌ Trillend" },
+      { "label": "Multi-shot consistentie", "us": "✅ Samenhangend", "others": "❌ Fragmentarisch" },
+      { "label": "Audio-visuele sync", "us": "✅ Native ondersteuning", "others": "❌ Aparte tools" }
     ]
   },
   "showcase": {
-    "title": "Limitless Creativity",
+    "title": "Onbeperkte creativiteit",
     "items": [
-      {
-        "title": "Film Production",
-        "desc": "Generate storyboards and final shots."
-      },
-      {
-        "title": "Advertising",
-        "desc": "Create high-converting video ads in minutes."
-      },
-      {
-        "title": "Social Media",
-        "desc": "Viral content creation with ease."
-      },
-      {
-        "title": "Game Design",
-        "desc": "Cutscenes and character animations."
-      }
+      { "title": "Filmproductie", "desc": "Genereer storyboards en eindopnames." },
+      { "title": "Reclame", "desc": "Maak in minuten videoreclame met hoge conversie." },
+      { "title": "Sociale media", "desc": "Makkelijk virale content maken." },
+      { "title": "Spelontwerp", "desc": "Cutscenes en karakteranimaties." }
     ]
   },
   "testimonials": {
-    "title": "Industry Acclaim",
+    "title": "Erkenning van de industrie",
     "list": [
       {
-        "review": "Seedance 2.0's controllability is a game changer. It's like having a virtual film crew.",
+        "review": "De bestuurbaarheid van Seedance 2.0 is een gamechanger. Alsof je een virtuele filmploeg hebt.",
         "author": "Alex Rivera",
-        "role": "Film Director"
+        "role": "Filmregisseur"
       },
       {
-        "review": "The video quality and stability are unmatched. Perfect for our high-end commercial projects.",
+        "review": "De videokwaliteit en -stabiliteit zijn ongeëvenaard. Perfect voor onze high-end commerciële projecten.",
         "author": "Jessica Wu",
-        "role": "Creative Director"
+        "role": "Creative director"
       },
       {
-        "review": "Finally, an AI video tool that understands complex camera movements and lighting instructions.",
+        "review": "Eindelijk een AI-videotool die complexe camerabewegingen en lichtinstructies begrijpt.",
         "author": "David Chen",
-        "role": "VFX Artist"
+        "role": "VFX-artiest"
       }
     ]
   },
   "faq": {
-    "title": "Frequently Asked Questions",
+    "title": "Veelgestelde vragen",
     "items": [
       {
-        "q": "What is Seedance 2.0?",
-        "a": "Seedance 2.0 is a next-generation AI video model that generates high-quality videos from text, image, and audio inputs."
+        "q": "Wat is Seedance 2.0?",
+        "a": "Seedance 2.0 is een AI-videomodel van de volgende generatie dat hoogwaardige video's genereert uit tekst, beeld en audio."
       },
       {
-        "q": "Can I use Seedance for commercial projects?",
-        "a": "Yes, our pro plans include full commercial rights for all generated content."
+        "q": "Kan ik Seedance voor commerciële projecten gebruiken?",
+        "a": "Ja. Onze pro-abonnementen omvatten volledige commerciële rechten voor alle gegenereerde content."
       },
       {
-        "q": "How does it compare to Sora or Kling?",
-        "a": "Seedance 2.0 excels in instruction following and motion stability, offering superior control for professional workflows."
+        "q": "Hoe verhoudt het zich tot Sora of Kling?",
+        "a": "Seedance 2.0 blinkt uit in instructie-opvolging en bewegingsstabiliteit en biedt superieure controle voor professionele workflows."
       },
       {
-        "q": "Is there a free trial?",
-        "a": "Yes, you can try Seedance 2.0 for free with daily credits."
+        "q": "Is er een gratis proefversie?",
+        "a": "Ja. Je kunt Seedance 2.0 gratis uitproberen met dagelijkse credits."
       }
     ]
   },

@@ -110,116 +110,84 @@
     "copyright": "© 2026 Seedance AI. Tüm hakları saklıdır."
   },
   "features": {
-    "title": "Why Choose Seedance 2.0?",
-    "subtitle": "Break the boundaries of creativity with the most comprehensive multimodal content generation capabilities.",
+    "title": "Neden Seedance 2.0?",
+    "subtitle": "En kapsamlı çok modlu içerik üretimiyle yaratıcılık sınırlarını aşın.",
     "list": [
       {
-        "title": "Unified Multimodal Architecture",
-        "desc": "Supports text, image, audio, and video inputs. Integrated editing capabilities for seamless content creation."
+        "title": "Birleşik çok modlu mimari",
+        "desc": "Metin, görüntü, ses ve video girişlerini destekler. Kesintisiz içerik için entegre düzenleme."
       },
       {
-        "title": "Director-Level Control",
-        "desc": "Precise control over acting, lighting, and camera movement. Turn your creative vision into reality exactly as you imagined."
+        "title": "Yönetmen seviyesinde kontrol",
+        "desc": "Oyunculuk, ışık ve kamera hareketi üzerinde hassas kontrol. Yaratıcı vizyonunuz hayal ettiğiniz gibi gerçeğe dönüşür."
       },
       {
-        "title": "Hyper-Realistic Quality",
-        "desc": "Exceptional motion stability and physical law adherence. Native audio-visual synchronization for immersive experiences."
+        "title": "Hiper gerçekçi kalite",
+        "desc": "Üstün hareket kararlılığı ve fizik yasalarına uyum. Sürükleyici deneyim için yerel ses-görüntü senkronizasyonu."
       },
       {
-        "title": "Industrial Grade Workflow",
-        "desc": "Tailored for advertising, film, and social media. Output quality meets industrial delivery standards."
+        "title": "Endüstriyel iş akışı",
+        "desc": "Reklam, film ve sosyal medya için uyarlanmış. Çıktı kalitesi endüstriyel teslimat standartlarını karşılar."
       }
     ]
   },
   "comparison": {
-    "title": "Seedance 2.0 vs. Others",
-    "headers": [
-      "Feature",
-      "Seedance 2.0",
-      "Other Models"
-    ],
+    "title": "Seedance 2.0 vs. Diğerleri",
+    "headers": ["Özellik", "Seedance 2.0", "Diğer Modeller"],
     "rows": [
-      {
-        "label": "Instruction Following",
-        "us": "✅ High Precision",
-        "others": "⚠️ Inconsistent"
-      },
-      {
-        "label": "Motion Quality",
-        "us": "✅ Smooth & Realistic",
-        "others": "❌ Jittery"
-      },
-      {
-        "label": "Multi-Shot Consistency",
-        "us": "✅ Coherent",
-        "others": "❌ Fragmented"
-      },
-      {
-        "label": "Audio-Visual Sync",
-        "us": "✅ Native Support",
-        "others": "❌ Separate Tools"
-      }
+      { "label": "Talimat takibi", "us": "✅ Yüksek hassasiyet", "others": "⚠️ Tutarsız" },
+      { "label": "Hareket kalitesi", "us": "✅ Akıcı ve gerçekçi", "others": "❌ Titrek" },
+      { "label": "Çok çekim tutarlılığı", "us": "✅ Uyumlu", "others": "❌ Parçalı" },
+      { "label": "Ses-görüntü senkronu", "us": "✅ Yerel destek", "others": "❌ Ayrı araçlar" }
     ]
   },
   "showcase": {
-    "title": "Limitless Creativity",
+    "title": "Sınırsız yaratıcılık",
     "items": [
-      {
-        "title": "Film Production",
-        "desc": "Generate storyboards and final shots."
-      },
-      {
-        "title": "Advertising",
-        "desc": "Create high-converting video ads in minutes."
-      },
-      {
-        "title": "Social Media",
-        "desc": "Viral content creation with ease."
-      },
-      {
-        "title": "Game Design",
-        "desc": "Cutscenes and character animations."
-      }
+      { "title": "Film yapımı", "desc": "Storyboard ve final çekimler oluşturun." },
+      { "title": "Reklam", "desc": "Dakikalar içinde yüksek dönüşümlü video reklamlar oluşturun." },
+      { "title": "Sosyal medya", "desc": "Kolay viral içerik üretimi." },
+      { "title": "Oyun tasarımı", "desc": "Ara sahneler ve karakter animasyonları." }
     ]
   },
   "testimonials": {
-    "title": "Industry Acclaim",
+    "title": "Sektör takdiri",
     "list": [
       {
-        "review": "Seedance 2.0's controllability is a game changer. It's like having a virtual film crew.",
+        "review": "Seedance 2.0'ın kontrol edilebilirliği oyunu değiştiriyor. Sanal bir film ekibiniz varmış gibi.",
         "author": "Alex Rivera",
-        "role": "Film Director"
+        "role": "Film yönetmeni"
       },
       {
-        "review": "The video quality and stability are unmatched. Perfect for our high-end commercial projects.",
+        "review": "Video kalitesi ve kararlılığı eşsiz. Üst düzey ticari projelerimiz için mükemmel.",
         "author": "Jessica Wu",
-        "role": "Creative Director"
+        "role": "Yaratıcı direktör"
       },
       {
-        "review": "Finally, an AI video tool that understands complex camera movements and lighting instructions.",
+        "review": "Karmaşık kamera hareketleri ve ışık talimatlarını anlayan bir AI video aracı nihayet.",
         "author": "David Chen",
-        "role": "VFX Artist"
+        "role": "VFX sanatçısı"
       }
     ]
   },
   "faq": {
-    "title": "Frequently Asked Questions",
+    "title": "Sıkça sorulan sorular",
     "items": [
       {
-        "q": "What is Seedance 2.0?",
-        "a": "Seedance 2.0 is a next-generation AI video model that generates high-quality videos from text, image, and audio inputs."
+        "q": "Seedance 2.0 nedir?",
+        "a": "Seedance 2.0, metin, görüntü ve ses girişlerinden yüksek kaliteli video üreten yeni nesil bir AI video modelidir."
       },
       {
-        "q": "Can I use Seedance for commercial projects?",
-        "a": "Yes, our pro plans include full commercial rights for all generated content."
+        "q": "Seedance'ı ticari projelerde kullanabilir miyim?",
+        "a": "Evet. Pro planlarımız oluşturulan tüm içerik için tam ticari haklar içerir."
       },
       {
-        "q": "How does it compare to Sora or Kling?",
-        "a": "Seedance 2.0 excels in instruction following and motion stability, offering superior control for professional workflows."
+        "q": "Sora veya Kling ile karşılaştırıldığında nasıl?",
+        "a": "Seedance 2.0 talimat takibi ve hareket kararlılığında öne çıkar; profesyonel iş akışları için üstün kontrol sunar."
       },
       {
-        "q": "Is there a free trial?",
-        "a": "Yes, you can try Seedance 2.0 for free with daily credits."
+        "q": "Ücretsiz deneme var mı?",
+        "a": "Evet. Günlük kredilerle Seedance 2.0'ı ücretsiz deneyebilirsiniz."
       }
     ]
   },

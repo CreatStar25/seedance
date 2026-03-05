@@ -71,7 +71,7 @@ const formattedDate = new Date(rawDate).toLocaleDateString(lang, {
       </article>
     </main>
 
-    <Footer t={t} />
+    <Footer lang={lang} t={t} />
     <script is:inline>
       if (typeof window !== 'undefined') {
         window.addEventListener('DOMContentLoaded', () => {

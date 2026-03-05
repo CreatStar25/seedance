@@ -59,8 +59,12 @@ const alternateLinks = Object.keys(languages).map((l) => {
   return { lang: hreflang, href: new URL(fullPath, siteBase).toString() };
 });
 
-const defaultLocaleCode = localeMap['en'] || 'en';
+// Google/Bing 标准：x-default 指向英文，作为“未匹配语言时的默认版本”；百度/360 不识别 hreflang，依赖 content-language meta（见下方）
+const defaultLocaleCode = localeMap['en'] || 'en-US';
 const xDefaultHref = (alternateLinks.find((l) => l.lang === defaultLocaleCode) ?? alternateLinks[0] ?? { href: canonicalURL.toString() }).href;
+
+// 百度/360 等依赖 meta content-language 识别页面语言，与 hreflang 互补
+const contentLanguage = localeMap[lang] || (lang === 'en' ? 'en-US' : lang);
 
 const ogLocale = localeMap[lang] || (lang === 'en' ? 'en-US' : lang);
 ---
@@ -80,6 +84,7 @@ const ogLocale = localeMap[lang] || (lang === 'en' ? 'en-US' : lang);
 <title>{title}</title>
 <meta name="description" content={description} />
 <meta name="keywords" content="Seedance, Seedance 2.0, AI video, AI 视频生成, 文生视频" />
+<meta http-equiv="content-language" content={contentLanguage} />
 <link rel="canonical" href={canonicalURL} />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <meta charset="UTF-8" />
