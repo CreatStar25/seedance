@@ -28,9 +28,12 @@ const localeMap: Record<string, string> = {
   'zh-tw': 'zh-TW',
 };
 
-// 生成 Canonical URL
-// 确保 pathname 正确拼接
-const canonicalURL = new URL(Astro.url.pathname, siteBase);
+// 生成 Canonical URL（与 trailingSlash: 'always' 一致，确保与抓取 URL 一致，避免被标为「备用网页」）
+let pathname = Astro.url.pathname;
+if (pathname && pathname !== '/' && !pathname.endsWith('/') && !pathname.includes('.')) {
+  pathname = pathname + '/';
+}
+const canonicalURL = new URL(pathname, siteBase);
 
 // 生成所有语言的替代链接 (Hreflang)
 const alternateLinks = Object.keys(languages).map((l) => {
@@ -48,9 +51,17 @@ const alternateLinks = Object.keys(languages).map((l) => {
   }
 
   // 构建新的链接前缀
-  // 英文首页在根路径 /，其他页面（如博客）在 /en/blog/，故 en 仅在「根路径」时 prefix 为空
+  // 英文：首页/about/privacy/terms 在根路径（无 /en 前缀）；仅博客在 /en/blog/
   const isRoot = currentPath === '/' || currentPath === '';
-  const prefix = l === 'en' ? (isRoot ? '' : '/en') : `/${l}`;
+  const enPrefix =
+    l === 'en'
+      ? isRoot
+        ? ''
+        : currentPath.startsWith('/blog')
+          ? '/en'
+          : ''
+      : null;
+  const prefix = enPrefix !== null ? enPrefix : `/${l}`;
 
   // 拼接完整路径
   const fullPath = `${prefix}${currentPath}`.replace('//', '/');

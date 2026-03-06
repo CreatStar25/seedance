@@ -1,0 +1,8 @@
+# 将不存在的语言代码 /zh 统一到 /zh-cn，避免被当作备用页抓取
+/zh    /zh-cn/   301
+/zh/   /zh-cn/   301
+
+# 将无语言前缀的 /blog 统一到英文博客，与 sitemap/alternate 一致
+/blog   /en/blog/   301
+/blog/  /en/blog/   301
+/blog/* /en/blog/:splat   301

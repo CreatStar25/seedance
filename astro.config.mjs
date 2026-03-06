@@ -7,8 +7,11 @@ export default defineConfig({
   // -------------------------------------------------
   // 关键修复：必须添加 site 属性，且必须带 https://
   // -------------------------------------------------
-  site: 'https://seedance22.com', 
-  
+  site: 'https://seedance22.com',
+
+  // 统一使用尾斜杠，与 sitemap/Google 抓取一致，避免「备用网页（有适当的规范标记）」因 canonical 与请求 URL 不一致
+  trailingSlash: 'always',
+
   output: 'static',
   adapter: cloudflare(),
   integrations: [
