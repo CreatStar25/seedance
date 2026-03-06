@@ -3,20 +3,64 @@ import { languages } from '../i18n/locales';
 import SEOHead from '../components/SEOHead.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
+import PersistLang from '../components/PersistLang.astro';
 
 const { lang = 'en' } = Astro.params;
 let translations;
-try { translations = await import(`../i18n/${lang}.json`); } 
+try { translations = await import(`../i18n/${lang}.json`); }
 catch (e) { translations = await import(`../i18n/en.json`); }
 const t = translations.default || translations;
 ---
 
-<html lang={lang} dir={['ar','fa'].includes(lang) ? 'rtl' : 'ltr'} class="scroll-smooth">
+<html lang={lang} dir={['ar','fa'].includes(lang) ? 'rtl' : 'ltr'} class="scroll-smooth" data-lang={lang}>
   <head>
+    <script is:inline>
+      (function () {
+        var path = typeof location !== 'undefined' ? (location.pathname || '/') : '/';
+        var isRoot = path === '/' || path === '' || path === '/index.html';
+        if (!isRoot) return;
+        var KEY = 'seedance_lang';
+        var SUPPORTED = ['en','zh-cn','zh-tw','es','ar','pt','id','ms','fr','ru','hi','ja','de','ko','tr','vi','th','it','fa','nl','pl','sv','uk','ro'];
+        function mapTag(tag) {
+          if (!tag) return null;
+          var s = tag.toLowerCase().trim();
+          if (s.indexOf('zh-cn') === 0 || s.indexOf('zh-hans') === 0) return 'zh-cn';
+          if (s.indexOf('zh-tw') === 0 || s.indexOf('zh-hk') === 0 || s.indexOf('zh-hant') === 0) return 'zh-tw';
+          if (s === 'zh') return 'zh-cn';
+          var code = s.split('-')[0];
+          if (SUPPORTED.indexOf(code) !== -1) return code;
+          if (SUPPORTED.indexOf(s) !== -1) return s;
+          return null;
+        }
+        try {
+          var saved = localStorage.getItem(KEY);
+          if (saved && saved !== 'en' && SUPPORTED.indexOf(saved) !== -1) {
+            location.replace('/' + saved + '/');
+            return;
+          }
+          if (!saved) {
+            var preferred = null;
+            if (typeof navigator !== 'undefined' && navigator.languages && navigator.languages.length) {
+              for (var i = 0; i < navigator.languages.length; i++) {
+                preferred = mapTag(navigator.languages[i]);
+                if (preferred) break;
+              }
+            }
+            if (!preferred && typeof navigator !== 'undefined' && navigator.language) preferred = mapTag(navigator.language);
+            if (preferred && preferred !== 'en') {
+              localStorage.setItem(KEY, preferred);
+              location.replace('/' + preferred + '/');
+              return;
+            }
+            localStorage.setItem(KEY, 'en');
+          }
+        } catch (e) {}
+      })();
+    </script>
     <SEOHead title={t.seo.title} description={t.seo.description} lang={lang} />
   </head>
   <body class="bg-white text-gray-900 font-sans antialiased selection:bg-yellow-200 selection:text-black">
-    
+    <PersistLang lang={lang} />
     <Header lang={lang} t={t} />
 
     <main>

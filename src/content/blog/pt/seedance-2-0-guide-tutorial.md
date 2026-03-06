@@ -2,7 +2,7 @@
 title: "Guia Completo do Seedance 2.0: Domine as Funcionalidades Principais da Mais Nova Ferramenta de Geração de Vídeo por IA da ByteDance em 15 Minutos"
 description: "Como usar o mais novo modelo de vídeo por IA Seedance 2.0 da ByteDance? Este artigo analisa profundamente as limitações de parâmetros, a fórmula universal de prompts e as 5 principais funcionalidades do Seedance 2.0, como consistência multi-imagem, controle de movimento de câmera e replicação de estilo, ajudando você a gerar vídeos curtos de alta qualidade com IA rapidamente."
 pubDate: 2026-02-14
-image: "https://img.aixzip.com/blog/seedance-2-0-cover.jpg"
+image: "https://img.seedance22.com/seedance/eedance-2-0-cover-4.png"
 tags: ["Seedance 2.0", "AI视频生成", "字节跳动", "即梦", "AI教程"]
 lang: "pt"
 author: "Seedance Team"

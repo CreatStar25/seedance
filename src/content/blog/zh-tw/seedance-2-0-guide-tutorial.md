@@ -2,7 +2,7 @@
 title: "Seedance 2.0 完全上手指南：15分鐘掌握字節跳動最新AI影片生成神器的核心功能"
 description: "字節跳動最新發佈的Seedance 2.0 AI影片模型怎麼用？本文深度解析Seedance 2.0的參數限制、提示詞萬能公式以及多圖一致性、運鏡控制、風格復刻等5大核心功能，助你快速生成高質量AI短影片。"
 pubDate: 2026-02-14
-image: "https://img.aixzip.com/blog/seedance-2-0-cover.jpg"
+image: "https://img.seedance22.com/seedance/eedance-2-0-cover-4.png"
 tags: ["Seedance 2.0", "AI影片生成", "字節跳動", "即夢", "AI教程"]
 lang: "zh-tw"
 author: "Seedance Team"

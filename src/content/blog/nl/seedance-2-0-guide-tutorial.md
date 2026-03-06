@@ -2,7 +2,7 @@
 title: "Complete Handleiding voor Seedance 2.0: Beheers de Kernfuncties van ByteDance's Nieuwste AI-Videogeneratie Tool in 15 Minuten"
 description: "Hoe gebruik je het nieuwste AI-videomodel Seedance 2.0 van ByteDance? Dit artikel analyseert diepgaand de parameterlimieten, de universele formule voor prompts, en 5 kernfuncties zoals multi-beeld consistentie, camerabewegingscontrole en stijlreplicatie, om je te helpen snel hoogwaardige AI-kortfilms te genereren."
 pubDate: 2026-02-14
-image: "https://img.aixzip.com/blog/seedance-2-0-cover.jpg"
+image: "https://img.seedance22.com/seedance/eedance-2-0-cover-4.png"
 tags: ["Seedance 2.0", "AI视频生成", "字节跳动", "即梦", "AI教程"]
 lang: "nl"
 author: "Seedance Team"

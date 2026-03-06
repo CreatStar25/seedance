@@ -2,7 +2,7 @@
 title: "Den fullständiga guiden till Seedance 2.0: Behärska ByteDances senaste AI-videogenereringsverktyg på 15 minuter"
 description: "Hur använder man ByteDances nyaste AI-videomodell Seedance 2.0? Den här artikeln analyserar djupgående Seedance 2.0:s parameterbegränsningar, universella prompt-formler samt 5 kärnfunktioner som multi-bildkonsistens, kamerarörelsekontroll och stilreplikering, för att hjälpa dig att snabbt generera högkvalitativa AI-kortfilmer."
 pubDate: 2026-02-14
-image: "https://img.aixzip.com/blog/seedance-2-0-cover.jpg"
+image: "https://img.seedance22.com/seedance/eedance-2-0-cover-4.png"
 tags: ["Seedance 2.0", "AI视频生成", "字节跳动", "即梦", "AI教程"]
 lang: "sv"
 author: "Seedance Team"

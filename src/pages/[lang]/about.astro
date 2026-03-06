@@ -3,6 +3,7 @@ import { languages } from '../../i18n/locales';
 import SEOHead from '../../components/SEOHead.astro';
 import Header from '../../components/Header.astro';
 import Footer from '../../components/Footer.astro';
+import PersistLang from '../../components/PersistLang.astro';
 
 export async function getStaticPaths() {
   return Object.keys(languages).filter((l) => l !== 'en').map((lang) => ({ params: { lang } }));
@@ -21,11 +22,12 @@ if (!t.about) {
 }
 ---
 
-<html lang={lang} dir={['ar','fa'].includes(lang) ? 'rtl' : 'ltr'} class="scroll-smooth">
+<html lang={lang} dir={['ar','fa'].includes(lang) ? 'rtl' : 'ltr'} class="scroll-smooth" data-lang={lang}>
   <head>
     <SEOHead title={t.about?.title ?? 'About'} description={t.about?.description ?? ''} lang={lang} />
   </head>
   <body class="bg-white text-gray-900 font-sans antialiased">
+    <PersistLang lang={lang} />
     <Header lang={lang} t={t} />
     <main class="max-w-3xl mx-auto px-4 sm:px-6 py-16">
       <h1 class="text-3xl font-black text-gray-900 mb-6">{t.about?.heading ?? 'About'}</h1>

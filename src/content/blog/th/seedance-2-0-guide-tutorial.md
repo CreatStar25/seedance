@@ -2,7 +2,7 @@
 title: "คู่มือใช้งาน Seedance 2.0 ฉบับสมบูรณ์: เรียนรู้ฟังก์ชันหลักของเครื่องมือสร้างวิดีโอ AI ล่าสุดจาก ByteDance ใน 15 นาที"
 description: "จะใช้งาน Seedance 2.0 โมเดลสร้างวิดีโอ AI ล่าสุดจาก ByteDance อย่างไร? บทความนี้เจาะลึกข้อจำกัดพารามิเตอร์ สูตรสากลสำหรับการเขียน Prompt และ 5 ฟังก์ชันหลักของ Seedance 2.0 เช่น ความสม่ำเสมอของหลายภาพ การควบคุมการเคลื่อนกล้อง การลอกเลียนสไตล์ ช่วยให้คุณสร้างวิดีโอสั้นคุณภาพสูงด้วย AI ได้อย่างรวดเร็ว"
 pubDate: 2026-02-14
-image: "https://img.aixzip.com/blog/seedance-2-0-cover.jpg"
+image: "https://img.seedance22.com/seedance/eedance-2-0-cover-4.png"
 tags: ["Seedance 2.0", "AI视频生成", "字节跳动", "即梦", "AI教程"]
 lang: "th"
 author: "Seedance Team"

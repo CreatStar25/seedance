@@ -4,6 +4,7 @@ import { languages } from '../../../i18n/locales';
 import Header from '../../../components/Header.astro';
 import Footer from '../../../components/Footer.astro';
 import SEOHead from '../../../components/SEOHead.astro';
+import PersistLang from '../../../components/PersistLang.astro';
 
 // 1. 生成所有文章的静态路径
 export async function getStaticPaths() {
@@ -25,9 +26,12 @@ const { post } = Astro.props;
 const { lang } = Astro.params;
 const { Content } = await post.render();
 
+// 封面图：兼容 frontmatter 的 image 与 heroImage（新文章可能只写 heroImage）
+const coverImage = post.data.image ?? post.data.heroImage;
+
 // 获取翻译配置
 let t;
-try { t = (await import(`../../../i18n/${lang}.json`)).default; } 
+try { t = (await import(`../../../i18n/${lang}.json`)).default; }
 catch (e) { t = (await import(`../../../i18n/en.json`)).default; }
 
 // 格式化日期（兼容 pubDate 与 date）
@@ -37,16 +41,17 @@ const formattedDate = new Date(rawDate).toLocaleDateString(lang, {
 });
 ---
 
-<html lang={lang} dir={['ar','fa'].includes(lang) ? 'rtl' : 'ltr'}>
+<html lang={lang} dir={['ar','fa'].includes(lang) ? 'rtl' : 'ltr'} data-lang={lang}>
   <head>
     <SEOHead 
       title={`${post.data.title} - Seedance`} 
       description={post.data.description} 
       lang={lang}
-      image={post.data.image} 
+      image={coverImage} 
     />
   </head>
   <body class="bg-white text-gray-900 font-sans antialiased flex flex-col min-h-screen">
+    <PersistLang lang={lang} />
     <Header lang={lang} t={t} />
 
     <main class="flex-grow py-20">

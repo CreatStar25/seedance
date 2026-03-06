@@ -2,7 +2,7 @@
 title: "Panduan Lengkap Seedance 2.0: Kuasai 5 Fitur Inti Alat Generasi Video AI Terbaru ByteDance dalam 15 Menit"
 description: "Bagaimana cara menggunakan model video AI Seedance 2.0 yang baru dirilis ByteDance? Artikel ini menganalisis mendalam batasan parameter, formula universal prompt, serta 5 fitur inti Seedance 2.0 seperti konsistensi multi-gambar, kontrol pergerakan kamera, dan replikasi gaya, untuk membantu Anda menghasilkan video pendek AI berkualitas tinggi dengan cepat."
 pubDate: 2026-02-14
-image: "https://img.aixzip.com/blog/seedance-2-0-cover.jpg"
+image: "https://img.seedance22.com/seedance/eedance-2-0-cover-4.png"
 tags: ["Seedance 2.0", "AI视频生成", "字节跳动", "即梦", "AI教程"]
 lang: "id"
 author: "Seedance Team"

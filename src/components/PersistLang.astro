@@ -1,0 +1,12 @@
+---
+/**
+ * 将当前页面语种写入 localStorage，便于下次访问根路径时按用户上次选择重定向。
+ * 与根路径的「浏览器语言检测」脚本配合：优先使用已保存语种，其次浏览器语言，默认 en。
+ */
+const { lang } = Astro.props;
+---
+<script is:inline define:vars={{ lang }}>
+  (function () {
+    if (lang) try { localStorage.setItem('seedance_lang', lang); } catch (e) {}
+  })();
+</script>

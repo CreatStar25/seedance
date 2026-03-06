@@ -8,7 +8,10 @@ const blogCollection = defineCollection({
     pubDate: z.coerce.date().optional(),
     date: z.coerce.date().optional(),
     author: z.string().optional(),
+    /** 封面图 URL，用于列表卡片与 og:image。与 heroImage 二选一即可，展示时优先 image */
     image: z.string().optional(),
+    /** 同上，兼容部分文章使用的 heroImage 字段 */
+    heroImage: z.string().optional(),
     translationKey: z.string().optional(),
   }),
   slug: ({ id }: { id: string }) => {

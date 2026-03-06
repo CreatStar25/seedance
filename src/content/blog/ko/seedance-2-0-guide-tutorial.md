@@ -2,7 +2,7 @@
 title: "Seedance 2.0 완전 활용 가이드: 15분 만에 바이트댄스 최신 AI 영상 생성 도구의 핵심 기능 익히기"
 description: "바이트댄스가 최근 공개한 Seedance 2.0 AI 영상 모델은 어떻게 사용하나요? 본문은 Seedance 2.0의 매개변수 제한, 프롬프트 만능 공식, 그리고 다중 이미지 일관성, 카메라 워크 제어, 스타일 복제 등 5가지 핵심 기능을 심층 분석하여 고품질 AI 단편 영상을 빠르게 생성하는 데 도움을 드립니다."
 pubDate: 2026-02-14
-image: "https://img.aixzip.com/blog/seedance-2-0-cover.jpg"
+image: "https://img.seedance22.com/seedance/eedance-2-0-cover-4.png"
 tags: ["Seedance 2.0", "AI视频生成", "字节跳动", "即梦", "AI教程"]
 lang: "ko"
 author: "Seedance Team"
