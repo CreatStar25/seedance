@@ -5,6 +5,7 @@ tags: ["Seedance 2.0 Tekst-naar-Video", "Seedance 2.0", "AI Video", "即梦"]
 pubDate: "2026-03-03"
 heroImage: "https://img.seedance22.com/aiweb/seedance2-text-to-video-cover.png"
 lang: "nl"
+---
 
 **Seedance 2.0** brengt AI-videocreatie van 'gacha' naar 'regisseursniveau' controle, met ondersteuning voor multimodale input zoals tekst, afbeeldingen, video en audio. Dit is een praktische handleiding voor **Seedance 2.0 Tekst-naar-Video**, om je te helpen gecontroleerde korte video's te maken met tekst + referentiemateriaal.
 

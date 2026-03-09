@@ -5,6 +5,7 @@ tags: ["Seedance 2.0 文本生视频", "Seedance 2.0", "AI 视频", "即梦"]
 pubDate: "2026-03-03"
 heroImage: "https://img.seedance22.com/aiweb/seedance2-text-to-video-cover.png"
 lang: "fr"
+---
 
 **Seedance 2.0** fait passer la création vidéo IA du « tirage aléatoire » à un contrôle créatif de **niveau réalisateur**, prenant en charge des entrées multimodales : texte, image, vidéo et audio. Cet article est un **tutoriel pratique pour générer des vidéos par texte avec Seedance 2.0**, vous aidant à créer des courts métrages contrôlés en combinant du texte et des matériaux de référence.
 

@@ -5,6 +5,7 @@ tags: ["Seedance 2.0 Metinden Videoya", "Seedance 2.0", "AI Video", "即梦"]
 pubDate: "2026-03-03"
 heroImage: "https://img.seedance22.com/aiweb/seedance2-text-to-video-cover.png"
 lang: "tr"
+---
 
 **Seedance 2.0**, AI video oluşturmayı "rastgele deneme" aşamasından "yönetmen düzeyinde" kontrollü yaratıma taşıyor ve metin, görüntü, video, ses gibi çok modlu girdileri destekliyor. Bu makale, **Seedance 2.0 Metinden Videoya** özelliğinin pratik bir kullanım kılavuzudur; metin + referans materyaller kullanarak kontrollü kısa videolar yapmanıza yardımcı olur.
 
