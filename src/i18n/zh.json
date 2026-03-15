@@ -6,9 +6,10 @@
   "nav": {
     "home": "首页",
     "blog": "博客",
+    "guide": "Seedance使用指南",
     "text_to_video": "文生视频",
     "image_to_video": "图生视频",
-    "ai_tools": "AI工具箱",
+    "api": "API接口",
     "cta": "免费试用"
   },
   "hero": {

@@ -6,9 +6,10 @@
   "nav": {
     "home": "홈",
     "blog": "블로그",
+    "guide": "Seedance 사용 가이드",
     "text_to_video": "텍스트 비디오 변환",
     "image_to_video": "이미지 비디오 변환",
-    "ai_tools": "AI 도구",
+    "api": "API",
     "cta": "무료 체험"
   },
   "hero": {

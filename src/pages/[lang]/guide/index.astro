@@ -1,0 +1,231 @@
+---
+import { getCollection } from 'astro:content';
+import { languages } from '../../../i18n/locales';
+import Header from '../../../components/Header.astro';
+import Footer from '../../../components/Footer.astro';
+import SEOHead from '../../../components/SEOHead.astro';
+import PersistLang from '../../../components/PersistLang.astro';
+
+export async function getStaticPaths() {
+  return Object.keys(languages).map((lang) => ({ params: { lang } }));
+}
+
+const { lang } = Astro.params;
+
+const allGuides = await getCollection('guide');
+const posts = allGuides.filter((entry) => entry.id.startsWith(`${lang}/`));
+
+function getPostDate(data: { pubDate?: Date; date?: Date }) {
+  return data.pubDate ?? data.date ?? new Date(0);
+}
+posts.sort((a, b) => getPostDate(b.data).valueOf() - getPostDate(a.data).valueOf());
+
+const postsWithContent = await Promise.all(
+  posts.map(async (entry) => {
+    const { Content } = await entry.render();
+    const slugParts = entry.id.split('/').slice(1);
+    const slug = slugParts.join('/').replace(/\.md$/, '');
+    return { entry, Content, slug };
+  })
+);
+
+let t: Record<string, unknown>;
+try { t = (await import(`../../../i18n/${lang}.json`)).default; }
+catch { t = (await import(`../../../i18n/en.json`)).default; }
+if (!t.guide) {
+  const en = (await import(`../../../i18n/en.json`)).default;
+  t.guide = en.guide;
+}
+const g = t.guide as Record<string, string>;
+
+const appUrl = 'https://creat.seedance22.com/generate/video-tools/seedance2.0';
+---
+
+<html lang={lang} dir={['ar','fa'].includes(lang) ? 'rtl' : 'ltr'} data-lang={lang}>
+  <head>
+    <SEOHead
+      title={`${g.title || 'Seedance Guide'} - Seedance`}
+      description={t.seo?.description || ''}
+      lang={lang}
+    />
+    <style is:global>
+      .guide-panel { display: none; }
+      .guide-panel.active { display: block; }
+      .guide-nav-link.active { color: rgb(202 138 4); font-weight: 700; }
+    </style>
+  </head>
+  <body class="bg-white text-gray-900 font-sans antialiased flex flex-col min-h-screen">
+    <PersistLang lang={lang} />
+    <Header lang={lang} t={t} />
+
+    <main class="flex-grow py-12">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8">
+          <!-- 左侧：文章列表 -->
+          <aside class="lg:col-span-3 order-2 lg:order-1">
+            <h2 class="text-lg font-bold text-blue-600 mb-4">{g.article_list || 'Article List'}</h2>
+            <ul class="space-y-2 border-l-2 border-gray-100 pl-4">
+              <li>
+                <a href="#overview" class="guide-nav-link block py-2 text-gray-700 hover:text-yellow-600 hover:underline text-sm leading-snug" data-panel="overview">
+                  {g.title || 'Seedance Guide'}
+                </a>
+              </li>
+              {postsWithContent.map(({ entry, slug }) => (
+                <li>
+                  <a href={`#article-${slug}`} class="guide-nav-link block py-2 text-gray-700 hover:text-yellow-600 hover:underline text-sm leading-snug" data-panel={`article-${slug}`}>
+                    {entry.data.title}
+                  </a>
+                </li>
+              ))}
+            </ul>
+            {posts.length === 0 && (
+              <p class="text-gray-500 text-sm">{t.blog?.no_posts || 'No posts yet.'}</p>
+            )}
+          </aside>
+
+          <!-- 中间：主内容（概览 + 各文章，同页切换） -->
+          <div class="lg:col-span-6 order-1 lg:order-2 min-h-[400px]">
+            <div id="guide-overview" class="guide-panel active space-y-8">
+              <h1 class="text-3xl md:text-4xl font-black text-gray-900">{g.title || 'Seedance Guide'}</h1>
+              <p class="text-gray-600 leading-relaxed">{g.welcome}</p>
+              <section>
+                <h2 class="flex items-center gap-2 text-xl font-bold text-gray-900 mb-4">
+                  <span aria-hidden="true">🚀</span>
+                  {g.quick_access || 'Quick Access'}
+                </h2>
+                <div class="bg-gray-50 rounded-xl p-4 border border-gray-100">
+                  <a href={appUrl} target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 font-bold text-yellow-600 hover:text-yellow-700">
+                    {g.cta_entry || 'Use Seedance Now'}
+                    <span aria-hidden="true">→</span>
+                  </a>
+                  <p class="text-sm text-gray-500 mt-2">{g.quick_access_desc}</p>
+                  <p class="text-sm text-green-600 mt-1 break-all">{appUrl}</p>
+                </div>
+              </section>
+              <section>
+                <h2 class="flex items-center gap-2 text-xl font-bold text-gray-900 mb-4">
+                  <span aria-hidden="true">📚</span>
+                  {g.latest_articles || 'Latest Articles'}
+                </h2>
+                <div class="space-y-6">
+                  {postsWithContent.slice(0, 4).map(({ entry, slug }) => (
+                    <div class="border border-gray-100 rounded-xl p-5 hover:border-yellow-200 transition-colors">
+                      <h3 class="font-bold text-lg text-gray-900 mb-2">{entry.data.title}</h3>
+                      <p class="text-gray-600 text-sm line-clamp-3 mb-3">{entry.data.description}</p>
+                      <a href={`#article-${slug}`} class="guide-nav-link text-sm font-bold text-yellow-600 hover:underline" data-panel={`article-${slug}`}>
+                        {g.read_full || 'Read full article →'}
+                      </a>
+                    </div>
+                  ))}
+                </div>
+              </section>
+            </div>
+            {postsWithContent.map(({ entry, slug, Content }) => (
+              <div id={`article-${slug}`} class="guide-panel prose prose-slate prose-lg max-w-none prose-headings:font-black prose-img:rounded-2xl" data-panel={`article-${slug}`}>
+                <Content />
+              </div>
+            ))}
+          </div>
+
+          <!-- 右侧：页面导航 -->
+          <aside class="lg:col-span-3 order-3">
+            <h2 class="text-lg font-bold text-gray-900 mb-4">{g.page_nav || 'Page Navigation'}</h2>
+            <section class="mb-6">
+              <h3 class="flex items-center gap-2 text-sm font-bold text-gray-700 mb-3">
+                <span aria-hidden="true">⭐</span>
+                {g.latest_articles || 'Latest Articles'}
+              </h3>
+              <ul class="space-y-2">
+                <li>
+                  <a href="#overview" class="guide-nav-link flex items-center gap-2 text-sm text-gray-600 hover:text-yellow-600" data-panel="overview">
+                    <span class="text-yellow-500 mt-0.5" aria-hidden="true">🚀</span>
+                    <span>{g.title || 'Seedance Guide'}</span>
+                  </a>
+                </li>
+                {postsWithContent.slice(0, 6).map(({ entry, slug }) => {
+                  const shortTitle = entry.data.title.length > 22 ? entry.data.title.slice(0, 22) + '…' : entry.data.title;
+                  return (
+                    <li>
+                      <a href={`#article-${slug}`} class="guide-nav-link flex items-start gap-2 text-sm text-gray-600 hover:text-yellow-600" data-panel={`article-${slug}`}>
+                        <span class="text-yellow-500 mt-0.5 shrink-0" aria-hidden="true">★</span>
+                        <span>{shortTitle}</span>
+                      </a>
+                    </li>
+                  );
+                })}
+              </ul>
+            </section>
+            <section>
+              <h3 class="flex items-center gap-2 text-sm font-bold text-gray-700 mb-3">
+                <span aria-hidden="true">🔗</span>
+                {g.quick_links || 'Quick Links'}
+              </h3>
+              <ul class="space-y-2">
+                <li>
+                  <a href={appUrl} target="_blank" rel="noopener noreferrer" class="flex items-center gap-2 text-sm text-gray-600 hover:text-yellow-600">
+                    <span aria-hidden="true">🌐</span>
+                    {g.official_platform || 'Official Platform'}
+                  </a>
+                </li>
+                <li>
+                  <a href={lang === 'en' ? '/' : `/${lang}/`} class="flex items-center gap-2 text-sm text-gray-600 hover:text-yellow-600">
+                    <span aria-hidden="true">💡</span>
+                    {g.tips || 'Usage Tips'}
+                  </a>
+                </li>
+                <li>
+                  <a href={lang === 'en' ? '/about/' : `/${lang}/about/`} class="flex items-center gap-2 text-sm text-gray-600 hover:text-yellow-600">
+                    <span aria-hidden="true">📮</span>
+                    {g.feedback || 'Feedback'}
+                  </a>
+                </li>
+              </ul>
+            </section>
+          </aside>
+        </div>
+      </div>
+    </main>
+
+    <Footer lang={lang} t={t} />
+    <script is:inline>
+      (function() {
+        var panels = document.querySelectorAll('.guide-panel');
+        var links = document.querySelectorAll('.guide-nav-link');
+        function showPanel(id) {
+          panels.forEach(function(p) {
+            p.classList.toggle('active', p.id === id || p.getAttribute('data-panel') === id);
+          });
+          links.forEach(function(a) {
+            a.classList.toggle('active', a.getAttribute('data-panel') === id);
+          });
+        }
+        function syncFromHash() {
+          var hash = window.location.hash.slice(1) || 'overview';
+          showPanel(hash);
+        }
+        links.forEach(function(a) {
+          a.addEventListener('click', function(e) {
+            var panel = a.getAttribute('data-panel');
+            if (panel) {
+              e.preventDefault();
+              showPanel(panel);
+              history.replaceState(null, '', '#' + panel);
+            }
+          });
+        });
+        window.addEventListener('hashchange', function() {
+          var y = window.scrollY;
+          syncFromHash();
+          requestAnimationFrame(function() { window.scrollTo(0, y); });
+        });
+        window.addEventListener('DOMContentLoaded', function() {
+          syncFromHash();
+          document.querySelectorAll('.guide-panel video').forEach(function(v) {
+            if (v.hasAttribute('poster')) v.removeAttribute('poster');
+            if (!v.hasAttribute('preload')) v.setAttribute('preload', 'metadata');
+          });
+        });
+      })();
+    </script>
+  </body>
+</html>

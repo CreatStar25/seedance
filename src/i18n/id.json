@@ -6,9 +6,10 @@
   "nav": {
     "home": "Beranda",
     "blog": "Blog",
+    "guide": "Panduan Seedance",
     "text_to_video": "Teks ke Video",
     "image_to_video": "Gambar ke Video",
-    "ai_tools": "Alat AI",
+    "api": "API",
     "cta": "Coba Gratis"
   },
   "hero": {

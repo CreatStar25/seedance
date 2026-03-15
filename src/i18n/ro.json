@@ -6,9 +6,10 @@
   "nav": {
     "home": "Acasă",
     "blog": "Blog",
+    "guide": "Ghid Seedance",
     "text_to_video": "Text în Video",
     "image_to_video": "Imagine în Video",
-    "ai_tools": "Instrumente AI",
+    "api": "API",
     "cta": "Încearcă Gratuit"
   },
   "hero": {

@@ -6,10 +6,26 @@
   "nav": {
     "home": "Home",
     "blog": "Blog",
+    "guide": "Seedance Guide",
     "text_to_video": "Text to Video",
     "image_to_video": "Image to Video",
-    "ai_tools": "AI Tools",
+    "api": "API",
     "cta": "Try Seedance Free"
+  },
+  "guide": {
+    "title": "Seedance Guide",
+    "welcome": "Welcome to the Seedance usage guide. Here you will find tutorials, tips and best practices for Seedance AI video creation.",
+    "article_list": "Article List",
+    "quick_access": "Quick Access",
+    "quick_access_desc": "Official Seedance 2.0 entry, one-click to start creating.",
+    "latest_articles": "Latest Articles",
+    "page_nav": "Page Navigation",
+    "quick_links": "Quick Links",
+    "official_platform": "Official Platform",
+    "tips": "Usage Tips",
+    "feedback": "Feedback",
+    "cta_entry": "Use Seedance Now",
+    "read_full": "Read full article →"
   },
   "product_features": {
     "text_to_video": {
@@ -156,7 +172,8 @@
         { "label": "Blog", "path": "blog" },
         { "label": "About", "path": "about" },
         { "label": "Privacy", "path": "privacy" },
-        { "label": "Terms", "path": "terms" }
+        { "label": "Terms", "path": "terms" },
+        { "label": "API", "href": "https://api.limaxai.com/" }
       ]
     },
     "copyright": "© 2026 Seedance AI. All rights reserved."

@@ -6,9 +6,10 @@
   "nav": {
     "home": "Trang chủ",
     "blog": "Blog",
+    "guide": "Hướng dẫn Seedance",
     "text_to_video": "Văn bản sang Video",
     "image_to_video": "Hình ảnh sang Video",
-    "ai_tools": "Công cụ AI",
+    "api": "API",
     "cta": "Dùng thử miễn phí"
   },
   "hero": {

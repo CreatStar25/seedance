@@ -6,9 +6,10 @@
   "nav": {
     "home": "Laman Utama",
     "blog": "Blog",
+    "guide": "Panduan Seedance",
     "text_to_video": "Teks ke Video",
     "image_to_video": "Imej ke Video",
-    "ai_tools": "Alat AI",
+    "api": "API",
     "cta": "Cuba Percuma"
   },
   "hero": {

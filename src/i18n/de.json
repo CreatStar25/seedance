@@ -6,9 +6,10 @@
   "nav": {
     "home": "Startseite",
     "blog": "Blog",
+    "guide": "Seedance-Anleitung",
     "text_to_video": "Text zu Video",
     "image_to_video": "Bild zu Video",
-    "ai_tools": "KI-Tools",
+    "api": "API",
     "cta": "Kostenlos Testen"
   },
   "hero": {

@@ -34,6 +34,7 @@ const defaultColumns = {
     { label: 'About', path: 'about' },
     { label: 'Privacy', path: 'privacy' },
     { label: 'Terms', path: 'terms' },
+    { label: 'API', href: 'https://api.limaxai.com/' },
   ]},
 };
 
@@ -99,9 +100,9 @@ function companyHref(path: string) {
         <div>
           <h3 class="font-bold text-lg text-white mb-4">{company.title}</h3>
           <ul class="space-y-3">
-            {(company.links || []).map((link: { label: string; path: string }) => (
+            {(company.links || []).map((link: { label: string; path?: string; href?: string }) => (
               <li>
-                <a href={companyHref(link.path)} class="text-sm text-gray-400 hover:text-white transition-colors">{link.label}</a>
+                <a href={link.href ?? companyHref(link.path ?? '')} class="text-sm text-gray-400 hover:text-white transition-colors" target={link.href ? '_blank' : undefined} rel={link.href ? 'noopener noreferrer' : undefined}>{link.label}</a>
               </li>
             ))}
           </ul>

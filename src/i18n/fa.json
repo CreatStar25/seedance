@@ -6,9 +6,10 @@
   "nav": {
     "home": "خانه",
     "blog": "بلاگ",
+    "guide": "راهنمای Seedance",
     "text_to_video": "متن به ویدئو",
     "image_to_video": "تصویر به ویدئو",
-    "ai_tools": "ابزارهای هوش مصنوعی",
+    "api": "API",
     "cta": "امتحان رایگان"
   },
   "hero": {

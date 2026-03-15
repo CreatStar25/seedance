@@ -6,9 +6,10 @@
   "nav": {
     "home": "Hem",
     "blog": "Blogg",
+    "guide": "Seedance-guide",
     "text_to_video": "Text till Video",
     "image_to_video": "Bild till Video",
-    "ai_tools": "AI-verktyg",
+    "api": "API",
     "cta": "Prova Gratis"
   },
   "hero": {

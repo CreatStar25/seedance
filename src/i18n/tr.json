@@ -6,9 +6,10 @@
   "nav": {
     "home": "Anasayfa",
     "blog": "Blog",
+    "guide": "Seedance Kılavuzu",
     "text_to_video": "Metinden Videoya",
     "image_to_video": "Görüntüden Videoya",
-    "ai_tools": "AI Araçları",
+    "api": "API",
     "cta": "Ücretsiz Dene"
   },
   "hero": {

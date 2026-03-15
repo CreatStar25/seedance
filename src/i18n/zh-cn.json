@@ -6,10 +6,26 @@
   "nav": {
     "home": "首页",
     "blog": "博客",
+    "guide": "Seedance使用指南",
     "text_to_video": "文生视频",
     "image_to_video": "图生视频",
-    "ai_tools": "AI工具箱",
+    "api": "API接口",
     "cta": "免费试用"
+  },
+  "guide": {
+    "title": "Seedance 使用指南",
+    "welcome": "欢迎来到 Seedance 使用指南专区！这里汇集了关于 Seedance AI 视频创作的教程、使用技巧与最佳实践。",
+    "article_list": "文章列表",
+    "quick_access": "快速访问通道",
+    "quick_access_desc": "官方 Seedance 2.0 入口，一键开始创作。",
+    "latest_articles": "最新文章",
+    "page_nav": "页面导航",
+    "quick_links": "快速链接",
+    "official_platform": "官方推荐平台",
+    "tips": "使用提示",
+    "feedback": "反馈与建议",
+    "cta_entry": "立即使用 Seedance",
+    "read_full": "阅读全文 →"
   },
   "hero": {
     "title": "导演级控制力",
@@ -122,7 +138,8 @@
         { "label": "博客", "path": "blog" },
         { "label": "关于", "path": "about" },
         { "label": "隐私", "path": "privacy" },
-        { "label": "条款", "path": "terms" }
+        { "label": "条款", "path": "terms" },
+        { "label": "API接口", "href": "https://api.limaxai.com/" }
       ]
     },
     "copyright": "© 2026 Seedance AI. 保留所有权利。"

@@ -6,9 +6,10 @@
   "nav": {
     "home": "الرئيسية",
     "blog": "المدونة",
+    "guide": "دليل Seedance",
     "text_to_video": "نص إلى فيديو",
     "image_to_video": "صورة إلى فيديو",
-    "ai_tools": "أدوات الذكاء الاصطناعي",
+    "api": "API",
     "cta": "جرب مجاناً"
   },
   "hero": {

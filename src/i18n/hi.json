@@ -6,9 +6,10 @@
   "nav": {
     "home": "होम",
     "blog": "ब्लॉग",
+    "guide": "Seedance गाइड",
     "text_to_video": "टेक्स्ट से वीडियो",
     "image_to_video": "इमेज से वीडियो",
-    "ai_tools": "AI टूल्स",
+    "api": "API",
     "cta": "मुफ्त में आजमाएं"
   },
   "hero": {
