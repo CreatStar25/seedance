@@ -42,5 +42,5 @@ Seedance 2.0 在物理規律、動作流暢度、指令理解與風格穩定性�
 掌握 **Seedance 2.0 提示詞怎麼寫** 的核心是：說清「參考誰、做什麼」，善用 @ 綁定素材。
 
 <div style="text-align:center; margin: 2rem 0;">
-  <a href="https://creat.seedance22.com/generate/video-tools/seedance2.0" target="_blank" rel="noopener noreferrer" style="display:inline-block; padding: 1rem 2rem; background: linear-gradient(135deg, #eab308 0%, #f59e0b 100%); color: #000; font-weight: 800; font-size: 1.125rem; border-radius: 9999px; text-decoration: none; box-shadow: 0 4px 14px rgba(234,179,8,0.4);">開始使用 Seedance</a>
+  <a href="https://app.seedance22.com/generate/video-tools/seedance2.0" target="_blank" rel="noopener noreferrer" style="display:inline-block; padding: 1rem 2rem; background: linear-gradient(135deg, #eab308 0%, #f59e0b 100%); color: #000; font-weight: 800; font-size: 1.125rem; border-radius: 9999px; text-decoration: none; box-shadow: 0 4px 14px rgba(234,179,8,0.4);">開始使用 Seedance</a>
 </div>

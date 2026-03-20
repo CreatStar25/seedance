@@ -10,7 +10,7 @@ lang: "tr"
 
 **Seedance 2.0**, ByteDance tarafından sunulan, çok modlu referans yetenekleri öne çıkan bir AI video oluşturma modelidir ve "dünyanın en güçlü AI video oluşturma modellerinden biri" olarak adlandırılır. Birçok kişi **Seedance 2.0 resmi web sitesi girişinin** nerede olduğunu soruyor. Aşağıda en güncel adresler ve deneyim yöntemlerinin özetini doğrudan sunuyoruz.
 
-**[👉 Hemen Seedance Kullan](https://creat.seedance22.com/generate/video-tools/seedance2.0)**
+**[👉 Hemen Seedance Kullan](https://app.seedance22.com/generate/video-tools/seedance2.0)**
 
 ![Seedance 2.0 Resmi Web Sitesi Girişi ve Kullanım Şeması](https://img.seedance22.com/aiweb/seedance2-official-guide-article.png)
 
@@ -58,4 +58,4 @@ Bu, **Seedance 2.0**'ın resmi tanıtım ve giriş sayfasıdır. Yetenekleri ö�
 
 Yukarıdakiler, **Seedance 2.0 resmi web sitesi girişi** ve ana deneyim kanallarının en güncel özetidir. İster Jimeng, ister Doubao, ister Volcano Ark'tan giriş yapın, **Seedance 2.0** modelini tanıyarak oluşturmaya başlayabilirsiniz. Bu yazıyı kaydedin, giriş noktalarını istediğiniz zaman bulmak için.
 
-**[👉 Hemen Seedance Kullan](https://creat.seedance22.com/generate/video-tools/seedance2.0)**
+**[👉 Hemen Seedance Kullan](https://app.seedance22.com/generate/video-tools/seedance2.0)**

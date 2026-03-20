@@ -10,7 +10,7 @@ lang: "th"
 
 **Seedance 2.0** เป็นโมเดลสร้างวิดีโอ AI ที่เปิดตัวโดย ByteDance มีความสามารถอ้างอิงหลายรูปแบบที่โดดเด่น ได้รับการขนานนามว่าเป็นหนึ่งใน "โมเดลสร้างวิดีโอ AI ที่ทรงพลังที่สุด" หลายคนถามว่า **ทางเข้าเว็บไซต์หลักของ Seedance 2.0** อยู่ที่ไหน ด้านล่างนี้คือการรวบรวมที่อยู่ล่าสุดและวิธีการทดลองใช้
 
-**[👉 ใช้ Seedance ทันที](https://creat.seedance22.com/generate/video-tools/seedance2.0)**
+**[👉 ใช้ Seedance ทันที](https://app.seedance22.com/generate/video-tools/seedance2.0)**
 
 ![ทางเข้าเว็บไซต์หลักและการใช้งาน Seedance 2.0](https://img.seedance22.com/aiweb/seedance2-official-guide-article.png)
 
@@ -58,4 +58,4 @@ lang: "th"
 
 นี่คือการรวบรวมล่าสุดของ **ทางเข้าเว็บไซต์หลัก Seedance 2.0** และช่องทางทดลองใช้หลัก ไม่ว่าจะเข้าผ่าน Jimeng, Doubao หรือ Volcano Ark ให้มองหาโมเดล **Seedance 2.0** ก็สามารถเริ่มสร้างวิดีโอได้ บันทึกบทความนี้ไว้เพื่อค้นหาทางเข้าได้ตลอดเวลา
 
-**[👉 ใช้ Seedance ทันที](https://creat.seedance22.com/generate/video-tools/seedance2.0)**
+**[👉 ใช้ Seedance ทันที](https://app.seedance22.com/generate/video-tools/seedance2.0)**

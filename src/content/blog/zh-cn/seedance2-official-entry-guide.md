@@ -11,7 +11,7 @@ lang: "zh-cn"
 
 **Seedance 2.0** 是字节跳动推出的 AI 视频生成模型，多模态参考能力突出，被称为「地表最强 AI 视频生成模型」之一。很多人问 **Seedance 2.0 官网入口**在哪，下面直接给出最新地址与体验方式汇总。
 
-**[👉 立刻使用 Seedance](https://creat.seedance22.com/generate/video-tools/seedance2.0)**
+**[👉 立刻使用 Seedance](https://app.seedance22.com/generate/video-tools/seedance2.0)**
 
 ![Seedance 2.0 官网入口与使用示意](https://img.seedance22.com/aiweb/seedance2-official-guide-article.png)
 
@@ -59,4 +59,4 @@ lang: "zh-cn"
 
 以上为 **Seedance 2.0 官网入口**及主要体验渠道的最新汇总。无论从即梦、豆包还是火山方舟进入，认准 **Seedance 2.0** 模型即可开始生成。收藏本文，随时查找入口。
 
-**[👉 立刻使用 Seedance](https://creat.seedance22.com/generate/video-tools/seedance2.0)**
+**[👉 立刻使用 Seedance](https://app.seedance22.com/generate/video-tools/seedance2.0)**

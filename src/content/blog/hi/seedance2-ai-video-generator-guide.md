@@ -9,7 +9,7 @@ lang: "hi"
 
 **Seedance 2.0** ByteDance का मल्टीमॉडल AI वीडियो मॉडल है—जिसे "AIGC टर्मिनेटर" का उपनाम दिया गया है—जिसमें फिजिक्स-इंजन यथार्थवाद और नेटिव ऑडियो-विजुअल सिंक है। यह गाइड बताती है कि **Seedance 2 AI वीडियो जनरेटर** किस चीज से अलग है और शुरुआती लोग कैसे शुरुआत कर सकते हैं।
 
-**[👉 अभी Seedance का उपयोग करें](https://creat.seedance22.com/generate/video-tools/seedance2.0)**
+**[👉 अभी Seedance का उपयोग करें](https://app.seedance22.com/generate/video-tools/seedance2.0)**
 
 ![Seedance 2.0 AI वीडियो जनरेटर](https://img.seedance22.com/aiweb/seedance2-ai-video-guide-cover.png)
 
@@ -47,4 +47,4 @@ Seedance 2.0 ने सिलिकॉन वैली का ध्या��
 
 **Seedance 2 AI वीडियो जनरेटर** सिनेमा-ग्रेड ऑटोमेशन, फिजिक्स यथार्थवाद और नेटिव ऑडियो को एक ही मॉडल में लाता है। शुरुआती लोग WayinVideo जैसे एकीकृत प्लेटफॉर्म के माध्यम से मुफ्त क्रेडिट्स और बिना वॉटरमार्क एक्सपोर्ट के साथ शुरुआत कर सकते हैं।
 
-**[👉 अभी Seedance का उपयोग करें](https://creat.seedance22.com/generate/video-tools/seedance2.0)**
+**[👉 अभी Seedance का उपयोग करें](https://app.seedance22.com/generate/video-tools/seedance2.0)**

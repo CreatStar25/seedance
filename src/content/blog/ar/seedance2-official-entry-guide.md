@@ -10,7 +10,7 @@ lang: "ar"
 
 **Seedance 2.0** هو نموذج توليد فيديو بالذكاء الاصطناعي أطلقته ByteDance، ويتميز بقدرات مرجعية متعددة الوسائط بارزة، ويُعد أحد "أقوى نماذج توليد الفيديو بالذكاء الاصطناعي على الأرض". يسأل الكثيرون عن **بوابة الموقع الرسمي لـ Seedance 2.0**، وفيما يلي نقدم مباشرة أحدث العناوين الموجزة وطرق التجربة.
 
-**[👉 استخدم Seedance الآن](https://creat.seedance22.com/generate/video-tools/seedance2.0)**
+**[👉 استخدم Seedance الآن](https://app.seedance22.com/generate/video-tools/seedance2.0)**
 
 ![بوابة الموقع الرسمي لـ Seedance 2.0 وشرح الاستخدام](https://img.seedance22.com/aiweb/seedance2-official-guide-article.png)
 
@@ -58,4 +58,4 @@ lang: "ar"
 
 هذا ملخص لأحدث **بوابات الموقع الرسمي لـ Seedance 2.0** وقنوات التجربة الرئيسية. سواء دخلت من Jimeng أو Doubao أو Volcano Ark، ما عليك سوى تحديد نموذج **Seedance 2.0** لبدء التوليد. احفظ هذه المقالة للرجوع إليها في أي وقت.
 
-**[👉 استخدم Seedance الآن](https://creat.seedance22.com/generate/video-tools/seedance2.0)**
+**[👉 استخدم Seedance الآن](https://app.seedance22.com/generate/video-tools/seedance2.0)**

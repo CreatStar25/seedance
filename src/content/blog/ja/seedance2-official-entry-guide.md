@@ -10,7 +10,7 @@ lang: "ja"
 
 **Seedance 2.0** は、ByteDance（バイトダンス）が提供するAI動画生成モデルで、優れたマルチモーダル参照能力を持ち、「地上最強のAI動画生成モデル」の一つと称されています。多くの方が **Seedance 2.0 公式サイトの入り口** を探していますので、以下に最新のアドレスと体験方法をまとめます。
 
-**[👉 今すぐ Seedance を使う](https://creat.seedance22.com/generate/video-tools/seedance2.0)**
+**[👉 今すぐ Seedance を使う](https://app.seedance22.com/generate/video-tools/seedance2.0)**
 
 ![Seedance 2.0 公式サイト入り口と使用例](https://img.seedance22.com/aiweb/seedance2-official-guide-article.png)
 
@@ -58,4 +58,4 @@ lang: "ja"
 
 以上が、**Seedance 2.0 公式サイトの入り口** および主要な体験チャネルの最新まとめです。即夢、豆包、火山方舟のいずれからアクセスしても、**Seedance 2.0** モデルを選択すれば生成を開始できます。この記事をブックマークして、いつでも入り口を確認してください。
 
-**[👉 今すぐ Seedance を使う](https://creat.seedance22.com/generate/video-tools/seedance2.0)**
+**[👉 今すぐ Seedance を使う](https://app.seedance22.com/generate/video-tools/seedance2.0)**

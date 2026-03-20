@@ -225,6 +225,7 @@
     ]
   },
   "blog": {
+    "page_title": "Блог Seedance: уроки и руководства по ИИ-видео",
     "read": "Read Article →",
     "no_posts": "No posts found for this language yet."
   }

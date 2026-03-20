@@ -54,5 +54,5 @@ AI를 “제작 팀”으로 삼아 기획–제작–납품까지 한 번에 �
 **Seedance로 광고 영상 제작**의 핵심은 제품·장면·스타일을 명확히 하고 @와 콘티를 잘 쓰며, “느낌만”에서 콘티·다량 제작까지 단계적으로 올리는 것입니다.
 
 <div style="text-align:center; margin: 2rem 0;">
-  <a href="https://creat.seedance22.com/generate/video-tools/seedance2.0" target="_blank" rel="noopener noreferrer" style="display:inline-block; padding: 1rem 2rem; background: linear-gradient(135deg, #eab308 0%, #f59e0b 100%); color: #000; font-weight: 800; font-size: 1.125rem; border-radius: 9999px; text-decoration: none; box-shadow: 0 4px 14px rgba(234,179,8,0.4);">Seedance 시작하기</a>
+  <a href="https://app.seedance22.com/generate/video-tools/seedance2.0" target="_blank" rel="noopener noreferrer" style="display:inline-block; padding: 1rem 2rem; background: linear-gradient(135deg, #eab308 0%, #f59e0b 100%); color: #000; font-weight: 800; font-size: 1.125rem; border-radius: 9999px; text-decoration: none; box-shadow: 0 4px 14px rgba(234,179,8,0.4);">Seedance 시작하기</a>
 </div>

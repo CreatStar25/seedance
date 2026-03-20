@@ -49,5 +49,5 @@ AI 영상에는 고정된 주인공 이미지가 필요합니다. 없으면 문�
 **Seedance 2.0** AI vlog 제작 흐름: 콘티 → 캐릭터 이미지 → Seedance 2.0 全能参考 → 프롬프트 명확히 → 생성·후반 작업. 이 순서로 짧은 시간에 한 편을 완성할 수 있습니다.
 
 <div style="text-align:center; margin: 2rem 0;">
-  <a href="https://creat.seedance22.com/generate/video-tools/seedance2.0" target="_blank" rel="noopener noreferrer" style="display:inline-block; padding: 1rem 2rem; background: linear-gradient(135deg, #eab308 0%, #f59e0b 100%); color: #000; font-weight: 800; font-size: 1.125rem; border-radius: 9999px; text-decoration: none; box-shadow: 0 4px 14px rgba(234,179,8,0.4);">Seedance 시작하기</a>
+  <a href="https://app.seedance22.com/generate/video-tools/seedance2.0" target="_blank" rel="noopener noreferrer" style="display:inline-block; padding: 1rem 2rem; background: linear-gradient(135deg, #eab308 0%, #f59e0b 100%); color: #000; font-weight: 800; font-size: 1.125rem; border-radius: 9999px; text-decoration: none; box-shadow: 0 4px 14px rgba(234,179,8,0.4);">Seedance 시작하기</a>
 </div>

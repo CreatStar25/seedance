@@ -10,7 +10,7 @@ lang: "fa"
 
 **Seedance 2.0** یک مدل تولید ویدیوی AI است که توسط بایت‌دنس معرفی شده و به دلیل قابلیت‌های چندوجهی برجسته‌اش، به عنوان یکی از «قدرتمندترین مدل‌های تولید ویدیوی AI روی زمین» شناخته می‌شود. بسیاری می‌پرسند **ورودی وب‌سایت رسمی Seedance 2.0** کجاست. در ادامه، خلاصه‌ای از جدیدترین آدرس‌ها و روش‌های تجربه‌کاری ارائه می‌شود.
 
-**[👉 همین حالا از Seedance استفاده کنید](https://creat.seedance22.com/generate/video-tools/seedance2.0)**
+**[👉 همین حالا از Seedance استفاده کنید](https://app.seedance22.com/generate/video-tools/seedance2.0)**
 
 ![راهنمای ورودی و استفاده از وب‌سایت رسمی Seedance 2.0](https://img.seedance22.com/aiweb/seedance2-official-guide-article.png)
 
@@ -58,4 +58,4 @@ lang: "fa"
 
 در بالا خلاصه‌ای از **ورودی‌های وب‌سایت رسمی Seedance 2.0** و کانال‌های اصلی تجربه‌کاری ارائه شد. چه از طریق جیمنگ، دوبائو یا فانگژو آتش‌فشان وارد شوید، کافی است مدل **Seedance 2.0** را شناسایی کرده و تولید را آغاز کنید. این مقاله را ذخیره کنید تا هر زمان که نیاز داشتید ورودی‌ها را پیدا کنید.
 
-**[👉 همین حالا از Seedance استفاده کنید](https://creat.seedance22.com/generate/video-tools/seedance2.0)**
+**[👉 همین حالا از Seedance استفاده کنید](https://app.seedance22.com/generate/video-tools/seedance2.0)**

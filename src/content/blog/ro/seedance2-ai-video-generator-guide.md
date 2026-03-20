@@ -9,7 +9,7 @@ lang: "ro"
 
 **Seedance 2.0** este modelul multimodal AI pentru videoclipuri al ByteDance — supranumit „Terminatorul AIGC” — cu realism bazat pe motor fizic și sincronizare audio-vizuală nativă. Acest ghid acoperă ce face **Seedance 2 Generator AI de videoclipuri** diferit și cum pot începătorii să îl folosească.
 
-**[👉 Folosește Seedance Acum](https://creat.seedance22.com/generate/video-tools/seedance2.0)**
+**[👉 Folosește Seedance Acum](https://app.seedance22.com/generate/video-tools/seedance2.0)**
 
 ![Seedance 2.0 Generator AI de videoclipuri](https://img.seedance22.com/aiweb/seedance2-ai-video-guide-cover.png)
 
@@ -47,4 +47,4 @@ Seedance 2.0 a atras atenția din Silicon Valley; Elon Musk a redistribuit un de
 
 **Seedance 2 Generator AI de videoclipuri** aduce automatizare de calitate cinematografică, realism fizic și audio nativ într-un singur model. Începătorii pot începe prin platforme integrate precum WayinVideo, cu credite gratuite și export fără filigran.
 
-**[👉 Folosește Seedance Acum](https://creat.seedance22.com/generate/video-tools/seedance2.0)**
+**[👉 Folosește Seedance Acum](https://app.seedance22.com/generate/video-tools/seedance2.0)**

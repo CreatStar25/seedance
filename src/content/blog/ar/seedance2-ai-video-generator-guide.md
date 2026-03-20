@@ -9,7 +9,7 @@ lang: "ar"
 
 **Seedance 2.0** هو نموذج فيديو الذكاء الاصطناعي متعدد الوسائط من ByteDance - الملقب بـ "مُنهي AIGC" - يتميز بواقعية محرك الفيزياء ومزامنة صوتية بصرية أصلية. يغطي هذا الدليل ما يميز **Seedance 2 مولد فيديو الذكاء الاصطناعي** وكيف يمكن للمبتدئين البدء.
 
-**[👉 استخدم Seedance الآن](https://creat.seedance22.com/generate/video-tools/seedance2.0)**
+**[👉 استخدم Seedance الآن](https://app.seedance22.com/generate/video-tools/seedance2.0)**
 
 ![Seedance 2.0 مولد فيديو الذكاء الاصطناعي](https://img.seedance22.com/aiweb/seedance2-ai-video-guide-cover.png)
 
@@ -47,4 +47,4 @@ lang: "ar"
 
 **Seedance 2 مولد فيديو الذكاء الاصطناعي** يجلب الأتمتة ذات المستوى السينمائي، واقعية الفيزياء، والصوت الأصلي في نموذج واحد. يمكن للمبتدئين البدء عبر منصات متكاملة مثل WayinVideo مع رصيد مجاني وتصدير بدون علامة مائية.
 
-**[👉 استخدم Seedance الآن](https://creat.seedance22.com/generate/video-tools/seedance2.0)**
+**[👉 استخدم Seedance الآن](https://app.seedance22.com/generate/video-tools/seedance2.0)**

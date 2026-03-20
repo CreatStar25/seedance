@@ -10,7 +10,7 @@ lang: "ko"
 
 **Seedance 2.0**은 바이트댄스가 출시한 AI 비디오 생성 모델로, 뛰어난 멀티모달 참조 능력으로 '지상 최강 AI 비디오 생성 모델' 중 하나로 불립니다. 많은 분들이 **Seedance 2.0 공식 웹사이트 입구**가 어디인지 묻는데, 아래에서 최신 주소와 체험 방법을 바로 정리해 드립니다.
 
-**[👉 지금 바로 Seedance 사용하기](https://creat.seedance22.com/generate/video-tools/seedance2.0)**
+**[👉 지금 바로 Seedance 사용하기](https://app.seedance22.com/generate/video-tools/seedance2.0)**
 
 ![Seedance 2.0 공식 웹사이트 입구 및 사용 예시](https://img.seedance22.com/aiweb/seedance2-official-guide-article.png)
 
@@ -58,4 +58,4 @@ lang: "ko"
 
 이상이 **Seedance 2.0 공식 웹사이트 입구** 및 주요 체험 경로에 대한 최신 모음입니다. 지멍, 두바오, 화산 팡저우 중 어디로 들어가든 **Seedance 2.0** 모델을 확인하고 생성하기 시작하세요. 이 글을 북마크하여 언제든지 입구를 찾아보세요.
 
-**[👉 지금 바로 Seedance 사용하기](https://creat.seedance22.com/generate/video-tools/seedance2.0)**
+**[👉 지금 바로 Seedance 사용하기](https://app.seedance22.com/generate/video-tools/seedance2.0)**

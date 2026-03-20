@@ -10,7 +10,7 @@ lang: "it"
 
 **Seedance 2.0** è il modello di generazione video AI lanciato da ByteDance, noto per le sue eccezionali capacità di riferimento multimodale, ed è considerato uno dei "modelli di generazione video AI più potenti al mondo". Molti si chiedono **dove si trova l'ingresso ufficiale di Seedance 2.0**. Di seguito troverai un riepilogo aggiornato degli indirizzi e dei metodi per provarlo.
 
-**[👉 Usa Seedance subito](https://creat.seedance22.com/generate/video-tools/seedance2.0)**
+**[👉 Usa Seedance subito](https://app.seedance22.com/generate/video-tools/seedance2.0)**
 
 ![Ingresso ufficiale e guida all'uso di Seedance 2.0](https://img.seedance22.com/aiweb/seedance2-official-guide-article.png)
 
@@ -58,4 +58,4 @@ Questa è la pagina ufficiale di introduzione e ingresso per **Seedance 2.0**, d
 
 Questo è il riepilogo più recente degli **ingressi ufficiali di Seedance 2.0** e dei principali canali di prova. Sia che tu acceda da Jimeng, Doubao o Volcano Ark, basta identificare il modello **Seedance 2.0** per iniziare a generare. Salva questo articolo per trovare facilmente l'ingresso in qualsiasi momento.
 
-**[👉 Usa Seedance subito](https://creat.seedance22.com/generate/video-tools/seedance2.0)**
+**[👉 Usa Seedance subito](https://app.seedance22.com/generate/video-tools/seedance2.0)**

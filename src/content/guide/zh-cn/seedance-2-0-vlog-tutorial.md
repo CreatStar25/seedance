@@ -52,5 +52,5 @@ AI 视频需要固定主角形象。若没有现成人物图，可用文生图�
 **Seedance2** 做 AI vlog 的核心流程：分镜脚本 → 人设图 → Seedance 2.0 全能参考 → 写清提示词 → 生成与后期。按此流程即可在较短时间内完成一条成片。
 
 <div style="text-align:center; margin: 2rem 0;">
-  <a href="https://creat.seedance22.com/generate/video-tools/seedance2.0" target="_blank" rel="noopener noreferrer" style="display:inline-block; padding: 1rem 2rem; background: linear-gradient(135deg, #eab308 0%, #f59e0b 100%); color: #000; font-weight: 800; font-size: 1.125rem; border-radius: 9999px; text-decoration: none; box-shadow: 0 4px 14px rgba(234,179,8,0.4);">开始使用 Seedance</a>
+  <a href="https://app.seedance22.com/generate/video-tools/seedance2.0" target="_blank" rel="noopener noreferrer" style="display:inline-block; padding: 1rem 2rem; background: linear-gradient(135deg, #eab308 0%, #f59e0b 100%); color: #000; font-weight: 800; font-size: 1.125rem; border-radius: 9999px; text-decoration: none; box-shadow: 0 4px 14px rgba(234,179,8,0.4);">开始使用 Seedance</a>
 </div>

@@ -10,7 +10,7 @@ lang: "vi"
 
 **Seedance 2.0** là mô hình tạo video AI do ByteDance phát triển, nổi bật với khả năng tham chiếu đa phương thức mạnh mẽ, được mệnh danh là một trong những "mô hình tạo video AI mạnh nhất". Nhiều người thắc mắc **cổng vào trang chính thức Seedance 2.0** ở đâu, dưới đây là tổng hợp địa chỉ mới nhất và cách thức trải nghiệm.
 
-**[👉 Dùng Seedance ngay](https://creat.seedance22.com/generate/video-tools/seedance2.0)**
+**[👉 Dùng Seedance ngay](https://app.seedance22.com/generate/video-tools/seedance2.0)**
 
 ![Hướng dẫn sử dụng và cổng vào trang chính thức Seedance 2.0](https://img.seedance22.com/aiweb/seedance2-official-guide-article.png)
 
@@ -58,4 +58,4 @@ Các điểm nổi bật chính bao gồm: Tỷ lệ khả dụng và độ ổn
 
 Trên đây là tổng hợp mới nhất về **cổng vào trang chính thức Seedance 2.0** và các kênh trải nghiệm chính. Dù truy cập từ Jimeng, Doubao hay Volcano Ark, chỉ cần nhận diện mô hình **Seedance 2.0** là có thể bắt đầu tạo video. Hãy lưu bài viết này để dễ dàng tìm cổng vào khi cần.
 
-**[👉 Dùng Seedance ngay](https://creat.seedance22.com/generate/video-tools/seedance2.0)**
+**[👉 Dùng Seedance ngay](https://app.seedance22.com/generate/video-tools/seedance2.0)**

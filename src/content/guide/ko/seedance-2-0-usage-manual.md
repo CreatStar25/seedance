@@ -67,5 +67,5 @@ Seedance 2.0은 텍스트·이미지·영상·오디오 혼합 입력을 지원�
 **Seedance 가이드**와 위 사용법을 익히면 아이디어에서 완성까지 더 효율적으로 진행할 수 있습니다.
 
 <div style="text-align:center; margin: 2rem 0;">
-  <a href="https://creat.seedance22.com/generate/video-tools/seedance2.0" target="_blank" rel="noopener noreferrer" style="display:inline-block; padding: 1rem 2rem; background: linear-gradient(135deg, #eab308 0%, #f59e0b 100%); color: #000; font-weight: 800; font-size: 1.125rem; border-radius: 9999px; text-decoration: none; box-shadow: 0 4px 14px rgba(234,179,8,0.4);">Seedance 시작하기</a>
+  <a href="https://app.seedance22.com/generate/video-tools/seedance2.0" target="_blank" rel="noopener noreferrer" style="display:inline-block; padding: 1rem 2rem; background: linear-gradient(135deg, #eab308 0%, #f59e0b 100%); color: #000; font-weight: 800; font-size: 1.125rem; border-radius: 9999px; text-decoration: none; box-shadow: 0 4px 14px rgba(234,179,8,0.4);">Seedance 시작하기</a>
 </div>

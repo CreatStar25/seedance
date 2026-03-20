@@ -67,5 +67,5 @@ Seedance 2.0은 얼굴·의상·장면·촬영 스타일을 잘 유지하며, �
 **Seedance 2.0 프롬프트**의 핵심은 “무엇을 참조해 무엇을 할지”를 분명히 하고, @로 소재를 묶는 것입니다. 멀티모달과 정확한 지시로 제작을 더 잘 제어하고 효율적으로 할 수 있습니다.
 
 <div style="text-align:center; margin: 2rem 0;">
-  <a href="https://creat.seedance22.com/generate/video-tools/seedance2.0" target="_blank" rel="noopener noreferrer" style="display:inline-block; padding: 1rem 2rem; background: linear-gradient(135deg, #eab308 0%, #f59e0b 100%); color: #000; font-weight: 800; font-size: 1.125rem; border-radius: 9999px; text-decoration: none; box-shadow: 0 4px 14px rgba(234,179,8,0.4);">Seedance 시작하기</a>
+  <a href="https://app.seedance22.com/generate/video-tools/seedance2.0" target="_blank" rel="noopener noreferrer" style="display:inline-block; padding: 1rem 2rem; background: linear-gradient(135deg, #eab308 0%, #f59e0b 100%); color: #000; font-weight: 800; font-size: 1.125rem; border-radius: 9999px; text-decoration: none; box-shadow: 0 4px 14px rgba(234,179,8,0.4);">Seedance 시작하기</a>
 </div>

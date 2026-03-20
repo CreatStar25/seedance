@@ -9,7 +9,7 @@ lang: "uk"
 
 **Seedance 2.0** — це мультимодальна модель AI-відео від ByteDance, яку називають «Термінатором AIGC». Вона відрізняється реалізмом фізичного рушія та нативною аудіовізуальною синхронізацією. Цей посібник розповідає, чим **генератор AI-відео Seedance 2** відрізняється від інших, і як початківцям розпочати роботу.
 
-**[👉 Використати Seedance зараз](https://creat.seedance22.com/generate/video-tools/seedance2.0)**
+**[👉 Використати Seedance зараз](https://app.seedance22.com/generate/video-tools/seedance2.0)**
 
 ![Генератор AI-відео Seedance 2.0](https://img.seedance22.com/aiweb/seedance2-ai-video-guide-cover.png)
 
@@ -47,4 +47,4 @@ Seedance 2.0 привернув увагу Кремнієвої долини; І
 
 **��енератор AI-відео Seedance 2** поєднує в одній моделі автоматизацію кінематографічного рівня, реалізм фізики та нативний звук. Новачки можуть розпочати роботу через інтегровані платформи, такі як WayinVideo, з безкоштовними кредитами та експортом без водяного знака.
 
-**[👉 Використати Seedance зараз](https://creat.seedance22.com/generate/video-tools/seedance2.0)**
+**[👉 Використати Seedance зараз](https://app.seedance22.com/generate/video-tools/seedance2.0)**

@@ -10,7 +10,7 @@ lang: "zh-tw"
 
 **Seedance 2.0** 是字節跳動推出的 AI 影片生成模型，多模態參考能力突出，被稱為「地表最強 AI 影片生成模型」之一。很多人問 **Seedance 2.0 官網入口**在哪，下面直接給出最新地址與體驗方式彙總。
 
-**[👉 立刻使用 Seedance](https://creat.seedance22.com/generate/video-tools/seedance2.0)**
+**[👉 立刻使用 Seedance](https://app.seedance22.com/generate/video-tools/seedance2.0)**
 
 ![Seedance 2.0 官網入口與使用示意](https://img.seedance22.com/aiweb/seedance2-official-guide-article.png)
 
@@ -58,4 +58,4 @@ lang: "zh-tw"
 
 以上為 **Seedance 2.0 官網入口**及主要體驗渠道的最新彙總。無論從即夢、豆包還是火山方舟進入，認準 **Seedance 2.0** 模型即可開始生成。收藏本文，隨時查找入口。
 
-**[👉 立刻使用 Seedance](https://creat.seedance22.com/generate/video-tools/seedance2.0)**
+**[👉 立刻使用 Seedance](https://app.seedance22.com/generate/video-tools/seedance2.0)**

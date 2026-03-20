@@ -66,5 +66,5 @@ Seedance 2.0 चेहरे, कपड़े, सीन और कैमरा 
 **Seedance 2.0 प्रॉम्प्ट लिखना** सीधे: साफ़ बताएँ क्या रेफर करना है और क्या करना है, और ऐसेट बाइंड करने के लिए @ इस्तेमाल करें। मल्टीमॉडल इनपुट प्लस प्रिसाइज़ इंस्ट्रक्शन क्रिएशन को ज़्यादा कंट्रोलेबल और एफिशिएंट बनाते हैं।
 
 <div style="text-align:center; margin: 2rem 0;">
-  <a href="https://creat.seedance22.com/generate/video-tools/seedance2.0" target="_blank" rel="noopener noreferrer" style="display:inline-block; padding: 1rem 2rem; background: linear-gradient(135deg, #eab308 0%, #f59e0b 100%); color: #000; font-weight: 800; font-size: 1.125rem; border-radius: 9999px; text-decoration: none; box-shadow: 0 4px 14px rgba(234,179,8,0.4);">Seedance के साथ शुरू करें</a>
+  <a href="https://app.seedance22.com/generate/video-tools/seedance2.0" target="_blank" rel="noopener noreferrer" style="display:inline-block; padding: 1rem 2rem; background: linear-gradient(135deg, #eab308 0%, #f59e0b 100%); color: #000; font-weight: 800; font-size: 1.125rem; border-radius: 9999px; text-decoration: none; box-shadow: 0 4px 14px rgba(234,179,8,0.4);">Seedance के साथ शुरू करें</a>
 </div>

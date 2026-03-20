@@ -10,7 +10,7 @@ lang: "id"
 
 **Seedance 2.0** adalah model generasi video AI yang diluncurkan oleh ByteDance, dengan kemampuan referensi multimodal yang menonjol, dijuluki sebagai salah satu "model generasi video AI terkuat di dunia". Banyak yang bertanya **di mana pintu masuk resmi Seedance 2.0**, berikut adalah kumpulan alamat terbaru dan cara pengalaman langsung.
 
-**[👉 Gunakan Seedance Sekarang](https://creat.seedance22.com/generate/video-tools/seedance2.0)**
+**[👉 Gunakan Seedance Sekarang](https://app.seedance22.com/generate/video-tools/seedance2.0)**
 
 ![Pintu Masuk dan Panduan Penggunaan Resmi Seedance 2.0](https://img.seedance22.com/aiweb/seedance2-official-guide-article.png)
 
@@ -58,4 +58,4 @@ Ini adalah halaman pengenalan dan pintu masuk resmi **Seedance 2.0**, Anda dapat
 
 Di atas adalah kumpulan terbaru **pintu masuk resmi Seedance 2.0** dan saluran pengalaman utama. Baik melalui Jimeng, Doubao, atau Volcano Ark, cukup kenali model **Seedance 2.0** untuk mulai menghasilkan. Simpan artikel ini untuk mencari pintu masuk kapan saja.
 
-**[👉 Gunakan Seedance Sekarang](https://creat.seedance22.com/generate/video-tools/seedance2.0)**
+**[👉 Gunakan Seedance Sekarang](https://app.seedance22.com/generate/video-tools/seedance2.0)**

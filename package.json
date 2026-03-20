@@ -8,7 +8,8 @@
     "preview": "astro preview",
     "astro": "astro",
     "test:blog": "node scripts/test_blog_routes.js",
-    "test:multilang": "node scripts/test_multilang_http.js"
+    "test:multilang": "node scripts/test_multilang_http.js",
+    "i18n:merge-blog-bodies": "node scripts/merge-blog-localized-bodies.mjs"
   },
   "dependencies": {
     "@astrojs/cloudflare": "^12.6.12",

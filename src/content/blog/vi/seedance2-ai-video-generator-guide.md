@@ -9,7 +9,7 @@ lang: "vi"
 
 **Seedance 2.0** là mô hình AI video đa phương thức của ByteDance—được mệnh danh là "Kẻ Hủy Diệt AIGC"—với độ chân thực từ công cụ vật lý và đồng bộ âm thanh-hình ảnh gốc. Hướng dẫn này bao gồm những điểm khác biệt của **Seedance 2 AI video generator** và cách người mới bắt đầu có thể bắt đầu sử dụng.
 
-**[👉 Dùng Seedance Ngay](https://creat.seedance22.com/generate/video-tools/seedance2.0)**
+**[👉 Dùng Seedance Ngay](https://app.seedance22.com/generate/video-tools/seedance2.0)**
 
 ![Seedance 2.0 AI video generator](https://img.seedance22.com/aiweb/seedance2-ai-video-guide-cover.png)
 
@@ -47,4 +47,4 @@ Seedance 2.0 đã thu hút sự chú ý từ Thung lũng Silicon; Elon Musk đã
 
 **Seedance 2 AI video generator** mang đến tự động hóa cấp độ điện ảnh, độ chân thực vật lý và âm thanh gốc trong một mô hình duy nhất. Người mới bắt đầu có thể bắt đầu thông qua các nền tảng tích hợp như WayinVideo với tín dụng miễn phí và xuất video không có watermark.
 
-**[👉 Dùng Seedance Ngay](https://creat.seedance22.com/generate/video-tools/seedance2.0)**
+**[👉 Dùng Seedance Ngay](https://app.seedance22.com/generate/video-tools/seedance2.0)**

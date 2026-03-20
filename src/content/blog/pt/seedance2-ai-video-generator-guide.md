@@ -9,7 +9,7 @@ lang: "pt"
 
 **Seedance 2.0** é o modelo multimodal de vídeo por IA da ByteDance — apelidado de "Exterminador AIGC" — com realismo de motor de física e sincronização nativa áudio-visual. Este guia aborda o que torna o **gerador de vídeo por IA Seedance 2** diferente e como os iniciantes podem começar.
 
-**[👉 Usar Seedance Agora](https://creat.seedance22.com/generate/video-tools/seedance2.0)**
+**[👉 Usar Seedance Agora](https://app.seedance22.com/generate/video-tools/seedance2.0)**
 
 ![Gerador de vídeo por IA Seedance 2.0](https://img.seedance22.com/aiweb/seedance2-ai-video-guide-cover.png)
 
@@ -47,4 +47,4 @@ O Seedance 2.0 chamou a atenção do Vale do Silício; Elon Musk republicou uma 
 
 O **gerador de vídeo por IA Seedance 2** traz automação de nível cinematográfico, realismo de física e áudio nativo em um único modelo. Iniciantes podem começar por plataformas integradas como o WayinVideo, com créditos grátis e exportação sem marca d'água.
 
-**[👉 Usar Seedance Agora](https://creat.seedance22.com/generate/video-tools/seedance2.0)**
+**[👉 Usar Seedance Agora](https://app.seedance22.com/generate/video-tools/seedance2.0)**

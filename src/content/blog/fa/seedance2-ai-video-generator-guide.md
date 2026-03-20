@@ -9,7 +9,7 @@ lang: "fa"
 
 **Seedance 2.0** مدل چندوجهی ویدیوی هوش مصنوعی بایت‌دنس است — با لقب «ترمیناتور AIGC» — که واقع‌گرایی موتور فیزیک و همگام‌سازی بومی صدا و تصویر را ارائه می‌دهد. این راهنما توضیح می‌دهد که چه چیزی **Seedance 2 تولیدکننده ویدیوی هوش مصنوعی** را متفاوت می‌کند و مبتدیان چگونه می‌توانند شروع کنند.
 
-**[👉 استفاده فوری از Seedance](https://creat.seedance22.com/generate/video-tools/seedance2.0)**
+**[👉 استفاده فوری از Seedance](https://app.seedance22.com/generate/video-tools/seedance2.0)**
 
 ![Seedance 2.0 تولیدکننده ویدیوی هوش مصنوعی](https://img.seedance22.com/aiweb/seedance2-ai-video-guide-cover.png)
 
@@ -47,4 +47,4 @@ Seedance 2.0 توجه دره سیلیکون را جلب کرده است؛ ایل
 
 **Seedance 2 تولیدکننده ویدیوی هوش مصنوعی** اتوماسیون درجه سینما، واقع‌گرایی فیزیک و صدا بومی را در یک مدل واحد ارائه می‌دهد. مبتدیان می‌توانند از طریق پلتفرم‌های یکپارچه مانند WayinVideo با اعتبار رایگان و خروجی بدون واترمارک شروع کنند.
 
-**[👉 استفاده فوری از Seedance](https://creat.seedance22.com/generate/video-tools/seedance2.0)**
+**[👉 استفاده فوری از Seedance](https://app.seedance22.com/generate/video-tools/seedance2.0)**

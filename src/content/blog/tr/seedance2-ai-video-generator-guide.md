@@ -9,7 +9,7 @@ lang: "tr"
 
 **Seedance 2.0**, ByteDance'ın çok modlu AI video modelidir—"AIGC Terminatörü" olarak adlandırılır—fizik motoru gerçekçiliği ve yerel ses-görsel senkronizasyonu ile. Bu kılavuz, **Seedance 2 AI video oluşturucunun** neyi farklı kıldığını ve yeni başlayanların nasıl başlayabileceğini kapsar.
 
-**[👉 Seedance'ı Hemen Kullanın](https://creat.seedance22.com/generate/video-tools/seedance2.0)**
+**[👉 Seedance'ı Hemen Kullanın](https://app.seedance22.com/generate/video-tools/seedance2.0)**
 
 ![Seedance 2.0 AI video oluşturucu](https://img.seedance22.com/aiweb/seedance2-ai-video-guide-cover.png)
 
@@ -47,4 +47,4 @@ Seedance 2.0, Silikon Vadisi'nden ilgi çekmiştir; Elon Musk, X'te bir demoyu "
 
 **Seedance 2 AI video oluşturucu**, sinema kalitesinde otomasyon, fizik gerçekçiliği ve yerel sesi tek bir modele getirir. Yeni başlayanlar, WayinVideo gibi entegre platformlar aracılığıyla ücretsiz krediler ve filigransız dışa aktarma ile başlayabilir.
 
-**[👉 Seedance'ı Hemen Kullanın](https://creat.seedance22.com/generate/video-tools/seedance2.0)**
+**[👉 Seedance'ı Hemen Kullanın](https://app.seedance22.com/generate/video-tools/seedance2.0)**

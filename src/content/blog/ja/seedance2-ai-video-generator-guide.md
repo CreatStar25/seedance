@@ -9,7 +9,7 @@ lang: "ja"
 
 **Seedance 2.0**は、ByteDanceのマルチモーダルAIビデオモデルで、「AIGCターミネーター」とも呼ばれ、物理エンジンによるリアリズムとネイティブな音声・映像同期を備えています。このガイドでは、**Seedance 2 AIビデオジェネレーター**の特徴と、初心者が始める方法を解説します。
 
-**[👉 Seedanceを今すぐ使う](https://creat.seedance22.com/generate/video-tools/seedance2.0)**
+**[👉 Seedanceを今すぐ使う](https://app.seedance22.com/generate/video-tools/seedance2.0)**
 
 ![Seedance 2.0 AIビデオジェネレーター](https://img.seedance22.com/aiweb/seedance2-ai-video-guide-cover.png)
 
@@ -47,4 +47,4 @@ Seedance 2.0はシリコンバレーから注目を集めており、イーロ�
 
 **Seedance 2 AIビデオジェネレーター**は、映画レベルの自動化、物理的なリアリズム、ネイティブ音声を1つのモデルに統合しています。初心者は、WayinVideoなどの統合プラットフォームを通じて、無料クレジットと透かしなしエクスポートで始められます。
 
-**[👉 Seedanceを今すぐ使う](https://creat.seedance22.com/generate/video-tools/seedance2.0)**
+**[👉 Seedanceを今すぐ使う](https://app.seedance22.com/generate/video-tools/seedance2.0)**

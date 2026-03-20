@@ -225,6 +225,7 @@
     ]
   },
   "blog": {
+    "page_title": "Blog de Seedance: Tutoriales y guías de vídeo con IA",
     "read": "Read Article →",
     "no_posts": "No posts found for this language yet."
   }

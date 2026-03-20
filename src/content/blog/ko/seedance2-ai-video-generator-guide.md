@@ -9,7 +9,7 @@ lang: "ko"
 
 **Seedance 2.0**은 바이트댄스의 멀티모달 AI 비디오 모델로, "AIGC 터미네이터"라고 불리며 물리 엔진 현실감과 네이티브 오디오-비주얼 싱크를 자랑합니다. 이 가이드는 **Seedance 2 AI 비디오 생성기**가 다른 점과 초보자가 시작하는 방법을 다룹니다.
 
-**[👉 지금 Seedance 사용하기](https://creat.seedance22.com/generate/video-tools/seedance2.0)**
+**[👉 지금 Seedance 사용하기](https://app.seedance22.com/generate/video-tools/seedance2.0)**
 
 ![Seedance 2.0 AI 비디오 생성기](https://img.seedance22.com/aiweb/seedance2-ai-video-guide-cover.png)
 
@@ -47,4 +47,4 @@ Seedance 2.0은 실리콘밸리의 관심을 끌었습니다; 일론 머스크�
 
 **Seedance 2 AI 비디오 생성기**는 시네마 등급 자동화, 물리적 현실감, 네이티브 오디오를 하나의 모델로 ��져옵니다. 초보자는 WayinVideo와 같은 통합 플랫폼을 통해 무료 크레딧과 워터마크 없는 내보내기로 시작할 수 있습니다.
 
-**[👉 지금 Seedance 사용하기](https://creat.seedance22.com/generate/video-tools/seedance2.0)**
+**[👉 지금 Seedance 사용하기](https://app.seedance22.com/generate/video-tools/seedance2.0)**

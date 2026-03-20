@@ -9,7 +9,7 @@ lang: "zh-cn"
 
 **Seedance 2.0** 是字节跳动的多模态 AI 视频模型——被誉为“AIGC 终结者”——具备物理引擎级的真实感和原生音视频同步。本指南将介绍 **Seedance 2 AI 视频生成器** 的独特之处，以及新手如何快速上手。
 
-**[👉 立即使用 Seedance](https://creat.seedance22.com/generate/video-tools/seedance2.0)**
+**[👉 立即使用 Seedance](https://app.seedance22.com/generate/video-tools/seedance2.0)**
 
 ![Seedance 2.0 AI 视频生成器](https://img.seedance22.com/aiweb/seedance2-ai-video-guide-cover.png)
 
@@ -47,4 +47,4 @@ Seedance 2.0 已引起硅谷关注；埃隆·马斯克在 X 上转发演示视�
 
 **Seedance 2 AI 视频生成器** 将电影级自动化、物理真实感和原生音频集成于单一模型。新手可以通过 WayinVideo 等集成平台开始使用，享受免费积分和无水印导出。
 
-**[👉 立即使用 Seedance](https://creat.seedance22.com/generate/video-tools/seedance2.0)**
+**[👉 立即使用 Seedance](https://app.seedance22.com/generate/video-tools/seedance2.0)**

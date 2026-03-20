@@ -9,7 +9,7 @@ lang: "id"
 
 **Seedance 2.0** adalah model video AI multimodal dari ByteDance—dijuluki "AIGC Terminator"—dengan realisme mesin fisika dan sinkronisasi audio-visual native. Panduan ini membahas apa yang membuat **generator video AI Seedance 2** berbeda dan bagaimana pemula dapat memulai.
 
-**[👉 Gunakan Seedance Sekarang](https://creat.seedance22.com/generate/video-tools/seedance2.0)**
+**[👉 Gunakan Seedance Sekarang](https://app.seedance22.com/generate/video-tools/seedance2.0)**
 
 ![Generator video AI Seedance 2.0](https://img.seedance22.com/aiweb/seedance2-ai-video-guide-cover.png)
 
@@ -47,4 +47,4 @@ Seedance 2.0 telah menarik perhatian dari Silicon Valley; Elon Musk membagikan u
 
 **Generator video AI Seedance 2** menghadirkan otomatisasi tingkat sinema, realisme fisika, dan audio native ke dalam satu model. Pemula dapat memulai melalui platform terintegrasi seperti WayinVideo dengan kredit gratis dan ekspor tanpa watermark.
 
-**[👉 Gunakan Seedance Sekarang](https://creat.seedance22.com/generate/video-tools/seedance2.0)**
+**[👉 Gunakan Seedance Sekarang](https://app.seedance22.com/generate/video-tools/seedance2.0)**
