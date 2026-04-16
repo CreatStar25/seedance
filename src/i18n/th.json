@@ -1,7 +1,8 @@
 {
   "seo": {
     "title": "Seedance 2.0 - แพลตฟอร์มสร้างวิดีโอ AI อัจฉริยะ | Seedance เวอร์ชั่นภาษาไทย",
-    "description": "Seedance 2.0 เป็นโมเดลการสร้างวิดีโอ AI ที่ล้ำสมัย รองรับการป้อนข้อมูลทั้งข้อความ รูปภาพ เสียง และวิดีโอ เพื่อสร้างคอนเทนต์คุณภาพระดับภาพยนตร์"
+    "description": "Seedance 2.0 เป็นโมเดลการสร้างวิดีโอ AI ที่ล้ำสมัย รองรับการป้อนข้อมูลทั้งข้อความ รูปภาพ เสียง และวิดีโอ เพื่อสร้างคอนเทนต์คุณภาพระดับภาพยนตร์",
+    "keywords": "Seedance, Seedance 2.0, AI video, AI video generator, text to video, image to video, multimodal AI"
   },
   "nav": {
     "home": "หน้าแรก",
@@ -31,7 +32,7 @@
     "text_to_video": {
       "title": "AI ข้อความเป็นวิดีโอ",
       "desc": "อธิบายฉาก ตัวละคร และการเคลื่อนไหวกล้องในภาษาธรรมชาติ และให้ AI ข้อความเป็นวิดีโอของเราเปลี่ยนเป็นวิดีโอหลายช็อตที่สอดคล้องกัน",
-      "badge": "ยอดนิยมที่สุด",
+      "badge": "โมเดลเรือธง",
       "bullets": [
         "ควบคุมกล้องระดับภาพยนตร์",
         "ความสม่ำเสมอหลายช็อต",
@@ -42,7 +43,7 @@
     "image_to_video": {
       "title": "AI รูปภาพเป็นวิดีโอ",
       "desc": "อัปโหลดรูปภาพอ้างอิงหนึ่งรูปแล้วดูมันกลายเป็นวิดีโอที่สร้างโดย AI ความยาวสั้น รักษาเอกลักษณ์และสไตล์ด้วยความเที่ยงตรงสูง",
-      "badge": "ใหม่",
+      "badge": "รูปภาพเป็นวิดีโอ",
       "bullets": [
         "รักษาเอกลักษณ์ของวัตถุ",
         "ควบคุมความแรงของการเคลื่อนไหว"
@@ -56,7 +57,7 @@
     "ai_tools": {
       "title": "เอฟเฟกต์และเครื่องมือวิดีโอ AI",
       "desc": "อัปโหลดรูปภาพ เลือกเทมเพลตเอฟเฟกต์วิดีโอ AI แล้วปล่อยให้ระบบสร้างคลิปสไตล์สั้นๆ โดยอัตโนมัติ",
-      "badge": "ลองฟรี",
+      "badge": "ชุดสร้างสรรค์",
       "cards": [
         {
           "title": "เปลี่ยนใบหน้า",
@@ -116,7 +117,8 @@
           "Text"
         ],
         "tagBg": "bg-purple-50",
-        "tagText": "text-purple-600"
+        "tagText": "text-purple-600",
+        "iconText": "text-purple-600"
       },
       {
         "title": "อ้างอิงอะไรก็ได้",
@@ -132,7 +134,8 @@
           "Sounds"
         ],
         "tagBg": "bg-cyan-50",
-        "tagText": "text-cyan-600"
+        "tagText": "text-cyan-600",
+        "iconText": "text-cyan-600"
       },
       {
         "title": "ความสม่ำเสมอระดับสูง",
@@ -148,7 +151,8 @@
           "Consistency"
         ],
         "tagBg": "bg-orange-50",
-        "tagText": "text-orange-600"
+        "tagText": "text-orange-600",
+        "iconText": "text-orange-600"
       },
       {
         "title": "จำลองการเคลื่อนไหวและกล้องอย่างแม่นยำ",
@@ -164,7 +168,8 @@
           "Choreography"
         ],
         "tagBg": "bg-pink-50",
-        "tagText": "text-pink-600"
+        "tagText": "text-pink-600",
+        "iconText": "text-pink-600"
       },
       {
         "title": "ขยายและตัดต่อวิดีโอ",
@@ -180,7 +185,8 @@
           "Clip Connection"
         ],
         "tagBg": "bg-emerald-50",
-        "tagText": "text-emerald-600"
+        "tagText": "text-emerald-600",
+        "iconText": "text-emerald-600"
       },
       {
         "title": "สร้างเสียงในตัว",
@@ -196,7 +202,8 @@
           "Music Beats"
         ],
         "tagBg": "bg-blue-50",
-        "tagText": "text-blue-600"
+        "tagText": "text-blue-600",
+        "iconText": "text-blue-600"
       }
     ]
   },

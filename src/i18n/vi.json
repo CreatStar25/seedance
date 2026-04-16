@@ -1,7 +1,8 @@
 {
   "seo": {
     "title": "Seedance 2.0 - Nền tảng tạo video AI thông minh | Seedance Phiên bản tiếng Việt",
-    "description": "Seedance 2.0 là mô hình tạo video AI hiện đại hỗ trợ đầu vào văn bản, hình ảnh, âm thanh và video để tạo nội dung chất lượng điện ảnh."
+    "description": "Seedance 2.0 là mô hình tạo video AI hiện đại hỗ trợ đầu vào văn bản, hình ảnh, âm thanh và video để tạo nội dung chất lượng điện ảnh.",
+    "keywords": "Seedance, Seedance 2.0, AI video, AI video generator, text to video, image to video, multimodal AI"
   },
   "nav": {
     "home": "Trang chủ",
@@ -31,7 +32,7 @@
     "text_to_video": {
       "title": "AI Văn bản sang Video",
       "desc": "Mô tả cảnh quay, nhân vật và chuyển động máy quay bằng ngôn ngữ tự nhiên và để AI Văn bản sang Video biến chúng thành video đa cảnh quay mạch lạc.",
-      "badge": "Phổ biến nhất",
+      "badge": "Mô hình Hàng đầu",
       "bullets": [
         "Điều khiển Máy quay Điện ảnh",
         "Nhất quán Đa cảnh quay",
@@ -42,7 +43,7 @@
     "image_to_video": {
       "title": "AI Hình ảnh sang Video",
       "desc": "Tải lên một ảnh tham chiếu duy nhất và xem nó trở thành video ngắn do AI tạo ra. Bảo tồn danh tính và phong cách với độ trung thực cao.",
-      "badge": "Mới",
+      "badge": "Ảnh thành Video",
       "bullets": [
         "Bảo tồn Danh tính Đối tượng",
         "Điều khiển Cường độ Chuyển động"
@@ -56,7 +57,7 @@
     "ai_tools": {
       "title": "Hiệu ứng & Công cụ Video AI",
       "desc": "Tải lên ảnh, chọn mẫu hiệu ứng video AI và để hệ thống tự động tạo clip phong cách ngắn.",
-      "badge": "Dùng thử miễn phí",
+      "badge": "Bộ Công cụ Sáng tạo",
       "cards": [
         {
           "title": "Hoán đổi Khuôn mặt",
@@ -116,7 +117,8 @@
           "Text"
         ],
         "tagBg": "bg-purple-50",
-        "tagText": "text-purple-600"
+        "tagText": "text-purple-600",
+        "iconText": "text-purple-600"
       },
       {
         "title": "Tham chiếu Bất kỳ",
@@ -132,7 +134,8 @@
           "Sounds"
         ],
         "tagBg": "bg-cyan-50",
-        "tagText": "text-cyan-600"
+        "tagText": "text-cyan-600",
+        "iconText": "text-cyan-600"
       },
       {
         "title": "Nhất quán Vượt trội",
@@ -148,7 +151,8 @@
           "Consistency"
         ],
         "tagBg": "bg-orange-50",
-        "tagText": "text-orange-600"
+        "tagText": "text-orange-600",
+        "iconText": "text-orange-600"
       },
       {
         "title": "Sao chép Chuyển động & Máy quay Chính xác",
@@ -164,7 +168,8 @@
           "Choreography"
         ],
         "tagBg": "bg-pink-50",
-        "tagText": "text-pink-600"
+        "tagText": "text-pink-600",
+        "iconText": "text-pink-600"
       },
       {
         "title": "Mở rộng & Chỉnh sửa Video",
@@ -180,7 +185,8 @@
           "Clip Connection"
         ],
         "tagBg": "bg-emerald-50",
-        "tagText": "text-emerald-600"
+        "tagText": "text-emerald-600",
+        "iconText": "text-emerald-600"
       },
       {
         "title": "Tạo Âm thanh Tích hợp",
@@ -196,7 +202,8 @@
           "Music Beats"
         ],
         "tagBg": "bg-blue-50",
-        "tagText": "text-blue-600"
+        "tagText": "text-blue-600",
+        "iconText": "text-blue-600"
       }
     ]
   },
@@ -299,7 +306,7 @@
       ]
     },
     "ai_video": {
-      "title": "AI Video",
+      "title": "Video AI",
       "links": [
         {
           "label": "Seedance 2.0",

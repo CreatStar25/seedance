@@ -37,7 +37,8 @@
         "Multi-Shot Consistency",
         "Physics-Based Motion"
       ],
-      "cta": "Create Video"
+      "cta": "Create Video",
+      "badge": "Flagship Model"
     },
     "image_to_video": {
       "title": "Image to Video AI",
@@ -46,7 +47,8 @@
         "Preserve Subject Identity",
         "Control Motion Strength"
       ],
-      "cta": "Animate Image"
+      "cta": "Animate Image",
+      "badge": "Static to Motion"
     },
     "text_to_image": {
       "title": "Text to Image AI",
@@ -71,7 +73,8 @@
         "Restyle",
         "Upscale"
       ],
-      "cta": "Explore Tools"
+      "cta": "Explore Tools",
+      "badge": "Creative Suite"
     }
   },
   "hero": {
@@ -114,7 +117,8 @@
           "Text"
         ],
         "tagBg": "bg-purple-50",
-        "tagText": "text-purple-600"
+        "tagText": "text-purple-600",
+        "iconText": "text-purple-600"
       },
       {
         "title": "Reference Anything",
@@ -130,7 +134,8 @@
           "Sounds"
         ],
         "tagBg": "bg-cyan-50",
-        "tagText": "text-cyan-600"
+        "tagText": "text-cyan-600",
+        "iconText": "text-cyan-600"
       },
       {
         "title": "Superior Consistency",
@@ -146,7 +151,8 @@
           "Consistency"
         ],
         "tagBg": "bg-orange-50",
-        "tagText": "text-orange-600"
+        "tagText": "text-orange-600",
+        "iconText": "text-orange-600"
       },
       {
         "title": "Precise Motion & Camera Replication",
@@ -162,7 +168,8 @@
           "Choreography"
         ],
         "tagBg": "bg-pink-50",
-        "tagText": "text-pink-600"
+        "tagText": "text-pink-600",
+        "iconText": "text-pink-600"
       },
       {
         "title": "Video Extension & Editing",
@@ -178,7 +185,8 @@
           "Clip Connection"
         ],
         "tagBg": "bg-emerald-50",
-        "tagText": "text-emerald-600"
+        "tagText": "text-emerald-600",
+        "iconText": "text-emerald-600"
       },
       {
         "title": "Built-in Audio Generation",
@@ -194,7 +202,8 @@
           "Music Beats"
         ],
         "tagBg": "bg-blue-50",
-        "tagText": "text-blue-600"
+        "tagText": "text-blue-600",
+        "iconText": "text-blue-600"
       }
     ]
   },

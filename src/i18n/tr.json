@@ -1,7 +1,8 @@
 {
   "seo": {
     "title": "Seedance 2.0 - Akıllı Yapay Zeka Video Oluşturma Platformu | Seedance Türkçe Sürümü",
-    "description": "Seedance 2.0, sinematik kalitede içerik oluşturma için metin, görüntü, ses ve video girişlerini destekleyen son teknoloji bir AI video üretim modelidir."
+    "description": "Seedance 2.0, sinematik kalitede içerik oluşturma için metin, görüntü, ses ve video girişlerini destekleyen son teknoloji bir AI video üretim modelidir.",
+    "keywords": "Seedance, Seedance 2.0, AI video, AI video generator, text to video, image to video, multimodal AI"
   },
   "nav": {
     "home": "Anasayfa",
@@ -49,7 +50,7 @@
     "image_to_video": {
       "title": "Görüntüden Videoya AI",
       "desc": "Tek bir referans fotoğrafı yükleyin ve kısa bir AI tarafından oluşturulan videoya dönüşmesini izleyin. Kimlik ve stili yüksek doğrulukla koruyun.",
-      "badge": "Statikten Harekete",
+      "badge": "Görüntüden Videoya",
       "bullets": [
         "Konu Kimliğini Koruma",
         "Hareket Yoğunluğu Kontrolü"
@@ -226,7 +227,8 @@
           "Text"
         ],
         "tagBg": "bg-purple-50",
-        "tagText": "text-purple-600"
+        "tagText": "text-purple-600",
+        "iconText": "text-purple-600"
       },
       {
         "title": "Her Şeyi Referans Alın",
@@ -242,7 +244,8 @@
           "Sounds"
         ],
         "tagBg": "bg-cyan-50",
-        "tagText": "text-cyan-600"
+        "tagText": "text-cyan-600",
+        "iconText": "text-cyan-600"
       },
       {
         "title": "Üstün Tutarlılık",
@@ -258,7 +261,8 @@
           "Consistency"
         ],
         "tagBg": "bg-orange-50",
-        "tagText": "text-orange-600"
+        "tagText": "text-orange-600",
+        "iconText": "text-orange-600"
       },
       {
         "title": "Hassas Hareket ve Kamera Kopyalama",
@@ -274,7 +278,8 @@
           "Choreography"
         ],
         "tagBg": "bg-pink-50",
-        "tagText": "text-pink-600"
+        "tagText": "text-pink-600",
+        "iconText": "text-pink-600"
       },
       {
         "title": "Video Uzatma ve Düzenleme",
@@ -290,7 +295,8 @@
           "Clip Connection"
         ],
         "tagBg": "bg-emerald-50",
-        "tagText": "text-emerald-600"
+        "tagText": "text-emerald-600",
+        "iconText": "text-emerald-600"
       },
       {
         "title": "Dahili Ses Oluşturma",
@@ -306,7 +312,8 @@
           "Music Beats"
         ],
         "tagBg": "bg-blue-50",
-        "tagText": "text-blue-600"
+        "tagText": "text-blue-600",
+        "iconText": "text-blue-600"
       }
     ]
   },

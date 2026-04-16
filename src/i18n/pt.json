@@ -1,7 +1,8 @@
 {
   "seo": {
     "title": "Seedance 2.0 - Plataforma Inteligente de Geração de Vídeo AI | Seedance Versão em Português",
-    "description": "Seedance 2.0 é um modelo de geração de vídeo AI de última geração que suporta entradas de texto, imagem, áudio e vídeo para criação de conteúdo de qualidade cinematográfica."
+    "description": "Seedance 2.0 é um modelo de geração de vídeo AI de última geração que suporta entradas de texto, imagem, áudio e vídeo para criação de conteúdo de qualidade cinematográfica.",
+    "keywords": "Seedance, Seedance 2.0, AI video, AI video generator, text to video, image to video, multimodal AI"
   },
   "nav": {
     "home": "Início",
@@ -31,7 +32,7 @@
     "text_to_video": {
       "title": "IA de Texto para Vídeo",
       "desc": "Descreva cenas, personagens e movimentos de câmera em linguagem natural e deixe nossa IA transformá-los em vídeos coerentes de várias tomadas.",
-      "badge": "Mais Popular",
+      "badge": "Modelo Principal",
       "bullets": [
         "Controle de Câmera Cinematográfica",
         "Consistência Multi-Tomada",
@@ -42,7 +43,7 @@
     "image_to_video": {
       "title": "IA de Imagem para Vídeo",
       "desc": "Carregue uma foto de referência e veja-a se tornar um vídeo curto gerado por IA. Preserve a identidade e o estilo com alta fidelidade.",
-      "badge": "Novo",
+      "badge": "Imagem para Vídeo",
       "bullets": [
         "Preservar Identidade do Sujeito",
         "Controlar Intensidade do Movimento"
@@ -56,7 +57,7 @@
     "ai_tools": {
       "title": "Efeitos e Ferramentas de Vídeo IA",
       "desc": "Carregue fotos, escolha um modelo de efeito de vídeo IA e deixe nosso sistema gerar automaticamente um clipe estilizado.",
-      "badge": "Teste Grátis",
+      "badge": "Suite Criativa",
       "cards": [
         {
           "title": "Troca de Rosto",
@@ -116,7 +117,8 @@
           "Text"
         ],
         "tagBg": "bg-purple-50",
-        "tagText": "text-purple-600"
+        "tagText": "text-purple-600",
+        "iconText": "text-purple-600"
       },
       {
         "title": "Referencie Qualquer Coisa",
@@ -132,7 +134,8 @@
           "Sounds"
         ],
         "tagBg": "bg-cyan-50",
-        "tagText": "text-cyan-600"
+        "tagText": "text-cyan-600",
+        "iconText": "text-cyan-600"
       },
       {
         "title": "Consistência Superior",
@@ -148,7 +151,8 @@
           "Consistency"
         ],
         "tagBg": "bg-orange-50",
-        "tagText": "text-orange-600"
+        "tagText": "text-orange-600",
+        "iconText": "text-orange-600"
       },
       {
         "title": "Replicação Precisa de Movimento e Câmera",
@@ -164,7 +168,8 @@
           "Choreography"
         ],
         "tagBg": "bg-pink-50",
-        "tagText": "text-pink-600"
+        "tagText": "text-pink-600",
+        "iconText": "text-pink-600"
       },
       {
         "title": "Extensão e Edição de Vídeo",
@@ -180,7 +185,8 @@
           "Clip Connection"
         ],
         "tagBg": "bg-emerald-50",
-        "tagText": "text-emerald-600"
+        "tagText": "text-emerald-600",
+        "iconText": "text-emerald-600"
       },
       {
         "title": "Geração de Áudio Integrada",
@@ -196,7 +202,8 @@
           "Music Beats"
         ],
         "tagBg": "bg-blue-50",
-        "tagText": "text-blue-600"
+        "tagText": "text-blue-600",
+        "iconText": "text-blue-600"
       }
     ]
   },

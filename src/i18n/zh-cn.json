@@ -1,7 +1,8 @@
 {
   "seo": {
     "title": "Seedance 2.0 - 智能AI视频生成平台｜Seedance中文版",
-    "description": "Seedance 2.0 是最先进的AI视频生成模型，支持文本、图像、音频和视频输入，创造电影级内容。"
+    "description": "Seedance 2.0 是最先进的AI视频生成模型，支持文本、图像、音频和视频输入，创造电影级内容。",
+    "keywords": "Seedance, Seedance 2.0, AI video, AI video generator, text to video, image to video, multimodal AI"
   },
   "nav": {
     "home": "首页",
@@ -58,7 +59,8 @@
         "Multi-Shot Consistency",
         "Physics-Based Motion"
       ],
-      "cta": "Create Video"
+      "cta": "製作影片",
+      "badge": "旗舰模型"
     },
     "image_to_video": {
       "title": "图生视频 AI",
@@ -67,7 +69,8 @@
         "Preserve Subject Identity",
         "Control Motion Strength"
       ],
-      "cta": "Animate Image"
+      "cta": "動態化圖片",
+      "badge": "静态到动态"
     },
     "text_to_image": {
       "title": "文生图 AI",
@@ -92,7 +95,8 @@
         "Restyle",
         "Upscale"
       ],
-      "cta": "Explore Tools"
+      "cta": "探索工具",
+      "badge": "创意工具集"
     }
   },
   "footer": {
@@ -205,7 +209,24 @@
         }
       ]
     },
-    "copyright": "© 2026 Seedance AI. 保留所有权利。"
+    "copyright": "© 2026 Seedance AI. 保留所有权利。",
+    "ai_music": {
+      "title": "AI 音樂",
+      "links": [
+        {
+          "label": "Suno",
+          "href": "https://sunoai.me/"
+        },
+        {
+          "label": "SunoHK",
+          "href": "https://suno.hk/"
+        },
+        {
+          "label": "Udio",
+          "href": "https://udio.hk/"
+        }
+      ]
+    }
   },
   "features": {
     "title": "为什么选择 Seedance 2.0？",
@@ -225,7 +246,8 @@
           "Text"
         ],
         "tagBg": "bg-purple-50",
-        "tagText": "text-purple-600"
+        "tagText": "text-purple-600",
+        "iconText": "text-purple-600"
       },
       {
         "title": "万物皆可参考",
@@ -241,7 +263,8 @@
           "Sounds"
         ],
         "tagBg": "bg-cyan-50",
-        "tagText": "text-cyan-600"
+        "tagText": "text-cyan-600",
+        "iconText": "text-cyan-600"
       },
       {
         "title": "卓越的一致性",
@@ -257,7 +280,8 @@
           "Consistency"
         ],
         "tagBg": "bg-orange-50",
-        "tagText": "text-orange-600"
+        "tagText": "text-orange-600",
+        "iconText": "text-orange-600"
       },
       {
         "title": "精准运镜与动作复现",
@@ -273,7 +297,8 @@
           "Choreography"
         ],
         "tagBg": "bg-pink-50",
-        "tagText": "text-pink-600"
+        "tagText": "text-pink-600",
+        "iconText": "text-pink-600"
       },
       {
         "title": "视频延展与编辑",
@@ -289,7 +314,8 @@
           "Clip Connection"
         ],
         "tagBg": "bg-emerald-50",
-        "tagText": "text-emerald-600"
+        "tagText": "text-emerald-600",
+        "iconText": "text-emerald-600"
       },
       {
         "title": "内置音频生成",
@@ -305,7 +331,8 @@
           "Music Beats"
         ],
         "tagBg": "bg-blue-50",
-        "tagText": "text-blue-600"
+        "tagText": "text-blue-600",
+        "iconText": "text-blue-600"
       }
     ]
   },
@@ -435,8 +462,8 @@
   },
   "blog": {
     "page_title": "Seedance 博客：AI 视频教程与指南",
-    "read": "Read Article →",
-    "no_posts": "No posts found for this language yet."
+    "read": "閱讀文章 →",
+    "no_posts": "該語言暫無文章。"
   },
   "about": {
     "title": "关于",
@@ -445,15 +472,15 @@
     "content": "Seedance 2.0 是统一多模态 AI 视频生成平台，为创作者提供导演级控制与电影级画质。我们支持文本、图像、音频与视频输入，用于专业内容创作。"
   },
   "privacy": {
-    "title": "隐私政策",
+    "title": "隱私權政策",
     "description": "Seedance 2.0 隐私政策。",
-    "heading": "隐私政策",
-    "content": "我们尊重您的隐私。本政策说明我们如何收集、使用与保护您在使用我们服务时的信息。我们使用数据以改进 AI 视频平台并为您提供更好体验。我们不会向第三方出售您的个人信息。"
+    "heading": "隱私權政策",
+    "content": "我們尊重您的隱私權。本政策說明我們如何在使用我們服務時收集、使用與保護您的資訊。我們使用數據以改進 AI 視頻平台並為您提供更好的體驗。我們不會向第三方出售您的個人資訊。"
   },
   "terms": {
-    "title": "服务条款",
+    "title": "服務條款",
     "description": "Seedance 2.0 服务条款。",
-    "heading": "服务条款",
+    "heading": "服務條款",
     "content": "使用 Seedance 2.0 即表示您同意本条款。我们的服务仅供合法使用。您保留所创作内容的权利；我们可能使用匿名数据改进模型。我们保留更新本条款的权利；继续使用即视为接受。"
   }
 }

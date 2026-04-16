@@ -1,7 +1,8 @@
 {
   "seo": {
     "title": "Seedance 2.0 - インテリジェントAI動画生成プラットフォーム | Seedance 日本語版",
-    "description": "Seedance 2.0は、テキスト、画像、音声、動画入力をサポートし、映画品質のコンテンツを作成する最先端のAI動画生成モデルです。"
+    "description": "Seedance 2.0は、テキスト、画像、音声、動画入力をサポートし、映画品質のコンテンツを作成する最先端のAI動画生成モデルです。",
+    "keywords": "Seedance, Seedance 2.0, AI video, AI video generator, text to video, image to video, multimodal AI"
   },
   "nav": {
     "home": "ホーム",
@@ -42,7 +43,7 @@
     "image_to_video": {
       "title": "画像動画生成 AI",
       "desc": "参照画像をアップロードして、短いAI生成動画にします。アイデンティティとスタイルを高精度に保持します。",
-      "badge": "静的から動的へ",
+      "badge": "静止画から動画へ",
       "bullets": [
         "被写体のアイデンティティを保持",
         "モーション強度のコントロール"
@@ -116,7 +117,8 @@
           "Text"
         ],
         "tagBg": "bg-purple-50",
-        "tagText": "text-purple-600"
+        "tagText": "text-purple-600",
+        "iconText": "text-purple-600"
       },
       {
         "title": "何でも参照可能",
@@ -132,7 +134,8 @@
           "Sounds"
         ],
         "tagBg": "bg-cyan-50",
-        "tagText": "text-cyan-600"
+        "tagText": "text-cyan-600",
+        "iconText": "text-cyan-600"
       },
       {
         "title": "卓越した一貫性",
@@ -148,7 +151,8 @@
           "Consistency"
         ],
         "tagBg": "bg-orange-50",
-        "tagText": "text-orange-600"
+        "tagText": "text-orange-600",
+        "iconText": "text-orange-600"
       },
       {
         "title": "精密なモーション＆カメラ複製",
@@ -164,7 +168,8 @@
           "Choreography"
         ],
         "tagBg": "bg-pink-50",
-        "tagText": "text-pink-600"
+        "tagText": "text-pink-600",
+        "iconText": "text-pink-600"
       },
       {
         "title": "動画の拡張＆編集",
@@ -180,7 +185,8 @@
           "Clip Connection"
         ],
         "tagBg": "bg-emerald-50",
-        "tagText": "text-emerald-600"
+        "tagText": "text-emerald-600",
+        "iconText": "text-emerald-600"
       },
       {
         "title": "音声生成内蔵",
@@ -196,7 +202,8 @@
           "Music Beats"
         ],
         "tagBg": "bg-blue-50",
-        "tagText": "text-blue-600"
+        "tagText": "text-blue-600",
+        "iconText": "text-blue-600"
       }
     ]
   },

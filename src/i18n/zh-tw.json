@@ -1,7 +1,8 @@
 {
   "seo": {
     "title": "Seedance 2.0 - 智能AI視頻生成平台｜Seedance繁體中文版",
-    "description": "Seedance 2.0 是最先進的AI視頻生成模型，支持文本、圖像、音頻和視頻輸入，創造電影級內容。"
+    "description": "Seedance 2.0 是最先進的AI視頻生成模型，支持文本、圖像、音頻和視頻輸入，創造電影級內容。",
+    "keywords": "Seedance, Seedance 2.0, AI video, AI video generator, text to video, image to video, multimodal AI"
   },
   "nav": {
     "home": "首頁",
@@ -43,7 +44,8 @@
         "Multi-Shot Consistency",
         "Physics-Based Motion"
       ],
-      "cta": "Create Video"
+      "cta": "製作影片",
+      "badge": "旗艦模型"
     },
     "image_to_video": {
       "title": "圖生視頻 AI",
@@ -52,7 +54,8 @@
         "Preserve Subject Identity",
         "Control Motion Strength"
       ],
-      "cta": "Animate Image"
+      "cta": "動態化圖片",
+      "badge": "靜態到動態"
     },
     "text_to_image": {
       "title": "文生圖 AI",
@@ -77,7 +80,8 @@
         "Restyle",
         "Upscale"
       ],
-      "cta": "Explore Tools"
+      "cta": "探索工具",
+      "badge": "創意工具集"
     }
   },
   "footer": {
@@ -223,7 +227,8 @@
           "Text"
         ],
         "tagBg": "bg-purple-50",
-        "tagText": "text-purple-600"
+        "tagText": "text-purple-600",
+        "iconText": "text-purple-600"
       },
       {
         "title": "萬物皆可參考",
@@ -239,7 +244,8 @@
           "Sounds"
         ],
         "tagBg": "bg-cyan-50",
-        "tagText": "text-cyan-600"
+        "tagText": "text-cyan-600",
+        "iconText": "text-cyan-600"
       },
       {
         "title": "卓越的一致性",
@@ -255,7 +261,8 @@
           "Consistency"
         ],
         "tagBg": "bg-orange-50",
-        "tagText": "text-orange-600"
+        "tagText": "text-orange-600",
+        "iconText": "text-orange-600"
       },
       {
         "title": "精準運鏡與動作復現",
@@ -271,7 +278,8 @@
           "Choreography"
         ],
         "tagBg": "bg-pink-50",
-        "tagText": "text-pink-600"
+        "tagText": "text-pink-600",
+        "iconText": "text-pink-600"
       },
       {
         "title": "影片延展與編輯",
@@ -287,7 +295,8 @@
           "Clip Connection"
         ],
         "tagBg": "bg-emerald-50",
-        "tagText": "text-emerald-600"
+        "tagText": "text-emerald-600",
+        "iconText": "text-emerald-600"
       },
       {
         "title": "內建音訊生成",
@@ -303,7 +312,8 @@
           "Music Beats"
         ],
         "tagBg": "bg-blue-50",
-        "tagText": "text-blue-600"
+        "tagText": "text-blue-600",
+        "iconText": "text-blue-600"
       }
     ]
   },
@@ -433,7 +443,40 @@
   },
   "blog": {
     "page_title": "Seedance 部落格：AI 影片教學與指南",
-    "read": "Read Article →",
-    "no_posts": "No posts found for this language yet."
+    "read": "閱讀文章 →",
+    "no_posts": "該語言暫無文章。"
+  },
+  "guide": {
+    "title": "Seedance Guide",
+    "welcome": "Welcome to the Seedance usage guide. Here you will find tutorials, tips and best practices for Seedance AI video creation.",
+    "article_list": "文章列表",
+    "quick_access": "快速入口",
+    "quick_access_desc": "Official Seedance 2.0 entry, one-click to start creating.",
+    "latest_articles": "最新文章",
+    "page_nav": "頁面導航",
+    "quick_links": "快速連結",
+    "official_platform": "官方平台",
+    "tips": "使用技巧",
+    "feedback": "反饋意見",
+    "cta_entry": "Use Seedance Now",
+    "read_full": "閱讀完整文章 →"
+  },
+  "about": {
+    "title": "About",
+    "description": "About Seedance 2.0 - AI video generation platform.",
+    "heading": "About Seedance 2.0",
+    "content": "Seedance 2.0 is a unified multimodal AI video generation platform, empowering creators with director-level control and cinematic quality. We support text, image, audio, and video inputs for professional content creation."
+  },
+  "privacy": {
+    "title": "隱私權政策",
+    "description": "Privacy Policy for Seedance 2.0.",
+    "heading": "隱私權政策",
+    "content": "我們尊重您的隱私權。本政策說明我們如何在使用我們服務時收集、使用與保護您的資訊。我們使用數據以改進 AI 視頻平台並為您提供更好的體驗。我們不會向第三方出售您的個人資訊。"
+  },
+  "terms": {
+    "title": "服務條款",
+    "description": "Terms of Service for Seedance 2.0.",
+    "heading": "服務條款",
+    "content": "By using Seedance 2.0, you agree to these terms. Our service is provided for lawful use. You retain rights to content you create; we may use anonymized data to improve our models. We reserve the right to update these terms; continued use constitutes acceptance."
   }
 }

@@ -1,7 +1,8 @@
 {
   "seo": {
     "title": "Seedance 2.0 - Intelligente KI-Videogenerierungsplattform | Seedance Deutsche Version",
-    "description": "Seedance 2.0 ist ein hochmodernes KI-Videogenerierungsmodell, das Text-, Bild-, Audio- und Videoeingaben für die Erstellung von Inhalten in Kinoqualität unterstützt."
+    "description": "Seedance 2.0 ist ein hochmodernes KI-Videogenerierungsmodell, das Text-, Bild-, Audio- und Videoeingaben für die Erstellung von Inhalten in Kinoqualität unterstützt.",
+    "keywords": "Seedance, Seedance 2.0, AI video, AI video generator, text to video, image to video, multimodal AI"
   },
   "nav": {
     "home": "Startseite",
@@ -42,7 +43,7 @@
     "image_to_video": {
       "title": "Bild-zu-Video KI",
       "desc": "Laden Sie ein Referenzfoto hoch und sehen Sie zu, wie es zu einem kurzen KI-generierten Video wird. Bewahren Sie Identität und Stil mit hoher Wiedergabetreue.",
-      "badge": "Von Statik zu Dynamik",
+      "badge": "Bild zu Video",
       "bullets": [
         "Identität des Motivs Bewahren",
         "Bewegungsstärke Steuern"
@@ -116,7 +117,8 @@
           "Text"
         ],
         "tagBg": "bg-purple-50",
-        "tagText": "text-purple-600"
+        "tagText": "text-purple-600",
+        "iconText": "text-purple-600"
       },
       {
         "title": "Alles als Referenz",
@@ -132,7 +134,8 @@
           "Sounds"
         ],
         "tagBg": "bg-cyan-50",
-        "tagText": "text-cyan-600"
+        "tagText": "text-cyan-600",
+        "iconText": "text-cyan-600"
       },
       {
         "title": "Überlegene Konsistenz",
@@ -148,7 +151,8 @@
           "Consistency"
         ],
         "tagBg": "bg-orange-50",
-        "tagText": "text-orange-600"
+        "tagText": "text-orange-600",
+        "iconText": "text-orange-600"
       },
       {
         "title": "Präzise Bewegungs- und Kamerareplikation",
@@ -164,7 +168,8 @@
           "Choreography"
         ],
         "tagBg": "bg-pink-50",
-        "tagText": "text-pink-600"
+        "tagText": "text-pink-600",
+        "iconText": "text-pink-600"
       },
       {
         "title": "Video-Erweiterung und -Bearbeitung",
@@ -180,7 +185,8 @@
           "Clip Connection"
         ],
         "tagBg": "bg-emerald-50",
-        "tagText": "text-emerald-600"
+        "tagText": "text-emerald-600",
+        "iconText": "text-emerald-600"
       },
       {
         "title": "Integrierte Audio-Generierung",
@@ -196,7 +202,8 @@
           "Music Beats"
         ],
         "tagBg": "bg-blue-50",
-        "tagText": "text-blue-600"
+        "tagText": "text-blue-600",
+        "iconText": "text-blue-600"
       }
     ]
   },

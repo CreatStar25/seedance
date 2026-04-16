@@ -1,7 +1,8 @@
 {
   "seo": {
     "title": "Seedance 2.0 - 지능형 AI 비디오 생성 플랫폼 | Seedance 한국어 버전",
-    "description": "Seedance 2.0은 텍스트, 이미지, 오디오 및 비디오 입력을 지원하여 영화 품질의 콘텐츠를 제작하는 최첨단 AI 비디오 생성 모델입니다."
+    "description": "Seedance 2.0은 텍스트, 이미지, 오디오 및 비디오 입력을 지원하여 영화 품질의 콘텐츠를 제작하는 최첨단 AI 비디오 생성 모델입니다.",
+    "keywords": "Seedance, Seedance 2.0, AI video, AI video generator, text to video, image to video, multimodal AI"
   },
   "nav": {
     "home": "홈",
@@ -42,7 +43,7 @@
     "image_to_video": {
       "title": "이미지 투 비디오 AI",
       "desc": "참조 사진을 업로드하고 짧은 AI 생성 비디오로 변환되는 것을 지켜보세요. 정체성과 스타일을 고화질로 보존합니다.",
-      "badge": "정적에서 동적으로",
+      "badge": "이미지에서 비디오로",
       "bullets": [
         "피사체 아이덴티티 유지",
         "모션 강도 제어"
@@ -116,7 +117,8 @@
           "Text"
         ],
         "tagBg": "bg-purple-50",
-        "tagText": "text-purple-600"
+        "tagText": "text-purple-600",
+        "iconText": "text-purple-600"
       },
       {
         "title": "무엇이든 참조",
@@ -132,7 +134,8 @@
           "Sounds"
         ],
         "tagBg": "bg-cyan-50",
-        "tagText": "text-cyan-600"
+        "tagText": "text-cyan-600",
+        "iconText": "text-cyan-600"
       },
       {
         "title": "뛰어난 일관성",
@@ -148,7 +151,8 @@
           "Consistency"
         ],
         "tagBg": "bg-orange-50",
-        "tagText": "text-orange-600"
+        "tagText": "text-orange-600",
+        "iconText": "text-orange-600"
       },
       {
         "title": "정밀한 동작 및 카메라 복제",
@@ -164,7 +168,8 @@
           "Choreography"
         ],
         "tagBg": "bg-pink-50",
-        "tagText": "text-pink-600"
+        "tagText": "text-pink-600",
+        "iconText": "text-pink-600"
       },
       {
         "title": "비디오 확장 및 편집",
@@ -180,7 +185,8 @@
           "Clip Connection"
         ],
         "tagBg": "bg-emerald-50",
-        "tagText": "text-emerald-600"
+        "tagText": "text-emerald-600",
+        "iconText": "text-emerald-600"
       },
       {
         "title": "내장 오디오 생성",
@@ -196,7 +202,8 @@
           "Music Beats"
         ],
         "tagBg": "bg-blue-50",
-        "tagText": "text-blue-600"
+        "tagText": "text-blue-600",
+        "iconText": "text-blue-600"
       }
     ]
   },
@@ -414,6 +421,38 @@
       {
         "q": "무료 체험이 있나요?",
         "a": "예. 일일 크레딧으로 무료로 체험할 수 있습니다."
+      },
+      {
+        "q": "How well does it maintain character consistency across scenes?",
+        "a": "Character consistency is a core strength of Seedance 2.0. Faces, clothing, text, scene details, and visual styles remain stable across multiple shots and extended sequences — solving one of the biggest pain points in AI video creation."
+      },
+      {
+        "q": "What video lengths, resolutions, and aspect ratios are available?",
+        "a": "Generated videos range from 4 to 15 seconds. Supported aspect ratios include 16:9, 9:16, 4:3, 3:4, 21:9, and 1:1. Resolutions go up to 1080p, making output suitable for professional delivery across web, social media, and broadcast platforms."
+      },
+      {
+        "q": "Does Seedance 2.0 generate audio or sound effects?",
+        "a": "Yes. The platform includes built-in audio generation that creates context-aware sound effects and background music matching your visual content. You can also upload your own audio tracks and the model will sync video timing to your beats or rhythm."
+      },
+      {
+        "q": "Are there watermarks on the generated videos?",
+        "a": "No. All videos are completely watermark-free and ready for commercial use. What you create belongs entirely to you — download clean, professional-quality footage without any branding."
+      },
+      {
+        "q": "Can I replicate camera movements and choreography from reference videos?",
+        "a": "Absolutely. Upload a video containing the camera movement, dance sequence, or action choreography you want to replicate, and Seedance 2.0 will accurately apply those dynamics to your own content. No complex prompting needed — just show the model what you want."
+      },
+      {
+        "q": "Is there a free plan available?",
+        "a": "Yes. Seedance 2.0 offers a free tier with daily credits so you can explore the platform before committing. Paid plans unlock higher generation limits, faster processing, and priority access during peak hours."
+      },
+      {
+        "q": "How do I get started?",
+        "a": "Create an account, choose a plan that fits your needs, then start uploading your reference materials. Describe your creative vision in natural language, and let Seedance 2.0 bring it to life. The interface is designed to be intuitive even for first-time users."
+      },
+      {
+        "q": "How is my data and content protected?",
+        "a": "All uploaded files and generated videos are stored with industry-standard encryption. Your content remains private and is never shared with third parties. You retain full ownership rights to everything you create on the platform."
       }
     ]
   },

@@ -1,7 +1,8 @@
 {
   "seo": {
     "title": "Seedance 2.0 - Plateforme de Génération Vidéo IA Intelligente | Seedance Version Française",
-    "description": "Seedance 2.0 est un modèle de génération vidéo IA de pointe prenant en charge les entrées texte, image, audio et vidéo pour la création de contenu de qualité cinématographique."
+    "description": "Seedance 2.0 est un modèle de génération vidéo IA de pointe prenant en charge les entrées texte, image, audio et vidéo pour la création de contenu de qualité cinématographique.",
+    "keywords": "Seedance, Seedance 2.0, AI video, AI video generator, text to video, image to video, multimodal AI"
   },
   "nav": {
     "home": "Accueil",
@@ -64,7 +65,7 @@
     "image_to_video": {
       "title": "IA Image en Vidéo",
       "desc": "Téléchargez une photo de référence et regardez-la devenir une courte vidéo générée par IA. Préservez l'identité et le style avec une haute fidélité.",
-      "badge": "De Statique à Dynamique",
+      "badge": "Image vers Vidéo",
       "bullets": [
         "Préserver l'Identité du Sujet",
         "Contrôler l'Intensité du Mouvement"
@@ -116,7 +117,8 @@
           "Text"
         ],
         "tagBg": "bg-purple-50",
-        "tagText": "text-purple-600"
+        "tagText": "text-purple-600",
+        "iconText": "text-purple-600"
       },
       {
         "title": "Référencez N'importe Quoi",
@@ -132,7 +134,8 @@
           "Sounds"
         ],
         "tagBg": "bg-cyan-50",
-        "tagText": "text-cyan-600"
+        "tagText": "text-cyan-600",
+        "iconText": "text-cyan-600"
       },
       {
         "title": "Consistance Supérieure",
@@ -148,7 +151,8 @@
           "Consistency"
         ],
         "tagBg": "bg-orange-50",
-        "tagText": "text-orange-600"
+        "tagText": "text-orange-600",
+        "iconText": "text-orange-600"
       },
       {
         "title": "Réplication Précise du Mouvement et de la Caméra",
@@ -164,7 +168,8 @@
           "Choreography"
         ],
         "tagBg": "bg-pink-50",
-        "tagText": "text-pink-600"
+        "tagText": "text-pink-600",
+        "iconText": "text-pink-600"
       },
       {
         "title": "Extension et Montage Vidéo",
@@ -180,7 +185,8 @@
           "Clip Connection"
         ],
         "tagBg": "bg-emerald-50",
-        "tagText": "text-emerald-600"
+        "tagText": "text-emerald-600",
+        "iconText": "text-emerald-600"
       },
       {
         "title": "Génération Audio Intégrée",
@@ -196,7 +202,8 @@
           "Music Beats"
         ],
         "tagBg": "bg-blue-50",
-        "tagText": "text-blue-600"
+        "tagText": "text-blue-600",
+        "iconText": "text-blue-600"
       }
     ]
   },
@@ -336,7 +343,7 @@
       "email": "starwk@gmx.com"
     },
     "ai_image": {
-      "title": "AI Image",
+      "title": "Image IA",
       "links": [
         {
           "label": "Midjourney",
@@ -357,7 +364,7 @@
       ]
     },
     "ai_video": {
-      "title": "AI Vidéo",
+      "title": "Vidéo IA",
       "links": [
         {
           "label": "Seedance 2.0",

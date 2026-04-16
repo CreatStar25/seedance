@@ -1,7 +1,8 @@
 {
   "seo": {
     "title": "Seedance 2.0 - Platform Pembuatan Video AI Cerdas | Seedance Versi Bahasa Indonesia",
-    "description": "Seedance 2.0 adalah model pembuatan video AI canggih yang mendukung input teks, gambar, audio, dan video untuk pembuatan konten berkualitas sinematik."
+    "description": "Seedance 2.0 adalah model pembuatan video AI canggih yang mendukung input teks, gambar, audio, dan video untuk pembuatan konten berkualitas sinematik.",
+    "keywords": "Seedance, Seedance 2.0, AI video, AI video generator, text to video, image to video, multimodal AI"
   },
   "nav": {
     "home": "Beranda",
@@ -31,7 +32,7 @@
     "text_to_video": {
       "title": "AI Teks ke Video",
       "desc": "Jelaskan adegan, karakter, dan gerakan kamera dalam bahasa alami dan biarkan AI Teks ke Video kami mengubahnya menjadi video multi-tembakan yang koheren.",
-      "badge": "Paling Populer",
+      "badge": "Model Unggulan",
       "bullets": [
         "Kontrol Kamera Sinematik",
         "Konsistensi Multi-Tembakan",
@@ -42,7 +43,7 @@
     "image_to_video": {
       "title": "AI Gambar ke Video",
       "desc": "Unggah satu foto referensi dan saksikan menjadi video pendek yang dihasilkan AI. Pertahankan identitas dan gaya dengan fidelitas tinggi.",
-      "badge": "Baru",
+      "badge": "Gambar ke Video",
       "bullets": [
         "Pertahankan Identitas Subjek",
         "Kontrol Kekuatan Gerakan"
@@ -56,7 +57,7 @@
     "ai_tools": {
       "title": "Efek & Alat Video AI",
       "desc": "Unggah foto, pilih template efek video AI dan biarkan sistem kami secara otomatis membuat klip bergaya pendek.",
-      "badge": "Coba Gratis",
+      "badge": "Suite Kreatif",
       "cards": [
         {
           "title": "Tukar Wajah",
@@ -116,7 +117,8 @@
           "Text"
         ],
         "tagBg": "bg-purple-50",
-        "tagText": "text-purple-600"
+        "tagText": "text-purple-600",
+        "iconText": "text-purple-600"
       },
       {
         "title": "Referensi Apa Saja",
@@ -132,7 +134,8 @@
           "Sounds"
         ],
         "tagBg": "bg-cyan-50",
-        "tagText": "text-cyan-600"
+        "tagText": "text-cyan-600",
+        "iconText": "text-cyan-600"
       },
       {
         "title": "Konsistensi Unggul",
@@ -148,7 +151,8 @@
           "Consistency"
         ],
         "tagBg": "bg-orange-50",
-        "tagText": "text-orange-600"
+        "tagText": "text-orange-600",
+        "iconText": "text-orange-600"
       },
       {
         "title": "Replikasi Gerakan & Kamera Presisi",
@@ -164,7 +168,8 @@
           "Choreography"
         ],
         "tagBg": "bg-pink-50",
-        "tagText": "text-pink-600"
+        "tagText": "text-pink-600",
+        "iconText": "text-pink-600"
       },
       {
         "title": "Perpanjangan & Pengeditan Video",
@@ -180,7 +185,8 @@
           "Clip Connection"
         ],
         "tagBg": "bg-emerald-50",
-        "tagText": "text-emerald-600"
+        "tagText": "text-emerald-600",
+        "iconText": "text-emerald-600"
       },
       {
         "title": "Generasi Audio Bawaan",
@@ -196,7 +202,8 @@
           "Music Beats"
         ],
         "tagBg": "bg-blue-50",
-        "tagText": "text-blue-600"
+        "tagText": "text-blue-600",
+        "iconText": "text-blue-600"
       }
     ]
   },
@@ -299,7 +306,7 @@
       ]
     },
     "ai_video": {
-      "title": "AI Video",
+      "title": "Video AI",
       "links": [
         {
           "label": "Seedance 2.0",

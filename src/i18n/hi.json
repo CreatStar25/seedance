@@ -1,7 +1,8 @@
 {
   "seo": {
     "title": "Seedance 2.0 - बुद्धिमान एआई वीडियो निर्माण मंच | Seedance हिंदी संस्करण",
-    "description": "Seedance 2.0 एक अत्याधुनिक AI वीडियो जनरेशन मॉडल है जो सिनेमाई गुणवत्ता वाली सामग्री निर्माण के लिए टेक्स्ट, छवि, ऑडियो और वीडियो इनपुट का समर्थन करता है।"
+    "description": "Seedance 2.0 एक अत्याधुनिक AI वीडियो जनरेशन मॉडल है जो सिनेमाई गुणवत्ता वाली सामग्री निर्माण के लिए टेक्स्ट, छवि, ऑडियो और वीडियो इनपुट का समर्थन करता है।",
+    "keywords": "Seedance, Seedance 2.0, AI video, AI video generator, text to video, image to video, multimodal AI"
   },
   "nav": {
     "home": "होम",
@@ -36,31 +37,33 @@
   ],
   "product_features": {
     "text_to_video": {
-      "title": "Text to Video AI",
-      "desc": "Describe scenes, characters and camera moves in natural language and let our Text to Video AI turn them into coherent multi-shot videos.",
+      "title": "टेक्स्ट से वीडियो AI",
+      "desc": "दृश्यों, पात्रों और कैमरा मूव्स का वर्णन प्राकृतिक भाषा में करें और हमारे टेक्स्ट से वीडियो AI को उन्हें सुसंगत मल्टी-शॉट वीडियो में बदलने दें।",
       "bullets": [
         "Cinematic Camera Control",
         "Multi-Shot Consistency",
         "Physics-Based Motion"
       ],
-      "cta": "Create Video"
+      "cta": "वीडियो बनाएं",
+      "badge": "फ्लैगशिप मॉडल"
     },
     "image_to_video": {
-      "title": "Image to Video AI",
-      "desc": "Upload a single reference photo and watch it become a short AI-generated video. Preserve identity and style with high fidelity.",
+      "title": "इमेज से वीडियो AI",
+      "desc": "एक संदर्भ फोटो अपलोड करें और देखें कि यह एक AI-जनित छोटे वीडियो में कैसे बदल जाता है। उच्च निष्ठा के साथ पहचान और शैली को बनाए रखें।",
       "bullets": [
         "Preserve Subject Identity",
         "Control Motion Strength"
       ],
-      "cta": "Animate Image"
+      "cta": "इमेज एनिमेट करें",
+      "badge": "इमेज से वीडियो"
     },
     "text_to_image": {
       "title": "Text to Image AI",
       "desc": "Turn text prompts into high-resolution images. Describe style, lighting and composition once, then generate multiple variations."
     },
     "ai_tools": {
-      "title": "AI Video Effects & Tools",
-      "desc": "Upload photos, choose an AI video effect template and let our system auto-generate a short stylized clip.",
+      "title": "AI वीडियो इफेक्ट्स और टूल्स",
+      "desc": "फोटो अपलोड करें, एक AI वीडियो इफेक्ट टेम्पलेट चुनें और हमारे सिस्टम को एक छोटी स्टाइलिश क्लिप स्वचालित रूप से बनाने दें।",
       "cards": [
         {
           "title": "Face Swap",
@@ -77,7 +80,8 @@
         "Restyle",
         "Upscale"
       ],
-      "cta": "Explore Tools"
+      "cta": "टूल्स देखें",
+      "badge": "क्रिएटिव सूट"
     }
   },
   "footer": {
@@ -223,7 +227,8 @@
           "Text"
         ],
         "tagBg": "bg-purple-50",
-        "tagText": "text-purple-600"
+        "tagText": "text-purple-600",
+        "iconText": "text-purple-600"
       },
       {
         "title": "किसी भी चीज़ का रेफरेंस लें",
@@ -239,7 +244,8 @@
           "Sounds"
         ],
         "tagBg": "bg-cyan-50",
-        "tagText": "text-cyan-600"
+        "tagText": "text-cyan-600",
+        "iconText": "text-cyan-600"
       },
       {
         "title": "श्रेष्ठ स्थिरता",
@@ -255,7 +261,8 @@
           "Consistency"
         ],
         "tagBg": "bg-orange-50",
-        "tagText": "text-orange-600"
+        "tagText": "text-orange-600",
+        "iconText": "text-orange-600"
       },
       {
         "title": "सटीक मूवमेंट और कैमरा रेप्लिकेशन",
@@ -271,7 +278,8 @@
           "Choreography"
         ],
         "tagBg": "bg-pink-50",
-        "tagText": "text-pink-600"
+        "tagText": "text-pink-600",
+        "iconText": "text-pink-600"
       },
       {
         "title": "वीडियो एक्सटेंशन और एडिटिंग",
@@ -287,7 +295,8 @@
           "Clip Connection"
         ],
         "tagBg": "bg-emerald-50",
-        "tagText": "text-emerald-600"
+        "tagText": "text-emerald-600",
+        "iconText": "text-emerald-600"
       },
       {
         "title": "बिल्ट-इन ऑडियो जनरेशन",
@@ -303,7 +312,8 @@
           "Music Beats"
         ],
         "tagBg": "bg-blue-50",
-        "tagText": "text-blue-600"
+        "tagText": "text-blue-600",
+        "iconText": "text-blue-600"
       }
     ]
   },
@@ -396,12 +406,77 @@
       {
         "q": "क्या फ्री ट्रायल है?",
         "a": "हां। दैनिक क्रेडिट के साथ Seedance 2.0 मुफ्त में ट्राय कर सकते हैं।"
+      },
+      {
+        "q": "How well does it maintain character consistency across scenes?",
+        "a": "Character consistency is a core strength of Seedance 2.0. Faces, clothing, text, scene details, and visual styles remain stable across multiple shots and extended sequences — solving one of the biggest pain points in AI video creation."
+      },
+      {
+        "q": "What video lengths, resolutions, and aspect ratios are available?",
+        "a": "Generated videos range from 4 to 15 seconds. Supported aspect ratios include 16:9, 9:16, 4:3, 3:4, 21:9, and 1:1. Resolutions go up to 1080p, making output suitable for professional delivery across web, social media, and broadcast platforms."
+      },
+      {
+        "q": "Does Seedance 2.0 generate audio or sound effects?",
+        "a": "Yes. The platform includes built-in audio generation that creates context-aware sound effects and background music matching your visual content. You can also upload your own audio tracks and the model will sync video timing to your beats or rhythm."
+      },
+      {
+        "q": "Are there watermarks on the generated videos?",
+        "a": "No. All videos are completely watermark-free and ready for commercial use. What you create belongs entirely to you — download clean, professional-quality footage without any branding."
+      },
+      {
+        "q": "Can I replicate camera movements and choreography from reference videos?",
+        "a": "Absolutely. Upload a video containing the camera movement, dance sequence, or action choreography you want to replicate, and Seedance 2.0 will accurately apply those dynamics to your own content. No complex prompting needed — just show the model what you want."
+      },
+      {
+        "q": "Is there a free plan available?",
+        "a": "Yes. Seedance 2.0 offers a free tier with daily credits so you can explore the platform before committing. Paid plans unlock higher generation limits, faster processing, and priority access during peak hours."
+      },
+      {
+        "q": "How do I get started?",
+        "a": "Create an account, choose a plan that fits your needs, then start uploading your reference materials. Describe your creative vision in natural language, and let Seedance 2.0 bring it to life. The interface is designed to be intuitive even for first-time users."
+      },
+      {
+        "q": "How is my data and content protected?",
+        "a": "All uploaded files and generated videos are stored with industry-standard encryption. Your content remains private and is never shared with third parties. You retain full ownership rights to everything you create on the platform."
       }
     ]
   },
   "blog": {
     "page_title": "Seedance ब्लॉग: AI वीडियो ट्यूटोरियल और गाइड",
-    "read": "Read Article →",
-    "no_posts": "No posts found for this language yet."
+    "read": "लेख पढ़ें →",
+    "no_posts": "इस भाषा के लिए अभी तक कोई पोस्ट नहीं मिली।"
+  },
+  "guide": {
+    "title": "Seedance Guide",
+    "welcome": "Welcome to the Seedance usage guide. Here you will find tutorials, tips and best practices for Seedance AI video creation.",
+    "article_list": "लेख सूची",
+    "quick_access": "त्वरित पहुँच",
+    "quick_access_desc": "Official Seedance 2.0 entry, one-click to start creating.",
+    "latest_articles": "नवीनतम लेख",
+    "page_nav": "पेज नेविगेशन",
+    "quick_links": "त्वरित लिंक",
+    "official_platform": "आधिकारिक प्लेटफ़ॉर्म",
+    "tips": "उपयोग टिप्स",
+    "feedback": "प्रतिक्रिया",
+    "cta_entry": "Use Seedance Now",
+    "read_full": "पूरा लेख पढ़ें →"
+  },
+  "about": {
+    "title": "About",
+    "description": "About Seedance 2.0 - AI video generation platform.",
+    "heading": "About Seedance 2.0",
+    "content": "Seedance 2.0 is a unified multimodal AI video generation platform, empowering creators with director-level control and cinematic quality. We support text, image, audio, and video inputs for professional content creation."
+  },
+  "privacy": {
+    "title": "गोपनीयता नीति",
+    "description": "Privacy Policy for Seedance 2.0.",
+    "heading": "गोपनीयता नीति",
+    "content": "हम आपकी गोपनीयता का सम्मान करते हैं। यह नीति बताती है कि जब आप हमारी सेवाओं का उपयोग करते हैं तो हम आपकी जानकारी कैसे एकत्र, उपयोग और सुरक्षित करते हैं। हम अपने AI वीडियो प्लेटफ़ॉर्म को बेहतर बनाने और आपको बेहतर अनुभव प्रदान करने के लिए डेटा का उपयोग करते हैं। हम आपकी व्यक्तिगत जानकारी को तृतीय पक्षों को नहीं बेचते हैं।"
+  },
+  "terms": {
+    "title": "सेवा की शर्तें",
+    "description": "Terms of Service for Seedance 2.0.",
+    "heading": "सेवा की शर्तें",
+    "content": "By using Seedance 2.0, you agree to these terms. Our service is provided for lawful use. You retain rights to content you create; we may use anonymized data to improve our models. We reserve the right to update these terms; continued use constitutes acceptance."
   }
 }

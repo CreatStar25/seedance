@@ -1,7 +1,8 @@
 {
   "seo": {
     "title": "Seedance 2.0 - Piattaforma Intelligente di Generazione Video AI | Seedance Versione Italiana",
-    "description": "Seedance 2.0 è un modello di generazione video AI all'avanguardia che supporta input di testo, immagini, audio e video per la creazione di contenuti di qualità cinematografica."
+    "description": "Seedance 2.0 è un modello di generazione video AI all'avanguardia che supporta input di testo, immagini, audio e video per la creazione di contenuti di qualità cinematografica.",
+    "keywords": "Seedance, Seedance 2.0, AI video, AI video generator, text to video, image to video, multimodal AI"
   },
   "nav": {
     "home": "Home",
@@ -38,7 +39,7 @@
     "text_to_video": {
       "title": "IA Testo a Video",
       "desc": "Descrivi scene, personaggi e movimenti di macchina in linguaggio naturale e lascia che la nostra IA li trasformi in video coerenti a più inquadrature.",
-      "badge": "Modello di Punta",
+      "badge": "Modello Principale",
       "bullets": [
         "Controllo Cinematografico della Camera",
         "Coerenza Multi-Inquadratura",
@@ -49,7 +50,7 @@
     "image_to_video": {
       "title": "IA Immagine a Video",
       "desc": "Carica una foto di riferimento e guardala diventare un breve video generato dall'IA. Preserva l'identità e lo stile con alta fedeltà.",
-      "badge": "Da Statico a Dinamico",
+      "badge": "Immagine a Video",
       "bullets": [
         "Preserva l'Identità del Soggetto",
         "Controlla l'Intensità del Movimento"
@@ -111,7 +112,7 @@
       ]
     },
     "ai_video": {
-      "title": "AI Video",
+      "title": "Video AI",
       "links": [
         {
           "label": "Seedance 2.0",
@@ -153,7 +154,7 @@
       ]
     },
     "ai_tools": {
-      "title": "AI Strumenti",
+      "title": "Strumenti AI",
       "links": [
         {
           "label": "LimaxAI",
@@ -226,7 +227,8 @@
           "Text"
         ],
         "tagBg": "bg-purple-50",
-        "tagText": "text-purple-600"
+        "tagText": "text-purple-600",
+        "iconText": "text-purple-600"
       },
       {
         "title": "Riferisciti a Qualsiasi Cosa",
@@ -242,7 +244,8 @@
           "Sounds"
         ],
         "tagBg": "bg-cyan-50",
-        "tagText": "text-cyan-600"
+        "tagText": "text-cyan-600",
+        "iconText": "text-cyan-600"
       },
       {
         "title": "Consistenza Superiore",
@@ -258,7 +261,8 @@
           "Consistency"
         ],
         "tagBg": "bg-orange-50",
-        "tagText": "text-orange-600"
+        "tagText": "text-orange-600",
+        "iconText": "text-orange-600"
       },
       {
         "title": "Replicazione Precisa di Movimento e Camera",
@@ -274,7 +278,8 @@
           "Choreography"
         ],
         "tagBg": "bg-pink-50",
-        "tagText": "text-pink-600"
+        "tagText": "text-pink-600",
+        "iconText": "text-pink-600"
       },
       {
         "title": "Estensione e Montaggio Video",
@@ -290,7 +295,8 @@
           "Clip Connection"
         ],
         "tagBg": "bg-emerald-50",
-        "tagText": "text-emerald-600"
+        "tagText": "text-emerald-600",
+        "iconText": "text-emerald-600"
       },
       {
         "title": "Generazione Audio Integrata",
@@ -306,7 +312,8 @@
           "Music Beats"
         ],
         "tagBg": "bg-blue-50",
-        "tagText": "text-blue-600"
+        "tagText": "text-blue-600",
+        "iconText": "text-blue-600"
       }
     ]
   },

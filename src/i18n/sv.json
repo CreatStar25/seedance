@@ -1,7 +1,8 @@
 {
   "seo": {
     "title": "Seedance 2.0 - Intelligent AI-videogenereringsplattform | Seedance Svensk Version",
-    "description": "Seedance 2.0 är en toppmodern AI-videogenereringsmodell som stöder text-, bild-, ljud- och videoinmatning för skapande av innehåll av biokvalitet."
+    "description": "Seedance 2.0 är en toppmodern AI-videogenereringsmodell som stöder text-, bild-, ljud- och videoinmatning för skapande av innehåll av biokvalitet.",
+    "keywords": "Seedance, Seedance 2.0, AI video, AI video generator, text to video, image to video, multimodal AI"
   },
   "nav": {
     "home": "Hem",
@@ -49,7 +50,7 @@
     "image_to_video": {
       "title": "Bild till Video AI",
       "desc": "Ladda upp ett enskilt referensfoto och se det bli till en kort AI-genererad video. Bevara identitet och stil med hög trovärdighet.",
-      "badge": "Från Statisk till Rörelse",
+      "badge": "Bild till Video",
       "bullets": [
         "Bevara Subjektets Identitet",
         "Kontrollera Rörelsestyrka"
@@ -63,7 +64,7 @@
     "ai_tools": {
       "title": "AI Videoeffekter och Verktyg",
       "desc": "Ladda upp foton, välj en AI-videoeffektmall och låt vårt system automatiskt generera ett kort stiliserat klipp.",
-      "badge": "Kreativ Svit",
+      "badge": "Kreativ Svitt",
       "cards": [
         {
           "title": "Ansiktsbyte",
@@ -226,7 +227,8 @@
           "Text"
         ],
         "tagBg": "bg-purple-50",
-        "tagText": "text-purple-600"
+        "tagText": "text-purple-600",
+        "iconText": "text-purple-600"
       },
       {
         "title": "Referera Vad Som Helst",
@@ -242,7 +244,8 @@
           "Sounds"
         ],
         "tagBg": "bg-cyan-50",
-        "tagText": "text-cyan-600"
+        "tagText": "text-cyan-600",
+        "iconText": "text-cyan-600"
       },
       {
         "title": "Överlägsen Konsistens",
@@ -258,7 +261,8 @@
           "Consistency"
         ],
         "tagBg": "bg-orange-50",
-        "tagText": "text-orange-600"
+        "tagText": "text-orange-600",
+        "iconText": "text-orange-600"
       },
       {
         "title": "Exakt Rörelse- och Kamerareplikering",
@@ -274,7 +278,8 @@
           "Choreography"
         ],
         "tagBg": "bg-pink-50",
-        "tagText": "text-pink-600"
+        "tagText": "text-pink-600",
+        "iconText": "text-pink-600"
       },
       {
         "title": "Videoförlängning & Redigering",
@@ -290,7 +295,8 @@
           "Clip Connection"
         ],
         "tagBg": "bg-emerald-50",
-        "tagText": "text-emerald-600"
+        "tagText": "text-emerald-600",
+        "iconText": "text-emerald-600"
       },
       {
         "title": "Inbyggd Ljudgenerering",
@@ -306,7 +312,8 @@
           "Music Beats"
         ],
         "tagBg": "bg-blue-50",
-        "tagText": "text-blue-600"
+        "tagText": "text-blue-600",
+        "iconText": "text-blue-600"
       }
     ]
   },
