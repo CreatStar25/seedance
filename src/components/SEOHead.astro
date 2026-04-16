@@ -103,10 +103,6 @@ const xDefaultHref = (alternateLinks.find((l) => l.lang === defaultLocaleCode) ?
 
 // content-language meta（百度/360 依赖此 meta 识别语言）
 const contentLanguage = localeMap[lang] || (lang === 'en' ? 'en-US' : lang);
-const keywords = (t.seo as Record<string, unknown> | undefined)?.keywords as string | undefined;
-
-// content-language meta（百度/360 依赖此 meta 识别语言）
-const contentLanguage = localeMap[lang] || (lang === 'en' ? 'en-US' : lang);
 const ogLocale = localeMap[lang] || (lang === 'en' ? 'en-US' : lang);
 
 // 百度统计：仅在中文页面加载
@@ -150,7 +146,7 @@ const loadBaiduAnalytics = lang === 'zh-cn' || lang === 'zh-tw';
 
 <title>{title}</title>
 <meta name="description" content={description} />
-<meta name="keywords" content={keywords ?? "Seedance, Seedance 2.0, AI video, AI video generator, text to video, image to video, multimodal AI"} />
+<meta name="keywords" content="Seedance, Seedance 2.0, AI video, AI video generator, text to video, image to video, multimodal AI" />
 <meta http-equiv="content-language" content={contentLanguage} />
 <link rel="canonical" href={canonicalURL} />
 <meta name="viewport" content="width=device-width, initial-scale=1" />

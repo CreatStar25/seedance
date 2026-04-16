@@ -10,7 +10,7 @@ function companyPath(path: string) {
 const columnKeys = ['ai_image', 'ai_video', 'ai_music', 'ai_tools', 'company'];
 
 // 默认列配置（i18n 缺失时的兜底）
-const defaultColumns: Record<string, { title: string; links: { label: string; href: string }[] }> = {
+const defaultColumns: Record<string, { title: string; links: { label: string; href?: string; path?: string }[] }> = {
   ai_image: {
     title: 'AI Image',
     links: [
@@ -52,10 +52,10 @@ const defaultColumns: Record<string, { title: string; links: { label: string; hr
   company: {
     title: 'Company',
     links: [
-      { label: 'Blog', href: companyPath('blog') },
-      { label: 'About', href: companyPath('about') },
-      { label: 'Privacy', href: companyPath('privacy') },
-      { label: 'Terms', href: companyPath('terms') },
+      { label: 'Blog', path: 'blog' },
+      { label: 'About', path: 'about' },
+      { label: 'Privacy', path: 'privacy' },
+      { label: 'Terms', path: 'terms' },
       { label: 'API', href: 'https://api.limaxai.com/' },
     ],
   },
@@ -78,30 +78,30 @@ const resolved = columnKeys.map((key) => {
 
 <footer class="bg-gray-900 text-gray-300 font-sans border-t border-gray-800">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-16">
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-10 lg:gap-8">
+    <div class="grid grid-cols-1 md:grid-cols-6 gap-10 lg:gap-6">
       <!-- 左侧：品牌区 -->
-      <div class="lg:col-span-1 flex flex-col">
+      <div class="md:col-span-1 flex flex-col">
         <a href={lang === 'en' ? '/' : `/${lang}/`} class="flex items-center gap-2 mb-4 w-fit group">
-          <div class="w-10 h-10 bg-yellow-400 rounded-xl rotate-3 group-hover:rotate-12 transition-transform duration-300 shadow-lg"></div>
+          <img src="/seedance22.png" alt="Seedance Logo" class="w-10 h-10 object-contain group-hover:scale-110 transition-transform duration-300" />
           <span class="text-xl font-black tracking-tighter text-white">Seed<span class="text-yellow-500">ance</span></span>
         </a>
-        <h2 class="text-lg font-bold text-white mb-2">{brand.title}</h2>
         <p class="text-sm leading-relaxed max-w-xs mb-4">{brand.intro}</p>
         <a href={`mailto:${brand.email}`} class="text-sm text-gray-400 hover:text-yellow-400 transition-colors">{brand.email}</a>
       </div>
 
       <!-- 右侧：五列导航 -->
-      <div class="lg:col-span-5 grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-8 sm:gap-6">
+      <div class="md:col-span-5 grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-8 lg:gap-6">
         {resolved.map((col) => (
           <div>
-            <h3 class="font-bold text-lg text-white mb-4">{col.title}</h3>
-            <ul class="space-y-3">
-              {col.links.map((link: { label: string; href: string }) => {
-                const isExternal = link.href.startsWith('http');
+            <h3 class="font-bold text-base text-white mb-4">{col.title}</h3>
+            <ul class="space-y-2.5">
+              {col.links.map((link: { label: string; href?: string; path?: string }) => {
+                const href = link.href ?? (link.path ? companyPath(link.path) : '#');
+                const isExternal = href.startsWith('http');
                 return (
                   <li>
                     <a
-                      href={link.href}
+                      href={href}
                       class="text-sm text-gray-400 hover:text-white transition-colors"
                       target={isExternal ? '_blank' : undefined}
                       rel={isExternal ? 'noopener noreferrer' : undefined}

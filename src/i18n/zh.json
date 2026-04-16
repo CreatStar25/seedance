@@ -32,14 +32,21 @@
       "title": "文生视频 AI",
       "desc": "用自然语言描述场景、角色和运镜，让AI将其转化为连贯的多镜头视频。",
       "badge": "旗舰模型",
-      "bullets": ["电影级运镜控制", "多镜头一致性", "物理驱动的运动"],
+      "bullets": [
+        "电影级运镜控制",
+        "多镜头一致性",
+        "物理驱动的运动"
+      ],
       "cta": "创建视频"
     },
     "image_to_video": {
       "title": "图生视频 AI",
       "desc": "上传一张参考图，让它变成短视频。保持高度一致的角色和风格。",
       "badge": "静态到动态",
-      "bullets": ["保持主体身份", "控制运动强度"],
+      "bullets": [
+        "保持主体身份",
+        "控制运动强度"
+      ],
       "cta": "让图片动起来"
     },
     "text_to_image": {
@@ -60,7 +67,12 @@
           "desc": "动漫、黏土、3D渲染..."
         }
       ],
-      "grid": ["魔法编辑", "人脸替换", "重新风格化", "高清放大"],
+      "grid": [
+        "魔法编辑",
+        "人脸替换",
+        "重新风格化",
+        "高清放大"
+      ],
       "cta": "探索工具"
     }
   },
@@ -95,62 +107,148 @@
         "desc": "最多上传 9 张图片、3 段视频（共 15 秒）和 3 个音频文件。自由组合文本、图像、视频和音频，以前所未有的灵活性表达您的创意。",
         "iconColor": "from-purple-500 to-indigo-600",
         "iconBg": "bg-purple-50",
-        "iconHover": "bg-purple-100"
+        "iconHover": "bg-purple-100",
+        "iconSvg": "M12 6.042A8.967 8.967 0 006 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 016 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 016-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0018 18a8.967 8.967 0 00-6 2.292m0-14.25v14.25",
+        "tags": [
+          "Images",
+          "Videos",
+          "Audio",
+          "Text"
+        ],
+        "tagBg": "bg-purple-50",
+        "tagText": "text-purple-600"
       },
       {
         "title": "任意参考",
         "desc": "参考任何已上传内容中的动作、特效、运镜、角色、场景和声音。只需用自然语言描述你想参考的内容，模型就能理解。",
         "iconColor": "from-cyan-500 to-blue-600",
         "iconBg": "bg-cyan-50",
-        "iconHover": "bg-cyan-100"
+        "iconHover": "bg-cyan-100",
+        "iconSvg": "M9.813 15.904L9 18.75l-.813-2.846a4.5 4.5 0 00-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 003.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 003.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 00-3.09 3.09zM18.259 8.715L18 9.75l-.259-1.035a3.375 3.375 0 00-2.455-2.456L14.25 6l1.036-.259a3.375 3.375 0 002.455-2.456L18 2.25l.259 1.035a3.375 3.375 0 002.455 2.456L21.75 6l-1.036.259a3.375 3.375 0 00-2.455 2.456z",
+        "tags": [
+          "Motion",
+          "Camera",
+          "Characters",
+          "Sounds"
+        ],
+        "tagBg": "bg-cyan-50",
+        "tagText": "text-cyan-600"
       },
       {
         "title": "超强一致性",
         "desc": "在整个视频中保持面部、服装、文字、场景和视觉风格的完美一致性。告别角色漂移和帧间风格不一致的困扰。",
         "iconColor": "from-orange-500 to-amber-600",
         "iconBg": "bg-orange-50",
-        "iconHover": "bg-orange-100"
+        "iconHover": "bg-orange-100",
+        "iconSvg": "M18 18.72a9.094 9.094 0 003.741-.479 3 3 0 00-4.682-2.72m.94 3.198l.001.031c0 .225-.012.447-.037.666A11.944 11.944 0 0112 21c-2.17 0-4.207-.576-5.963-1.584A6.062 6.062 0 016 18.719m12 0a5.971 5.971 0 00-.941-3.197m0 0A5.995 5.995 0 0012 12.75a5.995 5.995 0 00-5.058 2.772m0 0a3 3 0 00-4.681 2.72 8.986 8.986 0 003.74.477m.94-3.197a5.971 5.971 0 00-.94 3.197M15 6.75a3 3 0 11-6 0 3 3 0 016 0zm6 3a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0zm-13.5 0a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0z",
+        "tags": [
+          "Faces",
+          "Style",
+          "Scenes",
+          "Consistency"
+        ],
+        "tagBg": "bg-orange-50",
+        "tagText": "text-orange-600"
       },
       {
         "title": "精准动作与运镜复制",
         "desc": "上传参考视频即可复制复杂的编舞、电影级运镜和动作序列。无需复杂的提示——只需展示你想要的效果。",
         "iconColor": "from-pink-500 to-rose-600",
         "iconBg": "bg-pink-50",
-        "iconHover": "bg-pink-100"
+        "iconHover": "bg-pink-100",
+        "iconSvg": "M15.75 10.5l4.72-4.72a.75.75 0 011.28.53v11.38a.75.75 0 01-1.28.53l-4.72-4.72M4.5 18.75h9a2.25 2.25 0 002.25-2.25v-9a2.25 2.25 0 00-2.25-2.25h-9A2.25 2.25 0 002.25 7.5v9a2.25 2.25 0 002.25 2.25z",
+        "tags": [
+          "Dance Covers",
+          "Action",
+          "Motion Capture",
+          "Choreography"
+        ],
+        "tagBg": "bg-pink-50",
+        "tagText": "text-pink-600"
       },
       {
         "title": "视频延展与编辑",
         "desc": "平滑延展现有视频、合并多个片段或编辑特定部分。替换角色、添加元素或修改动作，同时保留其余内容。",
         "iconColor": "from-emerald-500 to-teal-600",
         "iconBg": "bg-emerald-50",
-        "iconHover": "bg-emerald-100"
+        "iconHover": "bg-emerald-100",
+        "iconSvg": "M16.862 4.487l1.687-1.688a1.875 1.875 0 112.652 2.652L10.582 16.07a4.5 4.5 0 01-1.897 1.13L6 18l.8-2.685a4.5 4.5 0 011.13-1.897l8.932-8.931zm0 0L19.5 7.125M18 14v4.75A2.25 2.25 0 0115.75 21H5.25A2.25 2.25 0 013 18.75V8.25A2.25 2.25 0 015.25 6H10",
+        "tags": [
+          "Video Extension",
+          "Scene Merging",
+          "Content Editing",
+          "Clip Connection"
+        ],
+        "tagBg": "bg-emerald-50",
+        "tagText": "text-emerald-600"
       },
       {
         "title": "内置音频生成",
         "desc": "自动生成与内容匹配的音效和背景音乐。将视频与上传的音频或音乐节拍同步，打造完美卡点的创意内容。",
         "iconColor": "from-blue-500 to-indigo-600",
         "iconBg": "bg-blue-50",
-        "iconHover": "bg-blue-100"
+        "iconHover": "bg-blue-100",
+        "iconSvg": "M9 9l10.5-3m0 6.553v3.75a2.25 2.25 0 01-1.632 2.163l-1.32.377a1.803 1.803 0 11-.99-3.467l2.31-.66a2.25 2.25 0 001.632-2.163zm0 0V2.25L9 5.25v10.303m0 0v3.75a2.25 2.25 0 01-1.632 2.163l-1.32.377a1.803 1.803 0 01-.99-3.467l2.31-.66A2.25 2.25 0 009 15.553z",
+        "tags": [
+          "Sound Effects",
+          "BGM",
+          "Audio Sync",
+          "Music Beats"
+        ],
+        "tagBg": "bg-blue-50",
+        "tagText": "text-blue-600"
       }
     ]
   },
   "comparison": {
     "title": "Seedance 2.0 对比其他",
-    "headers": ["功能", "Seedance 2.0", "其他模型"],
+    "headers": [
+      "功能",
+      "Seedance 2.0",
+      "其他模型"
+    ],
     "rows": [
-      { "label": "指令遵循", "us": "✅ 高精度", "others": "⚠️ 不稳定" },
-      { "label": "运动质量", "us": "✅ 流畅真实", "others": "❌ 抖动" },
-      { "label": "多镜头一致性", "us": "✅ 连贯", "others": "❌ 割裂" },
-      { "label": "音画同步", "us": "✅ 原生支持", "others": "❌ 需单独工具" }
+      {
+        "label": "指令遵循",
+        "us": "✅ 高精度",
+        "others": "⚠️ 不稳定"
+      },
+      {
+        "label": "运动质量",
+        "us": "✅ 流畅真实",
+        "others": "❌ 抖动"
+      },
+      {
+        "label": "多镜头一致性",
+        "us": "✅ 连贯",
+        "others": "❌ 割裂"
+      },
+      {
+        "label": "音画同步",
+        "us": "✅ 原生支持",
+        "others": "❌ 需单独工具"
+      }
     ]
   },
   "showcase": {
     "title": "无限创意",
     "items": [
-      { "title": "影视制作", "desc": "生成分镜与成片镜头。" },
-      { "title": "广告", "desc": "分钟级打造高转化视频广告。" },
-      { "title": "社交媒体", "desc": "轻松创作病毒式内容。" },
-      { "title": "游戏设计", "desc": "过场动画与角色动画。" }
+      {
+        "title": "影视制作",
+        "desc": "生成分镜与成片镜头。"
+      },
+      {
+        "title": "广告",
+        "desc": "分钟级打造高转化视频广告。"
+      },
+      {
+        "title": "社交媒体",
+        "desc": "轻松创作病毒式内容。"
+      },
+      {
+        "title": "游戏设计",
+        "desc": "过场动画与角色动画。"
+      }
     ]
   },
   "testimonials": {
@@ -174,11 +272,111 @@
     ]
   },
   "footer": {
-    "brand": { "title": "Seedance 2.0", "intro": "统一的多模态AI视频生成平台。为创作者提供导演级控制和电影级画质。", "email": "starwk@gmx.com" },
-    "ai_tools": { "title": "AI 工具", "links": [{ "label": "LimaxAI", "href": "https://www.limaxai.com/" }, { "label": "Suno", "href": "https://suno.hk/" }, { "label": "deepseek 4", "href": "https://deepseek4.hk/" }, { "label": "Notebooklm", "href": "https://notebooklm.vip/" }, { "label": "Openclaw", "href": "https://openclawd.hk/" }, { "label": "Gemini 3.0", "href": "https://gemini3.hk/" }] },
-    "ai_video": { "title": "AI 视频", "links": [{ "label": "Seedance 2.0", "href": "https://seedance22.com/" }, { "label": "Seedance 1.5", "href": "https://seedance2.hk/" }, { "label": "Veo 3", "href": "https://veo3.hk/" }, { "label": "HappyHorse1.0", "href": "https://happyhorse.fans/" }, { "label": "HappyHorse2.0", "href": "https://happy-horse.hk/" }] },
-    "ai_image": { "title": "AI 图像", "links": [{ "label": "Midjourney", "href": "https://midjourney.cfd" }, { "label": "Nano Banana Pro", "href": "https://nanobanana-pro.vip" }, { "label": "Nano Banana 2", "href": "https://nanobananapro.hk" }, { "label": "Nano Banana 3", "href": "https://nanobanana3.top" }] },
-    "company": { "title": "公司", "links": [{ "label": "博客", "path": "blog" }, { "label": "关于", "path": "about" }, { "label": "隐私", "path": "privacy" }, { "label": "条款", "path": "terms" }, { "label": "API", "href": "https://api.limaxai.com/" }] },
+    "brand": {
+      "title": "Seedance 2.0",
+      "intro": "统一的多模态AI视频生成平台。为创作者提供导演级控制和电影级画质。",
+      "email": "starwk@gmx.com"
+    },
+    "ai_tools": {
+      "title": "AI 工具",
+      "links": [
+        {
+          "label": "LimaxAI",
+          "href": "https://www.limaxai.com/"
+        },
+        {
+          "label": "Suno",
+          "href": "https://suno.hk/"
+        },
+        {
+          "label": "deepseek 4",
+          "href": "https://deepseek4.hk/"
+        },
+        {
+          "label": "Notebooklm",
+          "href": "https://notebooklm.vip/"
+        },
+        {
+          "label": "Openclaw",
+          "href": "https://openclawd.hk/"
+        },
+        {
+          "label": "Gemini 3.0",
+          "href": "https://gemini3.hk/"
+        }
+      ]
+    },
+    "ai_video": {
+      "title": "AI 视频",
+      "links": [
+        {
+          "label": "Seedance 2.0",
+          "href": "https://seedance22.com/"
+        },
+        {
+          "label": "Seedance 1.5",
+          "href": "https://seedance2.hk/"
+        },
+        {
+          "label": "Veo 3",
+          "href": "https://veo3.hk/"
+        },
+        {
+          "label": "HappyHorse1.0",
+          "href": "https://happyhorse.fans/"
+        },
+        {
+          "label": "HappyHorse2.0",
+          "href": "https://happy-horse.hk/"
+        }
+      ]
+    },
+    "ai_image": {
+      "title": "AI 图像",
+      "links": [
+        {
+          "label": "Midjourney",
+          "href": "https://midjourney.cfd"
+        },
+        {
+          "label": "Nano Banana Pro",
+          "href": "https://nanobanana-pro.vip"
+        },
+        {
+          "label": "Nano Banana 2",
+          "href": "https://nanobananapro.hk"
+        },
+        {
+          "label": "Nano Banana 3",
+          "href": "https://nanobanana3.top"
+        }
+      ]
+    },
+    "company": {
+      "title": "公司",
+      "links": [
+        {
+          "label": "博客",
+          "path": "blog"
+        },
+        {
+          "label": "关于",
+          "path": "about"
+        },
+        {
+          "label": "隐私政策",
+          "path": "privacy"
+        },
+        {
+          "label": "服务条款",
+          "path": "terms"
+        },
+        {
+          "label": "API",
+          "href": "https://api.limaxai.com/"
+        }
+      ]
+    },
     "copyright": "© 2026 Seedance AI. 保留所有权利。"
   },
   "faq": {

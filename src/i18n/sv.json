@@ -84,12 +84,128 @@
     }
   },
   "footer": {
-    "brand": { "title": "Seedance 2.0", "intro": "Den enhetliga multimodala AI-videogenereringsplattformen. Ger skapare regissörsnivå-kontroll och biografkvalitet.", "email": "starwk@gmx.com" },
-    "ai_image": { "title": "AI Bild", "links": [{ "label": "Midjourney", "href": "https://midjourney.cfd" }, { "label": "Nano Banana Pro", "href": "https://nanobanana-pro.vip" }, { "label": "Nano Banana 2", "href": "https://nanobananapro.hk" }, { "label": "Nano Banana 3", "href": "https://nanobanana3.top" }] },
-    "ai_video": { "title": "AI Video", "links": [{ "label": "Seedance 2.0", "href": "https://seedance22.com" }, { "label": "Seedance 1.5", "href": "https://seedance2.hk" }, { "label": "Veo 3", "href": "https://veo3.hk" }, { "label": "HappyHorse1.0", "href": "https://happyhorse.fans/" }, { "label": "HappyHorse2.0", "href": "https://happy-horse.hk/" }] },
-    "ai_music": { "title": "AI Musik", "links": [{ "label": "Suno", "href": "https://sunoai.me/" }, { "label": "SunoHK", "href": "https://suno.hk/" }, { "label": "Udio", "href": "https://udio.hk/" }] },
-    "ai_tools": { "title": "AI Verktyg", "links": [{ "label": "LimaxAI", "href": "https://www.limaxai.com/" }, { "label": "deepseek 4", "href": "https://deepseek4.hk" }, { "label": "Notebooklm", "href": "https://notebooklm.vip" }, { "label": "Openclaw", "href": "https://openclawd.hk" }, { "label": "Gemini 3.0", "href": "https://gemini3.hk" }, { "label": "Gemini Watermark Erase", "href": "https://geminiwatermarkerase.com/" }] },
-    "company": { "title": "Företag", "links": [{ "label": "Blogg", "path": "blog" }, { "label": "Om Oss", "path": "about" }, { "label": "Sekretess", "path": "privacy" }, { "label": "Villkor", "path": "terms" }, { "label": "API", "href": "https://api.limaxai.com/" }] },
+    "brand": {
+      "title": "Seedance 2.0",
+      "intro": "Den enhetliga multimodala AI-videogenereringsplattformen. Ger skapare regissörsnivå-kontroll och biografkvalitet.",
+      "email": "starwk@gmx.com"
+    },
+    "ai_image": {
+      "title": "AI Bild",
+      "links": [
+        {
+          "label": "Midjourney",
+          "href": "https://midjourney.cfd"
+        },
+        {
+          "label": "Nano Banana Pro",
+          "href": "https://nanobanana-pro.vip"
+        },
+        {
+          "label": "Nano Banana 2",
+          "href": "https://nanobananapro.hk"
+        },
+        {
+          "label": "Nano Banana 3",
+          "href": "https://nanobanana3.top"
+        }
+      ]
+    },
+    "ai_video": {
+      "title": "AI Video",
+      "links": [
+        {
+          "label": "Seedance 2.0",
+          "href": "https://seedance22.com"
+        },
+        {
+          "label": "Seedance 1.5",
+          "href": "https://seedance2.hk"
+        },
+        {
+          "label": "Veo 3",
+          "href": "https://veo3.hk"
+        },
+        {
+          "label": "HappyHorse1.0",
+          "href": "https://happyhorse.fans/"
+        },
+        {
+          "label": "HappyHorse2.0",
+          "href": "https://happy-horse.hk/"
+        }
+      ]
+    },
+    "ai_music": {
+      "title": "AI Musik",
+      "links": [
+        {
+          "label": "Suno",
+          "href": "https://sunoai.me/"
+        },
+        {
+          "label": "SunoHK",
+          "href": "https://suno.hk/"
+        },
+        {
+          "label": "Udio",
+          "href": "https://udio.hk/"
+        }
+      ]
+    },
+    "ai_tools": {
+      "title": "AI Verktyg",
+      "links": [
+        {
+          "label": "LimaxAI",
+          "href": "https://www.limaxai.com/"
+        },
+        {
+          "label": "deepseek 4",
+          "href": "https://deepseek4.hk"
+        },
+        {
+          "label": "Notebooklm",
+          "href": "https://notebooklm.vip"
+        },
+        {
+          "label": "Openclaw",
+          "href": "https://openclawd.hk"
+        },
+        {
+          "label": "Gemini 3.0",
+          "href": "https://gemini3.hk"
+        },
+        {
+          "label": "Gemini Watermark Erase",
+          "href": "https://geminiwatermarkerase.com/"
+        }
+      ]
+    },
+    "company": {
+      "title": "Företag",
+      "links": [
+        {
+          "label": "Blogg",
+          "path": "blog"
+        },
+        {
+          "label": "Om oss",
+          "path": "about"
+        },
+        {
+          "label": "Integritet",
+          "path": "privacy"
+        },
+        {
+          "label": "Villkor",
+          "path": "terms"
+        },
+        {
+          "label": "API",
+          "href": "https://api.limaxai.com/"
+        }
+      ]
+    },
     "copyright": "© 2026 Seedance AI. Alla rättigheter förbehållna."
   },
   "features": {
@@ -101,62 +217,148 @@
         "desc": "Ladda upp upp till 9 bilder, 3 videor (15s totalt) och 3 ljudfiler. Kombinera text, bilder, videor och ljud fritt för att uttrycka din kreativa vision med oöverträffad flexibilitet.",
         "iconColor": "from-purple-500 to-indigo-600",
         "iconBg": "bg-purple-50",
-        "iconHover": "bg-purple-100"
+        "iconHover": "bg-purple-100",
+        "iconSvg": "M12 6.042A8.967 8.967 0 006 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 016 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 016-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0018 18a8.967 8.967 0 00-6 2.292m0-14.25v14.25",
+        "tags": [
+          "Images",
+          "Videos",
+          "Audio",
+          "Text"
+        ],
+        "tagBg": "bg-purple-50",
+        "tagText": "text-purple-600"
       },
       {
         "title": "Referera Vad Som Helst",
         "desc": "Referera rörelse, effekter, kamerarörelser, karaktärer, scener och ljud från valfritt uppladdat innehåll. Beskriv helt enkelt vad du vill referera i naturligt språk, så förstår modellen.",
         "iconColor": "from-cyan-500 to-blue-600",
         "iconBg": "bg-cyan-50",
-        "iconHover": "bg-cyan-100"
+        "iconHover": "bg-cyan-100",
+        "iconSvg": "M9.813 15.904L9 18.75l-.813-2.846a4.5 4.5 0 00-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 003.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 003.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 00-3.09 3.09zM18.259 8.715L18 9.75l-.259-1.035a3.375 3.375 0 00-2.455-2.456L14.25 6l1.036-.259a3.375 3.375 0 002.455-2.456L18 2.25l.259 1.035a3.375 3.375 0 002.455 2.456L21.75 6l-1.036.259a3.375 3.375 0 00-2.455 2.456z",
+        "tags": [
+          "Motion",
+          "Camera",
+          "Characters",
+          "Sounds"
+        ],
+        "tagBg": "bg-cyan-50",
+        "tagText": "text-cyan-600"
       },
       {
         "title": "Överlägsen Konsistens",
         "desc": "Behåll perfekt konsistens för ansikten, kläder, text, scener och visuella stilar i hela din video. Inga fler karaktärsförändringar eller stilinkonsistenser mellan bildrutor.",
         "iconColor": "from-orange-500 to-amber-600",
         "iconBg": "bg-orange-50",
-        "iconHover": "bg-orange-100"
+        "iconHover": "bg-orange-100",
+        "iconSvg": "M18 18.72a9.094 9.094 0 003.741-.479 3 3 0 00-4.682-2.72m.94 3.198l.001.031c0 .225-.012.447-.037.666A11.944 11.944 0 0112 21c-2.17 0-4.207-.576-5.963-1.584A6.062 6.062 0 016 18.719m12 0a5.971 5.971 0 00-.941-3.197m0 0A5.995 5.995 0 0012 12.75a5.995 5.995 0 00-5.058 2.772m0 0a3 3 0 00-4.681 2.72 8.986 8.986 0 003.74.477m.94-3.197a5.971 5.971 0 00-.94 3.197M15 6.75a3 3 0 11-6 0 3 3 0 016 0zm6 3a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0zm-13.5 0a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0z",
+        "tags": [
+          "Faces",
+          "Style",
+          "Scenes",
+          "Consistency"
+        ],
+        "tagBg": "bg-orange-50",
+        "tagText": "text-orange-600"
       },
       {
         "title": "Exakt Rörelse- och Kamerareplikering",
         "desc": "Ladda upp en referensvideo för att replicera komplex koreografi, filmiska kamerarörelser och actionsekvenser. Inget behov av detaljerade prompts — visa bara vad du vill ha.",
         "iconColor": "from-pink-500 to-rose-600",
         "iconBg": "bg-pink-50",
-        "iconHover": "bg-pink-100"
+        "iconHover": "bg-pink-100",
+        "iconSvg": "M15.75 10.5l4.72-4.72a.75.75 0 011.28.53v11.38a.75.75 0 01-1.28.53l-4.72-4.72M4.5 18.75h9a2.25 2.25 0 002.25-2.25v-9a2.25 2.25 0 00-2.25-2.25h-9A2.25 2.25 0 002.25 7.5v9a2.25 2.25 0 002.25 2.25z",
+        "tags": [
+          "Dance Covers",
+          "Action",
+          "Motion Capture",
+          "Choreography"
+        ],
+        "tagBg": "bg-pink-50",
+        "tagText": "text-pink-600"
       },
       {
         "title": "Videoförlängning & Redigering",
         "desc": "Förläng befintliga videor sömlöst, slå ihop flera klipp eller redigera specifika segment. Byt ut karaktärer, lägg till element eller ändra handlingar samtidigt som du behåller resten av ditt innehåll.",
         "iconColor": "from-emerald-500 to-teal-600",
         "iconBg": "bg-emerald-50",
-        "iconHover": "bg-emerald-100"
+        "iconHover": "bg-emerald-100",
+        "iconSvg": "M16.862 4.487l1.687-1.688a1.875 1.875 0 112.652 2.652L10.582 16.07a4.5 4.5 0 01-1.897 1.13L6 18l.8-2.685a4.5 4.5 0 011.13-1.897l8.932-8.931zm0 0L19.5 7.125M18 14v4.75A2.25 2.25 0 0115.75 21H5.25A2.25 2.25 0 013 18.75V8.25A2.25 2.25 0 015.25 6H10",
+        "tags": [
+          "Video Extension",
+          "Scene Merging",
+          "Content Editing",
+          "Clip Connection"
+        ],
+        "tagBg": "bg-emerald-50",
+        "tagText": "text-emerald-600"
       },
       {
         "title": "Inbyggd Ljudgenerering",
         "desc": "Generera automatiskt kontextmedvetna ljudeffekter och bakgrundsmusik. Synkronisera video med uppladdat ljud eller musikbeats för perfekt timing av kreativt innehåll.",
         "iconColor": "from-blue-500 to-indigo-600",
         "iconBg": "bg-blue-50",
-        "iconHover": "bg-blue-100"
+        "iconHover": "bg-blue-100",
+        "iconSvg": "M9 9l10.5-3m0 6.553v3.75a2.25 2.25 0 01-1.632 2.163l-1.32.377a1.803 1.803 0 11-.99-3.467l2.31-.66a2.25 2.25 0 001.632-2.163zm0 0V2.25L9 5.25v10.303m0 0v3.75a2.25 2.25 0 01-1.632 2.163l-1.32.377a1.803 1.803 0 01-.99-3.467l2.31-.66A2.25 2.25 0 009 15.553z",
+        "tags": [
+          "Sound Effects",
+          "BGM",
+          "Audio Sync",
+          "Music Beats"
+        ],
+        "tagBg": "bg-blue-50",
+        "tagText": "text-blue-600"
       }
     ]
   },
   "comparison": {
     "title": "Seedance 2.0 vs. andra",
-    "headers": ["Funktion", "Seedance 2.0", "Andra modeller"],
+    "headers": [
+      "Funktion",
+      "Seedance 2.0",
+      "Andra modeller"
+    ],
     "rows": [
-      { "label": "Instruktionsföljning", "us": "✅ Hög precision", "others": "⚠️ Inkonsekvent" },
-      { "label": "Rörelsekvalitet", "us": "✅ Smidig och realistisk", "others": "❌ Darrig" },
-      { "label": "Konsistens över flera tagningar", "us": "✅ Sammanhängande", "others": "❌ Fragmenterad" },
-      { "label": "Ljud-video-synk", "us": "✅ Inbyggt stöd", "others": "❌ Separata verktyg" }
+      {
+        "label": "Instruktionsföljning",
+        "us": "✅ Hög precision",
+        "others": "⚠️ Inkonsekvent"
+      },
+      {
+        "label": "Rörelsekvalitet",
+        "us": "✅ Smidig och realistisk",
+        "others": "❌ Darrig"
+      },
+      {
+        "label": "Konsistens över flera tagningar",
+        "us": "✅ Sammanhängande",
+        "others": "❌ Fragmenterad"
+      },
+      {
+        "label": "Ljud-video-synk",
+        "us": "✅ Inbyggt stöd",
+        "others": "❌ Separata verktyg"
+      }
     ]
   },
   "showcase": {
     "title": "Gränslös kreativitet",
     "items": [
-      { "title": "Filmproduktion", "desc": "Generera storyboards och slutliga tagningar." },
-      { "title": "Reklam", "desc": "Skapa videoreklam med hög konvertering på minuter." },
-      { "title": "Sociala medier", "desc": "Enkel skapande av viralt innehåll." },
-      { "title": "Speldesign", "desc": "Cutscenes och karaktärsanimationer." }
+      {
+        "title": "Filmproduktion",
+        "desc": "Generera storyboards och slutliga tagningar."
+      },
+      {
+        "title": "Reklam",
+        "desc": "Skapa videoreklam med hög konvertering på minuter."
+      },
+      {
+        "title": "Sociala medier",
+        "desc": "Enkel skapande av viralt innehåll."
+      },
+      {
+        "title": "Speldesign",
+        "desc": "Cutscenes och karaktärsanimationer."
+      }
     ]
   },
   "testimonials": {
