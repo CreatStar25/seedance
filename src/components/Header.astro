@@ -56,11 +56,17 @@ if (cleanPath.startsWith('/')) cleanPath = cleanPath.substring(1);
           <div class="grid grid-cols-3 gap-2">
             {Object.entries(languages).map(([code, name]) => {
               // 构建目标链接
-              const isRoot = cleanPath === '';
+              const isRoot = cleanPath === '' || cleanPath === '/';
               const prefix = code === 'en' ? (isRoot ? '' : '/en') : `/${code}`;
               // 确保路径拼接没有双斜杠
-              let targetUrl = `${prefix}/${cleanPath}`.replace('//', '/');
-              if (targetUrl === '') targetUrl = '/'; // 根路径修正
+              let targetUrl = `${prefix}/${cleanPath}`.replace(/^\/+|\/+$/g, '').replace(/\/\/+/g, '/');
+              if (targetUrl === '') targetUrl = '/';
+              // 统一尾斜杠（与 astro.config.mjs trailingSlash: 'always' 一致）
+              if (targetUrl !== '/' && !targetUrl.endsWith('/')) {
+                targetUrl = targetUrl + '/';
+              }
+              // 清理多余斜杠
+              targetUrl = targetUrl.replace(/\/\/+/g, '/');
 
               return (
                 <a 

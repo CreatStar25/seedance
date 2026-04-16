@@ -1,59 +1,84 @@
 ---
 const { lang, t } = Astro.props;
 
-const defaultBrand = {
-  title: 'Seedance 2.0',
-  intro: 'The unified multimodal AI video generation platform. Empowering creators with director-level control and cinematic quality.',
-  email: 'starwk@gmx.com',
-};
-const defaultColumns = {
-  ai_tools: { title: 'AI Tools', links: [
-    { label: 'LimaxAI', href: 'https://www.limaxai.com/' },
-    { label: 'Suno', href: 'https://suno.hk/' },
-    { label: 'deepseek 4', href: 'https://deepseek4.hk/' },
-    { label: 'Notebooklm', href: 'https://notebooklm.vip/' },
-    { label: 'Openclaw', href: 'https://openclawd.hk/' },
-    { label: 'Gemini 3.0', href: 'https://gemini3.hk/' },
-  ]},
-  ai_video: { title: 'AI Video', links: [
-    { label: 'Seedance 2.0', href: 'https://seedance22.com/' },
-    { label: 'Seedance 1.5', href: 'https://seedance2.hk/' },
-    { label: 'Veo 3.1', href: 'https://veo3.hk/' },
-    { label: 'Veo 3', href: 'https://veo3.hk/' },
-    { label: 'Sora', href: 'https://www.limaxai.com/generate/video-tools/so' },
-    { label: 'Sora 2', href: 'https://www.limaxai.com/generate/video-tools/so' },
-  ]},
-  ai_image: { title: 'AI Image', links: [
-    { label: 'Midjourney', href: 'https://www.limaxai.com/generate/image-tools/mjpro' },
-    { label: 'Nano Banana 2', href: 'https://nanobananapro.hk/' },
-    { label: 'Nano Banana Pro', href: 'https://nanobanana-pro.vip/' },
-    { label: 'Nano Banana 3', href: 'https://nanobanana3.top/' },
-  ]},
-  company: { title: 'Company', links: [
-    { label: 'Blog', path: 'blog' },
-    { label: 'About', path: 'about' },
-    { label: 'Privacy', path: 'privacy' },
-    { label: 'Terms', path: 'terms' },
-    { label: 'API', href: 'https://api.limaxai.com/' },
-  ]},
-};
-
-const brand = t.footer?.brand ?? defaultBrand;
-const aiTools = t.footer?.ai_tools ?? defaultColumns.ai_tools;
-const aiVideo = t.footer?.ai_video ?? defaultColumns.ai_video;
-const aiImage = t.footer?.ai_image ?? defaultColumns.ai_image;
-const company = t.footer?.company ?? defaultColumns.company;
-const copyright = t.footer?.copyright ?? '© 2026 Seedance AI. All rights reserved.';
-
-function companyHref(path: string) {
-  if (lang === 'en') return `/${path === 'blog' ? 'en/blog' : path}/`;
+function companyPath(path: string) {
+  if (lang === 'en') return path === 'blog' ? '/en/blog/' : `/${path}/`;
   return `/${lang}/${path}/`;
 }
+
+// 列定义顺序（key 对应 footer 字典中的子键）
+const columnKeys = ['ai_image', 'ai_video', 'ai_music', 'ai_tools', 'company'];
+
+// 默认列配置（i18n 缺失时的兜底）
+const defaultColumns: Record<string, { title: string; links: { label: string; href: string }[] }> = {
+  ai_image: {
+    title: 'AI Image',
+    links: [
+      { label: 'Midjourney', href: 'https://midjourney.cfd' },
+      { label: 'Nano Banana Pro', href: 'https://nanobanana-pro.vip' },
+      { label: 'Nano Banana 2', href: 'https://nanobananapro.hk' },
+      { label: 'Nano Banana 3', href: 'https://nanobanana3.top' },
+    ],
+  },
+  ai_video: {
+    title: 'AI Video',
+    links: [
+      { label: 'Seedance 2.0', href: 'https://seedance22.com' },
+      { label: 'Seedance 1.5', href: 'https://seedance2.hk' },
+      { label: 'Veo 3', href: 'https://veo3.hk' },
+      { label: 'HappyHorse1.0', href: 'https://happyhorse.fans/' },
+      { label: 'HappyHorse2.0', href: 'https://happy-horse.hk/' },
+    ],
+  },
+  ai_music: {
+    title: 'AI Music',
+    links: [
+      { label: 'Suno', href: 'https://sunoai.me/' },
+      { label: 'SunoHK', href: 'https://suno.hk/' },
+      { label: 'Udio', href: 'https://udio.hk/' },
+    ],
+  },
+  ai_tools: {
+    title: 'AI Tools',
+    links: [
+      { label: 'LimaxAI', href: 'https://www.limaxai.com/' },
+      { label: 'deepseek 4', href: 'https://deepseek4.hk' },
+      { label: 'Notebooklm', href: 'https://notebooklm.vip' },
+      { label: 'Openclaw', href: 'https://openclawd.hk' },
+      { label: 'Gemini 3.0', href: 'https://gemini3.hk' },
+      { label: 'Gemini Watermark Erase', href: 'https://geminiwatermarkerase.com/' },
+    ],
+  },
+  company: {
+    title: 'Company',
+    links: [
+      { label: 'Blog', href: companyPath('blog') },
+      { label: 'About', href: companyPath('about') },
+      { label: 'Privacy', href: companyPath('privacy') },
+      { label: 'Terms', href: companyPath('terms') },
+      { label: 'API', href: 'https://api.limaxai.com/' },
+    ],
+  },
+};
+
+const footer = (t.footer || {}) as Record<string, unknown>;
+const brand = (footer.brand || defaultColumns.ai_image) as { title?: string; intro?: string; email?: string };
+const copyright = (footer.copyright as string) ?? defaultColumns.company.title;
+
+// 从 i18n 读取列，缺失时回退到默认配置
+const resolved = columnKeys.map((key) => {
+  const i18nCol = footer[key] as { title?: string; links?: { label: string; href: string; path?: string }[] } | undefined;
+  const defaultCol = defaultColumns[key];
+  return {
+    title: i18nCol?.title ?? defaultCol.title,
+    links: i18nCol?.links ?? defaultCol.links,
+  };
+});
 ---
 
 <footer class="bg-gray-900 text-gray-300 font-sans border-t border-gray-800">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-16">
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10 lg:gap-8">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-10 lg:gap-8">
       <!-- 左侧：品牌区 -->
       <div class="lg:col-span-1 flex flex-col">
         <a href={lang === 'en' ? '/' : `/${lang}/`} class="flex items-center gap-2 mb-4 w-fit group">
@@ -65,48 +90,30 @@ function companyHref(path: string) {
         <a href={`mailto:${brand.email}`} class="text-sm text-gray-400 hover:text-yellow-400 transition-colors">{brand.email}</a>
       </div>
 
-      <!-- 右侧：四列导航 -->
-      <div class="lg:col-span-4 grid grid-cols-2 sm:grid-cols-4 gap-8 sm:gap-6">
-        <div>
-          <h3 class="font-bold text-lg text-white mb-4">{aiTools.title}</h3>
-          <ul class="space-y-3">
-            {(aiTools.links || []).map((link: { label: string; href: string }) => (
-              <li>
-                <a href={link.href} target="_blank" rel="noopener noreferrer" class="text-sm text-gray-400 hover:text-white transition-colors">{link.label}</a>
-              </li>
-            ))}
-          </ul>
-        </div>
-        <div>
-          <h3 class="font-bold text-lg text-white mb-4">{aiVideo.title}</h3>
-          <ul class="space-y-3">
-            {(aiVideo.links || []).map((link: { label: string; href: string }) => (
-              <li>
-                <a href={link.href} target="_blank" rel="noopener noreferrer" class="text-sm text-gray-400 hover:text-white transition-colors">{link.label}</a>
-              </li>
-            ))}
-          </ul>
-        </div>
-        <div>
-          <h3 class="font-bold text-lg text-white mb-4">{aiImage.title}</h3>
-          <ul class="space-y-3">
-            {(aiImage.links || []).map((link: { label: string; href: string }) => (
-              <li>
-                <a href={link.href} target="_blank" rel="noopener noreferrer" class="text-sm text-gray-400 hover:text-white transition-colors">{link.label}</a>
-              </li>
-            ))}
-          </ul>
-        </div>
-        <div>
-          <h3 class="font-bold text-lg text-white mb-4">{company.title}</h3>
-          <ul class="space-y-3">
-            {(company.links || []).map((link: { label: string; path?: string; href?: string }) => (
-              <li>
-                <a href={link.href ?? companyHref(link.path ?? '')} class="text-sm text-gray-400 hover:text-white transition-colors" target={link.href ? '_blank' : undefined} rel={link.href ? 'noopener noreferrer' : undefined}>{link.label}</a>
-              </li>
-            ))}
-          </ul>
-        </div>
+      <!-- 右侧：五列导航 -->
+      <div class="lg:col-span-5 grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-8 sm:gap-6">
+        {resolved.map((col) => (
+          <div>
+            <h3 class="font-bold text-lg text-white mb-4">{col.title}</h3>
+            <ul class="space-y-3">
+              {col.links.map((link: { label: string; href: string }) => {
+                const isExternal = link.href.startsWith('http');
+                return (
+                  <li>
+                    <a
+                      href={link.href}
+                      class="text-sm text-gray-400 hover:text-white transition-colors"
+                      target={isExternal ? '_blank' : undefined}
+                      rel={isExternal ? 'noopener noreferrer' : undefined}
+                    >
+                      {link.label}
+                    </a>
+                  </li>
+                );
+              })}
+            </ul>
+          </div>
+        ))}
       </div>
     </div>
 

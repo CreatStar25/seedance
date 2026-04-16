@@ -12,123 +12,110 @@
     "api": "API",
     "cta": "Coba Gratis"
   },
+  "guide": {
+    "title": "Panduan Seedance",
+    "welcome": "Selamat datang di panduan penggunaan Seedance. Di sini Anda akan menemukan tutorial, tips, dan praktik terbaik untuk pembuatan video AI Seedance.",
+    "article_list": "Daftar Artikel",
+    "quick_access": "Akses Cepat",
+    "quick_access_desc": "Entri resmi Seedance 2.0, satu klik untuk mulai membuat.",
+    "latest_articles": "Artikel Terbaru",
+    "page_nav": "Navigasi Halaman",
+    "quick_links": "Tautan Cepat",
+    "official_platform": "Platform Resmi",
+    "tips": "Tips Penggunaan",
+    "feedback": "Umpan Balik",
+    "cta_entry": "Gunakan Seedance Sekarang",
+    "read_full": "Baca artikel lengkap →"
+  },
+  "product_features": {
+    "text_to_video": {
+      "title": "AI Teks ke Video",
+      "desc": "Jelaskan adegan, karakter, dan gerakan kamera dalam bahasa alami dan biarkan AI Teks ke Video kami mengubahnya menjadi video multi-tembakan yang koheren.",
+      "badge": "Paling Populer",
+      "bullets": ["Kontrol Kamera Sinematik", "Konsistensi Multi-Tembakan", "Gerakan Berbasis Fisika"],
+      "cta": "Buat Video"
+    },
+    "image_to_video": {
+      "title": "AI Gambar ke Video",
+      "desc": "Unggah satu foto referensi dan saksikan menjadi video pendek yang dihasilkan AI. Pertahankan identitas dan gaya dengan fidelitas tinggi.",
+      "badge": "Baru",
+      "bullets": ["Pertahankan Identitas Subjek", "Kontrol Kekuatan Gerakan"],
+      "cta": "Animasikan Gambar"
+    },
+    "text_to_image": {
+      "title": "AI Teks ke Gambar",
+      "desc": "Ubah prompt teks menjadi gambar resolusi tinggi. Jelaskan gaya, pencahayaan, dan komposisi sekali, lalu hasilkan beberapa variasi."
+    },
+    "ai_tools": {
+      "title": "Efek & Alat Video AI",
+      "desc": "Unggah foto, pilih template efek video AI dan biarkan sistem kami secara otomatis membuat klip bergaya pendek.",
+      "badge": "Coba Gratis",
+      "cards": [
+        { "title": "Tukar Wajah", "desc": "Sempurna untuk meme & pemasaran" },
+        { "title": "Transfer Gaya", "desc": "Anime, Tanah Liat, Render 3D..." }
+      ],
+      "grid": ["Edit Ajaib", "Tukar Wajah", "Gaya Ulang", "Tingkatkan Skala"],
+      "cta": "Jelajahi Alat"
+    }
+  },
   "hero": {
     "title": "Kontrol Tingkat Sutradara dengan",
     "highlight": "Seedance 2.0",
     "subtitle": "Arsitektur pembuatan multimoda terpadu. Buat video sinematik dari teks, gambar, dan audio dengan kontrol dan realisme yang belum pernah ada sebelumnya.",
     "button": "Mulai Membuat",
     "users": "Dipercaya oleh Studio Terkemuka",
-    "badge": "🚀 New Release: Seedance 2.0"
+    "badge": "🚀 Rilis Baru: Seedance 2.0"
   },
   "stats": [
-    {
-      "value": "SOTA",
-      "label": "Model Performance"
-    },
-    {
-      "value": "4",
-      "label": "Modalities Supported"
-    },
-    {
-      "value": "1080p",
-      "label": "HD Output"
-    }
+    { "value": "SOTA", "label": "Performa Model" },
+    { "value": "4", "label": "Modalitas Didukung" },
+    { "value": "1080p", "label": "Output HD" }
   ],
-  "product_features": {
-    "text_to_video": {
-      "title": "Text to Video AI",
-      "desc": "Describe scenes, characters and camera moves in natural language and let our Text to Video AI turn them into coherent multi-shot videos.",
-      "bullets": [
-        "Cinematic Camera Control",
-        "Multi-Shot Consistency",
-        "Physics-Based Motion"
-      ],
-      "cta": "Create Video"
-    },
-    "image_to_video": {
-      "title": "Image to Video AI",
-      "desc": "Upload a single reference photo and watch it become a short AI-generated video. Preserve identity and style with high fidelity.",
-      "bullets": [
-        "Preserve Subject Identity",
-        "Control Motion Strength"
-      ],
-      "cta": "Animate Image"
-    },
-    "text_to_image": {
-      "title": "Text to Image AI",
-      "desc": "Turn text prompts into high-resolution images. Describe style, lighting and composition once, then generate multiple variations."
-    },
-    "ai_tools": {
-      "title": "AI Video Effects & Tools",
-      "desc": "Upload photos, choose an AI video effect template and let our system auto-generate a short stylized clip.",
-      "cards": [
-        {
-          "title": "Face Swap",
-          "desc": "Perfect for memes & marketing"
-        },
-        {
-          "title": "Style Transfer",
-          "desc": "Anime, Clay, 3D Render..."
-        }
-      ],
-      "grid": [
-        "Magic Edit",
-        "Face Swap",
-        "Restyle",
-        "Upscale"
-      ],
-      "cta": "Explore Tools"
-    }
-  },
-  "footer": {
-    "product": {
-      "title": "Produk",
-      "items": [
-        "Teks ke Video",
-        "Gambar ke Video",
-        "Pengeditan Video",
-        "Harga"
-      ]
-    },
-    "resources": {
-      "title": "Sumber Daya",
-      "items": [
-        "Blog",
-        "Komunitas",
-        "Pusat Bantuan",
-        "Dokumentasi API"
-      ]
-    },
-    "company": {
-      "title": "Perusahaan",
-      "items": [
-        "Tentang Kami",
-        "Karir",
-        "Kontak",
-        "Legal"
-      ]
-    },
-    "copyright": "© 2026 Seedance AI. Hak cipta dilindungi undang-undang."
-  },
   "features": {
     "title": "Mengapa Memilih Seedance 2.0?",
-    "subtitle": "Tembus batas kreativitas dengan kemampuan generasi konten multimodal paling lengkap.",
+    "subtitle": "Terobos batas kreativitas dengan kemampuan generasi konten multimodal paling lengkap.",
     "list": [
       {
-        "title": "Arsitektur Multimodal Terpadu",
-        "desc": "Mendukung input teks, gambar, audio, dan video. Kemampuan editing terintegrasi untuk pembuatan konten yang mulus."
+        "title": "Input Multimodal",
+        "desc": "Unggah hingga 9 gambar, 3 video (total 15 detik), dan 3 file audio. Kombinasikan teks, gambar, video, dan audio secara bebas untuk mengekspresikan visi kreatif Anda dengan fleksibilitas yang belum pernah ada sebelumnya.",
+        "iconColor": "from-purple-500 to-indigo-600",
+        "iconBg": "bg-purple-50",
+        "iconHover": "bg-purple-100"
       },
       {
-        "title": "Kontrol Tingkat Sutradara",
-        "desc": "Kontrol presisi atas akting, pencahayaan, dan pergerakan kamera. Wujudkan visi kreatif Anda persis seperti yang dibayangkan."
+        "title": "Referensi Apa Saja",
+        "desc": "Referensi gerakan, efek, pergerakan kamera, karakter, adegan, dan suara dari konten apa pun yang diunggah. Cukup jelaskan apa yang ingin Anda referensi dalam bahasa alami, dan model akan memahaminya.",
+        "iconColor": "from-cyan-500 to-blue-600",
+        "iconBg": "bg-cyan-50",
+        "iconHover": "bg-cyan-100"
       },
       {
-        "title": "Kualitas Hiper-Realistis",
-        "desc": "Stabilitas gerak luar biasa dan kepatuhan hukum fisika. Sinkronisasi audio-visual native untuk pengalaman imersif."
+        "title": "Konsistensi Unggul",
+        "desc": "Jaga konsistensi sempurna untuk wajah, pakaian, teks, adegan, dan gaya visual di seluruh video Anda. Tidak ada lagi pergeseran karakter atau ketidakkonsistenan gaya antar frame.",
+        "iconColor": "from-orange-500 to-amber-600",
+        "iconBg": "bg-orange-50",
+        "iconHover": "bg-orange-100"
       },
       {
-        "title": "Alur Kerja Kelas Industri",
-        "desc": "Disesuaikan untuk iklan, film, dan media sosial. Kualitas keluaran memenuhi standar pengiriman industri."
+        "title": "Replikasi Gerakan & Kamera Presisi",
+        "desc": "Unggah video referensi untuk mereplikasi koreografi kompleks, pergerakan kamera sinematik, dan sekuens aksi. Tidak perlu prompt detail — cukup tunjukkan apa yang Anda inginkan.",
+        "iconColor": "from-pink-500 to-rose-600",
+        "iconBg": "bg-pink-50",
+        "iconHover": "bg-pink-100"
+      },
+      {
+        "title": "Perpanjangan & Pengeditan Video",
+        "desc": "Perpanjang video yang ada dengan mulus, gabungkan beberapa klip, atau edit segmen tertentu. Ganti karakter, tambahkan elemen, atau modifikasi aksi sambil mempertahankan sisa konten Anda.",
+        "iconColor": "from-emerald-500 to-teal-600",
+        "iconBg": "bg-emerald-50",
+        "iconHover": "bg-emerald-100"
+      },
+      {
+        "title": "Generasi Audio Bawaan",
+        "desc": "Otomatis hasilkan efek suara dan musik latar yang sesuai konteks. Sinkronkan video dengan audio atau irama musik yang diunggah untuk konten kreatif dengan timing sempurna.",
+        "iconColor": "from-blue-500 to-indigo-600",
+        "iconBg": "bg-blue-50",
+        "iconHover": "bg-blue-100"
       }
     ]
   },
@@ -171,30 +158,136 @@
       }
     ]
   },
+  "footer": {
+    "brand": {
+      "title": "Seedance 2.0",
+      "intro": "Platform pembuatan video AI multimodal terpadu. Memberdayakan kreator dengan kontrol tingkat sutradara dan kualitas sinematik.",
+      "email": "starwk@gmx.com"
+    },
+    "ai_image": {
+      "title": "AI Gambar",
+      "links": [
+        { "label": "Midjourney", "href": "https://midjourney.cfd" },
+        { "label": "Nano Banana Pro", "href": "https://nanobanana-pro.vip" },
+        { "label": "Nano Banana 2", "href": "https://nanobananapro.hk" },
+        { "label": "Nano Banana 3", "href": "https://nanobanana3.top" }
+      ]
+    },
+    "ai_video": {
+      "title": "AI Video",
+      "links": [
+        { "label": "Seedance 2.0", "href": "https://seedance22.com" },
+        { "label": "Seedance 1.5", "href": "https://seedance2.hk" },
+        { "label": "Veo 3", "href": "https://veo3.hk" },
+        { "label": "HappyHorse1.0", "href": "https://happyhorse.fans/" },
+        { "label": "HappyHorse2.0", "href": "https://happy-horse.hk/" }
+      ]
+    },
+    "ai_music": {
+      "title": "AI Musik",
+      "links": [
+        { "label": "Suno", "href": "https://sunoai.me/" },
+        { "label": "SunoHK", "href": "https://suno.hk/" },
+        { "label": "Udio", "href": "https://udio.hk/" }
+      ]
+    },
+    "ai_tools": {
+      "title": "Alat AI",
+      "links": [
+        { "label": "LimaxAI", "href": "https://www.limaxai.com/" },
+        { "label": "deepseek 4", "href": "https://deepseek4.hk" },
+        { "label": "Notebooklm", "href": "https://notebooklm.vip" },
+        { "label": "Openclaw", "href": "https://openclawd.hk" },
+        { "label": "Gemini 3.0", "href": "https://gemini3.hk" },
+        { "label": "Gemini Watermark Erase", "href": "https://geminiwatermarkerase.com/" }
+      ]
+    },
+    "company": {
+      "title": "Perusahaan",
+      "links": [
+        { "label": "Blog", "path": "blog" },
+        { "label": "Tentang", "path": "about" },
+        { "label": "Privasi", "path": "privacy" },
+        { "label": "Ketentuan", "path": "terms" },
+        { "label": "API", "href": "https://api.limaxai.com/" }
+      ]
+    },
+    "copyright": "© 2026 Seedance AI. Hak cipta dilindungi undang-undang."
+  },
   "faq": {
     "title": "Pertanyaan yang Sering Diajukan",
     "items": [
       {
-        "q": "Apa itu Seedance 2.0?",
-        "a": "Seedance 2.0 adalah model video AI generasi berikutnya yang menghasilkan video berkualitas tinggi dari teks, gambar, dan audio."
+        "q": "Apa yang membuat Seedance 2.0 berbeda dari generator video AI lainnya?",
+        "a": "Seedance 2.0 dibangun di atas arsitektur multimodal yang menerima teks, gambar, video, dan audio secara bersamaan. Tidak seperti alat tunggal-modalitas, Anda dapat mengunggah klip referensi untuk gerakan, foto untuk tampilan karakter, dan audio untuk sinkronisasi beat — semuanya dideskripsikan dalam bahasa alami. Kemampuan multi-referensi ini memberi Anda kontrol kreatif tingkat sutradara."
       },
       {
-        "q": "Bisakah saya menggunakan Seedance untuk proyek komersial?",
-        "a": "Ya, paket pro kami mencakup hak komersial penuh untuk semua konten yang dihasilkan."
+        "q": "Jenis file input apa saja yang bisa saya unggah?",
+        "a": "Anda dapat mengunggah hingga 9 gambar (PNG, JPG, WEBP), 3 klip video (durasi gabungan hingga 15 detik), dan 3 file audio (MP3, masing-masing hingga 15 detik). Ini dapat dicampur dan digabungkan dalam satu generasi untuk fleksibilitas maksimal."
       },
       {
-        "q": "Bagaimana perbandingannya dengan Sora atau Kling?",
-        "a": "Seedance 2.0 unggul dalam kepatuhan instruksi dan stabilitas gerakan, menawarkan kontrol superior untuk alur kerja profesional."
+        "q": "Bagaimana sistem referensi bekerja?",
+        "a": "Cukup jelaskan apa yang ingin Anda pinjam dari aset yang diunggah menggunakan bahasa alami — misalnya, 'Gunakan gerakan kamera dari @video1 dengan gaya karakter dari @gambar2.' Model memahami dan mereplikasi gerakan, efek, sudut kamera, tampilan karakter, komposisi adegan, dan bahkan karakteristik audio dari referensi Anda."
       },
       {
-        "q": "Apakah ada uji coba gratis?",
-        "a": "Ya, Anda dapat mencoba Seedance 2.0 gratis dengan kredit harian."
+        "q": "Bisakah saya memperpanjang atau mengedit video yang sudah ada?",
+        "a": "Ya. Seedance 2.0 mendukung perpanjangan video — unggah klip dan tentukan berapa detik yang ingin ditambahkan, dan model melanjutkan urutan secara mulus. Anda juga dapat mengedit segmen tertentu: ganti karakter, modifikasi aksi, tambahkan atau hapus elemen, semuanya tanpa membuat ulang seluruh video dari awal."
+      },
+      {
+        "q": "Seberapa baik konsistensi karakter di seluruh adegan?",
+        "a": "Konsistensi karakter adalah kekuatan inti Seedance 2.0. Wajah, pakaian, teks, detail adegan, dan gaya visual tetap stabil di seluruh beberapa tembakan dan urutan yang diperpanjang — menyelesaikan salah satu titik nyeri terbesar dalam pembuatan video AI."
+      },
+      {
+        "q": "Berapa panjang, resolusi, dan rasio aspek video yang tersedia?",
+        "a": "Video yang dihasilkan berkisar dari 4 hingga 15 detik. Rasio aspek yang didukung termasuk 16:9, 9:16, 4:3, 3:4, 21:9, dan 1:1. Resolusi hingga 1080p, membuat output cocok untuk pengiriman profesional di web, media sosial, dan platform siaran."
+      },
+      {
+        "q": "Apakah Seedance 2.0 menghasilkan audio atau efek suara?",
+        "a": "Ya. Platform ini mencakup generasi audio bawaan yang membuat efek suara dan musik latar yang sesuai konteks dengan konten visual Anda. Anda juga dapat mengunggah trek audio sendiri dan model akan menyinkronkan waktu video dengan beat atau ritme Anda."
+      },
+      {
+        "q": "Apakah ada watermark pada video yang dihasilkan?",
+        "a": "Tidak. Semua video sepenuhnya tanpa watermark dan siap untuk penggunaan komersial. Apa yang Anda buat sepenuhnya milik Anda — unduh footage bersih berkualitas profesional tanpa branding apapun."
+      },
+      {
+        "q": "Bisakah saya mereplikasi gerakan kamera dan koreografi dari video referensi?",
+        "a": "Tentu saja. Unggah video yang berisi gerakan kamera, urutan tarian, atau koreografi aksi yang ingin Anda replikasi, dan Seedance 2.0 akan menerapkan dinamika tersebut secara akurat ke konten Anda sendiri. Tidak perlu prompting kompleks — cukup tunjukkan model apa yang Anda inginkan."
+      },
+      {
+        "q": "Apakah ada paket gratis?",
+        "a": "Ya. Seedance 2.0 menawarkan tier gratis dengan kredit harian sehingga Anda bisa menjelajahi platform sebelum berkomitmen. Paket berbayar membuka batas generasi yang lebih tinggi, pemrosesan lebih cepat, dan akses prioritas selama jam sibuk."
+      },
+      {
+        "q": "Bagaimana cara memulai?",
+        "a": "Buat akun, pilih paket yang sesuai dengan kebutuhan Anda, lalu mulai mengunggah materi referensi Anda. Jelaskan visi kreatif Anda dalam bahasa alami, dan biarkan Seedance 2.0 menghidupkannya. Antarmuka dirancang intuitif bahkan untuk pengguna pertama kali."
+      },
+      {
+        "q": "Bagaimana data dan konten saya dilindungi?",
+        "a": "Semua file yang diunggah dan video yang dihasilkan disimpan dengan enkripsi standar industri. Konten Anda tetap pribadi dan tidak pernah dibagikan dengan pihak ketiga. Anda mempertahankan hak kepemilikan penuh atas semua yang Anda buat di platform."
       }
     ]
   },
   "blog": {
     "page_title": "Blog Seedance: Tutorial & Panduan Video AI",
-    "read": "Read Article →",
-    "no_posts": "No posts found for this language yet."
+    "read": "Baca Artikel →",
+    "no_posts": "Belum ada postingan untuk bahasa ini."
+  },
+  "about": {
+    "title": "Tentang",
+    "description": "Tentang Seedance 2.0 - Platform pembuatan video AI.",
+    "heading": "Tentang Seedance 2.0",
+    "content": "Seedance 2.0 adalah platform pembuatan video AI multimodal terpadu, memberdayakan kreator dengan kontrol tingkat sutradara dan kualitas sinematik. Kami mendukung input teks, gambar, audio, dan video untuk pembuatan konten profesional."
+  },
+  "privacy": {
+    "title": "Kebijakan Privasi",
+    "description": "Kebijakan Privasi untuk Seedance 2.0.",
+    "heading": "Kebijakan Privasi",
+    "content": "Kami menghormati privasi Anda. Kebijakan ini menjelaskan bagaimana kami mengumpulkan, menggunakan, dan melindungi informasi Anda saat menggunakan layanan kami. Kami menggunakan data untuk meningkatkan platform video AI kami dan memberi Anda pengalaman yang lebih baik. Kami tidak menjual informasi pribadi Anda ke pihak ketiga."
+  },
+  "terms": {
+    "title": "Ketentuan Layanan",
+    "description": "Ketentuan Layanan untuk Seedance 2.0.",
+    "heading": "Ketentuan Layanan",
+    "content": "Dengan menggunakan Seedance 2.0, Anda menyetujui ketentuan ini. Layanan kami disediakan untuk penggunaan yang sah. Anda mempertahankan hak atas konten yang Anda buat; kami dapat menggunakan data anonim untuk meningkatkan model kami. Kami berhak memperbarui ketentuan ini; penggunaan berkelanjutan merupakan penerimaan."
   }
 }

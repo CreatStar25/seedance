@@ -18,96 +18,78 @@
     "subtitle": "Den enhetliga multimodala genereringsarkitekturen. Skapa filmiska videor från text, bilder och ljud med oöverträffad kontroll och realism.",
     "button": "Börja Generera",
     "users": "Betrodd av Toppstudior",
-    "badge": "🚀 New Release: Seedance 2.0"
+    "badge": "🚀 Ny Utgåva: Seedance 2.0"
   },
   "stats": [
     {
       "value": "SOTA",
-      "label": "Model Performance"
+      "label": "Modellprestanda"
     },
     {
       "value": "4",
-      "label": "Modalities Supported"
+      "label": "Stödda Modaliteter"
     },
     {
       "value": "1080p",
-      "label": "HD Output"
+      "label": "HD-utdata"
     }
   ],
   "product_features": {
     "text_to_video": {
-      "title": "Text to Video AI",
-      "desc": "Describe scenes, characters and camera moves in natural language and let our Text to Video AI turn them into coherent multi-shot videos.",
+      "title": "Text till Video AI",
+      "desc": "Beskriv scener, karaktärer och kamerarörelser på naturligt språk och låt vår Text till Video AI omvandla dem till sammanhängande flerskottsvideor.",
+      "badge": "Flaggskeppsmodell",
       "bullets": [
-        "Cinematic Camera Control",
-        "Multi-Shot Consistency",
-        "Physics-Based Motion"
+        "Filmisk Kamerakontroll",
+        "Flerbildskonsistens",
+        "Fysikbaserad Rörelse"
       ],
-      "cta": "Create Video"
+      "cta": "Skapa Video"
     },
     "image_to_video": {
-      "title": "Image to Video AI",
-      "desc": "Upload a single reference photo and watch it become a short AI-generated video. Preserve identity and style with high fidelity.",
+      "title": "Bild till Video AI",
+      "desc": "Ladda upp ett enskilt referensfoto och se det bli till en kort AI-genererad video. Bevara identitet och stil med hög trovärdighet.",
+      "badge": "Från Statisk till Rörelse",
       "bullets": [
-        "Preserve Subject Identity",
-        "Control Motion Strength"
+        "Bevara Subjektets Identitet",
+        "Kontrollera Rörelsestyrka"
       ],
-      "cta": "Animate Image"
+      "cta": "Animera Bild"
     },
     "text_to_image": {
-      "title": "Text to Image AI",
-      "desc": "Turn text prompts into high-resolution images. Describe style, lighting and composition once, then generate multiple variations."
+      "title": "Text till Bild AI",
+      "desc": "Omvandla textpromptar till högupplösta bilder. Beskriv stil, belysning och komposition en gång, sedan generera flera variationer."
     },
     "ai_tools": {
-      "title": "AI Video Effects & Tools",
-      "desc": "Upload photos, choose an AI video effect template and let our system auto-generate a short stylized clip.",
+      "title": "AI Videoeffekter och Verktyg",
+      "desc": "Ladda upp foton, välj en AI-videoeffektmall och låt vårt system automatiskt generera ett kort stiliserat klipp.",
+      "badge": "Kreativ Svit",
       "cards": [
         {
-          "title": "Face Swap",
-          "desc": "Perfect for memes & marketing"
+          "title": "Ansiktsbyte",
+          "desc": "Perfekt för memes och marknadsföring"
         },
         {
-          "title": "Style Transfer",
-          "desc": "Anime, Clay, 3D Render..."
+          "title": "Stilöverföring",
+          "desc": "Anime, Lera, 3D-rendering..."
         }
       ],
       "grid": [
-        "Magic Edit",
-        "Face Swap",
-        "Restyle",
-        "Upscale"
+        "Magisk Redigering",
+        "Ansiktsbyte",
+        "Ändra Stil",
+        "Skalförbättring"
       ],
-      "cta": "Explore Tools"
+      "cta": "Utforska Verktyg"
     }
   },
   "footer": {
-    "product": {
-      "title": "Produkt",
-      "items": [
-        "Text till Video",
-        "Bild till Video",
-        "Videoredigering",
-        "Priser"
-      ]
-    },
-    "resources": {
-      "title": "Resurser",
-      "items": [
-        "Blogg",
-        "Community",
-        "Hjälpcenter",
-        "API-dokumentation"
-      ]
-    },
-    "company": {
-      "title": "Företag",
-      "items": [
-        "Om oss",
-        "Karriär",
-        "Kontakt",
-        "Juridiskt"
-      ]
-    },
+    "brand": { "title": "Seedance 2.0", "intro": "Den enhetliga multimodala AI-videogenereringsplattformen. Ger skapare regissörsnivå-kontroll och biografkvalitet.", "email": "starwk@gmx.com" },
+    "ai_image": { "title": "AI Bild", "links": [{ "label": "Midjourney", "href": "https://midjourney.cfd" }, { "label": "Nano Banana Pro", "href": "https://nanobanana-pro.vip" }, { "label": "Nano Banana 2", "href": "https://nanobananapro.hk" }, { "label": "Nano Banana 3", "href": "https://nanobanana3.top" }] },
+    "ai_video": { "title": "AI Video", "links": [{ "label": "Seedance 2.0", "href": "https://seedance22.com" }, { "label": "Seedance 1.5", "href": "https://seedance2.hk" }, { "label": "Veo 3", "href": "https://veo3.hk" }, { "label": "HappyHorse1.0", "href": "https://happyhorse.fans/" }, { "label": "HappyHorse2.0", "href": "https://happy-horse.hk/" }] },
+    "ai_music": { "title": "AI Musik", "links": [{ "label": "Suno", "href": "https://sunoai.me/" }, { "label": "SunoHK", "href": "https://suno.hk/" }, { "label": "Udio", "href": "https://udio.hk/" }] },
+    "ai_tools": { "title": "AI Verktyg", "links": [{ "label": "LimaxAI", "href": "https://www.limaxai.com/" }, { "label": "deepseek 4", "href": "https://deepseek4.hk" }, { "label": "Notebooklm", "href": "https://notebooklm.vip" }, { "label": "Openclaw", "href": "https://openclawd.hk" }, { "label": "Gemini 3.0", "href": "https://gemini3.hk" }, { "label": "Gemini Watermark Erase", "href": "https://geminiwatermarkerase.com/" }] },
+    "company": { "title": "Företag", "links": [{ "label": "Blogg", "path": "blog" }, { "label": "Om Oss", "path": "about" }, { "label": "Sekretess", "path": "privacy" }, { "label": "Villkor", "path": "terms" }, { "label": "API", "href": "https://api.limaxai.com/" }] },
     "copyright": "© 2026 Seedance AI. Alla rättigheter förbehållna."
   },
   "features": {
@@ -115,20 +97,46 @@
     "subtitle": "Bryt gränserna för kreativitet med de mest omfattande multimodala innehållsgenereringsmöjligheterna.",
     "list": [
       {
-        "title": "Enhetlig multimodal arkitektur",
-        "desc": "Stöd för text-, bild-, ljud- och videoinput. Integrerad redigering för sömlös innehållsskapande."
+        "title": "Multimodal Inmatning",
+        "desc": "Ladda upp upp till 9 bilder, 3 videor (15s totalt) och 3 ljudfiler. Kombinera text, bilder, videor och ljud fritt för att uttrycka din kreativa vision med oöverträffad flexibilitet.",
+        "iconColor": "from-purple-500 to-indigo-600",
+        "iconBg": "bg-purple-50",
+        "iconHover": "bg-purple-100"
       },
       {
-        "title": "Kontroll på regissörsnivå",
-        "desc": "Exakt kontroll över skådespeleri, belysning och kamerarörelser. Din kreativa vision exakt som du tänkte dig."
+        "title": "Referera Vad Som Helst",
+        "desc": "Referera rörelse, effekter, kamerarörelser, karaktärer, scener och ljud från valfritt uppladdat innehåll. Beskriv helt enkelt vad du vill referera i naturligt språk, så förstår modellen.",
+        "iconColor": "from-cyan-500 to-blue-600",
+        "iconBg": "bg-cyan-50",
+        "iconHover": "bg-cyan-100"
       },
       {
-        "title": "Hyperrealistisk kvalitet",
-        "desc": "Exceptionell rörelsestabilitet och fysikens lagar. Inbyggd ljud-video-synk för uppslukande upplevelser."
+        "title": "Överlägsen Konsistens",
+        "desc": "Behåll perfekt konsistens för ansikten, kläder, text, scener och visuella stilar i hela din video. Inga fler karaktärsförändringar eller stilinkonsistenser mellan bildrutor.",
+        "iconColor": "from-orange-500 to-amber-600",
+        "iconBg": "bg-orange-50",
+        "iconHover": "bg-orange-100"
       },
       {
-        "title": "Arbetsflöde i industrinivå",
-        "desc": "Skräddarsytt för reklam, film och sociala medier. Outputkvalitet möter industriella leveransstandarder."
+        "title": "Exakt Rörelse- och Kamerareplikering",
+        "desc": "Ladda upp en referensvideo för att replicera komplex koreografi, filmiska kamerarörelser och actionsekvenser. Inget behov av detaljerade prompts — visa bara vad du vill ha.",
+        "iconColor": "from-pink-500 to-rose-600",
+        "iconBg": "bg-pink-50",
+        "iconHover": "bg-pink-100"
+      },
+      {
+        "title": "Videoförlängning & Redigering",
+        "desc": "Förläng befintliga videor sömlöst, slå ihop flera klipp eller redigera specifika segment. Byt ut karaktärer, lägg till element eller ändra handlingar samtidigt som du behåller resten av ditt innehåll.",
+        "iconColor": "from-emerald-500 to-teal-600",
+        "iconBg": "bg-emerald-50",
+        "iconHover": "bg-emerald-100"
+      },
+      {
+        "title": "Inbyggd Ljudgenerering",
+        "desc": "Generera automatiskt kontextmedvetna ljudeffekter och bakgrundsmusik. Synkronisera video med uppladdat ljud eller musikbeats för perfekt timing av kreativt innehåll.",
+        "iconColor": "from-blue-500 to-indigo-600",
+        "iconBg": "bg-blue-50",
+        "iconHover": "bg-blue-100"
       }
     ]
   },
@@ -175,26 +183,91 @@
     "title": "Vanliga frågor",
     "items": [
       {
-        "q": "Vad är Seedance 2.0?",
-        "a": "Seedance 2.0 är en AI-videomodell av nästa generation som genererar högkvalitativa videor från text, bild och ljud."
+        "q": "Vad gör Seedance 2.0 annorlunda från andra AI-videogeneratorer?",
+        "a": "Seedance 2.0 är byggd på en verkligt multimodal arkitektur som accepterar text, bilder, video och ljud samtidigt. Till skillnad från enkelmodalitetsverktyg kan du ladda upp referensklipp för rörelse, foton för karaktärsutseende och ljud för beatsynkronisering — allt beskrivet på naturligt språk. Denna multi-referensförmåga ger dig regissörsnivå av kreativ kontroll."
       },
       {
-        "q": "Kan jag använda Seedance för kommersiella projekt?",
-        "a": "Ja. Våra pro-planer inkluderar fulla kommersiella rättigheter för allt genererat innehåll."
+        "q": "Vilka typer av infiler kan jag ladda upp?",
+        "a": "Du kan ladda upp upp till 9 bilder (PNG, JPG, WEBP), 3 videoklipp (kombinerad längd upp till 15 sekunder) och 3 ljudfiler (MP3, upp till 15 sekunder vardera). Dessa kan blandas och kombineras i en enda generering för maximal flexibilitet."
       },
       {
-        "q": "Hur jämför det sig med Sora eller Kling?",
-        "a": "Seedance 2.0 utmärker sig inom instruktionsföljning och rörelsestabilitet och erbjuder överlägsen kontroll för professionella arbetsflöden."
+        "q": "Hur fungerar referenssystemet?",
+        "a": "Beskriv helt enkelt vad du vill låna från dina uppladdade tillgångar med naturligt språk — till exempel 'Använd kamerarörelsen från @video1 med karaktärsstilen från @image2.' Modellen förstår och replikerar rörelse, effekter, kameravinklar, karaktärsutseenden, scenkompositioner och till och ljudkaraktäristika från dina referenser."
       },
       {
-        "q": "Finns det en gratis provperiod?",
-        "a": "Ja. Du kan prova Seedance 2.0 gratis med dagliga krediter."
+        "q": "Kan jag förlänga eller redigera befintliga videor?",
+        "a": "Ja. Seedance 2.0 stöder videoförlängning — ladda upp ett klipp och ange hur många sekunder som ska läggas till, och modellen fortsätter sekvensen sömlöst. Du kan också redigera specifika segment: byta ut karaktärer, modifiera handlingar, lägga till eller ta bort element, allt utan att regenerera hela videon från början."
+      },
+      {
+        "q": "Hur väl upprätthålls karaktärskonsistens över scener?",
+        "a": "Karaktärskonsistens är en kärnstyrka hos Seedance 2.0. Ansikten, kläder, text, scendetaljer och visuella stiler förblir stabila över flera tagningar och utökade sekvenser — vilket löser en av de största smärtpunkterna inom AI-videoskapande."
+      },
+      {
+        "q": "Videolängder, upplösningar och bildförhållanden som finns tillgängliga?",
+        "a": "Genererade videor sträcker sig från 4 till 15 sekunder. Bildförhållanden som stöds inkluderar 16:9, 9:16, 4:3, 3:4, 21:9 och 1:1. Upplösningar går upp till 1080p, vilket gör utdata lämplig för professionell leverans över webb, sociala medier och sändningsplattformar."
+      },
+      {
+        "q": "Genererar Seedance 2.0 ljud eller ljudeffekter?",
+        "a": "Ja. Plattformen inkluderar inbyggd ljudgenerering som skapar kontextmedvetna ljudeffekter och bakgrundsmusik som matchar ditt visuella innehåll. Du kan också ladda upp dina egna ljudspår och modellen kommer att synkronisera videotiming till dina beats eller rytm."
+      },
+      {
+        "q": "Finns det vattenstämplar på de genererade videorna?",
+        "a": "Nej. Alla videor är helt vattenstämpelfria och redo för kommersiell användning. Det du skapar tillhör helt dig — ladda ner rent, professionellt material utan någon varumärkning."
+      },
+      {
+        "q": "Kan jag replikera kamerarörelser och koreografi från referensvideor?",
+        "a": "Absolut. Ladda upp en video som innehåller den kamerarörelse, danssekvens eller actionkoreografi du vill replikera, och Seedance 2.0 kommer att tillämpa dessa dynamiker korrekt på ditt eget innehåll. Inga komplexa prompts behövs — visa bara modellen vad du vill ha."
+      },
+      {
+        "q": "Finns det en gratis plan?",
+        "a": "Ja. Seedance 2.0 erbjuder en gratis nivå med dagliga krediter så att du kan utforska plattformen innan du bestämmer dig. Betalda planer låser upp högre generationsgränser, snabbare bearbetning och prioriterad åtkomst under topptider."
+      },
+      {
+        "q": "Hur kommer jag igång?",
+        "a": "Skapa ett konto, välj en plan som passar dina behov och börja sedan ladda upp ditt referensmaterial. Beskriv din kreativa vision på naturligt språk och låt Seedance 2.0 bringa den till liv. Gränssnittet är designat för att vara intuitivt även för förstegångsanvändare."
+      },
+      {
+        "q": "Hur skyddas min data och mitt innehåll?",
+        "a": "Alla uppladdade filer och genererade videor lagras med branschstandard kryptering. Ditt innehåll förblir privat och delas aldrig med tredje parter. Du behåller fulla äganderättigheter till allt du skapar på plattformen."
       }
     ]
   },
   "blog": {
     "page_title": "Seedance Blogg: AI-videohandledningar och guider",
-    "read": "Read Article →",
-    "no_posts": "No posts found for this language yet."
+    "read": "Läs artikel →",
+    "no_posts": "Inga inlägg hittades för detta språk ännu."
+  },
+  "guide": {
+    "title": "Seedance-guide",
+    "welcome": "Välkommen till Seedance användarguide. Här hittar du handledningar, tips och bästa praxis för Seedance AI-videoskapande.",
+    "article_list": "Artikellista",
+    "quick_access": "Snabbåtkomst",
+    "quick_access_desc": "Officiell Seedance 2.0-ingång, ett klick för att börja skapa.",
+    "latest_articles": "Senaste Artiklar",
+    "page_nav": "Sidnavigering",
+    "quick_links": "Snabblänkar",
+    "official_platform": "Officiell Plattform",
+    "tips": "Användningstips",
+    "feedback": "Feedback",
+    "cta_entry": "Använd Seedance Nu",
+    "read_full": "Läs hela artikeln →"
+  },
+  "about": {
+    "title": "Om Oss",
+    "description": "Om Seedance 2.0 - AI-videogenereringsplattform.",
+    "heading": "Om Seedance 2.0",
+    "content": "Seedance 2.0 är en enhetlig multimodal AI-videogenereringsplattform som ger skapare regissörsnivå-kontroll och biografkvalitet. Vi stöder text-, bild-, ljud- och videoinmatning för professionellt innehållsskapande."
+  },
+  "privacy": {
+    "title": "Integritetspolicy",
+    "description": "Integritetspolicy för Seedance 2.0.",
+    "heading": "Integritetspolicy",
+    "content": "Vi respekterar din integritet. Denna policy beskriver hur vi samlar in, använder och skyddar din information när du använder våra tjänster. Vi använder data för att förbättra vår AI-videoplattform och för att ge dig en bättre upplevelse. Vi säljer inte din personliga information till tredje parter."
+  },
+  "terms": {
+    "title": "Användarvillkor",
+    "description": "Användarvillkor för Seedance 2.0.",
+    "heading": "Användarvillkor",
+    "content": "Genom att använda Seedance 2.0 godkänner du dessa villkor. Vår tjänst tillhandahålls för laglig användning. Du behåller rättigheter till innehåll du skapar; vi kan använda anonymiserad data för att förbättra våra modeller. Vi förbehåller oss rätten att uppdatera dessa villkor; fortsatt användning utgör acceptans."
   }
 }

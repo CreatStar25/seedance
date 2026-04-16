@@ -12,47 +12,35 @@
     "api": "API",
     "cta": "무료 체험"
   },
-  "hero": {
-    "title": "감독 수준의 제어력",
-    "highlight": "Seedance 2.0",
-    "subtitle": "통합 멀티모달 생성 아키텍처. 텍스트, 이미지, 오디오로 영화 같은 비디오를 제작하며 전례 없는 제어력과 사실감을 제공합니다.",
-    "button": "생성 시작",
-    "users": "최고의 스튜디오들이 신뢰",
-    "badge": "🚀 New Release: Seedance 2.0"
+  "guide": {
+    "title": "Seedance 가이드",
+    "welcome": "Seedance 사용 가이드에 오신 것을 환영합니다. 여기에서 Seedance AI 동영상 제작에 대한 튜토리얼, 팁 및 모범 사례를 찾을 수 있습니다.",
+    "article_list": "기사 목록",
+    "quick_access": "빠른 액세스",
+    "quick_access_desc": "Seedance 2.0 공식 진입, 원클릭으로 제작 시작.",
+    "latest_articles": "최신 기사",
+    "page_nav": "페이지 탐색",
+    "quick_links": "빠른 링크",
+    "official_platform": "공식 플랫폼",
+    "tips": "사용 팁",
+    "feedback": "피드백",
+    "cta_entry": "지금 Seedance 사용하기",
+    "read_full": "전체 기사 읽기 →"
   },
-  "stats": [
-    {
-      "value": "SOTA",
-      "label": "Model Performance"
-    },
-    {
-      "value": "4",
-      "label": "Modalities Supported"
-    },
-    {
-      "value": "1080p",
-      "label": "HD Output"
-    }
-  ],
   "product_features": {
     "text_to_video": {
       "title": "텍스트 투 비디오 AI",
       "desc": "자연어로 장면, 캐릭터, 카메라 움직임을 설명하면 AI가 이를 일관된 멀티 샷 비디오로 변환합니다.",
-      "bullets": [
-        "Cinematic Camera Control",
-        "Multi-Shot Consistency",
-        "Physics-Based Motion"
-      ],
-      "cta": "Create Video"
+      "badge": "플래그십 모델",
+      "bullets": ["영화적 카메라 제어", "멀티샷 일관성", "물리 기반 모션"],
+      "cta": "동영상 만들기"
     },
     "image_to_video": {
       "title": "이미지 투 비디오 AI",
       "desc": "참조 사진을 업로드하고 짧은 AI 생성 비디오로 변환되는 것을 지켜보세요. 정체성과 스타일을 고화질로 보존합니다.",
-      "bullets": [
-        "Preserve Subject Identity",
-        "Control Motion Strength"
-      ],
-      "cta": "Animate Image"
+      "badge": "정적에서 동적으로",
+      "bullets": ["피사체 아이덴티티 유지", "모션 강도 제어"],
+      "cta": "이미지 애니메이션"
     },
     "text_to_image": {
       "title": "텍스트 투 이미지 AI",
@@ -61,74 +49,93 @@
     "ai_tools": {
       "title": "AI 비디오 효과 및 도구",
       "desc": "사진을 업로드하고 AI 비디오 효과 템플릿을 선택하면 시스템이 자동으로 스타일리시한 클립을 생성합니다.",
+      "badge": "크리에이티브 스위트",
       "cards": [
         {
-          "title": "Face Swap",
-          "desc": "Perfect for memes & marketing"
+          "title": "얼굴 교체",
+          "desc": "밈과 마케팅에 완벽"
         },
         {
-          "title": "Style Transfer",
-          "desc": "Anime, Clay, 3D Render..."
+          "title": "스타일 변환",
+          "desc": "애니메이션, 클레이, 3D 렌더링..."
         }
       ],
       "grid": [
-        "Magic Edit",
-        "Face Swap",
-        "Restyle",
-        "Upscale"
+        "매직 편집",
+        "얼굴 교체",
+        "리스타일",
+        "업스케일"
       ],
-      "cta": "Explore Tools"
+      "cta": "도구 탐색"
     }
   },
-  "footer": {
-    "product": {
-      "title": "제품",
-      "items": [
-        "텍스트 비디오 변환",
-        "이미지 비디오 변환",
-        "비디오 편집",
-        "가격"
-      ]
-    },
-    "resources": {
-      "title": "리소스",
-      "items": [
-        "블로그",
-        "커뮤니티",
-        "도움말 센터",
-        "API 문서"
-      ]
-    },
-    "company": {
-      "title": "회사",
-      "items": [
-        "소개",
-        "채용",
-        "연락처",
-        "법적 고지"
-      ]
-    },
-    "copyright": "© 2026 Seedance AI. 판권 소유."
+  "hero": {
+    "title": "감독 수준의 제어력",
+    "highlight": "Seedance 2.0",
+    "subtitle": "통합 멀티모달 생성 아키텍처. 텍스트, 이미지, 오디오로 영화 같은 비디오를 제작하며 전례 없는 제어력과 사실감을 제공합니다.",
+    "button": "생성 시작",
+    "users": "최고의 스튜디오들이 신뢰",
+    "badge": "🚀 새로운 출시: Seedance 2.0"
   },
+  "stats": [
+    {
+      "value": "SOTA",
+      "label": "모델 성능"
+    },
+    {
+      "value": "4",
+      "label": "지원 모달리티"
+    },
+    {
+      "value": "1080p",
+      "label": "HD 출력"
+    }
+  ],
   "features": {
     "title": "왜 Seedance 2.0인가?",
-    "subtitle": "가장 포괄적인 멀티모달 생성 능력으로 창의성의 경계를 넘다.",
+    "subtitle": "가장 포괄적인 멀티모달 콘텐츠 생성 능력으로 창의성의 한계를 뛰어넘으세요.",
     "list": [
       {
-        "title": "통합 멀티모달 아키텍처",
-        "desc": "텍스트·이미지·오디오·비디오 입력 지원. 통합 편집으로 매끄러운 제작."
+        "title": "멀티모달 입력",
+        "desc": "최대 9장의 이미지, 3개의 비디오(총 15초), 3개의 오디오 파일을 업로드하세요. 텍스트, 이미지, 비디오, 오디오를 자유롭게 조합하여 전례 없는 유연성으로 창의적 비전을 표현하세요.",
+        "iconColor": "from-purple-500 to-indigo-600",
+        "iconBg": "bg-purple-50",
+        "iconHover": "bg-purple-100"
       },
       {
-        "title": "감독 수준의 제어력",
-        "desc": "연기·조명·운镜을 정밀하게 통제. 상상한 그대로의 결과물."
+        "title": "무엇이든 참조",
+        "desc": "업로드한 콘텐츠에서 동작, 효과, 카메라 움직임, 캐릭터, 장면, 사운드를 참조하세요. 자연어로 무엇을 참조하고 싶은지 설명하기만 하면 모델이 이해합니다.",
+        "iconColor": "from-cyan-500 to-blue-600",
+        "iconBg": "bg-cyan-50",
+        "iconHover": "bg-cyan-100"
       },
       {
-        "title": "초현실적 품질",
-        "desc": "탁월한 모션 안정성과 물리 법칙 준수. 네이티브 음영상 동기화."
+        "title": "뛰어난 일관성",
+        "desc": "전체 비디오에서 얼굴, 의상, 텍스트, 장면, 비주얼 스타일의 완벽한 일관성을 유지하세요. 프레임 간 캐릭터 드리프트나 스타일 불일치 문제가 더 이상 없습니다.",
+        "iconColor": "from-orange-500 to-amber-600",
+        "iconBg": "bg-orange-50",
+        "iconHover": "bg-orange-100"
       },
       {
-        "title": "산업급 워크플로우",
-        "desc": "광고·영화·소셜에 최적화. 산업交付 기준의 출력 품질."
+        "title": "정밀한 동작 및 카메라 복제",
+        "desc": "참조 비디오를 업로드하여 복잡한 안무, 영화 같은 카메라 움직임, 액션 시퀀스를 복제하세요. 자세한 프롬프트는 필요 없습니다 — 원하는 것을 보여주기만 하세요.",
+        "iconColor": "from-pink-500 to-rose-600",
+        "iconBg": "bg-pink-50",
+        "iconHover": "bg-pink-100"
+      },
+      {
+        "title": "비디오 확장 및 편집",
+        "desc": "기존 비디오를 매끄럽게 확장하거나 여러 클립을 병합하거나 특정 세그먼트를 편집하세요. 나머지 콘텐츠는 보존하면서 캐릭터를 교체하거나 요소를 추가하거나 동작을 수정하세요.",
+        "iconColor": "from-emerald-500 to-teal-600",
+        "iconBg": "bg-emerald-50",
+        "iconHover": "bg-emerald-100"
+      },
+      {
+        "title": "내장 오디오 생성",
+        "desc": "문맥을 인식한 효과음과 배경 음악을 자동으로 생성하세요. 업로드한 오디오나 음악 비트에 비디오를 완벽하게 동기화하여 타이밍이 맞는 창의적 콘텐츠를 만드세요.",
+        "iconColor": "from-blue-500 to-indigo-600",
+        "iconBg": "bg-blue-50",
+        "iconHover": "bg-blue-100"
       }
     ]
   },
@@ -203,6 +210,62 @@
       }
     ]
   },
+  "footer": {
+    "brand": {
+      "title": "Seedance 2.0",
+      "intro": "통합 멀티모달 AI 동영상 생성 플랫폼. 창작자에게 감독 수준의 제어력과 영화 품질을 제공합니다.",
+      "email": "starwk@gmx.com"
+    },
+    "ai_image": {
+      "title": "AI 이미지",
+      "links": [
+        { "label": "Midjourney", "href": "https://midjourney.cfd" },
+        { "label": "Nano Banana Pro", "href": "https://nanobanana-pro.vip" },
+        { "label": "Nano Banana 2", "href": "https://nanobananapro.hk" },
+        { "label": "Nano Banana 3", "href": "https://nanobanana3.top" }
+      ]
+    },
+    "ai_video": {
+      "title": "AI 동영상",
+      "links": [
+        { "label": "Seedance 2.0", "href": "https://seedance22.com" },
+        { "label": "Seedance 1.5", "href": "https://seedance2.hk" },
+        { "label": "Veo 3", "href": "https://veo3.hk" },
+        { "label": "HappyHorse1.0", "href": "https://happyhorse.fans/" },
+        { "label": "HappyHorse2.0", "href": "https://happy-horse.hk/" }
+      ]
+    },
+    "ai_music": {
+      "title": "AI 음악",
+      "links": [
+        { "label": "Suno", "href": "https://sunoai.me/" },
+        { "label": "SunoHK", "href": "https://suno.hk/" },
+        { "label": "Udio", "href": "https://udio.hk/" }
+      ]
+    },
+    "ai_tools": {
+      "title": "AI 도구",
+      "links": [
+        { "label": "LimaxAI", "href": "https://www.limaxai.com/" },
+        { "label": "deepseek 4", "href": "https://deepseek4.hk" },
+        { "label": "Notebooklm", "href": "https://notebooklm.vip" },
+        { "label": "Openclaw", "href": "https://openclawd.hk" },
+        { "label": "Gemini 3.0", "href": "https://gemini3.hk" },
+        { "label": "Gemini Watermark Erase", "href": "https://geminiwatermarkerase.com/" }
+      ]
+    },
+    "company": {
+      "title": "회사",
+      "links": [
+        { "label": "블로그", "path": "blog" },
+        { "label": "소개", "path": "about" },
+        { "label": "개인정보", "path": "privacy" },
+        { "label": "이용약관", "path": "terms" },
+        { "label": "API", "href": "https://api.limaxai.com/" }
+      ]
+    },
+    "copyright": "© 2026 Seedance AI. 모든 권리 보유."
+  },
   "faq": {
     "title": "자주 묻는 질문",
     "items": [
@@ -226,7 +289,25 @@
   },
   "blog": {
     "page_title": "Seedance 블로그: AI 영상 튜토리얼 및 가이드",
-    "read": "Read Article →",
-    "no_posts": "No posts found for this language yet."
+    "read": "기사 읽기 →",
+    "no_posts": "이 언어에 대한 게시물이 아직 없습니다."
+  },
+  "about": {
+    "title": "소개",
+    "description": "Seedance 2.0 소개 - AI 동영상 생성 플랫폼.",
+    "heading": "Seedance 2.0 소개",
+    "content": "Seedance 2.0은 통합 멀티모달 AI 동영상 생성 플랫폼으로, 창작자에게 감독 수준의 제어력과 영화 품질을 제공합니다. 텍스트, 이미지, 오디오, 비디오 입력을 지원하여 전문 콘텐츠 제작을 지원합니다."
+  },
+  "privacy": {
+    "title": "개인정보처리방침",
+    "description": "Seedance 2.0 개인정보처리방침.",
+    "heading": "개인정보처리방침",
+    "content": " 당사는 귀하의 개인정보를 존중합니다. 본 정책은 서비스 이용 시 개인정보를 어떻게 수집, 사용, 보호하는지 설명합니다. 당사는 데이터를 AI 비디오 플랫폼 개선 및 더 나은 경험 제공에 사용합니다. 개인정보를 제3자에게 판매하지 않습니다."
+  },
+  "terms": {
+    "title": "이용약관",
+    "description": "Seedance 2.0 이용약관.",
+    "heading": "이용약관",
+    "content": "Seedance 2.0 사용 시 본 약관에 동의하는 것으로 간주됩니다. 당사의 서비스는 합법적인 목적으로 제공됩니다. 생성한 콘텐츠에 대한 권리는 보유됩니다. 모델 개선을 위해 익명화된 데이터를 사용할 수 있습니다. 약관 업데이트 권리를 보유합니다. 계속 사용은 동의를 구성합니다."
   }
 }

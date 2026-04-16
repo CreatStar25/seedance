@@ -16,8 +16,7 @@ const defaultOgImage = 'https://img.seedance22.com/seedance/seedance-2-cover.web
 const ogImage = image ? (image.startsWith('http') ? image : new URL(image, Astro.site ?? Astro.url.origin).toString()) : defaultOgImage;
 
 // ---------------------------------------------------------------------------
-// 修复逻辑：获取 Base URL
-// 优先使用 astro.config.mjs 中的 site，如果没配置，则使用当前请求的 origin (例如 http://localhost:4321)
+// Base URL
 // ---------------------------------------------------------------------------
 const siteBase = Astro.site ? Astro.site.href : Astro.url.origin;
 
@@ -28,30 +27,52 @@ const localeMap: Record<string, string> = {
   'zh-tw': 'zh-TW',
 };
 
-// 生成 Canonical URL（与 trailingSlash: 'always' 一致，确保与抓取 URL 一致，避免被标为「备用网页」）
-let pathname = Astro.url.pathname;
-if (pathname && pathname !== '/' && !pathname.endsWith('/') && !pathname.includes('.')) {
-  pathname = pathname + '/';
-}
-const canonicalURL = new URL(pathname, siteBase);
+// ---------------------------------------------------------------------------
+// Canonical URL: 自引用，清理 index.html / 双斜杠 / 确保尾斜杠
+// ---------------------------------------------------------------------------
+function normalizePath(p: string): string {
+  // 1. 移除 /index.html 后缀（Cloudflare / 静态托管常见冗余）
+  p = p.replace(/\/index\.html$/, '/');
+  if (p === '/index.html') p = '/';
 
-// 生成所有语言的替代链接 (Hreflang)
-const alternateLinks = Object.keys(languages).map((l) => {
-  // 获取当前不带语言前缀的路径
-  let currentPath = Astro.url.pathname;
-  
-  // 无论当前是否英文，都移除开头的语言前缀，得到裸路径
-  // 例如 /ja/blog/ 或 /en/blog/ -> /blog/
-  const regex = new RegExp(`^/${lang}`);
-  currentPath = currentPath.replace(regex, '');
-  
-  // 确保路径以 / 开头（如果是根路径，currentPath可能是空字符串或/）
-  if (!currentPath.startsWith('/')) {
-    currentPath = '/' + currentPath;
+  // 2. 移除其他 .html 后缀（兜底，确保 canonical 不带 .html）
+  p = p.replace(/\.html$/, '');
+
+  // 3. 清理多余斜杠
+  p = p.replace(/\/\/+/g, '/');
+
+  // 4. 确保尾斜杠（与 astro.config.mjs trailingSlash: 'always' 一致）
+  if (p !== '/' && !p.endsWith('/')) {
+    p = p + '/';
   }
 
-  // 构建新的链接前缀
-  // 英文：首页/about/privacy/terms 在根路径（无 /en 前缀）；仅博客在 /en/blog/
+  return p;
+}
+
+const canonicalPath = normalizePath(Astro.url.pathname);
+const canonicalURL = new URL(canonicalPath, siteBase);
+
+// ---------------------------------------------------------------------------
+// Hreflang 替代链接：所有语言版本 + x-default
+// ---------------------------------------------------------------------------
+const alternateLinks = Object.keys(languages).map((l) => {
+  let currentPath = Astro.url.pathname;
+
+  // 移除 index.html
+  currentPath = currentPath.replace(/\/index\.html$/, '/');
+  if (currentPath === '/index.html') currentPath = '/';
+
+  // 移除当前语言前缀
+  const regex = new RegExp(`^/${lang}`);
+  currentPath = currentPath.replace(regex, '');
+
+  // 确保以 / 开头
+  if (!currentPath.startsWith('/')) currentPath = '/' + currentPath;
+
+  // 清理多余斜杠
+  currentPath = currentPath.replace(/\/\/+/g, '/');
+
+  // 构建目标语言前缀
   const isRoot = currentPath === '/' || currentPath === '';
   const enPrefix =
     l === 'en'
@@ -63,21 +84,33 @@ const alternateLinks = Object.keys(languages).map((l) => {
       : null;
   const prefix = enPrefix !== null ? enPrefix : `/${l}`;
 
-  // 拼接完整路径
-  const fullPath = `${prefix}${currentPath}`.replace('//', '/');
-  
+  let fullPath = `${prefix}${currentPath}`.replace('//', '/');
+
+  // 统一尾斜杠
+  if (fullPath !== '/' && !fullPath.endsWith('/')) {
+    fullPath = fullPath + '/';
+  }
+  // 再次清理多余斜杠
+  fullPath = fullPath.replace(/\/\/+/g, '/');
+
   const hreflang = localeMap[l] || l;
   return { lang: hreflang, href: new URL(fullPath, siteBase).toString() };
 });
 
-// Google/Bing 标准：x-default 指向英文，作为“未匹配语言时的默认版本”；百度/360 不识别 hreflang，依赖 content-language meta（见下方）
+// x-default 指向英文
 const defaultLocaleCode = localeMap['en'] || 'en-US';
 const xDefaultHref = (alternateLinks.find((l) => l.lang === defaultLocaleCode) ?? alternateLinks[0] ?? { href: canonicalURL.toString() }).href;
 
-// 百度/360 等依赖 meta content-language 识别页面语言，与 hreflang 互补
+// content-language meta（百度/360 依赖此 meta 识别语言）
 const contentLanguage = localeMap[lang] || (lang === 'en' ? 'en-US' : lang);
+const keywords = (t.seo as Record<string, unknown> | undefined)?.keywords as string | undefined;
 
+// content-language meta（百度/360 依赖此 meta 识别语言）
+const contentLanguage = localeMap[lang] || (lang === 'en' ? 'en-US' : lang);
 const ogLocale = localeMap[lang] || (lang === 'en' ? 'en-US' : lang);
+
+// 百度统计：仅在中文页面加载
+const loadBaiduAnalytics = lang === 'zh-cn' || lang === 'zh-tw';
 ---
 
 <!-- Google tag (gtag.js) -->
@@ -90,11 +123,34 @@ const ogLocale = localeMap[lang] || (lang === 'en' ? 'en-US' : lang);
   gtag('config', 'G-BL7ZG5E9YR');
 </script>
 
+{loadBaiduAnalytics && (
+  <>
+    <script is:inline>
+      var _hmt = _hmt || [];
+      (function() {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?109e6d1657ba4ee7fdd50260a3950e3e";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+      })();
+    </script>
+  </>
+)}
+
 <meta name="baidu-site-verification" content="codeva-h01OJk7Bch" />
+
+<!-- Favicon & App Icons -->
+<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+<link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/x-icon" href="/favicon.ico" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="apple-touch-icon" href="/apple-touch-icon.png" sizes="180x180" />
+<link rel="manifest" href="/site.webmanifest" />
+<meta name="theme-color" content="#000000" />
 
 <title>{title}</title>
 <meta name="description" content={description} />
-<meta name="keywords" content="Seedance, Seedance 2.0, AI video, AI 视频生成, 文生视频" />
+<meta name="keywords" content={keywords ?? "Seedance, Seedance 2.0, AI video, AI video generator, text to video, image to video, multimodal AI"} />
 <meta http-equiv="content-language" content={contentLanguage} />
 <link rel="canonical" href={canonicalURL} />
 <meta name="viewport" content="width=device-width, initial-scale=1" />

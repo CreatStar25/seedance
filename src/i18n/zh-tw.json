@@ -81,54 +81,106 @@
     }
   },
   "footer": {
-    "product": {
-      "title": "產品",
-      "items": [
-        "文生視頻",
-        "圖生視頻",
-        "視頻編輯",
-        "價格"
+    "brand": {
+      "title": "Seedance 2.0",
+      "intro": "Seedance 2.0 是最先進的AI視頻生成模型，支持文本、圖像、音頻和視頻輸入，創造電影級內容。",
+      "email": "starwk@gmx.com"
+    },
+    "ai_image": {
+      "title": "AI 圖片",
+      "links": [
+        { "label": "Midjourney", "href": "https://midjourney.cfd" },
+        { "label": "Nano Banana Pro", "href": "https://nanobanana-pro.vip" },
+        { "label": "Nano Banana 2", "href": "https://nanobananapro.hk" },
+        { "label": "Nano Banana 3", "href": "https://nanobanana3.top" }
       ]
     },
-    "resources": {
-      "title": "資源",
-      "items": [
-        "博客",
-        "社區",
-        "幫助中心",
-        "API文檔"
+    "ai_video": {
+      "title": "AI 影片",
+      "links": [
+        { "label": "Seedance 2.0", "href": "https://seedance22.com" },
+        { "label": "Seedance 1.5", "href": "https://seedance2.hk" },
+        { "label": "Veo 3", "href": "https://veo3.hk" },
+        { "label": "HappyHorse1.0", "href": "https://happyhorse.fans/" },
+        { "label": "HappyHorse2.0", "href": "https://happy-horse.hk/" }
+      ]
+    },
+    "ai_music": {
+      "title": "AI 音樂",
+      "links": [
+        { "label": "Suno", "href": "https://sunoai.me/" },
+        { "label": "SunoHK", "href": "https://suno.hk/" },
+        { "label": "Udio", "href": "https://udio.hk/" }
+      ]
+    },
+    "ai_tools": {
+      "title": "AI 工具",
+      "links": [
+        { "label": "LimaxAI", "href": "https://www.limaxai.com/" },
+        { "label": "deepseek 4", "href": "https://deepseek4.hk" },
+        { "label": "Notebooklm", "href": "https://notebooklm.vip" },
+        { "label": "Openclaw", "href": "https://openclawd.hk" },
+        { "label": "Gemini 3.0", "href": "https://gemini3.hk" },
+        { "label": "Gemini Watermark Erase", "href": "https://geminiwatermarkerase.com/" }
       ]
     },
     "company": {
-      "title": "公司",
-      "items": [
-        "關於我們",
-        "招聘",
-        "聯繫方式",
-        "法律"
+      "title": "公司資訊",
+      "links": [
+        { "label": "部落格", "path": "blog" },
+        { "label": "關於我們", "path": "about" },
+        { "label": "隱私權政策", "path": "privacy" },
+        { "label": "服務條款", "path": "terms" },
+        { "label": "API", "href": "https://api.limaxai.com/" }
       ]
     },
     "copyright": "© 2026 Seedance AI. 保留所有權利。"
   },
   "features": {
     "title": "為什麼選擇 Seedance 2.0？",
-    "subtitle": "以最全面的多模態內容生成能力突破創意邊界。",
+    "subtitle": "用最全面的多模態內容生成能力，突破創意邊界。",
     "list": [
       {
-        "title": "統一多模態架構",
-        "desc": "支援文字、圖像、音訊與影片輸入。整合編輯能力，無縫創作內容。"
+        "title": "多模態輸入",
+        "desc": "支援上傳最多 9 張圖片、3 段影片（總計 15 秒）和 3 個音訊檔案。自由組合文字、影像、影片和音訊，以前所未有的靈活性表達你的創意願景。",
+        "iconColor": "from-purple-500 to-indigo-600",
+        "iconBg": "bg-purple-50",
+        "iconHover": "bg-purple-100"
       },
       {
-        "title": "導演級控制",
-        "desc": "精準控制表演、燈光與運鏡。將創意設想原樣化為現實。"
+        "title": "萬物皆可參考",
+        "desc": "從任何上傳的內容中參考動作、特效、運鏡、角色、場景和聲音。只需用自然語言描述你想參考的內容，模型就能理解。",
+        "iconColor": "from-cyan-500 to-blue-600",
+        "iconBg": "bg-cyan-50",
+        "iconHover": "bg-cyan-100"
       },
       {
-        "title": "超真實畫質",
-        "desc": "出色的運動穩定性與物理規律遵循。原生音畫同步，沉浸體驗。"
+        "title": "卓越的一致性",
+        "desc": "在整個影片中保持臉部、服裝、文字、場景和視覺風格的完美一致性。不再出現角色漂移或幀間風格不一致的問題。",
+        "iconColor": "from-orange-500 to-amber-600",
+        "iconBg": "bg-orange-50",
+        "iconHover": "bg-orange-100"
       },
       {
-        "title": "工業級工作流",
-        "desc": "面向廣告、影視與社媒。輸出品質滿足工業交付標準。"
+        "title": "精準運鏡與動作復現",
+        "desc": "上傳參考影片即可復現複雜的舞蹈編排、電影級運鏡和動作序列。無需詳細的提示——只需展示你想要的效果。",
+        "iconColor": "from-pink-500 to-rose-600",
+        "iconBg": "bg-pink-50",
+        "iconHover": "bg-pink-100"
+      },
+      {
+        "title": "影片延展與編輯",
+        "desc": "流暢地延長已有影片、合併多個片段或編輯特定部分。替換角色、新增元素或修改動作，同時保留其餘內容。",
+        "iconColor": "from-emerald-500 to-teal-600",
+        "iconBg": "bg-emerald-50",
+        "iconHover": "bg-emerald-100"
+      },
+      {
+        "title": "內建音訊生成",
+        "desc": "自動產生與畫面匹配的音效和背景音樂。將影片與上傳的音訊或音樂節拍同步，打造完美的創意內容。",
+        "iconColor": "from-blue-500 to-indigo-600",
+        "iconBg": "bg-blue-50",
+        "iconHover": "bg-blue-100"
       }
     ]
   },
@@ -175,20 +227,52 @@
     "title": "常見問題",
     "items": [
       {
-        "q": "什麼是 Seedance 2.0？",
-        "a": "Seedance 2.0 是下一代 AI 影片模型，可從文字、圖像與音訊生成高品質影片。"
+        "q": "Seedance 2.0 與其他 AI 影片工具有什麼區別？",
+        "a": "Seedance 2.0 基於真正的多模態架構，可同時接受文字、影像、影片和音訊輸入。不同於單一模態工具，你可以上傳參考片段來取得動作、上傳照片來確定角色外觀、上傳音訊來實現節拍同步——全部用自然語言描述即可，讓你擁有導演級的創作控制力。"
       },
       {
-        "q": "能否用於商業專案？",
-        "a": "可以。專業版包含所生成內容的完整商業使用權。"
+        "q": "可以上傳哪些類型的檔案？",
+        "a": "支援上傳最多 9 張圖片（PNG、JPG、WEBP）、3 段影片（總時長不超過 15 秒）以及 3 個音訊檔案（MP3，每個不超過 15 秒）。這些素材可以在一次生成中自由組合使用。"
       },
       {
-        "q": "與 Sora、Kling 相比如何？",
-        "a": "Seedance 2.0 在指令遵循與運動穩定性上更優，為專業工作流提供更強控制力。"
+        "q": "參考系統是如何運作的？",
+        "a": "只需用自然語言描述你想從上傳素材中借鑑的內容——例如「使用 @video1 的運鏡，配合 @image2 的角色風格」。模型能理解並復現動作、特效、鏡頭角度、角色外觀、場景構圖甚至音訊特徵。"
       },
       {
-        "q": "有免費試用嗎？",
-        "a": "有。可使用每日額度免費體驗 Seedance 2.0。"
+        "q": "能否延長或編輯已有影片？",
+        "a": "可以。Seedance 2.0 支援影片延展功能——上傳一段影片並指定需要延長的時間，模型會無縫銜接後續畫面。你也可以編輯特定片段：替換角色、修改動作、新增或刪除元素，無需從頭重新生成整段影片。"
+      },
+      {
+        "q": "多場景間角色一致性表現如何？",
+        "a": "角色一致性是 Seedance 2.0 的核心優勢。臉部特徵、服裝、文字、場景細節和視覺風格在多個鏡頭和連續片段中保持穩定，解決了 AI 影片創作中最令人頭疼的角色漂移和風格不一致問題。"
+      },
+      {
+        "q": "支援哪些影片時長、解析度和畫面比例？",
+        "a": "生成的影片時長範圍為 4 到 15 秒。支援的畫面比例包括 16:9、9:16、4:3、3:4、21:9 和 1:1。解析度最高可達 1080p，適用於網路、社群媒體和廣播平台的專業交付標準。"
+      },
+      {
+        "q": "Seedance 2.0 能否自動產生音效或背景音樂？",
+        "a": "可以。平台內建音訊生成功能，會根據影片內容自動建立匹配的音效和背景音樂。你也可以上傳自己的音軌，模型會將影片節奏與你的節拍同步。"
+      },
+      {
+        "q": "生成的影片是否帶有浮水印？",
+        "a": "不帶任何浮水印。所有影片均可下載純淨、專業級的畫面，沒有任何品牌標識，可直接用於商業專案。你創作的內容完全屬於你。"
+      },
+      {
+        "q": "能否從參考影片中復現運鏡和舞蹈動作？",
+        "a": "完全可以。上傳包含你想要的運鏡、舞步或動作編排的參考影片，Seedance 2.0 就能精準地將這些動態應用到你的內容上。無需複雜的提示——只需給模型看你要的效果。"
+      },
+      {
+        "q": "是否有免費版本？",
+        "a": "是的。Seedance 2.0 提供免費方案，包含每日創作額度，讓你在付費前充分體驗平台功能。付費版本解鎖更高的生成額度、更快的處理速度和高峰時段的優先使用權。"
+      },
+      {
+        "q": "如何開始使用？",
+        "a": "註冊帳號，選擇適合你需求的方案，然後上傳參考素材。用自然語言描述你的創意想法，Seedance 2.0 就會將其變為現實。介面設計直觀，即使是第一次使用的用戶也能快速上手。"
+      },
+      {
+        "q": "我的資料和內容如何得到保護？",
+        "a": "所有上傳檔案和生成的影片均採用業界標準加密儲存。你的內容保持私密，絕不會與第三方共享。你對在平台上創作的一切內容擁有完整的所有權。"
       }
     ]
   },

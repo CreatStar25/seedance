@@ -18,41 +18,43 @@
     "subtitle": "L'architettura di generazione multimodale unificata. Crea video cinematografici da testo, immagini e audio con un controllo e un realismo senza precedenti.",
     "button": "Inizia a Generare",
     "users": "Scelto dai Migliori Studi",
-    "badge": "🚀 New Release: Seedance 2.0"
+    "badge": "🚀 Nuovo Rilascio: Seedance 2.0"
   },
   "stats": [
     {
       "value": "SOTA",
-      "label": "Model Performance"
+      "label": "Prestazioni del Modello"
     },
     {
       "value": "4",
-      "label": "Modalities Supported"
+      "label": "Modalità Supportate"
     },
     {
       "value": "1080p",
-      "label": "HD Output"
+      "label": "Output HD"
     }
   ],
   "product_features": {
     "text_to_video": {
       "title": "IA Testo a Video",
       "desc": "Descrivi scene, personaggi e movimenti di macchina in linguaggio naturale e lascia che la nostra IA li trasformi in video coerenti a più inquadrature.",
+      "badge": "Modello di Punta",
       "bullets": [
-        "Cinematic Camera Control",
-        "Multi-Shot Consistency",
-        "Physics-Based Motion"
+        "Controllo Cinematografico della Camera",
+        "Coerenza Multi-Inquadratura",
+        "Movimento Basato sulla Fisica"
       ],
-      "cta": "Create Video"
+      "cta": "Crea Video"
     },
     "image_to_video": {
       "title": "IA Immagine a Video",
       "desc": "Carica una foto di riferimento e guardala diventare un breve video generato dall'IA. Preserva l'identità e lo stile con alta fedeltà.",
+      "badge": "Da Statico a Dinamico",
       "bullets": [
-        "Preserve Subject Identity",
-        "Control Motion Strength"
+        "Preserva l'Identità del Soggetto",
+        "Controlla l'Intensità del Movimento"
       ],
-      "cta": "Animate Image"
+      "cta": "Anima l'Immagine"
     },
     "text_to_image": {
       "title": "IA Testo a Immagine",
@@ -61,74 +63,80 @@
     "ai_tools": {
       "title": "Effetti e Strumenti Video IA",
       "desc": "Carica foto, scegli un modello di effetto video IA e lascia che il nostro sistema generi automaticamente una clip stilizzata.",
+      "badge": "Suite Creativa",
       "cards": [
         {
-          "title": "Face Swap",
-          "desc": "Perfect for memes & marketing"
+          "title": "Scambio Volto",
+          "desc": "Perfetto per meme e marketing"
         },
         {
-          "title": "Style Transfer",
-          "desc": "Anime, Clay, 3D Render..."
+          "title": "Trasferimento di Stile",
+          "desc": "Anime, Argilla, Rendering 3D..."
         }
       ],
       "grid": [
-        "Magic Edit",
-        "Face Swap",
+        "Modifica Magica",
+        "Scambio Volto",
         "Restyle",
         "Upscale"
       ],
-      "cta": "Explore Tools"
+      "cta": "Esplora gli Strumenti"
     }
   },
   "footer": {
-    "product": {
-      "title": "Prodotto",
-      "items": [
-        "Testo a Video",
-        "Immagine a Video",
-        "Montaggio Video",
-        "Prezzi"
-      ]
-    },
-    "resources": {
-      "title": "Risorse",
-      "items": [
-        "Blog",
-        "Community",
-        "Centro Assistenza",
-        "Documentazione API"
-      ]
-    },
-    "company": {
-      "title": "Azienda",
-      "items": [
-        "Chi Siamo",
-        "Carriere",
-        "Contatti",
-        "Legale"
-      ]
-    },
+    "brand": { "title": "Seedance 2.0", "intro": "Piattaforma unificata di generazione video multimodale AI. Controllo da regista e qualità cinematografica per i creator.", "email": "starwk@gmx.com" },
+    "ai_image": { "title": "AI Immagine", "links": [{ "label": "Midjourney", "href": "https://midjourney.cfd" }, { "label": "Nano Banana Pro", "href": "https://nanobanana-pro.vip" }, { "label": "Nano Banana 2", "href": "https://nanobananapro.hk" }, { "label": "Nano Banana 3", "href": "https://nanobanana3.top" }] },
+    "ai_video": { "title": "AI Video", "links": [{ "label": "Seedance 2.0", "href": "https://seedance22.com" }, { "label": "Seedance 1.5", "href": "https://seedance2.hk" }, { "label": "Veo 3", "href": "https://veo3.hk" }, { "label": "HappyHorse1.0", "href": "https://happyhorse.fans/" }, { "label": "HappyHorse2.0", "href": "https://happy-horse.hk/" }] },
+    "ai_music": { "title": "AI Musica", "links": [{ "label": "Suno", "href": "https://sunoai.me/" }, { "label": "SunoHK", "href": "https://suno.hk/" }, { "label": "Udio", "href": "https://udio.hk/" }] },
+    "ai_tools": { "title": "AI Strumenti", "links": [{ "label": "LimaxAI", "href": "https://www.limaxai.com/" }, { "label": "deepseek 4", "href": "https://deepseek4.hk" }, { "label": "Notebooklm", "href": "https://notebooklm.vip" }, { "label": "Openclaw", "href": "https://openclawd.hk" }, { "label": "Gemini 3.0", "href": "https://gemini3.hk" }, { "label": "Gemini Watermark Erase", "href": "https://geminiwatermarkerase.com/" }] },
+    "company": { "title": "Azienda", "links": [{ "label": "Blog", "path": "blog" }, { "label": "Chi Siamo", "path": "about" }, { "label": "Privacy", "path": "privacy" }, { "label": "Termini", "path": "terms" }, { "label": "API", "href": "https://api.limaxai.com/" }] },
     "copyright": "© 2026 Seedance AI. Tutti i diritti riservati."
   },
   "features": {
     "title": "Perché scegliere Seedance 2.0?",
-    "subtitle": "Supera i limiti della creatività con capacità multimodali complete.",
+    "subtitle": "Supera i limiti della creatività con le più complete capacità di generazione di contenuti multimodali.",
     "list": [
       {
-        "title": "Architettura Multimodale Unificata",
-        "desc": "Supporto per input di testo, immagini, audio e video. Editing integrato per una creazione fluida."
+        "title": "Input Multimodale",
+        "desc": "Carica fino a 9 immagini, 3 video (15s totali) e 3 file audio. Combina liberamente testo, immagini, video e audio per esprimere la tua visione creativa con una flessibilità senza precedenti.",
+        "iconColor": "from-purple-500 to-indigo-600",
+        "iconBg": "bg-purple-50",
+        "iconHover": "bg-purple-100"
       },
       {
-        "title": "Controllo a Livello di Regista",
-        "desc": "Controllo preciso di recitazione, illuminazione e movimenti di camera. La tua visione esattamente come l'hai immaginata."
+        "title": "Riferisciti a Qualsiasi Cosa",
+        "desc": "Riferisci movimento, effetti, movimenti di camera, personaggi, scene e suoni da qualsiasi contenuto caricato. Basta descrivere cosa vuoi riferire in linguaggio naturale e il modello capirà.",
+        "iconColor": "from-cyan-500 to-blue-600",
+        "iconBg": "bg-cyan-50",
+        "iconHover": "bg-cyan-100"
       },
       {
-        "title": "Qualità Iper‑Realistica",
-        "desc": "Stabilità del movimento eccezionale e rispetto delle leggi fisiche. Sincronizzazione nativa audio‑video."
+        "title": "Consistenza Superiore",
+        "desc": "Mantieni una consistenza perfetta per volti, abbigliamento, testo, scene e stili visivi in tutto il tuo video. Basta con derive dei personaggi o inconsistenze di stile tra i fotogrammi.",
+        "iconColor": "from-orange-500 to-amber-600",
+        "iconBg": "bg-orange-50",
+        "iconHover": "bg-orange-100"
       },
       {
-        "title": "Workflow di Grado Industriale",
-        "desc": "Ideale per pubblicità, cinema e social media. Qualità di output a livello professionale."
+        "title": "Replicazione Precisa di Movimento e Camera",
+        "desc": "Carica un video di riferimento per replicare coreografie complesse, movimenti di camera cinematografici e sequenze d'azione. Non servono prompt dettagliati — basta mostrare cosa vuoi.",
+        "iconColor": "from-pink-500 to-rose-600",
+        "iconBg": "bg-pink-50",
+        "iconHover": "bg-pink-100"
+      },
+      {
+        "title": "Estensione e Montaggio Video",
+        "desc": "Estendi senza interruzioni i video esistenti, unisci più clip o modifica segmenti specifici. Sostituisci personaggi, aggiungi elementi o modifica azioni preservando il resto del tuo contenuto.",
+        "iconColor": "from-emerald-500 to-teal-600",
+        "iconBg": "bg-emerald-50",
+        "iconHover": "bg-emerald-100"
+      },
+      {
+        "title": "Generazione Audio Integrata",
+        "desc": "Genera automaticamente effetti sonori e musica di fondo contestuali. Sincronizza il video con audio o ritmi musicali caricati per contenuti creativi perfettamente sincronizzati.",
+        "iconColor": "from-blue-500 to-indigo-600",
+        "iconBg": "bg-blue-50",
+        "iconHover": "bg-blue-100"
       }
     ]
   },
@@ -207,26 +215,91 @@
     "title": "Domande Frequenti",
     "items": [
       {
-        "q": "Cos’è Seedance 2.0?",
-        "a": "Seedance 2.0 è un modello video AI di nuova generazione che genera video di alta qualità da testo, immagini e audio."
+        "q": "Cosa rende Seedance 2.0 diverso dagli altri generatori di video AI?",
+        "a": "Seedance 2.0 è costruito su un'architettura realmente multimodale che accetta testo, immagini, video e audio contemporaneamente. A differenza degli strumenti a singola modalità, puoi caricare clip di riferimento per il movimento, foto per l'aspetto dei personaggi e audio per la sincronizzazione con il ritmo — tutto descritto in linguaggio naturale. Questa capacità multi-riferimento ti dà un controllo creativo a livello di regista."
       },
       {
-        "q": "Posso usarlo per progetti commerciali?",
-        "a": "Sì. I piani Pro includono pieni diritti commerciali per tutti i contenuti generati."
+        "q": "Quali tipi di file di input posso caricare?",
+        "a": "Puoi caricare fino a 9 immagini (PNG, JPG, WEBP), 3 clip video (durata combinata fino a 15 secondi) e 3 file audio (MP3, fino a 15 secondi ciascuno). Possono essere mescolati e combinati in una singola generazione per la massima flessibilità."
       },
       {
-        "q": "Come si confronta con Sora o Kling?",
-        "a": "Seedance 2.0 eccelle nel seguire le istruzioni e nella stabilità del movimento, offrendo un controllo superiore per workflow professionali."
+        "q": "Come funziona il sistema di riferimento?",
+        "a": "Basta descrivere cosa vuoi prendere in prestito dalle tue risorse caricate usando linguaggio naturale — ad esempio, 'Usa il movimento della camera da @video1 con lo stile del personaggio da @image2.' Il modello comprende e replica movimento, effetti, angolazioni della camera, aspetti dei personaggi, composizioni delle scene e persino caratteristiche audio dai tuoi riferimenti."
       },
       {
-        "q": "Esiste una prova gratuita?",
-        "a": "Sì. Puoi provare Seedance 2.0 gratuitamente con crediti giornalieri."
+        "q": "Posso estendere o modificare video esistenti?",
+        "a": "Sì. Seedance 2.0 supporta l'estensione video — carica una clip e specifica quanti secondi aggiungere, e il modello continua la sequenza senza soluzione di continuità. Puoi anche modificare segmenti specifici: sostituire personaggi, modificare azioni, aggiungere o rimuovere elementi, il tutto senza rigenerare l'intero video da zero."
+      },
+      {
+        "q": "Quanto bene mantiene la coerenza del personaggio tra le scene?",
+        "a": "La coerenza dei personaggi è un punto di forza fondamentale di Seedance 2.0. Volti, abbigliamento, testo, dettagli delle scene e stili visivi rimangono stabili attraverso più inquadrature e sequenze estese — risolvendo uno dei maggiori punti dolenti nella creazione di video AI."
+      },
+      {
+        "q": "Quali lunghezze video, risoluzioni e proporzioni sono disponibili?",
+        "a": "I video generati vanno da 4 a 15 secondi. Le proporzioni supportate includono 16:9, 9:16, 4:3, 3:4, 21:9 e 1:1. Le risoluzioni arrivano fino a 1080p, rendendo l'output adatto per la consegna professionale su web, social media e piattaforme di trasmissione."
+      },
+      {
+        "q": "Seedance 2.0 genera audio o effetti sonori?",
+        "a": "Sì. La piattaforma include la generazione audio integrata che crea effetti sonori e musica di fondo consapevoli del contesto che corrispondono al tuo contenuto visivo. Puoi anche caricare le tue tracce audio e il modello sincronizzerà il tempismo del video con i tuoi beat o ritmo."
+      },
+      {
+        "q": "Ci sono filigrane sui video generati?",
+        "a": "No. Tutti i video sono completamente privi di filigrana e pronti per l'uso commerciale. Ciò che crei appartiene interamente a te — scarica riprese pulite di qualità professionale senza alcun branding."
+      },
+      {
+        "q": "Posso replicare movimenti della camera e coreografie dai video di riferimento?",
+        "a": "Assolutamente. Carica un video contenente il movimento della camera, la sequenza di danza o la coreografia d'azione che vuoi replicare, e Seedance 2.0 applicherà accuratamente quelle dinamiche al tuo contenuto. Non servono prompt complessi — basta mostrare al modello cosa vuoi."
+      },
+      {
+        "q": "È disponibile un piano gratuito?",
+        "a": "Sì. Seedance 2.0 offre un livello gratuito con crediti giornalieri in modo da poter esplorare la piattaforma prima di impegnarti. I piani a pagamento sbloccano limiti di generazione più elevati, elaborazione più veloce e accesso prioritario durante le ore di punta."
+      },
+      {
+        "q": "Come posso iniziare?",
+        "a": "Crea un account, scegli un piano che si adatta alle tue esigenze, quindi inizia a caricare i tuoi materiali di riferimento. Descrivi la tua visione creativa in linguaggio naturale e lascia che Seedance 2.0 la porti in vita. L'interfaccia è progettata per essere intuitiva anche per gli utenti alle prime armi."
+      },
+      {
+        "q": "Come vengono protetti i miei dati e contenuti?",
+        "a": "Tutti i file caricati e i video generati sono archiviati con crittografia standard del settore. I tuoi contenuti rimangono privati e non vengono mai condivisi con terze parti. Mantieni i diritti di piena proprietà su tutto ciò che crei sulla piattaforma."
       }
     ]
   },
   "blog": {
     "page_title": "Blog Seedance: Tutorial e guide video sull'IA",
-    "read": "Read Article →",
-    "no_posts": "No posts found for this language yet."
+    "read": "Leggi l'articolo →",
+    "no_posts": "Nessun post trovato per questa lingua."
+  },
+  "guide": {
+    "title": "Guida Seedance",
+    "welcome": "Benvenuto nella guida all'uso di Seedance. Qui troverai tutorial, suggerimenti e migliori pratiche per la creazione di video AI con Seedance.",
+    "article_list": "Elenco Articoli",
+    "quick_access": "Accesso Rapido",
+    "quick_access_desc": "Accesso ufficiale a Seedance 2.0, un clic per iniziare a creare.",
+    "latest_articles": "Ultimi Articoli",
+    "page_nav": "Navigazione Pagine",
+    "quick_links": "Link Rapidi",
+    "official_platform": "Piattaforma Ufficiale",
+    "tips": "Suggerimenti d'Uso",
+    "feedback": "Feedback",
+    "cta_entry": "Usa Seedance Ora",
+    "read_full": "Leggi l'articolo completo →"
+  },
+  "about": {
+    "title": "Chi Siamo",
+    "description": "Informazioni su Seedance 2.0 - piattaforma di generazione video AI.",
+    "heading": "Informazioni su Seedance 2.0",
+    "content": "Seedance 2.0 è una piattaforma unificata di generazione video AI multimodale, che potenzia i creatori con controllo a livello di regista e qualità cinematografica. Supportiamo input di testo, immagini, audio e video per la creazione di contenuti professionali."
+  },
+  "privacy": {
+    "title": "Politica sulla Privacy",
+    "description": "Politica sulla Privacy per Seedance 2.0.",
+    "heading": "Politica sulla Privacy",
+    "content": "Rispettiamo la tua privacy. Questa politica descrive come raccogliamo, utilizziamo e proteggiamo le tue informazioni quando utilizzi i nostri servizi. Utilizziamo i dati per migliorare la nostra piattaforma video AI e per offrirti un'esperienza migliore. Non vendiamo le tue informazioni personali a terze parti."
+  },
+  "terms": {
+    "title": "Termini di Servizio",
+    "description": "Termini di Servizio per Seedance 2.0.",
+    "heading": "Termini di Servizio",
+    "content": "Utilizzando Seedance 2.0, accetti questi termini. Il nostro servizio è fornito per uso legale. Mantieni i diritti sui contenuti che crei; potremmo utilizzare dati anonimizzati per migliorare i nostri modelli. Ci riserviamo il diritto di aggiornare questi termini; l'uso continuato costituisce accettazione."
   }
 }

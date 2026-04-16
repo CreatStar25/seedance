@@ -12,123 +12,110 @@
     "api": "API",
     "cta": "Dùng thử miễn phí"
   },
+  "guide": {
+    "title": "Hướng dẫn Seedance",
+    "welcome": "Chào mừng bạn đến hướng dẫn sử dụng Seedance. Tại đây bạn sẽ tìm thấy hướng dẫn, mẹo và phương pháp hay nhất cho việc tạo video AI Seedance.",
+    "article_list": "Danh sách bài viết",
+    "quick_access": "Truy cập nhanh",
+    "quick_access_desc": "Lối vào chính thức Seedance 2.0, một cú nhấp để bắt đầu sáng tạo.",
+    "latest_articles": "Bài viết mới nhất",
+    "page_nav": "Điều hướng trang",
+    "quick_links": "Liên kết nhanh",
+    "official_platform": "Nền tảng chính thức",
+    "tips": "Mẹo sử dụng",
+    "feedback": "Phản hồi",
+    "cta_entry": "Sử dụng Seedance ngay",
+    "read_full": "Đọc bài viết đầy đủ →"
+  },
+  "product_features": {
+    "text_to_video": {
+      "title": "AI Văn bản sang Video",
+      "desc": "Mô tả cảnh quay, nhân vật và chuyển động máy quay bằng ngôn ngữ tự nhiên và để AI Văn bản sang Video biến chúng thành video đa cảnh quay mạch lạc.",
+      "badge": "Phổ biến nhất",
+      "bullets": ["Điều khiển Máy quay Điện ảnh", "Nhất quán Đa cảnh quay", "Chuyển động Dựa trên Vật lý"],
+      "cta": "Tạo Video"
+    },
+    "image_to_video": {
+      "title": "AI Hình ảnh sang Video",
+      "desc": "Tải lên một ảnh tham chiếu duy nhất và xem nó trở thành video ngắn do AI tạo ra. Bảo tồn danh tính và phong cách với độ trung thực cao.",
+      "badge": "Mới",
+      "bullets": ["Bảo tồn Danh tính Đối tượng", "Điều khiển Cường độ Chuyển động"],
+      "cta": "Hoạt hình hóa Hình ảnh"
+    },
+    "text_to_image": {
+      "title": "AI Văn bản sang Hình ảnh",
+      "desc": "Biến prompt văn bản thành hình ảnh độ phân giải cao. Mô tả phong cách, ánh sáng và bố cục một lần, sau đó tạo nhiều biến thể."
+    },
+    "ai_tools": {
+      "title": "Hiệu ứng & Công cụ Video AI",
+      "desc": "Tải lên ảnh, chọn mẫu hiệu ứng video AI và để hệ thống tự động tạo clip phong cách ngắn.",
+      "badge": "Dùng thử miễn phí",
+      "cards": [
+        { "title": "Hoán đổi Khuôn mặt", "desc": "Hoàn hảo cho meme & marketing" },
+        { "title": "Chuyển đổi Phong cách", "desc": "Anime, Đất sét, Render 3D..." }
+      ],
+      "grid": ["Chỉnh sửa Phép thuật", "Hoán đổi Khuôn mặt", "Tạo kiểu lại", "Nâng cấp"],
+      "cta": "Khám phá Công cụ"
+    }
+  },
   "hero": {
     "title": "Kiểm soát cấp đạo diễn với",
     "highlight": "Seedance 2.0",
     "subtitle": "Kiến trúc tạo đa phương thức hợp nhất. Tạo video điện ảnh từ văn bản, hình ảnh và âm thanh với khả năng kiểm soát và tính chân thực chưa từng có.",
     "button": "Bắt đầu tạo",
     "users": "Được tin cậy bởi các Studio hàng đầu",
-    "badge": "🚀 New Release: Seedance 2.0"
+    "badge": "🚀 Phát hành mới: Seedance 2.0"
   },
   "stats": [
-    {
-      "value": "SOTA",
-      "label": "Model Performance"
-    },
-    {
-      "value": "4",
-      "label": "Modalities Supported"
-    },
-    {
-      "value": "1080p",
-      "label": "HD Output"
-    }
+    { "value": "SOTA", "label": "Hiệu suất Mô hình" },
+    { "value": "4", "label": "Phương thức Hỗ trợ" },
+    { "value": "1080p", "label": "Đầu ra HD" }
   ],
-  "product_features": {
-    "text_to_video": {
-      "title": "Text to Video AI",
-      "desc": "Describe scenes, characters and camera moves in natural language and let our Text to Video AI turn them into coherent multi-shot videos.",
-      "bullets": [
-        "Cinematic Camera Control",
-        "Multi-Shot Consistency",
-        "Physics-Based Motion"
-      ],
-      "cta": "Create Video"
-    },
-    "image_to_video": {
-      "title": "Image to Video AI",
-      "desc": "Upload a single reference photo and watch it become a short AI-generated video. Preserve identity and style with high fidelity.",
-      "bullets": [
-        "Preserve Subject Identity",
-        "Control Motion Strength"
-      ],
-      "cta": "Animate Image"
-    },
-    "text_to_image": {
-      "title": "Text to Image AI",
-      "desc": "Turn text prompts into high-resolution images. Describe style, lighting and composition once, then generate multiple variations."
-    },
-    "ai_tools": {
-      "title": "AI Video Effects & Tools",
-      "desc": "Upload photos, choose an AI video effect template and let our system auto-generate a short stylized clip.",
-      "cards": [
-        {
-          "title": "Face Swap",
-          "desc": "Perfect for memes & marketing"
-        },
-        {
-          "title": "Style Transfer",
-          "desc": "Anime, Clay, 3D Render..."
-        }
-      ],
-      "grid": [
-        "Magic Edit",
-        "Face Swap",
-        "Restyle",
-        "Upscale"
-      ],
-      "cta": "Explore Tools"
-    }
-  },
-  "footer": {
-    "product": {
-      "title": "Sản phẩm",
-      "items": [
-        "Văn bản sang Video",
-        "Hình ảnh sang Video",
-        "Chỉnh sửa Video",
-        "Bảng giá"
-      ]
-    },
-    "resources": {
-      "title": "Tài nguyên",
-      "items": [
-        "Blog",
-        "Cộng đồng",
-        "Trung tâm trợ giúp",
-        "Tài liệu API"
-      ]
-    },
-    "company": {
-      "title": "Công ty",
-      "items": [
-        "Về chúng tôi",
-        "Nghề nghiệp",
-        "Liên hệ",
-        "Pháp lý"
-      ]
-    },
-    "copyright": "© 2026 Seedance AI. Đã đăng ký bản quyền."
-  },
   "features": {
     "title": "Tại sao chọn Seedance 2.0?",
     "subtitle": "Phá vỡ giới hạn sáng tạo với khả năng tạo nội dung đa phương thức toàn diện nhất.",
     "list": [
       {
-        "title": "Kiến trúc đa phương thức thống nhất",
-        "desc": "Hỗ trợ đầu vào văn bản, hình ảnh, âm thanh và video. Khả năng chỉnh sửa tích hợp để tạo nội dung liền mạch."
+        "title": "Đầu vào Đa phương thức",
+        "desc": "Tải lên tối đa 9 hình ảnh, 3 video (tổng 15 giây) và 3 tệp âm thanh. Kết hợp văn bản, hình ảnh, video và âm thanh tự do để thể hiện tầm nhìn sáng tạo của bạn với sự linh hoạt chưa từng có.",
+        "iconColor": "from-purple-500 to-indigo-600",
+        "iconBg": "bg-purple-50",
+        "iconHover": "bg-purple-100"
       },
       {
-        "title": "Kiểm soát cấp đạo diễn",
-        "desc": "Kiểm soát chính xác diễn xuất, ánh sáng và chuyển động máy quay. Biến tầm nhìn sáng tạo thành hiện thực đúng như bạn tưởng tượng."
+        "title": "Tham chiếu Bất kỳ",
+        "desc": "Tham chiếu chuyển động, hiệu ứng, di chuyển máy quay, nhân vật, cảnh quay và âm thanh từ bất kỳ nội dung nào đã tải lên. Chỉ cần mô tả những gì bạn muốn tham chiếu bằng ngôn ngữ tự nhiên, và mô hình sẽ hiểu.",
+        "iconColor": "from-cyan-500 to-blue-600",
+        "iconBg": "bg-cyan-50",
+        "iconHover": "bg-cyan-100"
       },
       {
-        "title": "Chất lượng siêu chân thực",
-        "desc": "Độ ổn định chuyển động và tuân thủ quy luật vật lý vượt trội. Đồng bộ âm thanh-hình ảnh gốc cho trải nghiệm sống động."
+        "title": "Nhất quán Vượt trội",
+        "desc": "Duy trì tính nhất quán hoàn hảo cho khuôn mặt, trang phục, văn bản, cảnh quay và phong cách hình ảnh xuyên suốt video. Không còn hiện tượng nhân vật lệch hoặc phong cách không đồng nhất giữa các khung hình.",
+        "iconColor": "from-orange-500 to-amber-600",
+        "iconBg": "bg-orange-50",
+        "iconHover": "bg-orange-100"
       },
       {
-        "title": "Quy trình cấp công nghiệp",
-        "desc": "Phù hợp quảng cáo, điện ảnh và mạng xã hội. Chất lượng đầu ra đáp ứng tiêu chuẩn giao hàng công nghiệp."
+        "title": "Sao chép Chuyển động & Máy quay Chính xác",
+        "desc": "Tải lên video tham chiếu để sao chép vũ đạo phức tạp, chuyển động máy quay điện ảnh và chuỗi hành động. Không cần prompt chi tiết — chỉ cần cho mô hình thấy những gì bạn muốn.",
+        "iconColor": "from-pink-500 to-rose-600",
+        "iconBg": "bg-pink-50",
+        "iconHover": "bg-pink-100"
+      },
+      {
+        "title": "Mở rộng & Chỉnh sửa Video",
+        "desc": "Mở rộng video hiện có mượt mà, hợp nhất nhiều clip hoặc chỉnh sửa phân đoạn cụ thể. Thay thế nhân vật, thêm yếu tố hoặc sửa đổi hành động trong khi giữ nguyên phần còn lại của nội dung.",
+        "iconColor": "from-emerald-500 to-teal-600",
+        "iconBg": "bg-emerald-50",
+        "iconHover": "bg-emerald-100"
+      },
+      {
+        "title": "Tạo Âm thanh Tích hợp",
+        "desc": "Tự động tạo hiệu ứng âm thanh và nhạc nền phù hợp ngữ cảnh. Đồng bộ video với âm thanh hoặc nhịp nhạc đã tải lên cho nội dung sáng tạo có thời gian hoàn hảo.",
+        "iconColor": "from-blue-500 to-indigo-600",
+        "iconBg": "bg-blue-50",
+        "iconHover": "bg-blue-100"
       }
     ]
   },
@@ -171,30 +158,136 @@
       }
     ]
   },
+  "footer": {
+    "brand": {
+      "title": "Seedance 2.0",
+      "intro": "Nền tảng tạo video AI đa phương thức thống nhất. Trao quyền cho nhà sáng tạo với kiểm soát cấp đạo diễn và chất lượng điện ảnh.",
+      "email": "starwk@gmx.com"
+    },
+    "ai_image": {
+      "title": "AI Hình ảnh",
+      "links": [
+        { "label": "Midjourney", "href": "https://midjourney.cfd" },
+        { "label": "Nano Banana Pro", "href": "https://nanobanana-pro.vip" },
+        { "label": "Nano Banana 2", "href": "https://nanobananapro.hk" },
+        { "label": "Nano Banana 3", "href": "https://nanobanana3.top" }
+      ]
+    },
+    "ai_video": {
+      "title": "AI Video",
+      "links": [
+        { "label": "Seedance 2.0", "href": "https://seedance22.com" },
+        { "label": "Seedance 1.5", "href": "https://seedance2.hk" },
+        { "label": "Veo 3", "href": "https://veo3.hk" },
+        { "label": "HappyHorse1.0", "href": "https://happyhorse.fans/" },
+        { "label": "HappyHorse2.0", "href": "https://happy-horse.hk/" }
+      ]
+    },
+    "ai_music": {
+      "title": "AI Âm nhạc",
+      "links": [
+        { "label": "Suno", "href": "https://sunoai.me/" },
+        { "label": "SunoHK", "href": "https://suno.hk/" },
+        { "label": "Udio", "href": "https://udio.hk/" }
+      ]
+    },
+    "ai_tools": {
+      "title": "Công cụ AI",
+      "links": [
+        { "label": "LimaxAI", "href": "https://www.limaxai.com/" },
+        { "label": "deepseek 4", "href": "https://deepseek4.hk" },
+        { "label": "Notebooklm", "href": "https://notebooklm.vip" },
+        { "label": "Openclaw", "href": "https://openclawd.hk" },
+        { "label": "Gemini 3.0", "href": "https://gemini3.hk" },
+        { "label": "Gemini Watermark Erase", "href": "https://geminiwatermarkerase.com/" }
+      ]
+    },
+    "company": {
+      "title": "Công ty",
+      "links": [
+        { "label": "Blog", "path": "blog" },
+        { "label": "Giới thiệu", "path": "about" },
+        { "label": "Quyền riêng tư", "path": "privacy" },
+        { "label": "Điều khoản", "path": "terms" },
+        { "label": "API", "href": "https://api.limaxai.com/" }
+      ]
+    },
+    "copyright": "© 2026 Seedance AI. Đã đăng ký bản quyền."
+  },
   "faq": {
     "title": "Câu hỏi thường gặp",
     "items": [
       {
-        "q": "Seedance 2.0 là gì?",
-        "a": "Seedance 2.0 là mô hình video AI thế hệ mới tạo video chất lượng cao từ văn bản, hình ảnh và âm thanh."
+        "q": "Điều gì làm Seedance 2.0 khác biệt với các công cụ tạo video AI khác?",
+        "a": "Seedance 2.0 được xây dựng trên kiến trúc đa phương thức thực sự, chấp nhận văn bản, hình ảnh, video và âm thanh đồng thời. Không giống các công cụ đơn phương thức, bạn có thể tải lên clip tham chiếu cho chuyển động, ảnh cho diện mạo nhân vật, và âm thanh để đồng bộ nhịp — tất cả mô tả bằng ngôn ngữ tự nhiên. Khả năng tham chiếu đa nguồn này mang lại cho bạn kiểm soát sáng tạo cấp đạo diễn."
       },
       {
-        "q": "Tôi có thể dùng Seedance cho dự án thương mại không?",
-        "a": "Có. Gói pro bao gồm quyền thương mại đầy đủ cho mọi nội dung tạo ra."
+        "q": "Tôi có thể tải lên những loại tệp nào?",
+        "a": "Bạn có thể tải lên tối đa 9 hình ảnh (PNG, JPG, WEBP), 3 clip video (thời lượng tổng cộng đến 15 giây), và 3 tệp âm thanh (MP3, mỗi tệp tối đa 15 giây). Có thể trộn và kết hợp trong một lần tạo để linh hoạt tối đa."
       },
       {
-        "q": "So với Sora hay Kling thì sao?",
-        "a": "Seedance 2.0 vượt trội về tuân thủ chỉ dẫn và độ ổn định chuyển động, mang lại kiểm soát cao hơn cho quy trình chuyên nghiệp."
+        "q": "Hệ thống tham chiếu hoạt động như thế nào?",
+        "a": "Chỉ cần mô tả những gì bạn muốn mượn từ tài sản đã tải lên bằng ngôn ngữ tự nhiên — ví dụ, 'Dùng chuyển động máy quay từ @video1 với phong cách nhân vật từ @image2.' Mô hình hiểu và sao chép chuyển động, hiệu ứng, góc máy quay, diện mạo nhân vật, bố cục cảnh, và thậm chí đặc điểm âm thanh từ tham chiếu của bạn."
       },
       {
-        "q": "Có bản dùng thử miễn phí không?",
-        "a": "Có. Bạn có thể dùng thử Seedance 2.0 miễn phí với credit hàng ngày."
+        "q": "Tôi có thể mở rộng hoặc chỉnh sửa video hiện có không?",
+        "a": "Có. Seedance 2.0 hỗ trợ mở rộng video — tải lên clip và chỉ định thêm bao nhiêu giây, và mô hình tiếp tục chuỗi một cách mượt mà. Bạn cũng có thể chỉnh sửa phân đoạn cụ thể: thay thế nhân vật, sửa đổi hành động, thêm hoặc xóa yếu tố, tất cả mà không cần tạo lại toàn bộ video từ đầu."
+      },
+      {
+        "q": "Tính nhất quán của nhân vật xuyên suốt các cảnh như thế nào?",
+        "a": "Tính nhất quán nhân vật là thế mạnh cốt lõi của Seedance 2.0. Khuôn mặt, trang phục, văn bản, chi tiết cảnh và phong cách hình ảnh vẫn ổn định xuyên suốt nhiều cảnh quay và chuỗi mở rộng — giải quyết một trong những điểm đau lớn nhất trong tạo video AI."
+      },
+      {
+        "q": "Độ dài, độ phân giải và tỷ lệ khung hình nào có sẵn?",
+        "a": "Video tạo ra có độ dài từ 4 đến 15 giây. Tỷ lệ khung hình hỗ trợ bao gồm 16:9, 9:16, 4:3, 3:4, 21:9 và 1:1. Độ phân giải lên đến 1080p, làm cho đầu ra phù hợp cho phân phối chuyên nghiệp trên web, mạng xã hội và nền tảng phát sóng."
+      },
+      {
+        "q": "Seedance 2.0 có tạo âm thanh hoặc hiệu ứng âm thanh không?",
+        "a": "Có. Nền tảng bao gồm tạo âm thanh tích hợp tạo hiệu ứng âm thanh và nhạc nền phù hợp ngữ cảnh với nội dung hình ảnh của bạn. Bạn cũng có thể tải lên track âm thanh riêng và mô hình sẽ đồng bộ thời gian video với nhịp hoặc giai điệu của bạn."
+      },
+      {
+        "q": "Video tạo ra có watermark không?",
+        "a": "Không. Tất cả video hoàn toàn không có watermark và sẵn sàng cho sử dụng thương mại. Những gì bạn tạo ra hoàn toàn thuộc về bạn — tải xuống footage chất lượng chuyên nghiệp sạch mà không có bất kỳ thương hiệu nào."
+      },
+      {
+        "q": "Tôi có thể sao chép chuyển động máy quay và vũ đạo từ video tham chiếu không?",
+        "a": "Chắc chắn. Tải lên video chứa chuyển động máy quay, chuỗi khiêu vũ, hoặc vũ đạo hành động bạn muốn sao chép, và Seedance 2.0 sẽ áp dụng chính xác động lực đó vào nội dung của bạn. Không cần prompting phức tạp — chỉ cần cho mô hình thấy những gì bạn muốn."
+      },
+      {
+        "q": "Có gói miễn phí không?",
+        "a": "Có. Seedance 2.0 cung cấp gói miễn phí với credit hàng ngày để bạn có thể khám phá nền tảng trước khi cam kết. Gói trả phí mở khóa giới hạn tạo cao hơn, xử lý nhanh hơn, và ưu tiên truy cập trong giờ cao điểm."
+      },
+      {
+        "q": "Làm sao để bắt đầu?",
+        "a": "Tạo tài khoản, chọn gói phù hợp với nhu cầu, sau đó bắt đầu tải lên tài liệu tham chiếu của bạn. Mô tả tầm nhìn sáng tạo bằng ngôn ngữ tự nhiên, và để Seedance 2.0 biến nó thành hiện thực. Giao diện được thiết kế trực quan ngay cả cho người dùng lần đầu."
+      },
+      {
+        "q": "Dữ liệu và nội dung của tôi được bảo vệ như thế nào?",
+        "a": "Tất cả tệp đã tải lên và video tạo ra được lưu trữ với mã hóa tiêu chuẩn ngành. Nội dung của bạn vẫn riêng tư và không bao giờ được chia sẻ với bên thứ ba. Bạn giữ quyền sở hữu đầy đủ cho mọi thứ bạn tạo trên nền tảng."
       }
     ]
   },
   "blog": {
     "page_title": "Blog Seedance: Hướng dẫn và bài học video AI",
-    "read": "Read Article →",
-    "no_posts": "No posts found for this language yet."
+    "read": "Đọc bài viết →",
+    "no_posts": "Chưa có bài viết nào cho ngôn ngữ này."
+  },
+  "about": {
+    "title": "Giới thiệu",
+    "description": "Giới thiệu về Seedance 2.0 - Nền tảng tạo video AI.",
+    "heading": "Giới thiệu về Seedance 2.0",
+    "content": "Seedance 2.0 là nền tảng tạo video AI đa phương thức thống nhất, trao quyền cho nhà sáng tạo với kiểm soát cấp đạo diễn và chất lượng điện ảnh. Chúng tôi hỗ trợ đầu vào văn bản, hình ảnh, âm thanh và video cho việc tạo nội dung chuyên nghiệp."
+  },
+  "privacy": {
+    "title": "Chính sách Quyền riêng tư",
+    "description": "Chính sách Quyền riêng tư cho Seedance 2.0.",
+    "heading": "Chính sách Quyền riêng tư",
+    "content": "Chúng tôi tôn trọng quyền riêng tư của bạn. Chính sách này mô tả cách chúng tôi thu thập, sử dụng và bảo vệ thông tin của bạn khi bạn sử dụng dịch vụ của chúng tôi. Chúng tôi sử dụng dữ liệu để cải thiện nền tảng video AI và mang lại trải nghiệm tốt hơn cho bạn. Chúng tôi không bán thông tin cá nhân của bạn cho bên thứ ba."
+  },
+  "terms": {
+    "title": "Điều khoản Dịch vụ",
+    "description": "Điều khoản Dịch vụ cho Seedance 2.0.",
+    "heading": "Điều khoản Dịch vụ",
+    "content": "Bằng cách sử dụng Seedance 2.0, bạn đồng ý với các điều khoản này. Dịch vụ của chúng tôi được cung cấp cho việc sử dụng hợp pháp. Bạn giữ quyền đối với nội dung bạn tạo ra; chúng tôi có thể sử dụng dữ liệu ẩn danh để cải thiện mô hình của chúng tôi. Chúng tôi bảo lưu quyền cập nhật các điều khoản này; việc tiếp tục sử dụng cấu thành sự chấp nhận."
   }
 }

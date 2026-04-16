@@ -81,33 +81,11 @@
     }
   },
   "footer": {
-    "product": {
-      "title": "Produk",
-      "items": [
-        "Teks ke Video",
-        "Imej ke Video",
-        "Penyuntingan Video",
-        "Harga"
-      ]
-    },
-    "resources": {
-      "title": "Sumber",
-      "items": [
-        "Blog",
-        "Komuniti",
-        "Pusat Bantuan",
-        "Dokumentasi API"
-      ]
-    },
-    "company": {
-      "title": "Syarikat",
-      "items": [
-        "Tentang Kami",
-        "Kerjaya",
-        "Hubungi",
-        "Undang-undang"
-      ]
-    },
+    "brand": { "title": "Seedance 2.0", "intro": "Platform penjanaan video AI multimodal bersepadu. Memperkasakan pencipta dengan kawalan tahap pengarah dan kualiti sinematik.", "email": "starwk@gmx.com" },
+    "ai_tools": { "title": "Alat AI", "links": [{ "label": "LimaxAI", "href": "https://www.limaxai.com/" }, { "label": "Suno", "href": "https://suno.hk/" }, { "label": "deepseek 4", "href": "https://deepseek4.hk/" }, { "label": "Notebooklm", "href": "https://notebooklm.vip/" }, { "label": "Openclaw", "href": "https://openclawd.hk/" }, { "label": "Gemini 3.0", "href": "https://gemini3.hk/" }] },
+    "ai_video": { "title": "Video AI", "links": [{ "label": "Seedance 2.0", "href": "https://seedance22.com/" }, { "label": "Seedance 1.5", "href": "https://seedance2.hk/" }, { "label": "Veo 3", "href": "https://veo3.hk/" }, { "label": "HappyHorse1.0", "href": "https://happyhorse.fans/" }, { "label": "HappyHorse2.0", "href": "https://happy-horse.hk/" }] },
+    "ai_image": { "title": "Imej AI", "links": [{ "label": "Midjourney", "href": "https://midjourney.cfd" }, { "label": "Nano Banana Pro", "href": "https://nanobanana-pro.vip" }, { "label": "Nano Banana 2", "href": "https://nanobananapro.hk" }, { "label": "Nano Banana 3", "href": "https://nanobanana3.top" }] },
+    "company": { "title": "Syarikat", "links": [{ "label": "Blog", "path": "blog" }, { "label": "Tentang Kami", "path": "about" }, { "label": "Privasi", "path": "privacy" }, { "label": "Terma", "path": "terms" }, { "label": "API", "href": "https://api.limaxai.com/" }] },
     "copyright": "© 2026 Seedance AI. Hak cipta terpelihara."
   },
   "features": {
@@ -115,20 +93,46 @@
     "subtitle": "Leraikan sempadan kreativiti dengan keupayaan penjanaan kandungan multimodal paling menyeluruh.",
     "list": [
       {
-        "title": "Seni bina multimodal bersepadu",
-        "desc": "Menyokong input teks, imej, audio dan video. Keupayaan suntingan bersepadu untuk penciptaan kandungan lancar."
+        "title": "Input Multimodal",
+        "desc": "Muat naik sehingga 9 imej, 3 video (jumlah 15 saat), dan 3 fail audio. Gabungkan teks, imej, video dan audio secara bebas untuk mengekspresikan visi kreatif anda dengan fleksibiliti yang belum pernah ada sebelum ini.",
+        "iconColor": "from-purple-500 to-indigo-600",
+        "iconBg": "bg-purple-50",
+        "iconHover": "bg-purple-100"
       },
       {
-        "title": "Kawalan peringkat pengarah",
-        "desc": "Kawalan tepat atas lakonan, pencahayaan dan pergerakan kamera. Visi kreatif anda tepat seperti yang dibayangkan."
+        "title": "Rujuk Apa-apa Saja",
+        "desc": "Rujuk pergerakan, kesan, pergerakan kamera, watak, adegan dan bunyi daripada sebarang kandungan yang dimuat naik. Cuma terangkan apa yang ingin dirujuk dalam bahasa semula jadi, dan model akan memahami.",
+        "iconColor": "from-cyan-500 to-blue-600",
+        "iconBg": "bg-cyan-50",
+        "iconHover": "bg-cyan-100"
       },
       {
-        "title": "Kualiti hiper-realistik",
-        "desc": "Kestabilan gerakan luar biasa dan pematuhan hukum fizik. Penyegerakan audio-visual asli untuk pengalaman mendalam."
+        "title": "Konsistensi Unggul",
+        "desc": "Kekalkan konsistensi sempurna untuk wajah, pakaian, teks, adegan dan gaya visual di seluruh video anda. Tiada lagi herotan watak atau ketidakkonsistenan gaya antara bingkai.",
+        "iconColor": "from-orange-500 to-amber-600",
+        "iconBg": "bg-orange-50",
+        "iconHover": "bg-orange-100"
       },
       {
-        "title": "Aliran kerja gred industri",
-        "desc": "Disesuaikan untuk pengiklanan, filem dan media sosial. Kualiti output memenuhi piawaian penghantaran industri."
+        "title": "Replikasi Pergerakan & Kamera Tepat",
+        "desc": "Muat naik video rujukan untuk mereplikasi koreografi kompleks, pergerakan kamera sinematik dan urutan aksi. Tidak perlu prompt terperinci — cukup tunjukkan apa yang anda mahu.",
+        "iconColor": "from-pink-500 to-rose-600",
+        "iconBg": "bg-pink-50",
+        "iconHover": "bg-pink-100"
+      },
+      {
+        "title": "Sambungan & Penyuntingan Video",
+        "desc": "Sambungkan video sedia ada dengan lancar, gabungkan berbilang klip atau edit segmen tertentu. Ganti watak, tambah elemen atau ubah aksi sambil mengekalkan kandungan lain.",
+        "iconColor": "from-emerald-500 to-teal-600",
+        "iconBg": "bg-emerald-50",
+        "iconHover": "bg-emerald-100"
+      },
+      {
+        "title": "Penjanaan Audio Terbina Dalam",
+        "desc": "Hasilkan kesan bunyi dan muzik latar secara automatik yang sedar konteks. Segerakkan video dengan audio atau rentak muzik yang dimuat naik untuk kandungan kreatif yang disegerakkan dengan sempurna.",
+        "iconColor": "from-blue-500 to-indigo-600",
+        "iconBg": "bg-blue-50",
+        "iconHover": "bg-blue-100"
       }
     ]
   },

@@ -81,54 +81,59 @@
     }
   },
   "footer": {
-    "product": {
-      "title": "Продукт",
-      "items": [
-        "Текст у Відео",
-        "Зображення у Відео",
-        "Відеомонтаж",
-        "Ціни"
-      ]
-    },
-    "resources": {
-      "title": "Ресурси",
-      "items": [
-        "Блог",
-        "Спільнота",
-        "Центр допомоги",
-        "API Документація"
-      ]
-    },
-    "company": {
-      "title": "Компанія",
-      "items": [
-        "Про нас",
-        "Кар'єра",
-        "Контакти",
-        "Юридична інформація"
-      ]
-    },
+    "brand": { "title": "Seedance 2.0", "intro": "Єдина багатомодальна платформа генерації відео з ШІ. Режисерський контроль та кінематографічна якість для творців.", "email": "starwk@gmx.com" },
+    "ai_image": { "title": "AI Зображення", "links": [{ "label": "Midjourney", "href": "https://midjourney.cfd" }, { "label": "Nano Banana Pro", "href": "https://nanobanana-pro.vip" }, { "label": "Nano Banana 2", "href": "https://nanobananapro.hk" }, { "label": "Nano Banana 3", "href": "https://nanobanana3.top" }] },
+    "ai_video": { "title": "AI Відео", "links": [{ "label": "Seedance 2.0", "href": "https://seedance22.com" }, { "label": "Seedance 1.5", "href": "https://seedance2.hk" }, { "label": "Veo 3", "href": "https://veo3.hk" }, { "label": "HappyHorse1.0", "href": "https://happyhorse.fans/" }, { "label": "HappyHorse2.0", "href": "https://happy-horse.hk/" }] },
+    "ai_music": { "title": "AI Музика", "links": [{ "label": "Suno", "href": "https://sunoai.me/" }, { "label": "SunoHK", "href": "https://suno.hk/" }, { "label": "Udio", "href": "https://udio.hk/" }] },
+    "ai_tools": { "title": "AI Інструменти", "links": [{ "label": "LimaxAI", "href": "https://www.limaxai.com/" }, { "label": "deepseek 4", "href": "https://deepseek4.hk" }, { "label": "Notebooklm", "href": "https://notebooklm.vip" }, { "label": "Openclaw", "href": "https://openclawd.hk" }, { "label": "Gemini 3.0", "href": "https://gemini3.hk" }, { "label": "Gemini Watermark Erase", "href": "https://geminiwatermarkerase.com/" }] },
+    "company": { "title": "Компанія", "links": [{ "label": "Blog", "path": "blog" }, { "label": "About", "path": "about" }, { "label": "Privacy", "path": "privacy" }, { "label": "Terms", "path": "terms" }, { "label": "API", "href": "https://api.limaxai.com/" }] },
     "copyright": "© 2026 Seedance AI. Всі права захищені."
   },
   "features": {
     "title": "Чому Seedance 2.0?",
-    "subtitle": "Подолайте межі креативності завдяки найповнішим можливостям мультимодальної генерації контенту.",
+    "subtitle": "Подолайте межі креативності з найповнішими можливостями мультимодальної генерації контенту.",
     "list": [
       {
-        "title": "Єдина мультимодальна архітектура",
-        "desc": "Підтримка тексту, зображень, аудіо та відео. Вбудоване редагування для плавного створення контенту."
+        "title": "Мультимодальне введення",
+        "desc": "Завантажте до 9 зображень, 3 відео (загалом 15 секунд) та 3 аудіофайли. Вільно комбінуйте текст, зображення, відео та аудіо, щоб висловити своє творче бачення з безпрецедентною гнучкістю.",
+        "iconColor": "from-purple-500 to-indigo-600",
+        "iconBg": "bg-purple-50",
+        "iconHover": "bg-purple-100"
       },
       {
-        "title": "Контроль на рівні режисера",
-        "desc": "Точний контроль акторської гри, освітлення та руху камери. Ваша ідея втілюється так, як ви задумали."
+        "title": "Посилання на що завгодно",
+        "desc": "Посилайтеся на рух, ефекти, рухи камери, персонажів, сцени та звуки з будь-якого завантаженого контенту. Просто опишіть, на що хочете послатися природною мовою, і модель зрозуміє.",
+        "iconColor": "from-cyan-500 to-blue-600",
+        "iconBg": "bg-cyan-50",
+        "iconHover": "bg-cyan-100"
       },
       {
-        "title": "Гіперреалістична якість",
-        "desc": "Відмінна стабільність руху та дотримання фізичних законів. Рідна аудіовідеосинхронізація для занурення."
+        "title": "Відмінна узгодженість",
+        "desc": "Зберігайте ідеальну узгодженість облич, одягу, тексту, сцен та візуальних стилів у всьому відео. Більше жодних змін персонажів чи невідповідностей стилю між кадрами.",
+        "iconColor": "from-orange-500 to-amber-600",
+        "iconBg": "bg-orange-50",
+        "iconHover": "bg-orange-100"
       },
       {
-        "title": "Робочий процес промислового рівня",
-        "desc": "Для реклами, кіно та соцмедіа. Якість виводу відповідає галузевим стандартам."
+        "title": "Точне відтворення руху та камери",
+        "desc": "Завантажте еталонне відео для відтворення складних хореографій, кінематографічних рухів камери та бойових сцен. Не потрібні детальні промпти — просто покажіть, що хочете.",
+        "iconColor": "from-pink-500 to-rose-600",
+        "iconBg": "bg-pink-50",
+        "iconHover": "bg-pink-100"
+      },
+      {
+        "title": "Розширення та редагування відео",
+        "desc": "Плавно розширюйте існуючі відео, об'єднуйте кілька кліпів або редагуйте окремі сегменти. Замінюйте персонажів, додавайте елементи або змінюйте дії, зберігаючи решту контенту.",
+        "iconColor": "from-emerald-500 to-teal-600",
+        "iconBg": "bg-emerald-50",
+        "iconHover": "bg-emerald-100"
+      },
+      {
+        "title": "Вбудована генерація аудіо",
+        "desc": "Автоматично створюйте контекстно-залежні звукові ефекти та фонову музику. Синхронізуйте відео із завантаженим аудіо або музичними ритмами для ідеально синхронізованого творчого контенту.",
+        "iconColor": "from-blue-500 to-indigo-600",
+        "iconBg": "bg-blue-50",
+        "iconHover": "bg-blue-100"
       }
     ]
   },

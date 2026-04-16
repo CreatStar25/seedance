@@ -18,117 +18,125 @@
     "subtitle": "Birleşik çok modlu üretim mimarisi. Metin, görüntü ve sesten, benzeri görülmemiş kontrol ve gerçekçilikle sinematik videolar oluşturun.",
     "button": "Üretmeye Başla",
     "users": "En İyi Stüdyolar Tarafından Güveniliyor",
-    "badge": "🚀 New Release: Seedance 2.0"
+    "badge": "🚀 Yeni Sürüm: Seedance 2.0"
   },
   "stats": [
     {
       "value": "SOTA",
-      "label": "Model Performance"
+      "label": "Model Performansı"
     },
     {
       "value": "4",
-      "label": "Modalities Supported"
+      "label": "Desteklenen Modaliteler"
     },
     {
       "value": "1080p",
-      "label": "HD Output"
+      "label": "HD Çıktı"
     }
   ],
   "product_features": {
     "text_to_video": {
-      "title": "Text to Video AI",
-      "desc": "Describe scenes, characters and camera moves in natural language and let our Text to Video AI turn them into coherent multi-shot videos.",
+      "title": "Metinden Videoya AI",
+      "desc": "Sahneleri, karakterleri ve kamera hareketlerini doğal bir dille tanımlayın ve Metinden Videoya AI'mızın bunları tutarlı çok çekimli videolara dönüştürmesini sağlayın.",
+      "badge": "Amiral Modeli",
       "bullets": [
-        "Cinematic Camera Control",
-        "Multi-Shot Consistency",
-        "Physics-Based Motion"
+        "Sinematik Kamera Kontrolü",
+        "Çok Çekim Tutarlılığı",
+        "Fizik Tabanlı Hareket"
       ],
-      "cta": "Create Video"
+      "cta": "Video Oluştur"
     },
     "image_to_video": {
-      "title": "Image to Video AI",
-      "desc": "Upload a single reference photo and watch it become a short AI-generated video. Preserve identity and style with high fidelity.",
+      "title": "Görüntüden Videoya AI",
+      "desc": "Tek bir referans fotoğrafı yükleyin ve kısa bir AI tarafından oluşturulan videoya dönüşmesini izleyin. Kimlik ve stili yüksek doğrulukla koruyun.",
+      "badge": "Statikten Harekete",
       "bullets": [
-        "Preserve Subject Identity",
-        "Control Motion Strength"
+        "Konu Kimliğini Koruma",
+        "Hareket Yoğunluğu Kontrolü"
       ],
-      "cta": "Animate Image"
+      "cta": "Görseli Hareketlendir"
     },
     "text_to_image": {
-      "title": "Text to Image AI",
-      "desc": "Turn text prompts into high-resolution images. Describe style, lighting and composition once, then generate multiple variations."
+      "title": "Metinden Görüntüye AI",
+      "desc": "Metin istemlerini yüksek çözünürlüklü görüntülere dönüştürün. Stili, aydınlatmayı ve kompozisyonu bir kez tanımlayın, ardından birden fazla varyasyon oluşturun."
     },
     "ai_tools": {
-      "title": "AI Video Effects & Tools",
-      "desc": "Upload photos, choose an AI video effect template and let our system auto-generate a short stylized clip.",
+      "title": "AI Video Efektleri ve Araçları",
+      "desc": "Fotoğrafları yükleyin, bir AI video efekt şablonu seçin ve sistemimizin otomatik olarak kısa bir stilize klip oluşturmasını sağlayın.",
+      "badge": "Yaratıcı Set",
       "cards": [
         {
-          "title": "Face Swap",
-          "desc": "Perfect for memes & marketing"
+          "title": "Yüz Değiştirme",
+          "desc": "Meme ve pazarlama için mükemmel"
         },
         {
-          "title": "Style Transfer",
-          "desc": "Anime, Clay, 3D Render..."
+          "title": "Stil Transferi",
+          "desc": "Anime, Kil, 3D Render..."
         }
       ],
       "grid": [
-        "Magic Edit",
-        "Face Swap",
-        "Restyle",
-        "Upscale"
+        "Sihirli Düzenleme",
+        "Yüz Değiştirme",
+        "Yeniden Şekillendir",
+        "Çözünürlük Artırma"
       ],
-      "cta": "Explore Tools"
+      "cta": "Araçları Keşfet"
     }
   },
   "footer": {
-    "product": {
-      "title": "Ürün",
-      "items": [
-        "Metinden Videoya",
-        "Görüntüden Videoya",
-        "Video Düzenleme",
-        "Fiyatlandırma"
-      ]
-    },
-    "resources": {
-      "title": "Kaynaklar",
-      "items": [
-        "Blog",
-        "Topluluk",
-        "Yardım Merkezi",
-        "API Dokümantasyonu"
-      ]
-    },
-    "company": {
-      "title": "Şirket",
-      "items": [
-        "Hakkımızda",
-        "Kariyer",
-        "İletişim",
-        "Yasal"
-      ]
-    },
+    "brand": { "title": "Seedance 2.0", "intro": "Birleşik çok modlu yapay zeka video oluşturma platformu. Yönetmen seviyesinde kontrol ve sinematik kalite ile yaratıcıları güçlendirir.", "email": "starwk@gmx.com" },
+    "ai_image": { "title": "AI Görsel", "links": [{ "label": "Midjourney", "href": "https://midjourney.cfd" }, { "label": "Nano Banana Pro", "href": "https://nanobanana-pro.vip" }, { "label": "Nano Banana 2", "href": "https://nanobananapro.hk" }, { "label": "Nano Banana 3", "href": "https://nanobanana3.top" }] },
+    "ai_video": { "title": "AI Video", "links": [{ "label": "Seedance 2.0", "href": "https://seedance22.com" }, { "label": "Seedance 1.5", "href": "https://seedance2.hk" }, { "label": "Veo 3", "href": "https://veo3.hk" }, { "label": "HappyHorse1.0", "href": "https://happyhorse.fans/" }, { "label": "HappyHorse2.0", "href": "https://happy-horse.hk/" }] },
+    "ai_music": { "title": "AI Müzik", "links": [{ "label": "Suno", "href": "https://sunoai.me/" }, { "label": "SunoHK", "href": "https://suno.hk/" }, { "label": "Udio", "href": "https://udio.hk/" }] },
+    "ai_tools": { "title": "AI Araçları", "links": [{ "label": "LimaxAI", "href": "https://www.limaxai.com/" }, { "label": "deepseek 4", "href": "https://deepseek4.hk" }, { "label": "Notebooklm", "href": "https://notebooklm.vip" }, { "label": "Openclaw", "href": "https://openclawd.hk" }, { "label": "Gemini 3.0", "href": "https://gemini3.hk" }, { "label": "Gemini Watermark Erase", "href": "https://geminiwatermarkerase.com/" }] },
+    "company": { "title": "Şirket", "links": [{ "label": "Blog", "path": "blog" }, { "label": "Hakkımızda", "path": "about" }, { "label": "Gizlilik", "path": "privacy" }, { "label": "Şartlar", "path": "terms" }, { "label": "API", "href": "https://api.limaxai.com/" }] },
     "copyright": "© 2026 Seedance AI. Tüm hakları saklıdır."
   },
   "features": {
     "title": "Neden Seedance 2.0?",
-    "subtitle": "En kapsamlı çok modlu içerik üretimiyle yaratıcılık sınırlarını aşın.",
+    "subtitle": "En kapsamlı çok modlu içerik oluşturma yetenekleriyle yaratıcılığın sınırlarını aşın.",
     "list": [
       {
-        "title": "Birleşik çok modlu mimari",
-        "desc": "Metin, görüntü, ses ve video girişlerini destekler. Kesintisiz içerik için entegre düzenleme."
+        "title": "Çok Modlu Giriş",
+        "desc": "9 adede kadar görüntü, 3 video (toplam 15 saniye) ve 3 ses dosyası yükleyin. Metin, görüntü, video ve sesi özgürce birleştirerek benzersiz bir esneklikle yaratıcı vizyonunuzu ifade edin.",
+        "iconColor": "from-purple-500 to-indigo-600",
+        "iconBg": "bg-purple-50",
+        "iconHover": "bg-purple-100"
       },
       {
-        "title": "Yönetmen seviyesinde kontrol",
-        "desc": "Oyunculuk, ışık ve kamera hareketi üzerinde hassas kontrol. Yaratıcı vizyonunuz hayal ettiğiniz gibi gerçeğe dönüşür."
+        "title": "Her Şeyi Referans Alın",
+        "desc": "Yüklediğiniz herhangi bir içerikten hareket, efekt, kamera hareketleri, karakterler, sahneler ve sesleri referans alın. Doğal bir dille neyi referans almak istediğinizi tanımlamanız yeterli; model anlayacaktır.",
+        "iconColor": "from-cyan-500 to-blue-600",
+        "iconBg": "bg-cyan-50",
+        "iconHover": "bg-cyan-100"
       },
       {
-        "title": "Hiper gerçekçi kalite",
-        "desc": "Üstün hareket kararlılığı ve fizik yasalarına uyum. Sürükleyici deneyim için yerel ses-görüntü senkronizasyonu."
+        "title": "Üstün Tutarlılık",
+        "desc": "Tüm videonuzda yüzler, kıyafetler, metin, sahneler ve görsel stiller için mükemmel tutarlılık sağlayın. Kareler arasında karakter kayması veya stil tutarsızlığına son.",
+        "iconColor": "from-orange-500 to-amber-600",
+        "iconBg": "bg-orange-50",
+        "iconHover": "bg-orange-100"
       },
       {
-        "title": "Endüstriyel iş akışı",
-        "desc": "Reklam, film ve sosyal medya için uyarlanmış. Çıktı kalitesi endüstriyel teslimat standartlarını karşılar."
+        "title": "Hassas Hareket ve Kamera Kopyalama",
+        "desc": "Karmaşık koreografileri, sinematik kamera hareketlerini ve aksiyon sahnelerini kopyalamak için referans bir video yükleyin. Ayrıntılı istemlere gerek yok — sadece ne istediğinizi gösterin.",
+        "iconColor": "from-pink-500 to-rose-600",
+        "iconBg": "bg-pink-50",
+        "iconHover": "bg-pink-100"
+      },
+      {
+        "title": "Video Uzatma ve Düzenleme",
+        "desc": "Mevcut videoları sorunsuz şekilde uzatın, birden fazla klibi birleştirin veya belirli bölümleri düzenleyin. İçeriğinizin geri kalanını koruyarak karakterleri değiştirin, öğeler ekleyin veya aksiyonları değiştirin.",
+        "iconColor": "from-emerald-500 to-teal-600",
+        "iconBg": "bg-emerald-50",
+        "iconHover": "bg-emerald-100"
+      },
+      {
+        "title": "Dahili Ses Oluşturma",
+        "desc": "Bağlama duyarlı ses efektleri ve arka plan müziğini otomatik olarak oluşturun. Videoyu yüklenen seslere veya müzik ritimlerine senkronize ederek mükemmel zamanlamalı yaratıcı içerik elde edin.",
+        "iconColor": "from-blue-500 to-indigo-600",
+        "iconBg": "bg-blue-50",
+        "iconHover": "bg-blue-100"
       }
     ]
   },
@@ -175,26 +183,91 @@
     "title": "Sıkça sorulan sorular",
     "items": [
       {
-        "q": "Seedance 2.0 nedir?",
-        "a": "Seedance 2.0, metin, görüntü ve ses girişlerinden yüksek kaliteli video üreten yeni nesil bir AI video modelidir."
+        "q": "Seedance 2.0'ı diğer AI video oluşturuculardan farklı kılan nedir?",
+        "a": "Seedance 2.0, metin, görüntü, video ve sesi aynı anda kabul eden gerçek bir çok modlu mimari üzerine kurulmuştur. Tek modlu araçların aksine, hareket için referans klipler, karakter görünümü için fotoğraflar ve ritim senkronizasyonu için ses dosyaları yükleyebilirsiniz — tümü doğal dilde tanımlanır. Bu çoklu referans yeteneği, size yönetmen seviyesinde yaratıcı kontrol sağlar."
       },
       {
-        "q": "Seedance'ı ticari projelerde kullanabilir miyim?",
-        "a": "Evet. Pro planlarımız oluşturulan tüm içerik için tam ticari haklar içerir."
+        "q": "Hangi tür giriş dosyalarını yükleyebilirim?",
+        "a": "9 adede kadar görüntü (PNG, JPG, WEBP), 3 video klibi (toplam süre 15 saniyeye kadar) ve 3 ses dosyası (MP3, her biri 15 saniyeye kadar) yükleyebilirsiniz. Maksimum esneklik için bunlar tek bir üretimde karıştırılıp birleştirilebilir."
       },
       {
-        "q": "Sora veya Kling ile karşılaştırıldığında nasıl?",
-        "a": "Seedance 2.0 talimat takibi ve hareket kararlılığında öne çıkar; profesyonel iş akışları için üstün kontrol sunar."
+        "q": "Referans sistemi nasıl çalışır?",
+        "a": "Yüklediğiniz varlıklardan neyi ödünç almak istediğinizi doğal dil kullanarak tanımlayın — örneğin, '@video1'deki kamera hareketini @image2'deki karakter stiliyle kullan.' Model, referanslarınızdan hareket, efektler, kamera açıları, karakter görünümleri, sahne kompozisyonları ve hatta ses özelliklerini anlar ve çoğaltır."
       },
       {
-        "q": "Ücretsiz deneme var mı?",
-        "a": "Evet. Günlük kredilerle Seedance 2.0'ı ücretsiz deneyebilirsiniz."
+        "q": "Mevcut videoları uzatabilir veya düzenleyebilir miyim?",
+        "a": "Evet. Seedance 2.0 video uzatmayı destekler — bir klip yükleyin ve kaç saniye ekleneceğini belirtin, model diziyi sorunsuz şekilde devam ettirir. Ayrıca belirli segmentleri düzenleyebilirsiniz: karakterleri değiştirin, aksiyonları değiştirin, öğeler ekleyin veya kaldırın, tüm videoyu sıfırdan yeniden oluşturmadan."
+      },
+      {
+        "q": "Sahneler arasında karakter tutarlılığını ne kadar iyi koruyor?",
+        "a": "Karakter tutarlılığı, Seedance 2.0'ın temel bir gücüdür. Yüzler, kıyafetler, metin, sahne detayları ve görsel stiller, birden fazla çekim ve uzun diziler boyunca kararlı kalır — AI video oluşturmada en büyük sorunlardan birini çözer."
+      },
+      {
+        "q": "Hangi video uzunlukları, çözünürlükler ve en boy oranları kullanılabilir?",
+        "a": "Oluşturulan videolar 4 ila 15 saniye arasındadır. Desteklenen en boy oranları 16:9, 9:16, 4:3, 3:4, 21:9 ve 1:1'dir. Çözünürlükler 1080p'ye kadar çıkar, web, sosyal medya ve yayın platformları arasında profesyonel teslimat için uygun çıktı sağlar."
+      },
+      {
+        "q": "Seedance 2.0 ses veya ses efektleri oluşturur mu?",
+        "a": "Evet. Platform, görsel içeriğinizle eşleşen bağlama duyarlı ses efektleri ve arka plan müziği oluşturan dahili ses üretimi içerir. Ayrıca kendi ses parçalarınızı yükleyebilirsiniz ve model, video zamanlamasını ritimlerinize senkronize edecektir."
+      },
+      {
+        "q": "Oluşturulan videolarda filigran var mı?",
+        "a": "Hayır. Tüm videolar tamamen filigransızdır ve ticari kullanıma hazırdır. Oluşturduğunuz şey tamamen size aittir — herhangi bir marka olmadan temiz, profesyonel kalitede görüntü indirin."
+      },
+      {
+        "q": "Referans videolardan kamera hareketlerini ve koreografiyi çoğaltabilir miyim?",
+        "a": "Kesinlikle. Çoğaltmak istediğiniz kamera hareketini, dans dizisini veya aksiyon koreografisini içeren bir video yükleyin ve Seedance 2.0 bu dinamikleri kendi içeriğinize doğru şekilde uygulayacaktır. Karmaşık istemlere gerek yok — sadece modele ne istediğinizi gösterin."
+      },
+      {
+        "q": "Ücretsiz bir plan mevcut mu?",
+        "a": "Evet. Seedance 2.0, platforma taahhütte bulunmadan önce keşfetmeniz için günlük kredilerle ücretsiz bir katman sunar. Ücretli planlar, daha yüksek üretim limitleri, daha hızlı işleme ve yoğun saatlerde öncelikli erişim sağlar."
+      },
+      {
+        "q": "Nasıl başlarım?",
+        "a": "Bir hesap oluşturun, ihtiyaçlarınıza uygun bir plan seçin ve ardından referans materyallerinizi yüklemeye başlayın. Yaratıcı vizyonunuzu doğal dilde tanımlayın ve Seedance 2.0'ın onu hayata geçirmesini sağlayın. Arayüz, ilk kez kullananlar için bile sezgisel olacak şekilde tasarlanmıştır."
+      },
+      {
+        "q": "Verilerim ve içeriğim nasıl korunuyor?",
+        "a": "Yüklenen tüm dosyalar ve oluşturulan videolar, endüstri standardı şifreleme ile saklanır. İçeriğiniz gizli kalır ve üçüncü taraflarla asla paylaşılmaz. Platformda oluşturduğunuz her şeyin tam mülkiyet haklarını korursunuz."
       }
     ]
   },
   "blog": {
     "page_title": "Seedance Blog: Yapay Zeka Video Eğitimleri ve Rehberleri",
-    "read": "Read Article →",
-    "no_posts": "No posts found for this language yet."
+    "read": "Makaleyi Oku →",
+    "no_posts": "Bu dil için henüz gönderi bulunamadı."
+  },
+  "guide": {
+    "title": "Seedance Kılavuzu",
+    "welcome": "Seedance kullanım kılavuzuna hoş geldiniz. Burada Seedance AI video oluşturma için dersler, ipuçları ve en iyi uygulamaları bulacaksınız.",
+    "article_list": "Makale Listesi",
+    "quick_access": "Hızlı Erişim",
+    "quick_access_desc": "Resmi Seedance 2.0 girişi, tek tıkla oluşturmaya başlayın.",
+    "latest_articles": "Son Makaleler",
+    "page_nav": "Sayfa Gezinme",
+    "quick_links": "Hızlı Bağlantılar",
+    "official_platform": "Resmi Platform",
+    "tips": "Kullanım İpuçları",
+    "feedback": "Geri Bildirim",
+    "cta_entry": "Seedance'ı Şimdi Kullan",
+    "read_full": "Makalenin tamamını oku →"
+  },
+  "about": {
+    "title": "Hakkımızda",
+    "description": "Seedance 2.0 Hakkında - AI video üretim platformu.",
+    "heading": "Seedance 2.0 Hakkında",
+    "content": "Seedance 2.0, yaratıcıları yönetmen seviyesinde kontrol ve sinematik kalite ile güçlendiren birleşik çok modlu AI video üretim platformudur. Profesyonel içerik oluşturma için metin, görüntü, ses ve video girişlerini destekliyoruz."
+  },
+  "privacy": {
+    "title": "Gizlilik Politikası",
+    "description": "Seedance 2.0 için Gizlilik Politikası.",
+    "heading": "Gizlilik Politikası",
+    "content": "Gizliliğinize saygı duyuyoruz. Bu politika, hizmetlerimizi kullanırken bilgilerinizi nasıl topladığımızı, kullandığımızı ve koruduğumuzu açıklar. AI video platformumuzu iyileştirmek ve size daha iyi bir deneyim sunmak için verileri kullanıyoruz. Kişisel bilgilerinizi üçüncü taraflara satmıyoruz."
+  },
+  "terms": {
+    "title": "Hizmet Şartları",
+    "description": "Seedance 2.0 için Hizmet Şartları.",
+    "heading": "Hizmet Şartları",
+    "content": "Seedance 2.0'ı kullanarak bu şartları kabul edersiniz. Hizmetimiz yasal kullanım için sağlanmıştır. Oluşturduğunuz içerik üzerindeki haklarınızı korursunuz; modellerimizi iyileştirmek için anonimleştirilmiş verileri kullanabiliriz. Bu şartları güncelleme hakkını saklı tutarız; devam eden kullanım kabul anlamına gelir."
   }
 }

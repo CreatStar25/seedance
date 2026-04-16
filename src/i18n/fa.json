@@ -81,54 +81,58 @@
     }
   },
   "footer": {
-    "product": {
-      "title": "محصول",
-      "items": [
-        "متن به ویدئو",
-        "تصویر به ویدئو",
-        "ویرایش ویدئو",
-        "قیمت‌گذاری"
-      ]
-    },
-    "resources": {
-      "title": "منابع",
-      "items": [
-        "بلاگ",
-        "جامعه",
-        "مرکز راهنما",
-        "مستندات API"
-      ]
-    },
-    "company": {
-      "title": "شرکت",
-      "items": [
-        "درباره ما",
-        "شغل‌ها",
-        "تماس",
-        "حقوقی"
-      ]
-    },
-    "copyright": "© 2026 Seedance AI. تمامی حقوق محفوظ است."
+    "brand": { "title": "Seedance 2.0", "intro": "پلتفرم یکپارچه تولید ویدئو چندوجهی با هوش مصنوعی. کنترل در سطح کارگردان و کیفیت سینمایی برای خالقان.", "email": "starwk@gmx.com" },
+    "ai_tools": { "title": "ابزارهای هوش مصنوعی", "links": [{ "label": "LimaxAI", "href": "https://www.limaxai.com/" }, { "label": "Suno", "href": "https://suno.hk/" }, { "label": "deepseek 4", "href": "https://deepseek4.hk/" }, { "label": "Notebooklm", "href": "https://notebooklm.vip/" }, { "label": "Openclaw", "href": "https://openclawd.hk/" }, { "label": "Gemini 3.0", "href": "https://gemini3.hk/" }] },
+    "ai_video": { "title": "ویدئو هوش مصنوعی", "links": [{ "label": "Seedance 2.0", "href": "https://seedance22.com/" }, { "label": "Seedance 1.5", "href": "https://seedance2.hk/" }, { "label": "Veo 3", "href": "https://veo3.hk/" }, { "label": "HappyHorse1.0", "href": "https://happyhorse.fans/" }, { "label": "HappyHorse2.0", "href": "https://happy-horse.hk/" }] },
+    "ai_image": { "title": "تصویر هوش مصنوعی", "links": [{ "label": "Midjourney", "href": "https://midjourney.cfd" }, { "label": "Nano Banana Pro", "href": "https://nanobanana-pro.vip" }, { "label": "Nano Banana 2", "href": "https://nanobananapro.hk" }, { "label": "Nano Banana 3", "href": "https://nanobanana3.top" }] },
+    "company": { "title": "شرکت", "links": [{ "label": "بلاگ", "path": "blog" }, { "label": "درباره ما", "path": "about" }, { "label": "حریم خصوصی", "path": "privacy" }, { "label": "شرایط", "path": "terms" }, { "label": "API", "href": "https://api.limaxai.com/" }] },
+    "copyright": "© 2026 Seedance AI. All rights reserved."
   },
   "features": {
     "title": "چرا Seedance 2.0؟",
-    "subtitle": "با قابلیت‌های جامع تولید چندوجهی، مرزهای خلاقیت را جابه‌جا کنید.",
+    "subtitle": "با جامع‌ترین قابلیت‌های تولید محتوای چندوجهی، مرزهای خلاقیت را جابه‌جا کنید.",
     "list": [
       {
-        "title": "معماری چندوجهی یکپارچه",
-        "desc": "پشتیبانی از ورودی متن، تصویر، صدا و ویدئو. ویرایش یکپارچه برای خلق محتوای بی‌درز."
+        "title": "ورودی چندوجهی",
+        "desc": "تا ۹ تصویر، ۳ ویدئو (مجموعاً ۱۵ ثانیه) و ۳ فایل صوتی آپلود کنید. متن، تصویر، ویدئو و صدا را آزادانه ترکیب کنید تا چشم‌انداز خلاقانه خود را با انعطاف‌پذیری بی‌سابقه بیان کنید.",
+        "iconColor": "from-purple-500 to-indigo-600",
+        "iconBg": "bg-purple-50",
+        "iconHover": "bg-purple-100"
       },
       {
-        "title": "کنترل در سطح کارگردان",
-        "desc": "کنترل دقیق بازیگری، نور و حرکت دوربین. تصویر خلاق شما عیناً همان‌طور که تصور کردید."
+        "title": "به هر چیزی ارجاع دهید",
+        "desc": "حرکت، افکت‌ها، حرکت دوربین، شخصیت‌ها، صحنه‌ها و صداها را از هر محتوای آپلود شده ارجاع دهید. فقط به زبان طبیعی توضیح دهید به چه چیزی می‌خواهید ارجاع دهید و مدل متوجه می‌شود.",
+        "iconColor": "from-cyan-500 to-blue-600",
+        "iconBg": "bg-cyan-50",
+        "iconHover": "bg-cyan-100"
       },
       {
-        "title": "کیفیت فراواقع‌گرایانه",
-        "desc": "پایداری حرکت استثنایی و رعایت قوانین فیزیک. همگام‌سازی بومی صدا و تصویر برای تجربه غوطه‌ورکننده."
+        "title": "سازگاری برتر",
+        "desc": "سازگاری کامل چهره‌ها، لباس‌ها، متن، صحنه‌ها و سبک‌های بصری را در کل ویدئوی خود حفظ کنید. دیگر نیازی به نگرانی از تغییر شخصیت یا ناسازگاری سبک بین فریم‌ها نیست.",
+        "iconColor": "from-orange-500 to-amber-600",
+        "iconBg": "bg-orange-50",
+        "iconHover": "bg-orange-100"
       },
       {
-        "title": "گردش کار درجه صنعتی",
-        "desc": "مناسب تبلیغات، سینما و شبکه‌های اجتماعی. کیفیت خروجی مطابق استانداردهای تحویل صنعتی."
+        "title": "تکثیر دقیق حرکت و دوربین",
+        "desc": "یک ویدئوی مرجع آپلود کنید تا حرکات پیچیده رقص، حرکت دوربین سینمایی و توالی‌های اکشن را تکثیر کنید. نیازی به پرامپت‌های دقیق نیست — فقط نشان دهید چه می‌خواهید.",
+        "iconColor": "from-pink-500 to-rose-600",
+        "iconBg": "bg-pink-50",
+        "iconHover": "bg-pink-100"
+      },
+      {
+        "title": "تمدید و ویرایش ویدئو",
+        "desc": "ویدئوهای موجود را به‌صورت روان تمدید کنید، چندین کلیپ را ادغام کنید یا بخش‌های خاصی را ویرایش کنید. شخصیت‌ها را جایگزین کنید، عناصر اضافه کنید یا حرکات را تغییر دهید در حالی که بقیه محتوا حفظ می‌شود.",
+        "iconColor": "from-emerald-500 to-teal-600",
+        "iconBg": "bg-emerald-50",
+        "iconHover": "bg-emerald-100"
+      },
+      {
+        "title": "تولید صدای داخلی",
+        "desc": "افکت‌های صوتی و موسیقی پس‌زمینه آگاه از زمینه را به‌طور خودکار تولید کنید. ویدئو را با صدای آپلود شده یا ریتم موسیقی همگام کنید تا محتوای خلاقانه با زمان‌بندی کامل ایجاد شود.",
+        "iconColor": "from-blue-500 to-indigo-600",
+        "iconBg": "bg-blue-50",
+        "iconHover": "bg-blue-100"
       }
     ]
   },
