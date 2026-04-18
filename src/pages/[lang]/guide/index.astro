@@ -39,10 +39,10 @@ if (!t.guide) {
 const g = t.guide as Record<string, string>;
 
 // 使用独立配置的指南SEO文案
-const guidePageTitle = t.guide?.page_title ?? `${t.nav?.guide || 'Seedance Guide'} - Seedance`;
+const guidePageTitle = t.guide?.page_title ?? `${(t.nav?.guide || 'Seedance Guide')} - Seedance`;
 const guidePageDescription = t.guide?.description ?? t.seo?.description;
 const guidePageKeywords = t.guide?.keywords ?? t.seo?.keywords;
-const guideHeading = t.guide?.page_title ?? t.nav?.guide || 'Seedance Guide';
+const guideHeading = (t.guide?.page_title ?? t.nav?.guide) || 'Seedance Guide';
 
 const appUrl = 'https://app.seedance22.com/generate/video-tools/seedance2.0';
 ---
