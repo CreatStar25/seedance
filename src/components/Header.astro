@@ -7,12 +7,25 @@ const { lang, t } = Astro.props;
 const pathname = Astro.url.pathname;
 let cleanPath = pathname;
 
-// 移除当前语言前缀 (例如 /zh/blog 或 /en/blog -> /blog)
-const langPrefix = new RegExp(`^/${lang}`);
-cleanPath = pathname.replace(langPrefix, '');
+// 移除当前语言前缀 (例如 /zh-cn/blog 或 /en/blog -> /blog)
+// 使用 strip-lang-prefix 逻辑与 SEOHead 保持一致，避免叠加
+const langPrefixRegex = new RegExp(`^/${lang}(?=/|$)`);
+cleanPath = cleanPath.replace(langPrefixRegex, '');
+
+// 清理 index.html 确保干净
+cleanPath = cleanPath.replace(/\/index\.html$/, '/');
+if (cleanPath === '/index.html') cleanPath = '/';
+
 // 清理根路径和开头的斜杠
+// 最终 cleanPath 应该是不带语言前缀、不带开头斜杠的路径
 if (cleanPath === '/') cleanPath = '';
 if (cleanPath.startsWith('/')) cleanPath = cleanPath.substring(1);
+
+// 清理结尾斜杠，避免拼接时重复
+if (cleanPath.endsWith('/')) cleanPath = cleanPath.slice(0, -1);
+
+// 清理连续斜杠
+cleanPath = cleanPath.replace(/\/\/+/g, '/');
 ---
 
 <header class="sticky top-0 z-50 w-full bg-white/90 backdrop-blur-md border-b border-gray-100 transition-all">
@@ -55,18 +68,37 @@ if (cleanPath.startsWith('/')) cleanPath = cleanPath.substring(1);
         <div class="absolute right-0 mt-2 w-[600px] bg-white border border-gray-100 rounded-2xl shadow-2xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 transform origin-top-right scale-95 group-hover:scale-100 z-50 p-4">
           <div class="grid grid-cols-3 gap-2">
             {Object.entries(languages).map(([code, name]) => {
-              // 构建目标链接
+              // 构建目标链接 - 完全重写逻辑，保证不会叠加语言前缀
               const isRoot = cleanPath === '' || cleanPath === '/';
-              const prefix = code === 'en' ? (isRoot ? '' : '/en') : `/${code}`;
-              // 确保路径拼接没有双斜杠
-              let targetUrl = `${prefix}/${cleanPath}`.replace(/^\/+|\/+$/g, '').replace(/\/\/+/g, '/');
-              if (targetUrl === '') targetUrl = '/';
-              // 统一尾斜杠（与 astro.config.mjs trailingSlash: 'always' 一致）
-              if (targetUrl !== '/' && !targetUrl.endsWith('/')) {
-                targetUrl = targetUrl + '/';
+              let prefix: string;
+              
+              if (code === 'en') {
+                // 英文：首页在根路径 /，其他页面在 /en/[path]
+                prefix = isRoot ? '' : '/en';
+              } else {
+                // 其他语言：首页在 /{code}/，其他页面在 /{code}/[path]
+                prefix = isRoot ? `/${code}` : `/${code}`;
               }
-              // 清理多余斜杠
-              targetUrl = targetUrl.replace(/\/\/+/g, '/');
+              
+              // 确保路径拼接干净
+              let targetUrl: string;
+              if (isRoot) {
+                // 首页：/ 或者 /{code}/
+                targetUrl = code === 'en' ? '/' : `/${code}/`;
+              } else {
+                // 非首页：prefix + / + cleanPath
+                targetUrl = `${prefix}/${cleanPath}`;
+                // 统一尾斜杠（与 astro.config.mjs trailingSlash: 'always' 一致）
+                if (!targetUrl.endsWith('/')) {
+                  targetUrl = targetUrl + '/';
+                }
+              }
+              
+              // 多重清理保证没有连续斜杠
+              targetUrl = targetUrl
+                .replace(/^\/+/, '/')       // 开头多个斜杠变一个
+                .replace(/\/+$/, targetUrl === '/' ? '' : '/')  // 结尾保证一个斜杠
+                .replace(/\/\/+/g, '/');  // 中间多个变一个
 
               return (
                 <a 
