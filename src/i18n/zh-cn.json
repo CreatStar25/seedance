@@ -1,8 +1,8 @@
 {
   "seo": {
-    "title": "Seedance 2.0 - 智能AI视频生成平台｜Seedance中文版",
-    "description": "Seedance 2.0 是最先进的AI视频生成模型，支持文本、图像、音频和视频输入，创造电影级内容。",
-    "keywords": "Seedance, Seedance 2.0, AI video, AI video generator, text to video, image to video, multimodal AI"
+    "title": "Seedance 2.0 - AI视频生成平台｜中文官方网站",
+    "description": "Seedance 2.0 中文版 - 最先进的AI视频生成模型，支持文本、图像、音频和视频输入，创造电影级内容。免费试用，支持25种语言。",
+    "keywords": "Seedance, Seedance 2.0, AI视频, AI视频生成, 文本转视频, 图片转视频, 多模态AI, 视频AI模型, 中文AI视频"
   },
   "nav": {
     "home": "首页",
@@ -461,25 +461,26 @@
     ]
   },
   "blog": {
-    "page_title": "Seedance 博客：AI 视频教程与指南",
+    "page_title": "AI视频生成教程与指南 | Seedance博客",
+    "description": "学习如何使用 Seedance 2.0 创建令人惊叹的AI视频。包含文本转视频、图片转视频和多模态AI内容创作的教程、技巧和最佳实践。",
     "read": "閱讀文章 →",
     "no_posts": "該語言暫無文章。"
   },
   "about": {
-    "title": "关于",
-    "description": "关于 Seedance 2.0 - AI 视频生成平台。",
+    "title": "关于 Seedance 2.0 - AI视频生成平台与团队",
+    "description": "了解 Seedance 2.0，来自字节跳动的统一多模态AI视频生成平台。我们的使命、团队和技术，为创作者提供导演级控制能力。",
     "heading": "关于 Seedance 2.0",
     "content": "Seedance 2.0 是统一多模态 AI 视频生成平台，为创作者提供导演级控制与电影级画质。我们支持文本、图像、音频与视频输入，用于专业内容创作。"
   },
   "privacy": {
-    "title": "隱私權政策",
-    "description": "Seedance 2.0 隐私政策。",
+    "title": "隐私政策 - Seedance 2.0 AI视频平台",
+    "description": "阅读 Seedance 2.0 的隐私政策。了解我们如何在您使用AI视频生成服务时收集、使用和保护您的数据。",
     "heading": "隱私權政策",
     "content": "我們尊重您的隱私權。本政策說明我們如何在使用我們服務時收集、使用與保護您的資訊。我們使用數據以改進 AI 視頻平台並為您提供更好的體驗。我們不會向第三方出售您的個人資訊。"
   },
   "terms": {
-    "title": "服務條款",
-    "description": "Seedance 2.0 服务条款。",
+    "title": "服务条款 - Seedance 2.0 AI视频平台",
+    "description": "阅读 Seedance 2.0 的服务条款。了解用户权利、内容所有权以及平台使用指南，确保合规使用我们的AI视频生成服务。",
     "heading": "服務條款",
     "content": "使用 Seedance 2.0 即表示您同意本条款。我们的服务仅供合法使用。您保留所创作内容的权利；我们可能使用匿名数据改进模型。我们保留更新本条款的权利；继续使用即视为接受。"
   }

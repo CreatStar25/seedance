@@ -1,8 +1,8 @@
 {
   "seo": {
-    "title": "Seedance 2.0 - Intelligent AI Video Generation Platform | Seedance English Version",
-    "description": "Seedance 2.0 is a state-of-the-art AI video generation model supporting text, image, audio, and video inputs for cinematic quality content creation.",
-    "keywords": "Seedance, Seedance 2.0, AI video, AI video generator, text to video, image to video, multimodal AI"
+    "title": "Seedance 2.0 - AI Video Generator Platform | Create Cinematic Videos",
+    "description": "Generate professional AI videos from text, images, or audio with Seedance 2.0. The most advanced multimodal AI video generation model supporting 25+ languages. Free trial available.",
+    "keywords": "Seedance, Seedance 2.0, AI video, AI video generator, text to video, image to video, multimodal AI, video AI model, AI video creation"
   },
   "nav": {
     "home": "Home",
@@ -457,25 +457,26 @@
     ]
   },
   "blog": {
-    "page_title": "Seedance Blog: AI Video Tutorials & Guides",
+    "page_title": "AI Video Generation Tutorials & Guides | Seedance Blog",
+    "description": "Learn how to create stunning AI videos with Seedance 2.0. Tutorials, tips, and best practices for text-to-video, image-to-video, and multimodal AI content creation.",
     "read": "Read Article →",
     "no_posts": "No posts found for this language yet."
   },
   "about": {
-    "title": "About",
-    "description": "About Seedance 2.0 - AI video generation platform.",
+    "title": "About Seedance 2.0 - AI Video Generation Platform & Team",
+    "description": "Learn about Seedance 2.0, the unified multimodal AI video generation platform from ByteDance. Our mission, team, and technology empowering creators with director-level control.",
     "heading": "About Seedance 2.0",
     "content": "Seedance 2.0 is a unified multimodal AI video generation platform, empowering creators with director-level control and cinematic quality. We support text, image, audio, and video inputs for professional content creation."
   },
   "privacy": {
-    "title": "Privacy Policy",
-    "description": "Privacy Policy for Seedance 2.0.",
+    "title": "Privacy Policy - Seedance 2.0 AI Video Platform",
+    "description": "Read our comprehensive Privacy Policy for Seedance 2.0. Learn how we collect, use, and protect your data when using our AI video generation services.",
     "heading": "Privacy Policy",
     "content": "We respect your privacy. This policy describes how we collect, use, and protect your information when you use our services. We use data to improve our AI video platform and to provide you with a better experience. We do not sell your personal information to third parties."
   },
   "terms": {
-    "title": "Terms of Service",
-    "description": "Terms of Service for Seedance 2.0.",
+    "title": "Terms of Service - Seedance 2.0 AI Video Platform",
+    "description": "Read the Terms of Service for Seedance 2.0. Understand user rights, content ownership, and platform usage guidelines for our AI video generation service.",
     "heading": "Terms of Service",
     "content": "By using Seedance 2.0, you agree to these terms. Our service is provided for lawful use. You retain rights to content you create; we may use anonymized data to improve our models. We reserve the right to update these terms; continued use constitutes acceptance."
   }

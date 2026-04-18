@@ -38,15 +38,23 @@ if (!t.guide) {
 }
 const g = t.guide as Record<string, string>;
 
+// 使用独立配置的指南SEO文案
+const guidePageTitle = t.guide?.page_title ?? `${t.nav?.guide || 'Seedance Guide'} - Seedance`;
+const guidePageDescription = t.guide?.description ?? t.seo?.description;
+const guidePageKeywords = t.guide?.keywords ?? t.seo?.keywords;
+const guideHeading = t.guide?.page_title ?? t.nav?.guide || 'Seedance Guide';
+
 const appUrl = 'https://app.seedance22.com/generate/video-tools/seedance2.0';
 ---
 
 <html lang={lang} dir={['ar','fa'].includes(lang) ? 'rtl' : 'ltr'} data-lang={lang}>
   <head>
     <SEOHead
-      title={`${g.title || 'Seedance Guide'} - Seedance`}
-      description={t.seo?.description || ''}
+      title={guidePageTitle}
+      description={guidePageDescription}
+      keywords={guidePageKeywords}
       lang={lang}
+      image="https://img.seedance22.com/seedance/seedance-2-cover.webp"
     />
     <style is:global>
       .guide-panel { display: none; }

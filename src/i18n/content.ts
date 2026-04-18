@@ -5,7 +5,17 @@
 import type { Locale } from "./ui";
 
 export type ContentLocale = {
-  seo: { title: string; description: string };
+  seo: { title: string; description: string; keywords?: string };
+  blog: { 
+    page_title: string; 
+    description: string;
+    keywords?: string;
+  };
+  guide: { 
+    page_title: string; 
+    description: string;
+    keywords?: string;
+  };
   hero: { title: string; highlight: string; subtitle: string; button: string; users: string; badge: string };
   stats: Array<{ value: string; label: string }>;
   product_features: {
@@ -135,7 +145,21 @@ const EN_LEGAL = {
 
 export const content: Record<Locale, ContentLocale> = {
   en: {
-    seo: { title: "Seedance 2.0 - Intelligent AI Video Generation Platform | Seedance English Version", description: "Seedance 2.0 is a state-of-the-art AI video generation model supporting text, image, audio, and video inputs for cinematic quality content creation." },
+    seo: { 
+      title: "Seedance 2.0 - Intelligent AI Video Generation Platform | Seedance English Version", 
+      description: "Seedance 2.0 is a state-of-the-art AI video generation model supporting text, image, audio, and video inputs for cinematic quality content creation.",
+      keywords: "Seedance, Seedance 2.0, AI video, AI video generator, text to video, image to video, multimodal AI, video AI model, AI video creation, ByteDance AI, AI filmmaking, cinematic AI, video generation, AI content creation"
+    },
+    blog: {
+      page_title: "Seedance AI Video Generation Blog - Tutorials, Guides & News",
+      description: "Read the latest tutorials, guides and news about AI video generation with Seedance 2.0. Learn tips and best practices for creating cinematic AI videos.",
+      keywords: "Seedance blog, AI video tutorials, text to video guide, image to video tips, AI filmmaking blog, Seedance news"
+    },
+    guide: {
+      page_title: "Seedance 2.0 Usage Guide - Official Documentation & Tutorials",
+      description: "Official usage guide for Seedance 2.0. Complete documentation, step-by-step tutorials, and best practices for AI video creation.",
+      keywords: "Seedance guide, Seedance documentation, Seedance tutorial, how to use Seedance, AI video creation guide"
+    },
     hero: { title: "Director-Level Control with", highlight: "Seedance 2.0", subtitle: "The unified multimodal generation architecture. Create cinematic videos from text, images, and audio with unprecedented control and realism.", button: "Start Generating", users: "Trusted by Top Studios", badge: "🚀 New Release: Seedance 2.0" },
     stats: EN_STATS,
     product_features: EN_PRODUCT_FEATURES,
@@ -147,7 +171,21 @@ export const content: Record<Locale, ContentLocale> = {
     legal: EN_LEGAL,
   },
   "zh-cn": {
-    seo: { title: "Seedance 2.0 - 智能AI视频生成平台｜Seedance中文版", description: "Seedance 2.0 是最先进的AI视频生成模型，支持文本、图像、音频和视频输入，创造电影级内容。" },
+    seo: { 
+      title: "Seedance 2.0 - 智能AI视频生成平台｜Seedance中文版", 
+      description: "Seedance 2.0 是最先进的AI视频生成模型，支持文本、图像、音频和视频输入，创造电影级内容。",
+      keywords: "Seedance, Seedance 2.0, AI视频, AI视频生成, 文本转视频, 图片转视频, 多模态AI, 视频AI模型, 中文AI视频, 字节跳动AI, AI电影制作, 影院级AI, 视频生成, AI内容创作"
+    },
+    blog: {
+      page_title: "Seedance AI视频生成博客 - 教程指南与最新动态",
+      description: "阅读最新的Seedance 2.0使用教程、创作指南和行业动态，学习如何使用AI创造高质量电影级视频。",
+      keywords: "Seedance博客, AI视频教程, 文生视频指南, 图生视频技巧, AI电影制作博客, Seedance动态"
+    },
+    guide: {
+      page_title: "Seedance 2.0 使用指南 - 官方文档与教程",
+      description: "Seedance 2.0 官方使用指南，包含完整文档、分步教程和创作最佳实践，帮助你快速掌握AI视频创作。",
+      keywords: "Seedance指南, Seedance文档, Seedance教程, 如何使用Seedance, AI视频创作指南"
+    },
     hero: { title: "导演级控制力", highlight: "Seedance 2.0", subtitle: "统一多模态生成架构。通过文本、图像和音频创造电影级视频，拥有前所未有的控制力和真实感。", button: "开始创作", users: "顶级工作室信赖", badge: "🚀 New Release: Seedance 2.0" },
     stats: [{ value: "SOTA", label: "Model Performance" }, { value: "4", label: "Modalities Supported" }, { value: "1080p", label: "HD Output" }],
     product_features: {
@@ -168,7 +206,21 @@ export const content: Record<Locale, ContentLocale> = {
     },
   },
   "zh-tw": {
-    seo: { title: "Seedance 2.0 - 智能AI視頻生成平台｜Seedance繁體中文版", description: "Seedance 2.0 是最先進的AI視頻生成模型，支持文本、圖像、音頻和視頻輸入，創造電影級內容。" },
+    seo: { 
+      title: "Seedance 2.0 - 智能AI視頻生成平台｜Seedance繁體中文版", 
+      description: "Seedance 2.0 是最先進的AI視頻生成模型，支持文本、圖像、音頻和視頻輸入，創造電影級內容。",
+      keywords: "Seedance, Seedance 2.0, AI視頻, AI視頻生成, 文本轉視頻, 圖片轉視頻, 多模態AI, 視頻AI模型, 繁體AI視頻, 字節跳動AI, AI電影製作, 影院級AI, 視頻生成, AI內容創作"
+    },
+    blog: {
+      page_title: "Seedance AI視頻生成博客 - 教程指南與最新動態",
+      description: "閱讀最新的Seedance 2.0使用教程、創作指南和行業動態，學習如何使用AI創造高質量電影級視頻。",
+      keywords: "Seedance博客, AI視頻教程, 文本轉視頻指南, 圖片轉視頻技巧, AI電影製作博客, Seedance動態"
+    },
+    guide: {
+      page_title: "Seedance 2.0 使用指南 - 官方文檔與教程",
+      description: "Seedance 2.0 官方使用指南，包含完整文檔、分步教程和創作最佳實踐，幫助你快速掌握AI視頻創作。",
+      keywords: "Seedance指南, Seedance文檔, Seedance教程, 如何使用Seedance, AI視頻創作指南"
+    },
     hero: { title: "導演級控制力", highlight: "Seedance 2.0", subtitle: "統一多模態生成架構。通過文本、圖像和音頻創造電影級視頻，擁有前所未有的控制力和真實感。", button: "開始創作", users: "頂級工作室信賴", badge: "🚀 New Release: Seedance 2.0" },
     stats: EN_STATS,
     product_features: {
@@ -189,7 +241,11 @@ export const content: Record<Locale, ContentLocale> = {
     },
   },
   es: {
-    seo: { title: "Seedance 2.0 - Plataforma Inteligente de Generación de Video AI | Seedance Versión en Español", description: "Seedance 2.0 es un modelo de generación de video AI de última generación que soporta entradas de texto, imagen, audio y video para la creación de contenido de calidad cinematográfica." },
+    seo: { 
+      title: "Seedance 2.0 - Plataforma Inteligente de Generación de Video AI | Seedance Versión en Español", 
+      description: "Seedance 2.0 es un modelo de generación de video AI de última generación que soporta entradas de texto, imagen, audio y video para la creación de contenido de calidad cinematográfica.",
+      keywords: "Seedance, Seedance 2.0, AI video, generador de video AI, texto a video, imagen a video, IA multimodal, modelo de video AI, creación de video AI, ByteDance AI, filmación con IA, IA cinematográfica, generación de video, creación de contenido con IA"
+    },
     hero: { title: "Control a Nivel de Director con", highlight: "Seedance 2.0", subtitle: "La arquitectura de generación multimodal unificada. Crea videos cinematográficos a partir de texto, imágenes y audio con un control y realismo sin precedentes.", button: "Empezar a Generar", users: "Confiado por Estudios Top", badge: "🚀 New Release: Seedance 2.0" },
     stats: EN_STATS,
     product_features: {
@@ -425,7 +481,11 @@ export const content: Record<Locale, ContentLocale> = {
     legal: EN_LEGAL, // 待翻译
   },
   ja: {
-    seo: { title: "Seedance 2.0 - インテリジェントAI動画生成プラットフォーム | Seedance 日本語版", description: "Seedance 2.0は、テキスト、画像、音声、動画入力をサポートし、映画品質のコンテンツを作成する最先端のAI動画生成モデルです。" },
+    seo: { 
+      title: "Seedance 2.0 - インテリジェントAI動画生成プラットフォーム | Seedance 日本語版", 
+      description: "Seedance 2.0は、テキスト、画像、音声、動画入力をサポートし、映画品質のコンテンツを作成する最先端のAI動画生成モデルです。",
+      keywords: "Seedance, Seedance 2.0, AI動画, AI動画生成, テキスト動画生成, 画像動画生成, マルチモーダルAI, 動画AIモデル, AI動画作成, バイトダンスAI, AI映画制作, シネマティックAI, 動画生成, AIコンテンツ作成"
+    },
     hero: { title: "監督レベルの制御", highlight: "Seedance 2.0", subtitle: "統合マルチモーダル生成アーキテクチャ。テキスト、画像、音声から映画のような動画を作成し、前例のない制御とリアリズムを実現します。", button: "作成を開始", users: "トップスタジオが信頼", badge: "🚀 New Release: Seedance 2.0" },
     stats: EN_STATS,
     product_features: {
@@ -483,7 +543,11 @@ export const content: Record<Locale, ContentLocale> = {
     legal: EN_LEGAL, // 待翻译
   },
   ko: {
-    seo: { title: "Seedance 2.0 - 지능형 AI 비디오 생성 플랫폼 | Seedance 한국어 버전", description: "Seedance 2.0은 텍스트, 이미지, 오디오 및 비디오 입력을 지원하여 영화 품질의 콘텐츠를 제작하는 최첨단 AI 비디오 생성 모델입니다." },
+    seo: { 
+      title: "Seedance 2.0 - 지능형 AI 비디오 생성 플랫폼 | Seedance 한국어 버전", 
+      description: "Seedance 2.0은 텍스트, 이미지, 오디오 및 비디오 입력을 지원하여 영화 품질의 콘텐츠를 제작하는 최첨단 AI 비디오 생성 모델입니다。",
+      keywords: "Seedance, Seedance 2.0, AI 비디오, AI 비디오 생성, 텍스트 투 비디오, 이미지 투 비디오, 멀티모달 AI, 비디오 AI 모델, AI 비디오 제작, 바이트댄스 AI, AI 영화 제작, 시네마틱 AI, 비디오 생성, AI 콘텐츠 제작"
+    },
     hero: { title: "감독 수준의 제어력", highlight: "Seedance 2.0", subtitle: "통합 멀티모달 생성 아키텍처. 텍스트, 이미지, 오디오로 영화 같은 비디오를 제작하며 전례 없는 제어력과 사실감을 제공합니다.", button: "생성 시작", users: "최고의 스튜디오들이 신뢰", badge: "🚀 New Release: Seedance 2.0" },
     stats: EN_STATS,
     product_features: {

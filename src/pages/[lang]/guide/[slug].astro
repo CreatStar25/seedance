@@ -38,8 +38,15 @@ const formattedDate = new Date(rawDate).toLocaleDateString(lang, {
     <SEOHead
       title={`${entry.data.title} - Seedance`}
       description={entry.data.description}
+      keywords={t.seo?.keywords}
       lang={lang}
       image={coverImage}
+      schemaType="article"
+      article={{
+        datePublished: new Date(rawDate).toISOString().split('T')[0],
+        dateModified: entry.data.lastModified ? new Date(entry.data.lastModified).toISOString().split('T')[0] : new Date(rawDate).toISOString().split('T')[0],
+        author: 'Seedance Team'
+      }}
     />
   </head>
   <body class="bg-white text-gray-900 font-sans antialiased flex flex-col min-h-screen">

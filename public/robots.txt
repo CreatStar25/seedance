@@ -1,4 +1,8 @@
 User-agent: *
 Allow: /
+# Block URL parameters to avoid duplicate content issues
+Disallow: /*?*
+# Block API routes that don't need indexing
+Disallow: /api/
 
 Sitemap: https://seedance22.com/sitemap-index.xml

@@ -32,10 +32,11 @@ let t;
 try { t = (await import(`../../../i18n/${lang}.json`)).default; } 
 catch (e) { t = (await import(`../../../i18n/en.json`)).default; }
 
-type BlogI18n = { page_title?: string };
-const blogI18n = t.blog as BlogI18n;
-const blogPageTitle = blogI18n.page_title ?? `${t.nav.blog} - Seedance`;
-const blogHeading = blogI18n.page_title ?? t.nav.blog;
+// 使用独立配置的博客SEO文案
+const blogPageTitle = t.blog?.page_title ?? `${t.nav.blog} - Seedance`;
+const blogPageDescription = t.blog?.description ?? t.seo.description;
+const blogPageKeywords = t.blog?.keywords ?? t.seo?.keywords;
+const blogHeading = t.blog?.page_title ?? t.nav.blog;
 
 // 格式化日期的辅助函数
 function formatDate(date: Date) {
@@ -51,8 +52,10 @@ function formatDate(date: Date) {
   <head>
     <SEOHead 
       title={blogPageTitle}
-      description={t.seo.description} 
+      description={blogPageDescription}
+      keywords={blogPageKeywords}
       lang={lang} 
+      image="https://img.seedance22.com/seedance/seedance-2-cover.webp"
     />
   </head>
   <body class="bg-white text-gray-900 font-sans antialiased flex flex-col min-h-screen">

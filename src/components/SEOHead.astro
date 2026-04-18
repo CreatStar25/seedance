@@ -8,40 +8,100 @@ interface Props {
   lang: string;
   /** 可选：用于 og:image / twitter:image，建议 1200×630，绝对 URL */
   image?: string;
+  /** 可选：keywords meta 标签内容，支持多语言 */
+  keywords?: string;
+  /** 可选：robots meta 标签内容，如 "noindex, nofollow" */
+  robots?: string;
+  /** 可选：文章结构化数据，用于博客/指南详情页 */
+  article?: {
+    datePublished?: string;
+    dateModified?: string;
+    author?: string;
+  };
+  /** 可选：FAQ 列表，用于 FAQPage 结构化数据 */
+  faqs?: Array<{
+    question: string;
+    answer: string;
+  }>;
+  /** 可选：Schema 类型，默认为 website + organization */
+  schemaType?: 'website' | 'article' | 'product' | 'faq';
 }
 
-const { title, description, lang, image } = Astro.props;
+const { 
+  title, 
+  description, 
+  lang, 
+  image, 
+  keywords, 
+  robots,
+  article,
+  faqs,
+  schemaType = 'website'
+} = Astro.props;
 
 const defaultOgImage = 'https://img.seedance22.com/seedance/seedance-2-cover.webp';
 const ogImage = image ? (image.startsWith('http') ? image : new URL(image, Astro.site ?? Astro.url.origin).toString()) : defaultOgImage;
+
+// 默认 keywords（如果未提供）
+const defaultKeywords = "Seedance, Seedance 2.0, AI video, AI video generator, text to video, image to video, multimodal AI, video AI model, AI video creation, ByteDance AI";
 
 // ---------------------------------------------------------------------------
 // Base URL
 // ---------------------------------------------------------------------------
 const siteBase = Astro.site ? Astro.site.href : Astro.url.origin;
+// 确保 siteBase 以斜杠结尾，避免 URL 拼接错误
+const siteBaseNormalized = siteBase.endsWith('/') ? siteBase : `${siteBase}/`;
 
 // 语言与地区映射，用于 hreflang 与 OG locale
+// 完全覆盖 astro.config.mjs 中 sitemap 配置的全部 25 种语言
+// 确保 hreflang 代码与 sitemap 完全一致，避免 Google 警告
 const localeMap: Record<string, string> = {
-  en: 'en-US',
+  en: 'en',
   'zh-cn': 'zh-CN',
   'zh-tw': 'zh-TW',
+  es: 'es',
+  ar: 'ar',
+  pt: 'pt',
+  id: 'id',
+  ms: 'ms',
+  fr: 'fr',
+  ru: 'ru',
+  hi: 'hi',
+  ja: 'ja',
+  de: 'de',
+  ko: 'ko',
+  tr: 'tr',
+  vi: 'vi',
+  th: 'th',
+  it: 'it',
+  fa: 'fa',
+  nl: 'nl',
+  pl: 'pl',
+  sv: 'sv',
+  uk: 'uk',
+  ro: 'ro',
 };
 
 // ---------------------------------------------------------------------------
-// Canonical URL: 自引用，清理 index.html / 双斜杠 / 确保尾斜杠
+// Canonical URL: 自引用，清理 index.html / .html / 双斜杠 / 确保尾斜杠
 // ---------------------------------------------------------------------------
 function normalizePath(p: string): string {
-  // 1. 移除 /index.html 后缀（Cloudflare / 静态托管常见冗余）
+  // 1. 处理根 index.html（如 /index.html -> /）
+  if (p === '/index.html') return '/';
+
+  // 2. 移除末尾的 /index.html（如 /blog/index.html -> /blog/）
   p = p.replace(/\/index\.html$/, '/');
-  if (p === '/index.html') p = '/';
 
-  // 2. 移除其他 .html 后缀（兜底，确保 canonical 不带 .html）
+  // 3. 移除所有 .html 后缀（包括中间的 index.html 和任意 .html）
+  // 确保 canonical 永远不带 .html 后缀
+  p = p.replace(/\/index\.html/g, '/');
   p = p.replace(/\.html$/, '');
+  p = p.replace(/\.html\//g, '/');
 
-  // 3. 清理多余斜杠
+  // 4. 清理连续双斜杠为单斜杠
   p = p.replace(/\/\/+/g, '/');
 
-  // 4. 确保尾斜杠（与 astro.config.mjs trailingSlash: 'always' 一致）
+  // 5. 确保非根路径带尾斜杠（与 astro.config.mjs trailingSlash: 'always' 一致）
   if (p !== '/' && !p.endsWith('/')) {
     p = p + '/';
   }
@@ -50,55 +110,214 @@ function normalizePath(p: string): string {
 }
 
 const canonicalPath = normalizePath(Astro.url.pathname);
+// 使用规范化后的 siteBase 确保 URL 拼接正确
 const canonicalURL = new URL(canonicalPath, siteBase);
 
 // ---------------------------------------------------------------------------
 // Hreflang 替代链接：所有语言版本 + x-default
 // ---------------------------------------------------------------------------
-const alternateLinks = Object.keys(languages).map((l) => {
-  let currentPath = Astro.url.pathname;
 
-  // 移除 index.html
-  currentPath = currentPath.replace(/\/index\.html$/, '/');
-  if (currentPath === '/index.html') currentPath = '/';
+// 当前页面去掉语言前缀后的 "裸路径"，用于拼接各语言 URL
+function stripLangPrefix(path: string, currentLang: string): string {
+  // 彻底移除所有 index.html 引用
+  path = path.replace(/\/index\.html$/, '/');
+  path = path.replace(/\/index\.html\//g, '/');
+  if (path === '/index.html') path = '/';
 
-  // 移除当前语言前缀
-  const regex = new RegExp(`^/${lang}`);
-  currentPath = currentPath.replace(regex, '');
+  // 移除语言前缀（如 /zh-tw/blog/xxx -> /blog/xxx，或 / -> /）
+  // 注意：正则必须匹配带斜杠的前缀，避免 /en 误匹配 /english
+  path = path.replace(new RegExp(`^/${currentLang}(?=/|$)`), '');
 
-  // 确保以 / 开头
-  if (!currentPath.startsWith('/')) currentPath = '/' + currentPath;
+  // 保证以 / 开头
+  if (!path.startsWith('/')) path = '/' + path;
 
   // 清理多余斜杠
-  currentPath = currentPath.replace(/\/\/+/g, '/');
+  path = path.replace(/\/\/+/g, '/');
 
-  // 构建目标语言前缀
-  const isRoot = currentPath === '/' || currentPath === '';
-  const enPrefix =
-    l === 'en'
-      ? isRoot
-        ? ''
-        : currentPath.startsWith('/blog')
-          ? '/en'
-          : ''
-      : null;
-  const prefix = enPrefix !== null ? enPrefix : `/${l}`;
+  // 再次确保没有 .html 后缀
+  path = path.replace(/\.html$/, '');
+  path = path.replace(/\.html\//g, '/');
 
-  let fullPath = `${prefix}${currentPath}`.replace('//', '/');
+  return path;
+}
 
-  // 统一尾斜杠
+// 为目标语言构建完整路径
+function buildLangPath(nakedPath: string, targetLang: string): string {
+  const isRoot = nakedPath === '/' || nakedPath === '';
+  let prefix: string;
+
+  if (targetLang === 'en') {
+    // 英文首页在根路径 /，其余路径需加 /en 前缀
+    // 注意：所有非根路径的英文页面都应该有 /en 前缀
+    // 包括 /blog/、/blog/xxx/ 等
+    prefix = isRoot ? '' : '/en';
+  } else {
+    // 其他语言统一加 /{lang} 前缀
+    prefix = isRoot ? `/${targetLang}` : `/${targetLang}`;
+  }
+
+  let fullPath = `${prefix}${nakedPath}`;
+
+  // 修复 /en + /xxx 变成 /en/xxx（replace 第一个 // 为 /）
+  fullPath = fullPath.replace(/^\/{2,}/, '/');
+
+  // 确保尾斜杠
   if (fullPath !== '/' && !fullPath.endsWith('/')) {
     fullPath = fullPath + '/';
   }
-  // 再次清理多余斜杠
+
+  // 最终清理连续双斜杠
   fullPath = fullPath.replace(/\/\/+/g, '/');
 
+  return fullPath;
+}
+
+const nakedPath = stripLangPrefix(Astro.url.pathname, lang);
+
+const alternateLinks = Object.keys(languages).map((l) => {
+  const fullPath = buildLangPath(nakedPath, l);
   const hreflang = localeMap[l] || l;
+  // 完整确保 URL 正确生成
   return { lang: hreflang, href: new URL(fullPath, siteBase).toString() };
 });
 
-// x-default 指向英文
-const defaultLocaleCode = localeMap['en'] || 'en-US';
+// JSON-LD 结构化数据生成函数
+function generateStructuredData(type: 'website' | 'organization' | 'product' | 'article' | 'faq' | 'softwareapplication', data?: any) {
+  const baseData = {
+    "@context": "https://schema.org",
+    "@type": type === 'faq' ? 'FAQPage' : 
+               type === 'softwareapplication' ? 'SoftwareApplication' : type,
+  };
+
+  switch (type) {
+    case 'website':
+      return {
+        ...baseData,
+        "url": canonicalURL.toString(),
+        "name": "Seedance 2.0",
+        "description": description,
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": {
+            "@type": "EntryPoint",
+            "urlTemplate": `${siteBase}/search?q={search_term_string}`
+          },
+          "query-input": "required name=search_term_string"
+        }
+      };
+    
+    case 'organization':
+      return {
+        ...baseData,
+        "@type": "Organization",
+        "name": "Seedance AI",
+        "url": siteBase,
+        "logo": {
+          "@type": "ImageObject",
+          "url": `${siteBase}/icon.png`,
+          "width": "512",
+          "height": "512"
+        },
+        "sameAs": [
+          "https://twitter.com/seedanceai",
+          "https://github.com/seedance",
+          "https://www.linkedin.com/company/seedanceai"
+        ]
+      };
+    
+    case 'product':
+      return {
+        ...baseData,
+        "@type": "Product",
+        "name": title,
+        "description": description,
+        "image": ogImage,
+        "brand": {
+          "@type": "Brand",
+          "name": "Seedance"
+        }
+      };
+    
+    case 'article':
+      return {
+        ...baseData,
+        "@type": "Article",
+        "headline": title,
+        "description": description,
+        "image": ogImage,
+        "datePublished": data?.datePublished || new Date().toISOString().split('T')[0],
+        "dateModified": data?.dateModified || new Date().toISOString().split('T')[0],
+        "author": {
+          "@type": "Person",
+          "name": data?.author || "Seedance Team"
+        }
+      };
+    
+    case 'faq':
+      return {
+        ...baseData,
+        "@type": "FAQPage",
+        "mainEntity": (faqs || []).map((faq) => ({
+          "@type": "Question",
+          "name": faq.question,
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": faq.answer
+          }
+        }))
+      };
+    
+    case 'softwareapplication':
+      return {
+        ...baseData,
+        "@type": "SoftwareApplication",
+        "name": "Seedance 2.0",
+        "description": description,
+        "image": ogImage,
+        "url": canonicalURL.toString(),
+        "author": {
+          "@type": "Organization",
+          "name": "Seedance AI"
+        },
+        "applicationCategory": "MultimediaApplication",
+        "operatingSystem": "Any",
+        "featureList": "Text to video, image to video, multimodal AI video generation, cinematic quality, director-level control, native audio sync",
+        "brand": {
+          "@type": "Brand",
+          "name": "Seedance"
+        }
+      };
+    
+    default:
+      return baseData;
+  }
+}
+
+// 生成结构化数据集合
+const structuredDataList = [];
+
+// 总是添加 Website 和 Organization
+structuredDataList.push(generateStructuredData('website'));
+structuredDataList.push(generateStructuredData('organization'));
+
+// 如果是文章页面，添加 Article
+if (schemaType === 'article' && article) {
+  structuredDataList.push(generateStructuredData('article', article));
+}
+
+// 如果是FAQ页面，添加 FAQPage
+if (schemaType === 'faq' && faqs && faqs.length > 0) {
+  structuredDataList.push(generateStructuredData('faq', { faqs }));
+}
+
+// 如果是首页，添加 SoftwareApplication 结构化数据
+if (schemaType === 'faq') {
+  structuredDataList.push(generateStructuredData('softwareapplication'));
+}
+
+// x-default 指向英文（遵循 Google hreflang 最佳实践）
+// x-default 应该指向默认语言的对应页面，而不总是指向首页
+const defaultLocaleCode = localeMap['en'] || 'en';
 const xDefaultHref = (alternateLinks.find((l) => l.lang === defaultLocaleCode) ?? alternateLinks[0] ?? { href: canonicalURL.toString() }).href;
 
 // content-language meta（百度/360 依赖此 meta 识别语言）
@@ -134,6 +353,12 @@ const loadBaiduAnalytics = lang === 'zh-cn' || lang === 'zh-tw';
 )}
 
 <meta name="baidu-site-verification" content="codeva-h01OJk7Bch" />
+<!-- Google Search Console 验证（如需使用，请替换为实际验证码） -->
+<!-- <meta name="google-site-verification" content="YOUR_GOOGLE_VERIFICATION_CODE" /> -->
+<!-- Yandex 验证（如需针对俄语市场优化） -->
+<!-- <meta name="yandex-verification" content="YOUR_YANDEX_VERIFICATION" /> -->
+<!-- Naver 验证（如需针对韩语市场优化） -->
+<!-- <meta name="naver-site-verification" content="YOUR_NAVER_VERIFICATION" /> -->
 
 <!-- Favicon & App Icons -->
 <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
@@ -146,12 +371,13 @@ const loadBaiduAnalytics = lang === 'zh-cn' || lang === 'zh-tw';
 
 <title>{title}</title>
 <meta name="description" content={description} />
-<meta name="keywords" content="Seedance, Seedance 2.0, AI video, AI video generator, text to video, image to video, multimodal AI" />
-<meta http-equiv="content-language" content={contentLanguage} />
+<meta name="keywords" content={keywords || defaultKeywords} />
+<meta name="robots" content={robots || "index, follow"} />
 <link rel="canonical" href={canonicalURL} />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <meta charset="UTF-8" />
-<meta name="generator" content={Astro.generator} />
+<!-- Removed: http-equiv="content-language" (deprecated in HTML5) -->
+<!-- Removed: generator (avoids Astro version information disclosure) -->
 
 <meta property="og:type" content="website" />
 <meta property="og:url" content={canonicalURL} />
@@ -160,11 +386,23 @@ const loadBaiduAnalytics = lang === 'zh-cn' || lang === 'zh-tw';
 <meta property="og:image" content={ogImage} />
 <meta property="og:image:width" content="1200" />
 <meta property="og:image:height" content="630" />
+<meta property="og:image:alt" content={title} />
 <meta property="og:locale" content={ogLocale} />
+<meta property="og:site_name" content="Seedance 2.0" />
 <meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content={title} />
+<meta name="twitter:description" content={description} />
 <meta name="twitter:image" content={ogImage} />
+<meta name="twitter:image:alt" content={title} />
 
 {alternateLinks.map((link) => (
   <link rel="alternate" hreflang={link.lang} href={link.href} />
 ))}
 <link rel="alternate" hreflang="x-default" href={xDefaultHref} />
+
+{/* JSON-LD 结构化数据 */}
+{structuredDataList.map((data) => (
+  <script type="application/ld+json" is:inline>
+    {JSON.stringify(data, null, 2)}
+  </script>
+))}
