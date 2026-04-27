@@ -423,43 +423,44 @@
         "a": "예. 일일 크레딧으로 무료로 체험할 수 있습니다."
       },
       {
-        "q": "How well does it maintain character consistency across scenes?",
-        "a": "Character consistency is a core strength of Seedance 2.0. Faces, clothing, text, scene details, and visual styles remain stable across multiple shots and extended sequences — solving one of the biggest pain points in AI video creation."
+        "q": "장면 간 캐릭터 일관성은 얼마나 잘 유지되나요?",
+        "a": "캐릭터 일관성은 Seedance 2.0의 핵심 강점입니다. 얼굴, 의상, 텍스트와 시각 스타일이 여러 샷에서도 안정적으로 유지됩니다."
       },
       {
-        "q": "What video lengths, resolutions, and aspect ratios are available?",
-        "a": "Generated videos range from 4 to 15 seconds. Supported aspect ratios include 16:9, 9:16, 4:3, 3:4, 21:9, and 1:1. Resolutions go up to 1080p, making output suitable for professional delivery across web, social media, and broadcast platforms."
+        "q": "지원되는 영상 길이, 해상도, 화면비는 무엇인가요?",
+        "a": "생성 영상 길이는 4초~15초입니다. 16:9, 9:16, 4:3, 3:4, 21:9, 1:1을 지원하며 해상도는 최대 1080p입니다."
       },
       {
-        "q": "Does Seedance 2.0 generate audio or sound effects?",
-        "a": "Yes. The platform includes built-in audio generation that creates context-aware sound effects and background music matching your visual content. You can also upload your own audio tracks and the model will sync video timing to your beats or rhythm."
+        "q": "Seedance 2.0은 오디오나 음향 효과도 생성하나요?",
+        "a": "네. 플랫폼은 상황에 맞는 효과음과 배경음악을 생성하는 내장 오디오 생성을 지원합니다."
       },
       {
-        "q": "Are there watermarks on the generated videos?",
-        "a": "No. All videos are completely watermark-free and ready for commercial use. What you create belongs entirely to you — download clean, professional-quality footage without any branding."
+        "q": "생성된 영상에 워터마크가 있나요?",
+        "a": "아니요. 모든 영상은 워터마크 없이 제공되며 상업적 사용이 가능합니다."
       },
       {
-        "q": "Can I replicate camera movements and choreography from reference videos?",
-        "a": "Absolutely. Upload a video containing the camera movement, dance sequence, or action choreography you want to replicate, and Seedance 2.0 will accurately apply those dynamics to your own content. No complex prompting needed — just show the model what you want."
+        "q": "레퍼런스 영상의 카메라 무빙이나 안무를 재현할 수 있나요?",
+        "a": "네. 레퍼런스 영상을 업로드하면 Seedance 2.0이 해당 움직임의 동적 특성을 정밀하게 적용할 수 있습니다."
       },
       {
-        "q": "Is there a free plan available?",
-        "a": "Yes. Seedance 2.0 offers a free tier with daily credits so you can explore the platform before committing. Paid plans unlock higher generation limits, faster processing, and priority access during peak hours."
+        "q": "무료 플랜이 있나요?",
+        "a": "네. Seedance 2.0은 일일 크레딧이 포함된 무료 플랜을 제공합니다."
       },
       {
-        "q": "How do I get started?",
-        "a": "Create an account, choose a plan that fits your needs, then start uploading your reference materials. Describe your creative vision in natural language, and let Seedance 2.0 bring it to life. The interface is designed to be intuitive even for first-time users."
+        "q": "어떻게 시작하나요?",
+        "a": "계정을 만들고 플랜을 선택한 뒤, 레퍼런스 자료를 업로드하고 원하는 내용을 자연어로 설명하면 됩니다."
       },
       {
-        "q": "How is my data and content protected?",
-        "a": "All uploaded files and generated videos are stored with industry-standard encryption. Your content remains private and is never shared with third parties. You retain full ownership rights to everything you create on the platform."
+        "q": "내 데이터와 콘텐츠는 어떻게 보호되나요?",
+        "a": "업로드 파일과 생성 영상은 업계 표준 암호화로 저장되며 콘텐츠는 비공개로 유지됩니다."
       }
     ]
   },
   "blog": {
     "page_title": "Seedance 블로그: AI 영상 튜토리얼 및 가이드",
     "read": "기사 읽기 →",
-    "no_posts": "이 언어에 대한 게시물이 아직 없습니다."
+    "no_posts": "이 언어에 대한 게시물이 아직 없습니다.",
+    "description": "Seedance 2.0로 뛰어난 AI 영상을 만드는 방법을 알아보세요. 텍스트‑투‑비디오, 이미지‑투‑비디오, 멀티모달 콘텐츠 제작을 위한 튜토리얼, 팁, 모범 사례를 제공합니다."
   },
   "about": {
     "title": "소개",

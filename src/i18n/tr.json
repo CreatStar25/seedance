@@ -444,7 +444,8 @@
   "blog": {
     "page_title": "Seedance Blog: Yapay Zeka Video Eğitimleri ve Rehberleri",
     "read": "Makaleyi Oku →",
-    "no_posts": "Bu dil için henüz gönderi bulunamadı."
+    "no_posts": "Bu dil için henüz gönderi bulunamadı.",
+    "description": "Seedance 2.0 ile etkileyici yapay zeka videoları oluşturmayı öğrenin. Metinden videoya, görüntüden videoya ve çok modlu içerik üretimi için eğitimler, ipuçları ve en iyi uygulamalar."
   },
   "guide": {
     "title": "Seedance Kılavuzu",

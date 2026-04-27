@@ -24,11 +24,11 @@
   "stats": [
     {
       "value": "SOTA",
-      "label": "Model Performance"
+      "label": "Продуктивність моделі"
     },
     {
       "value": "4",
-      "label": "Modalities Supported"
+      "label": "Підтримувані модальності"
     },
     {
       "value": "1080p",
@@ -40,9 +40,9 @@
       "title": "AI Текст у Відео",
       "desc": "Опишіть сцени, персонажів та рухи камери природною мовою і дозвольте нашому AI Текст у Відео перетворити їх на зв'язні відео з кількома кадрами.",
       "bullets": [
-        "Cinematic Camera Control",
-        "Multi-Shot Consistency",
-        "Physics-Based Motion"
+        "Кінематографічний контроль камери",
+        "Стабільність між шотами",
+        "Рух на основі фізики"
       ],
       "cta": "Створити Відео",
       "badge": "Флагманська модель"
@@ -51,34 +51,34 @@
       "title": "AI Зображення у Відео",
       "desc": "Завантажте довідкове фото і спостерігайте, як воно стає коротким відео, згенерованим AI. Збережіть ідентичність та стиль з високою точністю.",
       "bullets": [
-        "Preserve Subject Identity",
-        "Control Motion Strength"
+        "Збереження ідентичності об’єкта",
+        "Керування інтенсивністю руху"
       ],
       "cta": "Анімувати Зображення",
       "badge": "Зображення у Відео"
     },
     "text_to_image": {
       "title": "Text to Image AI",
-      "desc": "Turn text prompts into high-resolution images. Describe style, lighting and composition once, then generate multiple variations."
+      "desc": "Перетворюйте текстові запити на зображення високої роздільної здатності. Опишіть стиль, освітлення та композицію один раз і створюйте кілька варіантів."
     },
     "ai_tools": {
       "title": "AI Відео Ефекти та Інструменти",
       "desc": "Завантажте фотографії, виберіть шаблон ефекту відео AI і дозвольте нашій системі автоматично згенерувати короткий стилізований кліп.",
       "cards": [
         {
-          "title": "Face Swap",
-          "desc": "Perfect for memes & marketing"
+          "title": "Заміна обличчя",
+          "desc": "Ідеально для мемів і маркетингу"
         },
         {
-          "title": "Style Transfer",
-          "desc": "Anime, Clay, 3D Render..."
+          "title": "Перенесення стилю",
+          "desc": "Аніме, глина, 3D-рендер..."
         }
       ],
       "grid": [
-        "Magic Edit",
-        "Face Swap",
-        "Restyle",
-        "Upscale"
+        "Магічне редагування",
+        "Заміна обличчя",
+        "Рестилізація",
+        "Підвищення якості"
       ],
       "cta": "Дослідити Інструменти",
       "badge": "Креативний Набір"
@@ -408,57 +408,58 @@
         "a": "Так. Можна безкоштовно спробувати Seedance 2.0 з щоденними кредитами."
       },
       {
-        "q": "How well does it maintain character consistency across scenes?",
-        "a": "Character consistency is a core strength of Seedance 2.0. Faces, clothing, text, scene details, and visual styles remain stable across multiple shots and extended sequences — solving one of the biggest pain points in AI video creation."
+        "q": "Наскільки добре зберігається узгодженість персонажа між сценами?",
+        "a": "Узгодженість персонажа є сильною стороною Seedance 2.0. Обличчя, одяг, текст і візуальний стиль залишаються стабільними в кількох шотах."
       },
       {
-        "q": "What video lengths, resolutions, and aspect ratios are available?",
-        "a": "Generated videos range from 4 to 15 seconds. Supported aspect ratios include 16:9, 9:16, 4:3, 3:4, 21:9, and 1:1. Resolutions go up to 1080p, making output suitable for professional delivery across web, social media, and broadcast platforms."
+        "q": "Які тривалості відео, роздільності та співвідношення сторін доступні?",
+        "a": "Відео мають тривалість від 4 до 15 секунд. Підтримуються 16:9, 9:16, 4:3, 3:4, 21:9 і 1:1, з роздільністю до 1080p."
       },
       {
-        "q": "Does Seedance 2.0 generate audio or sound effects?",
-        "a": "Yes. The platform includes built-in audio generation that creates context-aware sound effects and background music matching your visual content. You can also upload your own audio tracks and the model will sync video timing to your beats or rhythm."
+        "q": "Чи генерує Seedance 2.0 аудіо або звукові ефекти?",
+        "a": "Так. Платформа має вбудовану генерацію аудіо для контекстних звукових ефектів і фонової музики."
       },
       {
-        "q": "Are there watermarks on the generated videos?",
-        "a": "No. All videos are completely watermark-free and ready for commercial use. What you create belongs entirely to you — download clean, professional-quality footage without any branding."
+        "q": "Чи є водяні знаки на згенерованих відео?",
+        "a": "Ні. Усі відео без водяних знаків і готові до комерційного використання."
       },
       {
-        "q": "Can I replicate camera movements and choreography from reference videos?",
-        "a": "Absolutely. Upload a video containing the camera movement, dance sequence, or action choreography you want to replicate, and Seedance 2.0 will accurately apply those dynamics to your own content. No complex prompting needed — just show the model what you want."
+        "q": "Чи можу я відтворити рухи камери й хореографію з референсних відео?",
+        "a": "Так. Завантажте референсне відео, і Seedance 2.0 точно застосує відповідну динаміку руху."
       },
       {
-        "q": "Is there a free plan available?",
-        "a": "Yes. Seedance 2.0 offers a free tier with daily credits so you can explore the platform before committing. Paid plans unlock higher generation limits, faster processing, and priority access during peak hours."
+        "q": "Чи є безкоштовний план?",
+        "a": "Так. Seedance 2.0 пропонує безкоштовний план із щоденними кредитами."
       },
       {
-        "q": "How do I get started?",
-        "a": "Create an account, choose a plan that fits your needs, then start uploading your reference materials. Describe your creative vision in natural language, and let Seedance 2.0 bring it to life. The interface is designed to be intuitive even for first-time users."
+        "q": "Як почати?",
+        "a": "Створіть акаунт, оберіть план, завантажте референсні матеріали та опишіть свою ідею природною мовою."
       },
       {
-        "q": "How is my data and content protected?",
-        "a": "All uploaded files and generated videos are stored with industry-standard encryption. Your content remains private and is never shared with third parties. You retain full ownership rights to everything you create on the platform."
+        "q": "Як захищаються мої дані та контент?",
+        "a": "Завантажені файли й згенеровані відео зберігаються з шифруванням за галузевими стандартами."
       }
     ]
   },
   "blog": {
     "page_title": "Блог Seedance: навчальні відео та гайди з ШІ",
     "read": "Читати Статтю →",
-    "no_posts": "Ще не знайдено дописів цією мовою."
+    "no_posts": "Ще не знайдено дописів цією мовою.",
+    "description": "Дізнайтеся, як створювати вражаючі AI-відео за допомогою Seedance 2.0. Туторіали, поради та найкращі практики для text-to-video, image-to-video і мультимодального створення контенту."
   },
   "guide": {
     "title": "Seedance Guide",
-    "welcome": "Welcome to the Seedance usage guide. Here you will find tutorials, tips and best practices for Seedance AI video creation.",
+    "welcome": "Ласкаво просимо до посібника Seedance. Тут ви знайдете туторіали, поради та найкращі практики для AI-відеотворення з Seedance.",
     "article_list": "Список Статей",
     "quick_access": "Швидкий Доступ",
-    "quick_access_desc": "Official Seedance 2.0 entry, one-click to start creating.",
+    "quick_access_desc": "Офіційний доступ до Seedance 2.0, один клік — і ви починаєте створювати.",
     "latest_articles": "Останні Статті",
     "page_nav": "Навігація Сторінки",
     "quick_links": "Швидкі Посилання",
     "official_platform": "Офіційна Платформа",
     "tips": "Поради з Використання",
-    "feedback": "Відгук",
-    "cta_entry": "Use Seedance Now",
+    "feedback": "Зворотний зв’язок",
+    "cta_entry": "Спробувати Seedance зараз",
     "read_full": "Читати повну статтю →"
   },
   "about": {
@@ -477,6 +478,6 @@
     "title": "Умови Використання",
     "description": "Terms of Service for Seedance 2.0.",
     "heading": "Умови Використання",
-    "content": "By using Seedance 2.0, you agree to these terms. Our service is provided for lawful use. You retain rights to content you create; we may use anonymized data to improve our models. We reserve the right to update these terms; continued use constitutes acceptance."
+    "content": "Використовуючи Seedance 2.0, ви погоджуєтеся з цими умовами. Наш сервіс надається для законного використання. Ви зберігаєте права на створений контент; ми можемо використовувати анонімізовані дані для покращення моделей. Ми залишаємо за собою право оновлювати ці умови; подальше використання означає прийняття."
   }
 }

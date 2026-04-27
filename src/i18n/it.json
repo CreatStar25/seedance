@@ -78,8 +78,8 @@
       "grid": [
         "Modifica Magica",
         "Scambio Volto",
-        "Restyle",
-        "Upscale"
+        "Ristilizza",
+        "Migliora risoluzione"
       ],
       "cta": "Esplora gli Strumenti"
     }
@@ -359,11 +359,11 @@
         "desc": "Crea video ads ad alta conversione in pochi minuti."
       },
       {
-        "title": "Social Media",
+        "title": "Social",
         "desc": "Creazione di contenuti virali con facilità."
       },
       {
-        "title": "Game Design",
+        "title": "Progettazione giochi",
         "desc": "Cutscene e animazioni dei personaggi."
       }
     ]
@@ -444,7 +444,8 @@
   "blog": {
     "page_title": "Blog Seedance: Tutorial e guide video sull'IA",
     "read": "Leggi l'articolo →",
-    "no_posts": "Nessun post trovato per questa lingua."
+    "no_posts": "Nessun post trovato per questa lingua.",
+    "description": "Scopri come creare straordinari video AI con Seedance 2.0. Tutorial, consigli e best practice per text-to-video, image-to-video e creazione di contenuti multimodale."
   },
   "guide": {
     "title": "Guida Seedance",
@@ -457,7 +458,7 @@
     "quick_links": "Link Rapidi",
     "official_platform": "Piattaforma Ufficiale",
     "tips": "Suggerimenti d'Uso",
-    "feedback": "Feedback",
+    "feedback": "Riscontro",
     "cta_entry": "Usa Seedance Ora",
     "read_full": "Leggi l'articolo completo →"
   },

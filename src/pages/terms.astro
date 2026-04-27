@@ -10,7 +10,7 @@ const t = (await import('../i18n/en.json')).default;
 
 <html lang="en" class="scroll-smooth" data-lang={lang}>
   <head>
-    <SEOHead title={t.terms?.title ?? 'Terms of Service'} description={t.terms?.description ?? ''} lang={lang} />
+    <SEOHead title={t.terms?.title ?? 'Terms of Service'} description={t.terms?.description || t.seo?.description || ''} lang={lang} />
   </head>
   <body class="bg-white text-gray-900 font-sans antialiased">
     <PersistLang lang={lang} />

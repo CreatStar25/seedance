@@ -24,11 +24,11 @@
   "stats": [
     {
       "value": "SOTA",
-      "label": "Model Performance"
+      "label": "Prestasi model"
     },
     {
       "value": "4",
-      "label": "Modalities Supported"
+      "label": "Modaliti disokong"
     },
     {
       "value": "1080p",
@@ -40,9 +40,9 @@
       "title": "AI Teks ke Video",
       "desc": "Terangkan adegan, watak dan pergerakan kamera dalam bahasa semulajadi dan biarkan AI Teks ke Video kami menukarkannya menjadi video pelbagai adegan yang koheren.",
       "bullets": [
-        "Cinematic Camera Control",
-        "Multi-Shot Consistency",
-        "Physics-Based Motion"
+        "Kawalan kamera sinematik",
+        "Konsistensi multi-shot",
+        "Pergerakan berasaskan fizik"
       ],
       "cta": "Buat Video",
       "badge": "Model Utama"
@@ -51,34 +51,34 @@
       "title": "AI Imej ke Video",
       "desc": "Muat naik foto rujukan dan lihat ia menjadi video pendek yang dijana AI. Kekalkan identiti dan gaya dengan kesetiaan tinggi.",
       "bullets": [
-        "Preserve Subject Identity",
-        "Control Motion Strength"
+        "Kekalkan identiti subjek",
+        "Kawal kekuatan pergerakan"
       ],
       "cta": "Animasi Imej",
       "badge": "Imej ke Video"
     },
     "text_to_image": {
       "title": "Text to Image AI",
-      "desc": "Turn text prompts into high-resolution images. Describe style, lighting and composition once, then generate multiple variations."
+      "desc": "Tukar prompt teks kepada imej resolusi tinggi. Terangkan gaya, pencahayaan dan komposisi sekali, kemudian jana pelbagai variasi."
     },
     "ai_tools": {
       "title": "Kesan & Alat Video AI",
       "desc": "Muat naik foto, pilih templat kesan video AI dan biarkan sistem kami menghasilkan klip bergaya pendek secara automatik.",
       "cards": [
         {
-          "title": "Face Swap",
-          "desc": "Perfect for memes & marketing"
+          "title": "Tukar wajah",
+          "desc": "Sesuai untuk meme dan pemasaran"
         },
         {
-          "title": "Style Transfer",
-          "desc": "Anime, Clay, 3D Render..."
+          "title": "Pemindahan gaya",
+          "desc": "Anime, tanah liat, render 3D..."
         }
       ],
       "grid": [
-        "Magic Edit",
-        "Face Swap",
-        "Restyle",
-        "Upscale"
+        "Suntingan ajaib",
+        "Tukar wajah",
+        "Gaya semula",
+        "Tingkat resolusi"
       ],
       "cta": "Terokai Alat",
       "badge": "Suite Kreatif"
@@ -408,57 +408,58 @@
         "a": "Ya. Anda boleh mencuba Seedance 2.0 percuma dengan kredit harian."
       },
       {
-        "q": "How well does it maintain character consistency across scenes?",
-        "a": "Character consistency is a core strength of Seedance 2.0. Faces, clothing, text, scene details, and visual styles remain stable across multiple shots and extended sequences — solving one of the biggest pain points in AI video creation."
+        "q": "Sejauh mana konsistensi watak dikekalkan merentas adegan?",
+        "a": "Konsistensi watak ialah kekuatan utama Seedance 2.0. Wajah, pakaian, teks dan gaya visual kekal stabil merentas pelbagai shot."
       },
       {
-        "q": "What video lengths, resolutions, and aspect ratios are available?",
-        "a": "Generated videos range from 4 to 15 seconds. Supported aspect ratios include 16:9, 9:16, 4:3, 3:4, 21:9, and 1:1. Resolutions go up to 1080p, making output suitable for professional delivery across web, social media, and broadcast platforms."
+        "q": "Apakah tempoh video, resolusi dan nisbah aspek yang tersedia?",
+        "a": "Video dijana antara 4 hingga 15 saat. Nisbah 16:9, 9:16, 4:3, 3:4, 21:9 dan 1:1 disokong, dengan resolusi sehingga 1080p."
       },
       {
-        "q": "Does Seedance 2.0 generate audio or sound effects?",
-        "a": "Yes. The platform includes built-in audio generation that creates context-aware sound effects and background music matching your visual content. You can also upload your own audio tracks and the model will sync video timing to your beats or rhythm."
+        "q": "Adakah Seedance 2.0 menjana audio atau kesan bunyi?",
+        "a": "Ya. Platform ini mempunyai penjanaan audio terbina dalam untuk kesan bunyi dan muzik latar yang sesuai konteks."
       },
       {
-        "q": "Are there watermarks on the generated videos?",
-        "a": "No. All videos are completely watermark-free and ready for commercial use. What you create belongs entirely to you — download clean, professional-quality footage without any branding."
+        "q": "Adakah video yang dijana mempunyai tera air?",
+        "a": "Tidak. Semua video bebas tera air dan sedia untuk kegunaan komersial."
       },
       {
-        "q": "Can I replicate camera movements and choreography from reference videos?",
-        "a": "Absolutely. Upload a video containing the camera movement, dance sequence, or action choreography you want to replicate, and Seedance 2.0 will accurately apply those dynamics to your own content. No complex prompting needed — just show the model what you want."
+        "q": "Bolehkah saya meniru pergerakan kamera dan koreografi daripada video rujukan?",
+        "a": "Ya. Muat naik video rujukan dan Seedance 2.0 boleh menerapkan dinamik gerakan tersebut dengan tepat."
       },
       {
-        "q": "Is there a free plan available?",
-        "a": "Yes. Seedance 2.0 offers a free tier with daily credits so you can explore the platform before committing. Paid plans unlock higher generation limits, faster processing, and priority access during peak hours."
+        "q": "Adakah pelan percuma tersedia?",
+        "a": "Ya. Seedance 2.0 menawarkan pelan percuma dengan kredit harian."
       },
       {
-        "q": "How do I get started?",
-        "a": "Create an account, choose a plan that fits your needs, then start uploading your reference materials. Describe your creative vision in natural language, and let Seedance 2.0 bring it to life. The interface is designed to be intuitive even for first-time users."
+        "q": "Bagaimana saya boleh bermula?",
+        "a": "Cipta akaun, pilih pelan sesuai, muat naik bahan rujukan dan terangkan visi anda dalam bahasa semula jadi."
       },
       {
-        "q": "How is my data and content protected?",
-        "a": "All uploaded files and generated videos are stored with industry-standard encryption. Your content remains private and is never shared with third parties. You retain full ownership rights to everything you create on the platform."
+        "q": "Bagaimana data dan kandungan saya dilindungi?",
+        "a": "Fail yang dimuat naik dan video yang dijana disimpan dengan penyulitan standard industri."
       }
     ]
   },
   "blog": {
     "page_title": "Blog Seedance: Tutorial & Panduan Video AI",
     "read": "Baca Artikel →",
-    "no_posts": "Tiada siaran ditemui untuk bahasa ini lagi."
+    "no_posts": "Tiada siaran ditemui untuk bahasa ini lagi.",
+    "description": "Pelajari cara menghasilkan video AI menakjubkan dengan Seedance 2.0. Tutorial, tip dan amalan terbaik untuk teks ke video, imej ke video dan penciptaan multimodal."
   },
   "guide": {
     "title": "Seedance Guide",
-    "welcome": "Welcome to the Seedance usage guide. Here you will find tutorials, tips and best practices for Seedance AI video creation.",
+    "welcome": "Selamat datang ke panduan penggunaan Seedance. Di sini anda akan menemui tutorial, tip dan amalan terbaik untuk penciptaan video AI Seedance.",
     "article_list": "Senarai Artikel",
     "quick_access": "Akses Pantas",
-    "quick_access_desc": "Official Seedance 2.0 entry, one-click to start creating.",
+    "quick_access_desc": "Akses rasmi Seedance 2.0, satu klik untuk mula mencipta.",
     "latest_articles": "Artikel Terkini",
     "page_nav": "Navigasi Halaman",
     "quick_links": "Pautan Pantas",
     "official_platform": "Platform Rasmi",
     "tips": "Tips Penggunaan",
-    "feedback": "Maklum Balas",
-    "cta_entry": "Use Seedance Now",
+    "feedback": "Maklum balas",
+    "cta_entry": "Guna Seedance sekarang",
     "read_full": "Baca artikel penuh →"
   },
   "about": {
@@ -477,6 +478,6 @@
     "title": "Terma Perkhidmatan",
     "description": "Terms of Service for Seedance 2.0.",
     "heading": "Terma Perkhidmatan",
-    "content": "By using Seedance 2.0, you agree to these terms. Our service is provided for lawful use. You retain rights to content you create; we may use anonymized data to improve our models. We reserve the right to update these terms; continued use constitutes acceptance."
+    "content": "Dengan menggunakan Seedance 2.0, anda bersetuju dengan terma ini. Perkhidmatan kami disediakan untuk penggunaan yang sah. Anda mengekalkan hak ke atas kandungan yang anda hasilkan; kami mungkin menggunakan data tanpa nama untuk menambah baik model kami. Kami berhak mengemas kini terma ini; penggunaan berterusan dianggap sebagai penerimaan."
   }
 }

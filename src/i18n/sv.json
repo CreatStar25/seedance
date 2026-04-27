@@ -444,7 +444,8 @@
   "blog": {
     "page_title": "Seedance Blogg: AI-videohandledningar och guider",
     "read": "Läs artikel →",
-    "no_posts": "Inga inlägg hittades för detta språk ännu."
+    "no_posts": "Inga inlägg hittades för detta språk ännu.",
+    "description": "Lär dig skapa imponerande AI-videor med Seedance 2.0. Guider, tips och bästa praxis för text-till-video, bild-till-video och multimodal innehållsskapande."
   },
   "guide": {
     "title": "Seedance-guide",
@@ -457,7 +458,7 @@
     "quick_links": "Snabblänkar",
     "official_platform": "Officiell Plattform",
     "tips": "Användningstips",
-    "feedback": "Feedback",
+    "feedback": "Aterkoppling",
     "cta_entry": "Använd Seedance Nu",
     "read_full": "Läs hela artikeln →"
   },

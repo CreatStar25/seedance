@@ -334,7 +334,8 @@
   "blog": {
     "page_title": "Blog Seedance : Tutoriels et guides vidéo IA",
     "read": "Lire l'Article →",
-    "no_posts": "Aucun article trouvé pour cette langue pour le moment."
+    "no_posts": "Aucun article trouvé pour cette langue pour le moment.",
+    "description": "Apprenez à créer des vidéos IA impressionnantes avec Seedance 2.0. Tutoriels, conseils et bonnes pratiques pour le texte‑vidéo, l’image‑vidéo et la création multimodale."
   },
   "footer": {
     "brand": {

@@ -459,7 +459,8 @@
   "blog": {
     "page_title": "Blog Seedance: Tutorial & Panduan Video AI",
     "read": "Baca Artikel →",
-    "no_posts": "Belum ada postingan untuk bahasa ini."
+    "no_posts": "Belum ada postingan untuk bahasa ini.",
+    "description": "Pelajari cara membuat video AI menakjubkan dengan Seedance 2.0. Tutorial, tips, dan praktik terbaik untuk teks ke video, gambar ke video, dan kreasi multimodal."
   },
   "about": {
     "title": "Tentang",

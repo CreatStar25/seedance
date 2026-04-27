@@ -5,6 +5,7 @@ import Header from '../../../components/Header.astro';
 import Footer from '../../../components/Footer.astro';
 import SEOHead from '../../../components/SEOHead.astro';
 import PersistLang from '../../../components/PersistLang.astro';
+import { loadTranslations } from '../../../i18n/loadTranslations';
 
 // 1. 生成静态路径 (为每种语言生成一个列表页)
 export async function getStaticPaths() {
@@ -27,10 +28,7 @@ function getPostDate(data: { pubDate?: Date; date?: Date }) {
 // 按日期倒序排列
 posts.sort((a, b) => getPostDate(b.data).valueOf() - getPostDate(a.data).valueOf());
 
-// 获取翻译文案
-let t;
-try { t = (await import(`../../../i18n/${lang}.json`)).default; } 
-catch (e) { t = (await import(`../../../i18n/en.json`)).default; }
+const t = await loadTranslations(lang);
 
 // 使用独立配置的博客SEO文案
 const blogPageTitle = t.blog?.page_title ?? `${t.nav.blog} - Seedance`;
@@ -94,7 +92,7 @@ function formatDate(date: Date) {
                       {post.data.description}
                     </p>
                     <div class="mt-6 flex items-center text-sm font-bold text-black group-hover:underline">
-                      {t.blog?.read || "Read Article →"}
+                      {t.blog?.read}
                     </div>
                   </div>
                 </a>
@@ -105,7 +103,7 @@ function formatDate(date: Date) {
         
         {posts.length === 0 && (
           <div class="text-center text-gray-500 py-20">
-            <p class="text-xl">{t.blog?.no_posts || "No posts found for this language yet."}</p>
+            <p class="text-xl">{t.blog?.no_posts}</p>
           </div>
         )}
       </div>

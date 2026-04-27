@@ -15,16 +15,16 @@
   },
   "guide": {
     "title": "Seedance 使用指南",
-    "welcome": "欢迎来到 Seedance 使用指南专区！这里汇集了关于 Seedance AI 视频创作的教程、使用技巧与最佳实践。",
+    "welcome": "欢迎使用 Seedance 使用指南。你可以在这里找到 Seedance AI 视频创作的教程、技巧与最佳实践。",
     "article_list": "文章列表",
     "quick_access": "快速访问通道",
-    "quick_access_desc": "官方 Seedance 2.0 入口，一键开始创作。",
+    "quick_access_desc": "Seedance 2.0 官方入口，一键开始创作。",
     "latest_articles": "最新文章",
     "page_nav": "页面导航",
     "quick_links": "快速链接",
     "official_platform": "官方推荐平台",
     "tips": "使用提示",
-    "feedback": "反馈与建议",
+    "feedback": "反馈",
     "cta_entry": "立即使用 Seedance",
     "read_full": "阅读全文 →"
   },
@@ -39,11 +39,11 @@
   "stats": [
     {
       "value": "SOTA",
-      "label": "Model Performance"
+      "label": "模型性能"
     },
     {
       "value": "4",
-      "label": "Modalities Supported"
+      "label": "支持模态"
     },
     {
       "value": "1080p",
@@ -55,9 +55,9 @@
       "title": "文生视频 AI",
       "desc": "用自然语言描述场景、角色和运镜，让AI将其转化为连贯的多镜头视频。",
       "bullets": [
-        "Cinematic Camera Control",
-        "Multi-Shot Consistency",
-        "Physics-Based Motion"
+        "电影级运镜控制",
+        "多镜头一致性",
+        "基于物理的运动表现"
       ],
       "cta": "製作影片",
       "badge": "旗舰模型"
@@ -66,8 +66,8 @@
       "title": "图生视频 AI",
       "desc": "上传一张参考图，让它变成短视频。保持高度一致的角色和风格。",
       "bullets": [
-        "Preserve Subject Identity",
-        "Control Motion Strength"
+        "保持主体身份一致",
+        "控制运动强度"
       ],
       "cta": "動態化圖片",
       "badge": "静态到动态"
@@ -81,19 +81,19 @@
       "desc": "上传照片，选择AI视频特效模板，自动生成风格化短片。",
       "cards": [
         {
-          "title": "Face Swap",
-          "desc": "Perfect for memes & marketing"
+          "title": "人脸替换",
+          "desc": "适合梗图与营销内容"
         },
         {
-          "title": "Style Transfer",
-          "desc": "Anime, Clay, 3D Render..."
+          "title": "风格迁移",
+          "desc": "动漫、黏土、3D 渲染等风格"
         }
       ],
       "grid": [
-        "Magic Edit",
-        "Face Swap",
-        "Restyle",
-        "Upscale"
+        "魔法编辑",
+        "人脸替换",
+        "风格重塑",
+        "超分增强"
       ],
       "cta": "探索工具",
       "badge": "创意工具集"
@@ -482,6 +482,6 @@
     "title": "服务条款 - Seedance 2.0 AI视频平台",
     "description": "阅读 Seedance 2.0 的服务条款。了解用户权利、内容所有权以及平台使用指南，确保合规使用我们的AI视频生成服务。",
     "heading": "服務條款",
-    "content": "使用 Seedance 2.0 即表示您同意本条款。我们的服务仅供合法使用。您保留所创作内容的权利；我们可能使用匿名数据改进模型。我们保留更新本条款的权利；继续使用即视为接受。"
+    "content": "使用 Seedance 2.0 即表示您同意本条款。我们的服务仅供合法用途。您保留对所创作内容的权利；我们可能使用匿名化数据改进模型。我们保留更新条款的权利；继续使用即视为接受。"
   }
 }

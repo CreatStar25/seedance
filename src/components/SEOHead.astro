@@ -39,6 +39,16 @@ const {
   schemaType = 'website'
 } = Astro.props;
 
+const ogType = schemaType === 'article' ? 'article' : 'website';
+const articlePublishedOg =
+  schemaType === 'article' && article?.datePublished
+    ? `${article.datePublished}T00:00:00.000Z`
+    : null;
+const articleModifiedOg =
+  schemaType === 'article' && article?.dateModified
+    ? `${article.dateModified}T00:00:00.000Z`
+    : articlePublishedOg;
+
 const defaultOgImage = 'https://img.seedance22.com/seedance/seedance-2-cover.webp';
 const ogImage = image ? (image.startsWith('http') ? image : new URL(image, Astro.site ?? Astro.url.origin).toString()) : defaultOgImage;
 
@@ -181,12 +191,26 @@ const alternateLinks = Object.keys(languages).map((l) => {
   return { lang: hreflang, href: new URL(fullPath, siteBase).toString() };
 });
 
+/** Schema.org 要求的 @type 书写（PascalCase），避免富结果校验失败 */
+function schemaJsonLdType(
+  type: 'website' | 'organization' | 'product' | 'article' | 'faq' | 'softwareapplication'
+): string {
+  const map: Record<string, string> = {
+    website: 'WebSite',
+    organization: 'Organization',
+    product: 'Product',
+    article: 'Article',
+    faq: 'FAQPage',
+    softwareapplication: 'SoftwareApplication',
+  };
+  return map[type] ?? type;
+}
+
 // JSON-LD 结构化数据生成函数
 function generateStructuredData(type: 'website' | 'organization' | 'product' | 'article' | 'faq' | 'softwareapplication', data?: any) {
   const baseData = {
     "@context": "https://schema.org",
-    "@type": type === 'faq' ? 'FAQPage' : 
-               type === 'softwareapplication' ? 'SoftwareApplication' : type,
+    "@type": schemaJsonLdType(type),
   };
 
   switch (type) {
@@ -196,25 +220,16 @@ function generateStructuredData(type: 'website' | 'organization' | 'product' | '
         "url": canonicalURL.toString(),
         "name": "Seedance 2.0",
         "description": description,
-        "potentialAction": {
-          "@type": "SearchAction",
-          "target": {
-            "@type": "EntryPoint",
-            "urlTemplate": `${siteBase}/search?q={search_term_string}`
-          },
-          "query-input": "required name=search_term_string"
-        }
       };
     
     case 'organization':
       return {
         ...baseData,
-        "@type": "Organization",
         "name": "Seedance AI",
-        "url": siteBase,
+        "url": siteBaseNormalized,
         "logo": {
           "@type": "ImageObject",
-          "url": `${siteBase}/icon.png`,
+          "url": new URL('icon.png', siteBaseNormalized).toString(),
           "width": "512",
           "height": "512"
         },
@@ -228,7 +243,6 @@ function generateStructuredData(type: 'website' | 'organization' | 'product' | '
     case 'product':
       return {
         ...baseData,
-        "@type": "Product",
         "name": title,
         "description": description,
         "image": ogImage,
@@ -241,7 +255,6 @@ function generateStructuredData(type: 'website' | 'organization' | 'product' | '
     case 'article':
       return {
         ...baseData,
-        "@type": "Article",
         "headline": title,
         "description": description,
         "image": ogImage,
@@ -256,7 +269,6 @@ function generateStructuredData(type: 'website' | 'organization' | 'product' | '
     case 'faq':
       return {
         ...baseData,
-        "@type": "FAQPage",
         "mainEntity": (faqs || []).map((faq) => ({
           "@type": "Question",
           "name": faq.question,
@@ -270,7 +282,6 @@ function generateStructuredData(type: 'website' | 'organization' | 'product' | '
     case 'softwareapplication':
       return {
         ...baseData,
-        "@type": "SoftwareApplication",
         "name": "Seedance 2.0",
         "description": description,
         "image": ogImage,
@@ -379,10 +390,12 @@ const loadBaiduAnalytics = lang === 'zh-cn' || lang === 'zh-tw';
 <!-- Removed: http-equiv="content-language" (deprecated in HTML5) -->
 <!-- Removed: generator (avoids Astro version information disclosure) -->
 
-<meta property="og:type" content="website" />
+<meta property="og:type" content={ogType} />
 <meta property="og:url" content={canonicalURL} />
 <meta property="og:title" content={title} />
 <meta property="og:description" content={description} />
+{articlePublishedOg && <meta property="article:published_time" content={articlePublishedOg} />}
+{articleModifiedOg && <meta property="article:modified_time" content={articleModifiedOg} />}
 <meta property="og:image" content={ogImage} />
 <meta property="og:image:width" content="1200" />
 <meta property="og:image:height" content="630" />

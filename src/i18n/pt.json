@@ -24,7 +24,7 @@
     "quick_links": "Links Rápidos",
     "official_platform": "Plataforma Oficial",
     "tips": "Dicas de Uso",
-    "feedback": "Feedback",
+    "feedback": "Comentarios",
     "cta_entry": "Usar Seedance Agora",
     "read_full": "Ler artigo completo →"
   },
@@ -459,7 +459,8 @@
   "blog": {
     "page_title": "Blog Seedance: Tutoriais e guias de vídeo com IA",
     "read": "Ler Artigo →",
-    "no_posts": "Nenhuma postagem encontrada para este idioma ainda."
+    "no_posts": "Nenhuma postagem encontrada para este idioma ainda.",
+    "description": "Aprenda a criar vídeos de IA impressionantes com o Seedance 2.0. Tutoriais, dicas e boas práticas para texto para vídeo, imagem para vídeo e criação multimodal."
   },
   "about": {
     "title": "Sobre",

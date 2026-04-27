@@ -444,7 +444,8 @@
   "blog": {
     "page_title": "Blog Seedance: Samouczki i poradniki wideo AI",
     "read": "Przeczytaj artykuł →",
-    "no_posts": "Nie znaleziono jeszcze wpisów dla tego języka."
+    "no_posts": "Nie znaleziono jeszcze wpisów dla tego języka.",
+    "description": "Dowiedz się, jak tworzyć imponujące filmy AI z Seedance 2.0. Poradniki, wskazówki i najlepsze praktyki dla text-to-video, image-to-video oraz tworzenia treści multimodalnych."
   },
   "guide": {
     "title": "Przewodnik Seedance",

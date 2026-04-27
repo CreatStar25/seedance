@@ -1,8 +1,9 @@
 User-agent: *
 Allow: /
-# Block URL parameters to avoid duplicate content issues
-Disallow: /*?*
 # Block API routes that don't need indexing
 Disallow: /api/
+# 重复 URL 由页面 canonical（去查询参数）收敛，此处不再 Disallow 带参 URL，避免误伤合法抓取
 
 Sitemap: https://seedance22.com/sitemap-index.xml
+Sitemap: https://seedance22.com/sitemap-zh.xml
+Sitemap: https://seedance22.com/sitemap-zh-cn.xml

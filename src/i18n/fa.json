@@ -24,11 +24,11 @@
   "stats": [
     {
       "value": "SOTA",
-      "label": "Model Performance"
+      "label": "عملکرد مدل"
     },
     {
       "value": "4",
-      "label": "Modalities Supported"
+      "label": "مودالیته‌های پشتیبانی‌شده"
     },
     {
       "value": "1080p",
@@ -40,9 +40,9 @@
       "title": "هوش مصنوعی متن به ویدیو",
       "desc": "صحنه‌ها، شخصیت‌ها و حرکات دوربین را به زبان طبیعی توصیف کنید و بگذارید هوش مصنوعی ما آن‌ها را به ویدیوهای چندشات منسجم تبدیل کند.",
       "bullets": [
-        "Cinematic Camera Control",
-        "Multi-Shot Consistency",
-        "Physics-Based Motion"
+        "کنترل سینمایی دوربین",
+        "یکپارچگی چند شات",
+        "حرکت مبتنی بر فیزیک"
       ],
       "cta": "ساخت ویدیو",
       "badge": "مدل پرچم‌دار"
@@ -51,8 +51,8 @@
       "title": "هوش مصنوعی تصویر به ویدیو",
       "desc": "یک عکس مرجع آپلود کنید و ببینید چگونه به یک ویدیوی کوتاه تولید شده با هوش مصنوعی تبدیل می‌شود. هویت و سبک را با دقت بالا حفظ کنید.",
       "bullets": [
-        "Preserve Subject Identity",
-        "Control Motion Strength"
+        "حفظ هویت سوژه",
+        "کنترل شدت حرکت"
       ],
       "cta": "متحرک‌سازی تصویر",
       "badge": "تصویر به ویدیو"
@@ -66,19 +66,19 @@
       "desc": "عکس‌ها را آپلود کنید، یک قالب جلوه ویدیوی هوش مصنوعی انتخاب کنید و بگذارید سیستم ما به طور خودکار یک کلیپ سبک‌دار کوتاه تولید کند.",
       "cards": [
         {
-          "title": "Face Swap",
-          "desc": "Perfect for memes & marketing"
+          "title": "تعویض چهره",
+          "desc": "مناسب برای میم و بازاریابی"
         },
         {
-          "title": "Style Transfer",
-          "desc": "Anime, Clay, 3D Render..."
+          "title": "انتقال سبک",
+          "desc": "انیمه، سفال، رندر سه‌بعدی..."
         }
       ],
       "grid": [
-        "Magic Edit",
-        "Face Swap",
-        "Restyle",
-        "Upscale"
+        "ویرایش جادویی",
+        "تعویض چهره",
+        "بازسبک‌دهی",
+        "ارتقای کیفیت"
       ],
       "cta": "کاوش ابزارها",
       "badge": "مجموعه خلاقیت"
@@ -190,7 +190,7 @@
         }
       ]
     },
-    "copyright": "© 2026 Seedance AI. All rights reserved.",
+    "copyright": "© 2026 Seedance AI. تمامی حقوق محفوظ است.",
     "ai_music": {
       "title": "موسیقی هوش مصنوعی",
       "links": [
@@ -408,57 +408,58 @@
         "a": "بله. با اعتبار روزانه می‌توانید Seedance 2.0 را رایگان امتحان کنید."
       },
       {
-        "q": "How well does it maintain character consistency across scenes?",
-        "a": "Character consistency is a core strength of Seedance 2.0. Faces, clothing, text, scene details, and visual styles remain stable across multiple shots and extended sequences — solving one of the biggest pain points in AI video creation."
+        "q": "مدل تا چه حد يکپارچگي شخصيت را بين صحنه ها حفظ مي کند؟",
+        "a": "يکپارچگي شخصيت از نقاط قوت Seedance 2.0 است. چهره، لباس، متن و سبک بصري در شات هاي مختلف پايدار مي ماند."
       },
       {
-        "q": "What video lengths, resolutions, and aspect ratios are available?",
-        "a": "Generated videos range from 4 to 15 seconds. Supported aspect ratios include 16:9, 9:16, 4:3, 3:4, 21:9, and 1:1. Resolutions go up to 1080p, making output suitable for professional delivery across web, social media, and broadcast platforms."
+        "q": "چه مدت زمان، رزولوشن و نسبت تصويري پشتيباني مي شود؟",
+        "a": "طول ويدئوهاي توليدي بين 4 تا 15 ثانيه است. نسبت هاي 16:9، 9:16، 4:3، 3:4، 21:9 و 1:1 پشتيباني مي شوند و رزولوشن تا 1080p است."
       },
       {
-        "q": "Does Seedance 2.0 generate audio or sound effects?",
-        "a": "Yes. The platform includes built-in audio generation that creates context-aware sound effects and background music matching your visual content. You can also upload your own audio tracks and the model will sync video timing to your beats or rhythm."
+        "q": "آيا Seedance 2.0 صدا يا افکت صوتي توليد مي کند؟",
+        "a": "بله. پلتفرم داراي توليد صوت داخلي براي افکت هاي صوتي و موسيقي پس زمينه متناسب با محتوا است."
       },
       {
-        "q": "Are there watermarks on the generated videos?",
-        "a": "No. All videos are completely watermark-free and ready for commercial use. What you create belongs entirely to you — download clean, professional-quality footage without any branding."
+        "q": "آيا ويدئوهاي خروجي واترمارک دارند؟",
+        "a": "خير. تمام ويدئوها بدون واترمارک هستند و براي استفاده تجاري آماده اند."
       },
       {
-        "q": "Can I replicate camera movements and choreography from reference videos?",
-        "a": "Absolutely. Upload a video containing the camera movement, dance sequence, or action choreography you want to replicate, and Seedance 2.0 will accurately apply those dynamics to your own content. No complex prompting needed — just show the model what you want."
+        "q": "آيا مي توان حرکت دوربين و کوروگرافي را از ويدئوي مرجع بازتوليد کرد؟",
+        "a": "بله. با آپلود ويدئوي مرجع، Seedance 2.0 مي تواند همان ديناميک حرکت را با دقت اعمال کند."
       },
       {
-        "q": "Is there a free plan available?",
-        "a": "Yes. Seedance 2.0 offers a free tier with daily credits so you can explore the platform before committing. Paid plans unlock higher generation limits, faster processing, and priority access during peak hours."
+        "q": "آيا پلن رايگان وجود دارد؟",
+        "a": "بله. Seedance 2.0 يک پلن رايگان با اعتبار روزانه ارائه مي دهد."
       },
       {
-        "q": "How do I get started?",
-        "a": "Create an account, choose a plan that fits your needs, then start uploading your reference materials. Describe your creative vision in natural language, and let Seedance 2.0 bring it to life. The interface is designed to be intuitive even for first-time users."
+        "q": "چطور شروع کنم؟",
+        "a": "حساب بسازيد، پلن مناسب انتخاب کنيد، فايل مرجع آپلود کنيد و خواسته خود را با زبان طبيعي توضيح دهيد."
       },
       {
-        "q": "How is my data and content protected?",
-        "a": "All uploaded files and generated videos are stored with industry-standard encryption. Your content remains private and is never shared with third parties. You retain full ownership rights to everything you create on the platform."
+        "q": "داده ها و محتوای من چگونه محافظت مي شوند؟",
+        "a": "فايل هاي آپلودي و ويدئوهاي توليدي با رمزنگاري استاندارد صنعتي ذخيره مي شوند و محتوای شما خصوصي مي ماند."
       }
     ]
   },
   "blog": {
     "page_title": "بلاگ Seedance: آموزش‌ها و راهنماهای ویدیویی هوش مصنوعی",
     "read": "خواندن مقاله ←",
-    "no_posts": "هنوز پستی برای این زبان یافت نشد."
+    "no_posts": "هنوز پستی برای این زبان یافت نشد.",
+    "description": "یاد بگیرید چگونه با Seedance 2.0 ویدیوهای هوش مصنوعی چشمگیر بسازید. آموزش‌ها، نکات و بهترین روش‌ها برای تبدیل متن به ویدیو، تصویر به ویدیو و تولید محتوای چندحالته."
   },
   "guide": {
     "title": "Seedance Guide",
-    "welcome": "Welcome to the Seedance usage guide. Here you will find tutorials, tips and best practices for Seedance AI video creation.",
+    "welcome": "به راهنمای استفاده از Seedance خوش آمدید. در اینجا آموزش‌ها، نکات و بهترین روش‌ها برای تولید ویدیوی هوش مصنوعی با Seedance را پیدا می‌کنید.",
     "article_list": "فهرست مقالات",
     "quick_access": "دسترسی سریع",
-    "quick_access_desc": "Official Seedance 2.0 entry, one-click to start creating.",
+    "quick_access_desc": "ورود رسمی Seedance 2.0؛ با یک کلیک ساخت را شروع کنید.",
     "latest_articles": "جدیدترین مقالات",
     "page_nav": "ناوبری صفحه",
     "quick_links": "لینک‌های سریع",
     "official_platform": "پلتفرم رسمی",
     "tips": "نکات استفاده",
     "feedback": "بازخورد",
-    "cta_entry": "Use Seedance Now",
+    "cta_entry": "اکنون از Seedance استفاده کنید",
     "read_full": "خواندن کامل مقاله ←"
   },
   "about": {
@@ -477,6 +478,6 @@
     "title": "شرایط خدمات",
     "description": "Terms of Service for Seedance 2.0.",
     "heading": "شرایط خدمات",
-    "content": "By using Seedance 2.0, you agree to these terms. Our service is provided for lawful use. You retain rights to content you create; we may use anonymized data to improve our models. We reserve the right to update these terms; continued use constitutes acceptance."
+    "content": "با استفاده از Seedance 2.0 شما با این شرایط موافقت می‌کنید. سرویس ما فقط برای استفاده قانونی ارائه می‌شود. حقوق محتوای تولیدشده متعلق به شماست؛ ممکن است از داده‌های ناشناس برای بهبود مدل‌ها استفاده کنیم. حق به‌روزرسانی این شرایط را محفوظ می‌دانیم و ادامه استفاده به‌منزله پذیرش است."
   }
 }

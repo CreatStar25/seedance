@@ -24,11 +24,11 @@
   "stats": [
     {
       "value": "SOTA",
-      "label": "Model Performance"
+      "label": "मॉडल प्रदर्शन"
     },
     {
       "value": "4",
-      "label": "Modalities Supported"
+      "label": "समर्थित मोडैलिटीज़"
     },
     {
       "value": "1080p",
@@ -40,9 +40,9 @@
       "title": "टेक्स्ट से वीडियो AI",
       "desc": "दृश्यों, पात्रों और कैमरा मूव्स का वर्णन प्राकृतिक भाषा में करें और हमारे टेक्स्ट से वीडियो AI को उन्हें सुसंगत मल्टी-शॉट वीडियो में बदलने दें।",
       "bullets": [
-        "Cinematic Camera Control",
-        "Multi-Shot Consistency",
-        "Physics-Based Motion"
+        "सिनेमैटिक कैमरा नियंत्रण",
+        "मल्टी-शॉट स्थिरता",
+        "भौतिकी-आधारित मूवमेंट"
       ],
       "cta": "वीडियो बनाएं",
       "badge": "फ्लैगशिप मॉडल"
@@ -51,34 +51,34 @@
       "title": "इमेज से वीडियो AI",
       "desc": "एक संदर्भ फोटो अपलोड करें और देखें कि यह एक AI-जनित छोटे वीडियो में कैसे बदल जाता है। उच्च निष्ठा के साथ पहचान और शैली को बनाए रखें।",
       "bullets": [
-        "Preserve Subject Identity",
-        "Control Motion Strength"
+        "विषय की पहचान बनाए रखें",
+        "मूवमेंट की तीव्रता नियंत्रित करें"
       ],
       "cta": "इमेज एनिमेट करें",
       "badge": "इमेज से वीडियो"
     },
     "text_to_image": {
       "title": "Text to Image AI",
-      "desc": "Turn text prompts into high-resolution images. Describe style, lighting and composition once, then generate multiple variations."
+      "desc": "टेक्स्ट प्रॉम्प्ट को हाई-रेज़ोल्यूशन इमेज में बदलें। स्टाइल, लाइटिंग और कंपोजिशन एक बार बताएं और कई वैरिएशन जनरेट करें।"
     },
     "ai_tools": {
       "title": "AI वीडियो इफेक्ट्स और टूल्स",
       "desc": "फोटो अपलोड करें, एक AI वीडियो इफेक्ट टेम्पलेट चुनें और हमारे सिस्टम को एक छोटी स्टाइलिश क्लिप स्वचालित रूप से बनाने दें।",
       "cards": [
         {
-          "title": "Face Swap",
-          "desc": "Perfect for memes & marketing"
+          "title": "फेस स्वैप",
+          "desc": "मीम और मार्केटिंग के लिए शानदार"
         },
         {
-          "title": "Style Transfer",
-          "desc": "Anime, Clay, 3D Render..."
+          "title": "स्टाइल ट्रांसफर",
+          "desc": "एनीमे, क्ले, 3D रेंडर..."
         }
       ],
       "grid": [
-        "Magic Edit",
-        "Face Swap",
-        "Restyle",
-        "Upscale"
+        "मैजिक एडिट",
+        "फेस स्वैप",
+        "रीस्टाइल",
+        "अपस्केल"
       ],
       "cta": "टूल्स देखें",
       "badge": "क्रिएटिव सूट"
@@ -408,57 +408,58 @@
         "a": "हां। दैनिक क्रेडिट के साथ Seedance 2.0 मुफ्त में ट्राय कर सकते हैं।"
       },
       {
-        "q": "How well does it maintain character consistency across scenes?",
-        "a": "Character consistency is a core strength of Seedance 2.0. Faces, clothing, text, scene details, and visual styles remain stable across multiple shots and extended sequences — solving one of the biggest pain points in AI video creation."
+        "q": "सीनों के बीच कैरेक्टर कंसिस्टेंसी कितनी अच्छी रहती है?",
+        "a": "Seedance 2.0 की मुख्य ताकत कैरेक्टर कंसिस्टेंसी है। चेहरा, कपड़े, टेक्स्ट और विजुअल स्टाइल कई शॉट्स में स्थिर रहते हैं।"
       },
       {
-        "q": "What video lengths, resolutions, and aspect ratios are available?",
-        "a": "Generated videos range from 4 to 15 seconds. Supported aspect ratios include 16:9, 9:16, 4:3, 3:4, 21:9, and 1:1. Resolutions go up to 1080p, making output suitable for professional delivery across web, social media, and broadcast platforms."
+        "q": "कौन-सी वीडियो लंबाई, रेज़ोल्यूशन और आस्पेक्ट रेशियो उपलब्ध हैं?",
+        "a": "वीडियो लंबाई 4 से 15 सेकंड तक है। 16:9, 9:16, 4:3, 3:4, 21:9 और 1:1 उपलब्ध हैं, और आउटपुट 1080p तक जाता है।"
       },
       {
-        "q": "Does Seedance 2.0 generate audio or sound effects?",
-        "a": "Yes. The platform includes built-in audio generation that creates context-aware sound effects and background music matching your visual content. You can also upload your own audio tracks and the model will sync video timing to your beats or rhythm."
+        "q": "क्या Seedance 2.0 ऑडियो या साउंड इफेक्ट जनरेट करता है?",
+        "a": "हां। प्लेटफॉर्म में बिल्ट-इन ऑडियो जनरेशन है जो संदर्भानुसार साउंड इफेक्ट और बैकग्राउंड म्यूजिक बनाता है।"
       },
       {
-        "q": "Are there watermarks on the generated videos?",
-        "a": "No. All videos are completely watermark-free and ready for commercial use. What you create belongs entirely to you — download clean, professional-quality footage without any branding."
+        "q": "क्या जनरेटेड वीडियो पर वॉटरमार्क होता है?",
+        "a": "नहीं। सभी वीडियो बिना वॉटरमार्क के होते हैं और कमर्शियल उपयोग के लिए तैयार हैं।"
       },
       {
-        "q": "Can I replicate camera movements and choreography from reference videos?",
-        "a": "Absolutely. Upload a video containing the camera movement, dance sequence, or action choreography you want to replicate, and Seedance 2.0 will accurately apply those dynamics to your own content. No complex prompting needed — just show the model what you want."
+        "q": "क्या मैं रेफरेंस वीडियो से कैमरा मूवमेंट और कोरियोग्राफी दोहरा सकता हूं?",
+        "a": "हां। रेफरेंस वीडियो अपलोड करें और Seedance 2.0 उसी तरह की मूवमेंट डायनेमिक्स लागू कर सकता है।"
       },
       {
-        "q": "Is there a free plan available?",
-        "a": "Yes. Seedance 2.0 offers a free tier with daily credits so you can explore the platform before committing. Paid plans unlock higher generation limits, faster processing, and priority access during peak hours."
+        "q": "क्या फ्री प्लान उपलब्ध है?",
+        "a": "हां। Seedance 2.0 दैनिक क्रेडिट के साथ फ्री प्लान देता है।"
       },
       {
-        "q": "How do I get started?",
-        "a": "Create an account, choose a plan that fits your needs, then start uploading your reference materials. Describe your creative vision in natural language, and let Seedance 2.0 bring it to life. The interface is designed to be intuitive even for first-time users."
+        "q": "शुरुआत कैसे करूं?",
+        "a": "अकाउंट बनाएं, उपयुक्त प्लान चुनें, रेफरेंस सामग्री अपलोड करें और अपनी आवश्यकता को प्राकृतिक भाषा में लिखें।"
       },
       {
-        "q": "How is my data and content protected?",
-        "a": "All uploaded files and generated videos are stored with industry-standard encryption. Your content remains private and is never shared with third parties. You retain full ownership rights to everything you create on the platform."
+        "q": "मेरे डेटा और कंटेंट की सुरक्षा कैसे होती है?",
+        "a": "अपलोड फाइलें और जनरेटेड वीडियो इंडस्ट्री-स्टैंडर्ड एन्क्रिप्शन के साथ सुरक्षित रखे जाते हैं।"
       }
     ]
   },
   "blog": {
     "page_title": "Seedance ब्लॉग: AI वीडियो ट्यूटोरियल और गाइड",
     "read": "लेख पढ़ें →",
-    "no_posts": "इस भाषा के लिए अभी तक कोई पोस्ट नहीं मिली।"
+    "no_posts": "इस भाषा के लिए अभी तक कोई पोस्ट नहीं मिली।",
+    "description": "Seedance 2.0 के साथ शानदार AI वीडियो बनाना सीखें। टेक्स्ट-टू-वीडियो, इमेज-टू-वीडियो और मल्टीमोडल कंटेंट क्रिएशन के लिए ट्यूटोरियल, टिप्स और सर्वश्रेष्ठ तरीके।"
   },
   "guide": {
     "title": "Seedance Guide",
-    "welcome": "Welcome to the Seedance usage guide. Here you will find tutorials, tips and best practices for Seedance AI video creation.",
+    "welcome": "Seedance उपयोग गाइड में आपका स्वागत है। यहां आपको Seedance AI वीडियो निर्माण के लिए ट्यूटोरियल, टिप्स और सर्वोत्तम प्रथाएं मिलेंगी।",
     "article_list": "लेख सूची",
     "quick_access": "त्वरित पहुँच",
-    "quick_access_desc": "Official Seedance 2.0 entry, one-click to start creating.",
+    "quick_access_desc": "Seedance 2.0 का आधिकारिक प्रवेश, एक क्लिक में बनाना शुरू करें।",
     "latest_articles": "नवीनतम लेख",
     "page_nav": "पेज नेविगेशन",
     "quick_links": "त्वरित लिंक",
     "official_platform": "आधिकारिक प्लेटफ़ॉर्म",
     "tips": "उपयोग टिप्स",
-    "feedback": "प्रतिक्रिया",
-    "cta_entry": "Use Seedance Now",
+    "feedback": "फ़ीडबैक",
+    "cta_entry": "अभी Seedance उपयोग करें",
     "read_full": "पूरा लेख पढ़ें →"
   },
   "about": {
@@ -477,6 +478,6 @@
     "title": "सेवा की शर्तें",
     "description": "Terms of Service for Seedance 2.0.",
     "heading": "सेवा की शर्तें",
-    "content": "By using Seedance 2.0, you agree to these terms. Our service is provided for lawful use. You retain rights to content you create; we may use anonymized data to improve our models. We reserve the right to update these terms; continued use constitutes acceptance."
+    "content": "Seedance 2.0 का उपयोग करके आप इन शर्तों से सहमत होते हैं। हमारी सेवा केवल वैध उपयोग के लिए प्रदान की जाती है। आप अपने बनाए गए कंटेंट के अधिकार रखते हैं; हम मॉडलों को बेहतर बनाने के लिए अनाम डेटा का उपयोग कर सकते हैं। हम इन शर्तों को अपडेट करने का अधिकार सुरक्षित रखते हैं; सेवा का निरंतर उपयोग स्वीकार्यता माना जाएगा।"
   }
 }

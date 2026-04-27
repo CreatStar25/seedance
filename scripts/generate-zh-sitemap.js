@@ -1,6 +1,6 @@
 /**
- * 生成仅包含中文（zh-cn）URL 的 sitemap，供百度/360 等中文搜索引擎提交使用。
- * 在 npm run build 之后执行，从 dist 内已有 sitemap 中筛选 /zh-cn/ 链接。
+ * 生成仅含简体/繁体中文路径的 sitemap（/zh-cn/ 与 /zh-tw/），供百度/360 等提交。
+ * 在 npm run build 之后执行，从 dist 内 @astrojs/sitemap 产物中筛选 URL。
  *
  * 用法：node scripts/generate-zh-sitemap.js
  * 要求：先执行 astro build，且 dist 目录下已有 sitemap-*.xml
@@ -37,7 +37,7 @@ function main() {
     const locs = extractLocUrls(indexXml);
     for (const loc of locs) {
       const name = path.basename(new URL(loc).pathname);
-      if (name && name.startsWith('sitemap-') && name !== 'sitemap-zh-cn.xml' && name.endsWith('.xml')) {
+      if (name && name.startsWith('sitemap-') && name !== 'sitemap-zh.xml' && name !== 'sitemap-zh-cn.xml' && name.endsWith('.xml')) {
         sitemapFiles.push(path.join(distDir, name));
       }
     }
@@ -53,7 +53,9 @@ function main() {
     if (!fs.existsSync(f)) continue;
     const xml = fs.readFileSync(f, 'utf8');
     const urls = extractLocUrls(xml);
-    urls.filter((u) => u.includes('/zh-cn/')).forEach((u) => allUrls.add(u));
+    urls
+      .filter((u) => u.includes('/zh-cn/') || u.includes('/zh-tw/'))
+      .forEach((u) => allUrls.add(u));
   }
 
   const zhUrls = Array.from(allUrls).sort();
@@ -67,9 +69,19 @@ function main() {
     '</urlset>',
   ].join('\n');
 
-  const outPath = path.join(distDir, 'sitemap-zh-cn.xml');
-  fs.writeFileSync(outPath, urlset, 'utf8');
-  console.log('[generate-zh-sitemap] 已生成', outPath, '共', zhUrls.length, '个中文 URL');
+  const outZh = path.join(distDir, 'sitemap-zh.xml');
+  const outZhCnLegacy = path.join(distDir, 'sitemap-zh-cn.xml');
+  fs.writeFileSync(outZh, urlset, 'utf8');
+  fs.writeFileSync(outZhCnLegacy, urlset, 'utf8');
+  console.log(
+    '[generate-zh-sitemap] 已生成',
+    outZh,
+    '与',
+    outZhCnLegacy,
+    '（内容相同，共',
+    zhUrls.length,
+    '个 zh-cn/zh-tw URL）'
+  );
 }
 
 main();

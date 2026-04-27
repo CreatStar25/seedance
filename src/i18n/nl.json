@@ -24,11 +24,11 @@
   "stats": [
     {
       "value": "SOTA",
-      "label": "Model Performance"
+      "label": "Modelprestaties"
     },
     {
       "value": "4",
-      "label": "Modalities Supported"
+      "label": "Ondersteunde modaliteiten"
     },
     {
       "value": "1080p",
@@ -40,9 +40,9 @@
       "title": "Tekst-naar-Video AI",
       "desc": "Beschrijf scènes, personages en camerabewegingen in natuurlijke taal en laat onze Tekst-naar-Video AI ze omzetten in samenhangende multi-shot video's.",
       "bullets": [
-        "Cinematic Camera Control",
-        "Multi-Shot Consistency",
-        "Physics-Based Motion"
+        "Cinematische cameracontrole",
+        "Consistente multi-shot uitvoer",
+        "Fysica-gebaseerde beweging"
       ],
       "cta": "Video Maken",
       "badge": "Vlaggenschipmodel"
@@ -51,8 +51,8 @@
       "title": "Afbeelding-naar-Video AI",
       "desc": "Upload een referentiefoto en bekijk hoe het een korte AI-gegenereerde video wordt. Behoud identiteit en stijl met hoge nauwkeurigheid.",
       "bullets": [
-        "Preserve Subject Identity",
-        "Control Motion Strength"
+        "Behoud identiteit van het onderwerp",
+        "Beheer bewegingssterkte"
       ],
       "cta": "Afbeelding Animeren",
       "badge": "Afbeelding naar Video"
@@ -66,19 +66,19 @@
       "desc": "Upload foto's, kies een AI video effect template en laat ons systeem automatisch een korte gestileerde clip genereren.",
       "cards": [
         {
-          "title": "Face Swap",
-          "desc": "Perfect for memes & marketing"
+          "title": "Gezichtswissel",
+          "desc": "Ideaal voor humorcontent en campagnes"
         },
         {
-          "title": "Style Transfer",
-          "desc": "Anime, Clay, 3D Render..."
+          "title": "Stijloverdracht",
+          "desc": "Anime, klei, 3D-render..."
         }
       ],
       "grid": [
-        "Magic Edit",
-        "Face Swap",
-        "Restyle",
-        "Upscale"
+        "Magische bewerking",
+        "Gezichtswissel",
+        "Herstylen",
+        "Opschalen"
       ],
       "cta": "Gereedschappen Verkennen",
       "badge": "Creatieve Suite"
@@ -336,7 +336,7 @@
         "others": "❌ Trillend"
       },
       {
-        "label": "Multi-shot consistentie",
+        "label": "Consistente uitvoering over meerdere shots",
         "us": "✅ Samenhangend",
         "others": "❌ Fragmentarisch"
       },
@@ -408,57 +408,58 @@
         "a": "Ja. Je kunt Seedance 2.0 gratis uitproberen met dagelijkse credits."
       },
       {
-        "q": "How well does it maintain character consistency across scenes?",
-        "a": "Character consistency is a core strength of Seedance 2.0. Faces, clothing, text, scene details, and visual styles remain stable across multiple shots and extended sequences — solving one of the biggest pain points in AI video creation."
+        "q": "Hoe goed blijft karakterconsistentie tussen scenes behouden?",
+        "a": "Karakterconsistentie is een sterke kant van Seedance 2.0. Gezicht, kleding, tekst en visuele stijl blijven stabiel over meerdere shots."
       },
       {
-        "q": "What video lengths, resolutions, and aspect ratios are available?",
-        "a": "Generated videos range from 4 to 15 seconds. Supported aspect ratios include 16:9, 9:16, 4:3, 3:4, 21:9, and 1:1. Resolutions go up to 1080p, making output suitable for professional delivery across web, social media, and broadcast platforms."
+        "q": "Welke videolengtes, resoluties en beeldverhoudingen zijn beschikbaar?",
+        "a": "Gegenereerde videos lopen van 4 tot 15 seconden. Ondersteund: 16:9, 9:16, 4:3, 3:4, 21:9 en 1:1, met output tot 1080p."
       },
       {
-        "q": "Does Seedance 2.0 generate audio or sound effects?",
-        "a": "Yes. The platform includes built-in audio generation that creates context-aware sound effects and background music matching your visual content. You can also upload your own audio tracks and the model will sync video timing to your beats or rhythm."
+        "q": "Genereert Seedance 2.0 audio of geluidseffecten?",
+        "a": "Ja. Het platform bevat ingebouwde audiogeneratie voor contextuele geluidseffecten en achtergrondmuziek."
       },
       {
-        "q": "Are there watermarks on the generated videos?",
-        "a": "No. All videos are completely watermark-free and ready for commercial use. What you create belongs entirely to you — download clean, professional-quality footage without any branding."
+        "q": "Hebben gegenereerde videos een watermerk?",
+        "a": "Nee. Alle videos zijn watermerkvrij en klaar voor commercieel gebruik."
       },
       {
-        "q": "Can I replicate camera movements and choreography from reference videos?",
-        "a": "Absolutely. Upload a video containing the camera movement, dance sequence, or action choreography you want to replicate, and Seedance 2.0 will accurately apply those dynamics to your own content. No complex prompting needed — just show the model what you want."
+        "q": "Kan ik camerabewegingen en choreografie uit referentievideos overnemen?",
+        "a": "Ja. Upload een referentievideo en Seedance 2.0 past die bewegingsdynamiek nauwkeurig toe."
       },
       {
-        "q": "Is there a free plan available?",
-        "a": "Yes. Seedance 2.0 offers a free tier with daily credits so you can explore the platform before committing. Paid plans unlock higher generation limits, faster processing, and priority access during peak hours."
+        "q": "Is er een gratis plan beschikbaar?",
+        "a": "Ja. Seedance 2.0 biedt een gratis plan met dagelijkse credits."
       },
       {
-        "q": "How do I get started?",
-        "a": "Create an account, choose a plan that fits your needs, then start uploading your reference materials. Describe your creative vision in natural language, and let Seedance 2.0 bring it to life. The interface is designed to be intuitive even for first-time users."
+        "q": "Hoe begin ik?",
+        "a": "Maak een account, kies een passend plan, upload referentiemateriaal en beschrijf je idee in natuurlijke taal."
       },
       {
-        "q": "How is my data and content protected?",
-        "a": "All uploaded files and generated videos are stored with industry-standard encryption. Your content remains private and is never shared with third parties. You retain full ownership rights to everything you create on the platform."
+        "q": "Hoe worden mijn gegevens en content beschermd?",
+        "a": "Uploads en gegenereerde videos worden met industriestandaard encryptie opgeslagen. Je content blijft prive."
       }
     ]
   },
   "blog": {
     "page_title": "Seedance Blog: AI-video tutorials en gidsen",
     "read": "Artikel Lezen →",
-    "no_posts": "Nog geen berichten gevonden voor deze taal."
+    "no_posts": "Nog geen berichten gevonden voor deze taal.",
+    "description": "Leer hoe je met Seedance 2.0 indrukwekkende AI-video’s maakt. Tutorials, tips en best practices voor tekst-naar-video, afbeelding-naar-video en multimodale contentcreatie."
   },
   "guide": {
     "title": "Seedance Guide",
-    "welcome": "Welcome to the Seedance usage guide. Here you will find tutorials, tips and best practices for Seedance AI video creation.",
+    "welcome": "Welkom bij de Seedance-gebruiksgids. Hier vind je tutorials, tips en best practices voor AI-videocreatie met Seedance.",
     "article_list": "Artikeloverzicht",
     "quick_access": "Snelle Toegang",
-    "quick_access_desc": "Official Seedance 2.0 entry, one-click to start creating.",
+    "quick_access_desc": "Officiële Seedance 2.0-toegang, met één klik beginnen met creëren.",
     "latest_articles": "Nieuwste Artikelen",
     "page_nav": "Paginanavigatie",
     "quick_links": "Snelle Links",
     "official_platform": "Officieel Platform",
     "tips": "Gebruikstips",
-    "feedback": "Feedback",
-    "cta_entry": "Use Seedance Now",
+    "feedback": "Terugkoppeling",
+    "cta_entry": "Gebruik Seedance nu",
     "read_full": "Lees volledig artikel →"
   },
   "about": {
@@ -477,6 +478,6 @@
     "title": "Servicevoorwaarden",
     "description": "Terms of Service for Seedance 2.0.",
     "heading": "Servicevoorwaarden",
-    "content": "By using Seedance 2.0, you agree to these terms. Our service is provided for lawful use. You retain rights to content you create; we may use anonymized data to improve our models. We reserve the right to update these terms; continued use constitutes acceptance."
+    "content": "Door Seedance 2.0 te gebruiken, ga je akkoord met deze voorwaarden. Onze service is bedoeld voor rechtmatig gebruik. Jij behoudt rechten op de inhoud die je maakt; wij kunnen geanonimiseerde gegevens gebruiken om onze modellen te verbeteren. We behouden ons het recht voor deze voorwaarden bij te werken; voortgezet gebruik betekent acceptatie."
   }
 }

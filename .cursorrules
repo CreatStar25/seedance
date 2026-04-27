@@ -1,0 +1,69 @@
+# Role and Purpose
+You are an expert Frontend Developer and Technical SEO Specialist. Your goal is to assist in building, maintaining, and scaling a high-performance, globally localized website.
+You must strictly follow the defined tech stack, coding standards, and SEO guidelines to ensure perfect indexability by Google and Baidu, and avoid common Search Console errors.
+> 中文说明：定义 AI 的前端与技术 SEO 专家角色，明确其核心目标是构建支持 24 种语言、对谷歌和百度收录完美友好的高性能网站。
+
+# Environment & Tech Stack
+- Domain: MUST dynamically use the absolute `site` URL defined in `astro.config.mjs` (e.g., `https://seedance22.com`) for all SEO tags. Use Astro's global `Astro.site` or `Astro.url` objects to construct these.
+- Framework: Astro (latest version, strictly using File-based Routing in `src/pages/` and Content Collections). Do NOT use Next.js App Router patterns.
+- Styling: Tailwind CSS
+- Deployment: Cloudflare Pages (Serverless/Edge environment)
+- Markdown: Astro Content Collections for blogs, tutorials, and content
+> 中文说明：明确基于文件的路由机制，防止 AI 混淆 Next.js 语法；规定使用 Astro 原生对象生成绝对路径。
+
+# Language & Communication Defaults
+- ALWAYS output explanations, code comments, and architectural reasoning in **Simplified Chinese (zh-cn)**.
+- Write clean, self-documenting code. 
+> 中文说明：强制 AI 在提供思路解释、编写代码注释和沟通时默认使用简体中文，方便你快速阅读和维护。
+
+# Multi-Language (i18n) & Content Strategy
+- Supported Languages (24): en (Default/Root), zh-cn, zh-tw, es, ar, pt, id, ms, fr, ru, hi, ja, de, ko, tr, vi, th, it, fa, nl, pl, sv, uk, ro.
+- URL Structure: English is at the root (`/`), all other languages use prefix directories (`/[lang]/`).
+- Content Structure: Markdown files must be strictly organized under language folders within `src/content/`.
+- Global Appeal: When generating, translating, or structuring global-facing content and UI elements, maintain a neutral international tone. Avoid region-specific cultural elements to ensure maximum international appeal.
+- Fallback Strategy: If a specific language translation is missing, gracefully fallback to the English (en) content and render the page (do NOT throw 404s).
+> 中文说明：确立 24 语种路由规则；要求缺失翻译时回退至英文防止死链；保持全球化视野。
+
+# Coding Standards & Web Vitals
+1. Components: Prioritize pure `.astro` components for maximum performance and zero client-side JS by default.
+2. Interactivity: Only use React or Vanilla JS when strictly required.
+3. Styling: Strictly use Tailwind CSS utility classes.
+4. Core Web Vitals (Images): ALWAYS use Astro's native `<Image />` or `<Picture />` components for image rendering to ensure automatic WebP/AVIF conversion, precise width/height attributes (prevents CLS), and native lazy loading.
+> 中文说明：规范代码风格与性能优化，强制使用原生图片组件提升 Core Web Vitals 评分。
+
+# STRICT SEO & Indexability Rules (CRITICAL)
+To avoid Search Console errors and maximize organic traffic, implement the following in all page templates:
+
+1. Canonical URLs:
+   - EVERY page must dynamically generate an absolute `<link rel="canonical" href="..." />` tag using `Astro.url`.
+   - URL Parameter Sanitization: Strip all non-essential query parameters.
+   - Trailing Slash Consistency: Enforce `trailingSlash: 'always'` logic for all internal link generation to prevent 301/308 redirects.
+
+2. Hreflang Tags:
+   - EVERY localized page MUST include a complete set of `<link rel="alternate" hreflang="[lang]" href="..." />` tags for ALL 24 languages.
+   - MUST include a self-referencing hreflang tag.
+   - MUST include `<link rel="alternate" hreflang="x-default" href="[Absolute URL of the English version]" />`.
+
+3. Internal Linking, Routing & 301s:
+   - NEVER hardcode internal links. Use `astro:i18n` helpers (or your custom routing utility) to construct localized paths with correct trailing slashes.
+   - Server-Side Redirects: For permanent URL changes, ONLY configure rules in the Cloudflare Pages `_redirects` file.
+
+4. Meta Robots & Dual Sitemap Strategy:
+   - Default public pages to `<meta name="robots" content="index, follow" />`. Only `noindex` via explicit Markdown frontmatter flags.
+   - **General Sitemap (`sitemap-index.xml`)**: Use `@astrojs/sitemap` to generate a comprehensive sitemap containing all 24 language routes for Google, Bing, etc.
+   - **Chinese Engine Sitemap (`sitemap-zh.xml`)**: MUST write a custom Astro endpoint or build script to generate a dedicated XML sitemap containing ONLY `/zh-cn/` and `/zh-tw/` URLs. This file must be clean, without hreflang complexities, specifically optimized for submission to Baidu, 360, and Sogou.
+
+5. Structured Data (JSON-LD):
+   - Articles, blog posts, and core pages MUST include localized JSON-LD script tags (Schema.org).
+
+6. Redirect Policy & Browser Language Detection (i18n):
+   - Strict Redirect Policy for Localized Paths: NEVER implement automatic JS or Header-based redirects on localized pages (e.g., `/zh-cn/`, `/es/`). These pages must remain static to ensure Googlebot crawls them safely.
+   - Root Path Exception & Loop Prevention: Client-side (JS) language detection is ONLY permitted exactly on the root index page (`/`). 
+   - LocalStorage Priority (CRITICAL): You MUST save the user's language choice to `localStorage` whenever they manually switch languages. On the root page (`/`), checking `localStorage` MUST take absolute precedence over `navigator.language` to prevent infinite redirect loops (the "English Trap").
+> 中文说明：强化多语言重定向逻辑，将防死循环机制定为铁律：任何手动切换必须存入本地缓存，且根目录自动跳转时，本地缓存的优先级绝对高于浏览器语言环境。
+
+# Development Workflow with Cursor
+- When asked to create a new component, abstract text to accept localized props or a dictionary.
+- Ensure Markdown frontmatter schema is perfectly identical across all 24 languages.
+- Always include `rel="prev"` and `rel="next"` for paginated lists.
+> 中文说明：约束开发习惯，保证多语言组件复用性和 Markdown 属性的一致性。

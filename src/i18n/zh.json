@@ -459,7 +459,8 @@
   "blog": {
     "page_title": "Seedance 博客：AI 视频教程与指南",
     "read": "阅读文章 →",
-    "no_posts": "暂无该语言的文章。"
+    "no_posts": "暂无该语言的文章。",
+    "description": "学习如何使用 Seedance 2.0 创建惊艳的 AI 视频。这里提供文生视频、图生视频与多模态创作的教程、技巧与最佳实践。"
   },
   "about": {
     "title": "关于我们",
