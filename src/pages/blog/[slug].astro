@@ -1,51 +1,43 @@
 ---
 import { getCollection } from 'astro:content';
-import { languages } from '../../../i18n/locales';
-import Header from '../../../components/Header.astro';
-import Footer from '../../../components/Footer.astro';
-import SEOHead from '../../../components/SEOHead.astro';
-import PersistLang from '../../../components/PersistLang.astro';
-import { loadTranslations } from '../../../i18n/loadTranslations';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+import SEOHead from '../../components/SEOHead.astro';
+import PersistLang from '../../components/PersistLang.astro';
+import { loadTranslations } from '../../i18n/loadTranslations';
 
-// 1. 生成所有文章的静态路径
 export async function getStaticPaths() {
   const posts = await getCollection('blog');
-
-  // 为每篇文章生成对应的 [lang] 和 [slug] 路径
   return posts
-    .filter((post) => !post.id.startsWith('en/'))
+    .filter((post) => post.id.startsWith('en/'))
     .map((post) => {
-    const [lang, ...slugParts] = post.id.split('/');
-    const slugWithExt = slugParts.join('/');
-    const slug = slugWithExt.replace(/\.md$/, '');
-    return {
-      params: { lang, slug },
-      props: { post },
-    };
-  });
+      const slugWithExt = post.id.split('/').slice(1).join('/');
+      const slug = slugWithExt.replace(/\.md$/, '');
+      return {
+        params: { slug },
+        props: { post },
+      };
+    });
 }
 
 const { post } = Astro.props;
-const { lang } = Astro.params;
+const lang = 'en';
 const { Content } = await post.render();
-
-// 封面图：兼容 frontmatter 的 image 与 heroImage（新文章可能只写 heroImage）
 const coverImage = post.data.image ?? post.data.heroImage;
-
 const t = await loadTranslations(lang);
-
-// 格式化日期（兼容 pubDate 与 date）
 const rawDate = post.data.pubDate ?? post.data.date ?? new Date(0);
 const formattedDate = new Date(rawDate).toLocaleDateString(lang, {
-  year: 'numeric', month: 'long', day: 'numeric'
+  year: 'numeric',
+  month: 'long',
+  day: 'numeric',
 });
 ---
 
-<html lang={lang} dir={['ar','fa'].includes(lang) ? 'rtl' : 'ltr'} data-lang={lang}>
+<html lang={lang} data-lang={lang}>
   <head>
-    <SEOHead 
-      title={`${post.data.title} - Seedance`} 
-      description={post.data.description} 
+    <SEOHead
+      title={`${post.data.title} - Seedance`}
+      description={post.data.description}
       keywords={t.seo?.keywords}
       lang={lang}
       image={coverImage}
@@ -63,7 +55,6 @@ const formattedDate = new Date(rawDate).toLocaleDateString(lang, {
 
     <main class="flex-grow py-20">
       <article class="max-w-3xl mx-auto px-6">
-        
         <header class="text-center mb-10">
           <div class="inline-block px-3 py-1 bg-yellow-100 text-yellow-800 rounded-full text-xs font-bold mb-4 tracking-wider uppercase">
             {t.nav.blog}
@@ -79,7 +70,6 @@ const formattedDate = new Date(rawDate).toLocaleDateString(lang, {
         <div class="prose prose-slate prose-lg mx-auto prose-headings:font-black prose-img:rounded-2xl">
           <Content />
         </div>
-
       </article>
     </main>
 

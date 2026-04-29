@@ -2,7 +2,20 @@
 /zh    /zh-cn/   301
 /zh/   /zh-cn/   301
 
-# 将无语言前缀的 /blog 统一到英文博客，与 sitemap/alternate 一致
-/blog   /en/blog/   301
-/blog/  /en/blog/   301
-/blog/* /en/blog/:splat   301
+# 将历史英文路径 /en/blog 统一到根路径 /blog，避免 GSC「网页会自动重定向」
+/en/blog    /blog/         301
+/en/blog/   /blog/         301
+/en/blog/*  /blog/:splat   301
+
+# 将历史英文路径 /en/guide 统一到根路径 /guide，避免英文重复 URL
+/en/guide    /guide/        301
+/en/guide/   /guide/        301
+/en/guide/*  /guide/:splat  301
+
+# 将历史英文静态页 /en/{about|privacy|terms} 统一到根路径
+/en/about    /about/        301
+/en/about/   /about/        301
+/en/privacy  /privacy/      301
+/en/privacy/ /privacy/      301
+/en/terms    /terms/        301
+/en/terms/   /terms/        301

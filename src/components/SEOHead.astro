@@ -157,10 +157,8 @@ function buildLangPath(nakedPath: string, targetLang: string): string {
   let prefix: string;
 
   if (targetLang === 'en') {
-    // 英文首页在根路径 /，其余路径需加 /en 前缀
-    // 注意：所有非根路径的英文页面都应该有 /en 前缀
-    // 包括 /blog/、/blog/xxx/ 等
-    prefix = isRoot ? '' : '/en';
+    // 英文所有页面都在根路径，不使用 /en 前缀
+    prefix = '';
   } else {
     // 其他语言统一加 /{lang} 前缀
     prefix = isRoot ? `/${targetLang}` : `/${targetLang}`;

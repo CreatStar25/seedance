@@ -2,7 +2,7 @@
 const { lang, t } = Astro.props;
 
 function companyPath(path: string) {
-  if (lang === 'en') return path === 'blog' ? '/en/blog/' : `/${path}/`;
+  if (lang === 'en') return `/${path}/`;
   return `/${lang}/${path}/`;
 }
 

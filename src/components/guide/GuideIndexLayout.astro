@@ -1,0 +1,91 @@
+---
+/**
+ * 教程索引页：手册首页风，卡片列表链向独立 URL（非 hash）。
+ */
+interface Card {
+  slug: string;
+  title: string;
+  description: string;
+  formattedDate: string;
+}
+
+interface Props {
+  lang: string;
+  t: Record<string, unknown>;
+  /** 如 /guide/ 或 /zh-cn/guide/ */
+  guideBase: string;
+  posts: Card[];
+  appUrl: string;
+}
+
+const { lang, t, guideBase, posts, appUrl } = Astro.props;
+
+const g = t.guide as Record<string, string>;
+const nav = t.nav as Record<string, string>;
+const homeHref = lang === 'en' ? '/' : `/${lang}/`;
+---
+
+<div class="guide-handbook-bg flex-grow">
+  <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-10 lg:py-14">
+    <nav class="text-sm text-slate-500 mb-6" aria-label="Breadcrumb">
+      <a href={homeHref} class="hover:text-amber-600 transition-colors">{nav.home}</a>
+      <span class="mx-2 text-slate-300">/</span>
+      <span class="text-slate-800 font-medium">{nav.guide}</span>
+    </nav>
+
+    <header class="rounded-2xl border border-slate-200/90 bg-white shadow-sm px-6 py-8 sm:px-10 sm:py-10 mb-10">
+      <h1 class="text-3xl sm:text-4xl font-black text-slate-900 tracking-tight mb-4">{g.title}</h1>
+      <p class="text-slate-600 text-lg leading-relaxed max-w-3xl">{g.welcome}</p>
+      <div class="mt-8 flex flex-wrap gap-4">
+        <a
+          href={appUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          class="inline-flex items-center rounded-xl bg-amber-500 px-5 py-2.5 text-sm font-bold text-white shadow hover:bg-amber-600 transition-colors"
+        >
+          {g.cta_entry}
+        </a>
+      </div>
+    </header>
+
+    {posts.length === 0 ? (
+      <div class="rounded-2xl border border-dashed border-slate-300 bg-white/80 p-10 text-center text-slate-600">
+        <p class="mb-4">{(t.blog as { no_posts?: string })?.no_posts}</p>
+        <a href={appUrl} target="_blank" rel="noopener noreferrer" class="font-bold text-amber-600 hover:text-amber-700">
+          {g.cta_entry} →
+        </a>
+      </div>
+    ) : (
+      <section aria-labelledby="guide-list-heading">
+        <h2 id="guide-list-heading" class="text-lg font-bold text-blue-600 mb-6">
+          {g.article_list}
+        </h2>
+        <ul class="grid gap-5 sm:grid-cols-2">
+          {posts.map((p) => (
+            <li>
+              <a
+                href={`${guideBase}${p.slug}/`}
+                class="group block h-full rounded-2xl border border-slate-200/90 bg-white p-6 shadow-sm transition-all hover:border-amber-200 hover:shadow-md hover:-translate-y-0.5"
+              >
+                <h3 class="text-lg font-bold text-slate-900 group-hover:text-amber-800 transition-colors leading-snug mb-2">
+                  {p.title}
+                </h3>
+                <p class="text-slate-600 text-sm leading-relaxed line-clamp-3 mb-4">{p.description}</p>
+                <div class="flex items-center justify-between gap-2 text-xs text-slate-400">
+                  <time>{p.formattedDate}</time>
+                  <span class="font-semibold text-amber-600 group-hover:text-amber-700">{g.read_full}</span>
+                </div>
+              </a>
+            </li>
+          ))}
+        </ul>
+      </section>
+    )}
+  </div>
+</div>
+
+<style is:global>
+  .guide-handbook-bg {
+    background: linear-gradient(180deg, #f8fafc 0%, #f1f5f9 40%, #f8fafc 100%);
+  }
+</style>

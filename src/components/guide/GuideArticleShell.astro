@@ -1,0 +1,203 @@
+---
+/**
+ * 教程单篇布局：三栏手册风（参考 Suno 类文档站），左侧全站教程列表，中间正文卡片，右侧本页标题锚点 + 快速链接。
+ */
+interface NavSib {
+  slug: string;
+  title: string;
+}
+
+interface Props {
+  lang: string;
+  t: Record<string, unknown>;
+  title: string;
+  description: string;
+  formattedDate: string;
+  author?: string;
+  /** 教程索引页，如 /guide/ 或 /zh-cn/guide/ */
+  guideIndexHref: string;
+  /** 单篇 URL 前缀，与 guideIndexHref 相同 */
+  guideArticleBase: string;
+  siblings: NavSib[];
+  currentSlug: string;
+  appUrl: string;
+}
+
+const {
+  lang,
+  t,
+  title,
+  description,
+  formattedDate,
+  author,
+  guideIndexHref,
+  guideArticleBase,
+  siblings,
+  currentSlug,
+  appUrl,
+} = Astro.props;
+
+const g = t.guide as Record<string, string>;
+const nav = t.nav as Record<string, string>;
+const homeHref = lang === 'en' ? '/' : `/${lang}/`;
+---
+
+<div class="guide-handbook-bg flex-grow">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 lg:py-12">
+    <nav
+      class="text-sm text-slate-500 mb-8 flex flex-wrap items-center gap-x-2 gap-y-1"
+      aria-label="Breadcrumb"
+    >
+      <a href={homeHref} class="hover:text-amber-600 transition-colors">{nav.home}</a>
+      <span aria-hidden="true" class="text-slate-300">/</span>
+      <a href={guideIndexHref} class="hover:text-amber-600 transition-colors">{nav.guide}</a>
+      <span aria-hidden="true" class="text-slate-300">/</span>
+      <span class="text-slate-800 font-medium line-clamp-1 max-w-[min(100%,14rem)] sm:max-w-xs" title={title}>{title}</span>
+    </nav>
+
+    <div class="grid grid-cols-1 gap-10 lg:gap-8 lg:grid-cols-[minmax(0,16rem)_minmax(0,1fr)_minmax(0,14rem)]">
+      <!-- 左侧：教程目录 -->
+      <aside class="order-2 lg:order-1 lg:sticky lg:top-24 self-start space-y-2">
+        <h2 class="text-xs font-bold uppercase tracking-wider text-blue-600 mb-3">{g.article_list}</h2>
+        <ul class="space-y-0.5 border border-slate-200/80 rounded-xl bg-white/90 p-2 shadow-sm">
+          {siblings.map((s) => {
+            const href = `${guideArticleBase}${s.slug}/`;
+            const active = s.slug === currentSlug;
+            return (
+              <li>
+                <a
+                  href={href}
+                  class:list={[
+                    'block rounded-lg px-3 py-2 text-sm leading-snug transition-colors border-l-2 -ml-px',
+                    active
+                      ? 'border-amber-500 bg-amber-50 text-amber-950 font-semibold'
+                      : 'border-transparent text-slate-700 hover:bg-slate-50 hover:text-amber-700',
+                  ]}
+                >
+                  {s.title}
+                </a>
+              </li>
+            );
+          })}
+        </ul>
+      </aside>
+
+      <!-- 中间：正文 -->
+      <article class="order-1 lg:order-2 min-w-0">
+        <div class="rounded-2xl border border-slate-200/90 bg-white shadow-sm px-5 py-8 sm:px-8 sm:py-10">
+          <header class="mb-8 pb-8 border-b border-slate-100">
+            <p class="text-xs font-bold uppercase tracking-widest text-amber-700/90 mb-3">{nav.guide}</p>
+            <h1 class="text-3xl sm:text-4xl font-black text-slate-900 tracking-tight leading-tight mb-4">{title}</h1>
+            <p class="text-slate-600 text-base leading-relaxed max-w-2xl">{description}</p>
+            <div class="mt-5 flex flex-wrap items-center gap-x-3 gap-y-1 text-sm text-slate-500">
+              {author && <span class="font-semibold text-slate-800">{author}</span>}
+              {author && <span class="text-slate-300">·</span>}
+              <time datetime={formattedDate}>{formattedDate}</time>
+            </div>
+          </header>
+
+          <div
+            id="guide-article-body"
+            class="guide-prose prose prose-slate prose-lg max-w-none prose-headings:font-bold prose-headings:text-slate-900 prose-h2:text-2xl prose-h3:text-xl prose-a:text-blue-600 prose-img:rounded-xl"
+          >
+            <slot />
+          </div>
+        </div>
+      </article>
+
+      <!-- 右侧：本页导航 + 快速链接 -->
+      <aside class="order-3 lg:sticky lg:top-24 self-start space-y-8 text-sm">
+        <section>
+          <h2 class="text-sm font-bold text-slate-900 mb-3 pb-2 border-b border-slate-200">{g.page_nav}</h2>
+          <ul id="guide-toc-list" class="space-y-1.5 text-slate-600 min-h-[1rem]" />
+        </section>
+        <section>
+          <h2 class="text-sm font-bold text-slate-900 mb-3 pb-2 border-b border-slate-200">{g.quick_links}</h2>
+          <ul class="space-y-2">
+            <li>
+              <a href={appUrl} target="_blank" rel="noopener noreferrer" class="text-slate-600 hover:text-amber-600 transition-colors">
+                {g.official_platform}
+              </a>
+            </li>
+            <li>
+              <a href={homeHref} class="text-slate-600 hover:text-amber-600 transition-colors">{g.tips}</a>
+            </li>
+            <li>
+              <a href={lang === 'en' ? '/about/' : `/${lang}/about/`} class="text-slate-600 hover:text-amber-600 transition-colors">{g.feedback}</a>
+            </li>
+          </ul>
+        </section>
+      </aside>
+    </div>
+  </div>
+</div>
+
+<style is:global>
+  .guide-handbook-bg {
+    background: linear-gradient(180deg, #f8fafc 0%, #f1f5f9 35%, #f8fafc 100%);
+  }
+  .guide-toc-link {
+    display: block;
+    padding: 0.2rem 0;
+    line-height: 1.35;
+    font-size: 0.8125rem;
+    color: rgb(71 85 105);
+    border-radius: 0.25rem;
+    transition: color 0.15s, background-color 0.15s;
+  }
+  .guide-toc-link:hover {
+    color: rgb(180 83 9);
+  }
+  .guide-toc-h3 {
+    padding-left: 0.75rem;
+    font-size: 0.75rem;
+    opacity: 0.92;
+  }
+</style>
+
+<script is:inline>
+  (function () {
+    function slugify(text) {
+      return String(text || '')
+        .trim()
+        .toLowerCase()
+        .replace(/[\s._/]+/g, '-')
+        .replace(/[^\w\u4e00-\u9fff\u0600-\u06ff-]/g, '')
+        .replace(/-+/g, '-')
+        .replace(/^-|-$/g, '');
+    }
+    function run() {
+      var root = document.getElementById('guide-article-body');
+      var toc = document.getElementById('guide-toc-list');
+      if (!root || !toc) return;
+      var headings = root.querySelectorAll('h2, h3');
+      if (!headings.length) return;
+      var used = {};
+      var frag = document.createDocumentFragment();
+      headings.forEach(function (h, i) {
+        if (!h.id) {
+          var base = slugify(h.textContent || '') || 'section';
+          var id = base;
+          var n = used[id] || 0;
+          used[id] = n + 1;
+          if (n) id = id + '-' + n;
+          h.id = id;
+        }
+        var li = document.createElement('li');
+        var a = document.createElement('a');
+        a.href = '#' + h.id;
+        a.textContent = (h.textContent || '').trim();
+        a.className = h.tagName === 'H3' ? 'guide-toc-link guide-toc-h3' : 'guide-toc-link';
+        li.appendChild(a);
+        frag.appendChild(li);
+      });
+      toc.innerHTML = '';
+      toc.appendChild(frag);
+    }
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', run);
+    } else {
+      run();
+    }
+  })();
+</script>

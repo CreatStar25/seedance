@@ -1,11 +1,11 @@
 ---
 import { getCollection } from 'astro:content';
-import Header from '../../../components/Header.astro';
-import Footer from '../../../components/Footer.astro';
-import SEOHead from '../../../components/SEOHead.astro';
-import PersistLang from '../../../components/PersistLang.astro';
-import { loadTranslations } from '../../../i18n/loadTranslations';
-import GuideArticleShell from '../../../components/guide/GuideArticleShell.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+import SEOHead from '../../components/SEOHead.astro';
+import PersistLang from '../../components/PersistLang.astro';
+import { loadTranslations } from '../../i18n/loadTranslations';
+import GuideArticleShell from '../../components/guide/GuideArticleShell.astro';
 
 function getPostDate(data: { pubDate?: Date; date?: Date }) {
   return data.pubDate ?? data.date ?? new Date(0);
@@ -13,26 +13,27 @@ function getPostDate(data: { pubDate?: Date; date?: Date }) {
 
 export async function getStaticPaths() {
   const entries = await getCollection('guide');
-  return entries.map((entry) => {
-    const [lang, ...slugParts] = entry.id.split('/');
-    const slug = slugParts.join('/').replace(/\.md$/, '');
-    return {
-      params: { lang, slug },
-      props: { entry },
-    };
-  });
+  return entries
+    .filter((entry) => entry.id.startsWith('en/'))
+    .map((entry) => {
+      const slug = entry.id.split('/').slice(1).join('/').replace(/\.md$/, '');
+      return {
+        params: { slug },
+        props: { entry },
+      };
+    });
 }
 
 const { entry } = Astro.props;
-const { lang, slug: currentSlug } = Astro.params;
+const lang = 'en';
+const { slug: currentSlug } = Astro.params;
 const { Content } = await entry.render();
 
 const coverImage = entry.data.image ?? entry.data.heroImage;
-
-const t = await loadTranslations(lang!);
+const t = await loadTranslations(lang);
 
 const rawDate = entry.data.pubDate ?? entry.data.date ?? new Date(0);
-const formattedDate = new Date(rawDate).toLocaleDateString(lang!, {
+const formattedDate = new Date(rawDate).toLocaleDateString(lang, {
   year: 'numeric',
   month: 'long',
   day: 'numeric',
@@ -40,20 +41,19 @@ const formattedDate = new Date(rawDate).toLocaleDateString(lang!, {
 
 const allGuides = await getCollection('guide');
 const siblings = allGuides
-  .filter((e) => e.id.startsWith(`${lang}/`))
+  .filter((e) => e.id.startsWith('en/'))
   .sort((a, b) => getPostDate(b.data).valueOf() - getPostDate(a.data).valueOf())
   .map((e) => {
-    const parts = e.id.split('/').slice(1);
-    const s = parts.join('/').replace(/\.md$/, '');
+    const s = e.id.split('/').slice(1).join('/').replace(/\.md$/, '');
     return { slug: s, title: e.data.title };
   });
 
-const guideIndexHref = lang === 'en' ? '/guide/' : `/${lang}/guide/`;
-const guideArticleBase = guideIndexHref;
+const guideIndexHref = '/guide/';
+const guideArticleBase = '/guide/';
 const appUrl = 'https://app.seedance22.com/generate/video-tools/seedance2.0';
 ---
 
-<html lang={lang} dir={['ar', 'fa'].includes(lang!) ? 'rtl' : 'ltr'} data-lang={lang}>
+<html lang={lang} data-lang={lang}>
   <head>
     <SEOHead
       title={`${entry.data.title} - Seedance`}
@@ -72,12 +72,12 @@ const appUrl = 'https://app.seedance22.com/generate/video-tools/seedance2.0';
     />
   </head>
   <body class="bg-white text-gray-900 font-sans antialiased flex flex-col min-h-screen">
-    <PersistLang lang={lang!} />
-    <Header lang={lang!} t={t} />
+    <PersistLang lang={lang} />
+    <Header lang={lang} t={t} />
 
     <main class="flex-grow">
       <GuideArticleShell
-        lang={lang!}
+        lang={lang}
         t={t}
         title={entry.data.title}
         description={entry.data.description}
@@ -93,7 +93,7 @@ const appUrl = 'https://app.seedance22.com/generate/video-tools/seedance2.0';
       </GuideArticleShell>
     </main>
 
-    <Footer lang={lang!} t={t} />
+    <Footer lang={lang} t={t} />
     <script is:inline>
       if (typeof window !== 'undefined') {
         window.addEventListener('DOMContentLoaded', () => {

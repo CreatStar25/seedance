@@ -1,44 +1,27 @@
 ---
 import { getCollection } from 'astro:content';
-import { languages } from '../../../i18n/locales'; // 注意路径层级
-import Header from '../../../components/Header.astro';
-import Footer from '../../../components/Footer.astro';
-import SEOHead from '../../../components/SEOHead.astro';
-import PersistLang from '../../../components/PersistLang.astro';
-import { loadTranslations } from '../../../i18n/loadTranslations';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+import SEOHead from '../../components/SEOHead.astro';
+import PersistLang from '../../components/PersistLang.astro';
+import { loadTranslations } from '../../i18n/loadTranslations';
 
-// 1. 生成静态路径 (为每种语言生成一个列表页)
-export async function getStaticPaths() {
-  return Object.keys(languages)
-    .filter((lang) => lang !== 'en')
-    .map((lang) => ({
-    params: { lang },
-  }));
-}
-
-const { lang } = Astro.params;
-
-// 2. 获取当前语言的博客文章（严格按语言前缀过滤）
+const lang = 'en';
 const allPosts = await getCollection('blog');
-const posts = allPosts.filter((post) => post.id.startsWith(`${lang}/`));
+const posts = allPosts.filter((post) => post.id.startsWith('en/'));
 
-// 安全获取日期（兼容 pubDate 与 date 两种字段）
 function getPostDate(data: { pubDate?: Date; date?: Date }) {
   return data.pubDate ?? data.date ?? new Date(0);
 }
 
-// 按日期倒序排列
 posts.sort((a, b) => getPostDate(b.data).valueOf() - getPostDate(a.data).valueOf());
 
 const t = await loadTranslations(lang);
-
-// 使用独立配置的博客SEO文案
 const blogPageTitle = t.blog?.page_title ?? `${t.nav.blog} - Seedance`;
 const blogPageDescription = t.blog?.description ?? t.seo.description;
 const blogPageKeywords = t.blog?.keywords ?? t.seo?.keywords;
 const blogHeading = t.blog?.page_title ?? t.nav.blog;
 
-// 格式化日期的辅助函数
 function formatDate(date: Date) {
   return new Date(date).toLocaleDateString(lang, {
     year: 'numeric',
@@ -48,13 +31,13 @@ function formatDate(date: Date) {
 }
 ---
 
-<html lang={lang} dir={['ar','fa'].includes(lang) ? 'rtl' : 'ltr'} data-lang={lang}>
+<html lang={lang} data-lang={lang}>
   <head>
-    <SEOHead 
+    <SEOHead
       title={blogPageTitle}
       description={blogPageDescription}
       keywords={blogPageKeywords}
-      lang={lang} 
+      lang={lang}
       image="https://img.seedance22.com/seedance/seedance-2-cover.webp"
     />
   </head>
@@ -73,12 +56,12 @@ function formatDate(date: Date) {
             const coverImage = post.data.image ?? post.data.heroImage;
             return (
               <article class="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100 group">
-                <a href={lang === 'en' ? `/blog/${cleanSlug}/` : `/${lang}/blog/${cleanSlug}/`}>
+                <a href={`/blog/${cleanSlug}/`}>
                   {coverImage && (
                     <div class="aspect-video overflow-hidden">
-                      <img 
-                        src={coverImage} 
-                        alt={post.data.title} 
+                      <img
+                        src={coverImage}
+                        alt={post.data.title}
                         class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                       />
                     </div>
@@ -102,7 +85,7 @@ function formatDate(date: Date) {
             );
           })}
         </div>
-        
+
         {posts.length === 0 && (
           <div class="text-center text-gray-500 py-20">
             <p class="text-xl">{t.blog?.no_posts}</p>
