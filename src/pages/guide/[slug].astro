@@ -5,6 +5,7 @@ import Footer from '../../components/Footer.astro';
 import SEOHead from '../../components/SEOHead.astro';
 import PersistLang from '../../components/PersistLang.astro';
 import { loadTranslations } from '../../i18n/loadTranslations';
+import { localesForContentSlug } from '../../i18n/hreflangLocales';
 import GuideArticleShell from '../../components/guide/GuideArticleShell.astro';
 
 function getPostDate(data: { pubDate?: Date; date?: Date }) {
@@ -27,6 +28,8 @@ export async function getStaticPaths() {
 const { entry } = Astro.props;
 const lang = 'en';
 const { slug: currentSlug } = Astro.params;
+const allGuides = await getCollection('guide');
+const hreflangLocales = localesForContentSlug(allGuides, currentSlug!);
 const { Content } = await entry.render();
 
 const coverImage = entry.data.image ?? entry.data.heroImage;
@@ -39,7 +42,6 @@ const formattedDate = new Date(rawDate).toLocaleDateString(lang, {
   day: 'numeric',
 });
 
-const allGuides = await getCollection('guide');
 const siblings = allGuides
   .filter((e) => e.id.startsWith('en/'))
   .sort((a, b) => getPostDate(b.data).valueOf() - getPostDate(a.data).valueOf())
@@ -62,6 +64,7 @@ const appUrl = 'https://app.seedance22.com/generate/video-tools/seedance2.0';
       lang={lang}
       image={coverImage}
       schemaType="article"
+      hreflangLocales={hreflangLocales}
       article={{
         datePublished: new Date(rawDate).toISOString().split('T')[0],
         dateModified: entry.data.lastModified

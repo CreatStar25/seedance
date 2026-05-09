@@ -1,10 +1,11 @@
 ---
 import { languages } from '../i18n/locales';
+import { stripTrailingLangSegments } from '../i18n/pathNormalize';
 
 const { lang, t } = Astro.props;
 
-// 获取当前路径，以便切换语言时保持在同一页面
-const pathname = Astro.url.pathname;
+// 获取当前路径，以便切换语言时保持在同一页面（先规范化尾部误入的语种段）
+const pathname = stripTrailingLangSegments(Astro.url.pathname);
 let cleanPath = pathname;
 
 // 移除当前语言前缀 (例如 /zh-cn/blog 或 /en/blog -> /blog)

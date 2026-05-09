@@ -6,6 +6,7 @@ import Footer from '../../../components/Footer.astro';
 import SEOHead from '../../../components/SEOHead.astro';
 import PersistLang from '../../../components/PersistLang.astro';
 import { loadTranslations } from '../../../i18n/loadTranslations';
+import { localesForContentSlug } from '../../../i18n/hreflangLocales';
 
 // 1. 生成所有文章的静态路径
 export async function getStaticPaths() {
@@ -26,7 +27,9 @@ export async function getStaticPaths() {
 }
 
 const { post } = Astro.props;
-const { lang } = Astro.params;
+const { lang, slug: blogSlugParam } = Astro.params;
+const allBlog = await getCollection('blog');
+const hreflangLocales = localesForContentSlug(allBlog, blogSlugParam!);
 const { Content } = await post.render();
 
 // 封面图：兼容 frontmatter 的 image 与 heroImage（新文章可能只写 heroImage）
@@ -50,6 +53,7 @@ const formattedDate = new Date(rawDate).toLocaleDateString(lang, {
       lang={lang}
       image={coverImage}
       schemaType="article"
+      hreflangLocales={hreflangLocales}
       article={{
         datePublished: new Date(rawDate).toISOString().split('T')[0],
         dateModified: post.data.lastModified ? new Date(post.data.lastModified).toISOString().split('T')[0] : new Date(rawDate).toISOString().split('T')[0],

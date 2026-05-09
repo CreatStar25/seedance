@@ -1,6 +1,7 @@
 ---
 // src/components/SEOHead.astro
 import { languages } from '../i18n/locales';
+import { stripTrailingLangSegments } from '../i18n/pathNormalize';
 
 interface Props {
   title: string;
@@ -25,6 +26,8 @@ interface Props {
   }>;
   /** 可选：Schema 类型，默认为 website + organization */
   schemaType?: 'website' | 'article' | 'product' | 'faq';
+  /** 若提供，仅对这些语种输出 hreflang（文章/教程等避免指向未构建 URL） */
+  hreflangLocales?: string[];
 }
 
 const { 
@@ -36,7 +39,8 @@ const {
   robots,
   article,
   faqs,
-  schemaType = 'website'
+  schemaType = 'website',
+  hreflangLocales,
 } = Astro.props;
 
 const ogType = schemaType === 'article' ? 'article' : 'website';
@@ -119,7 +123,8 @@ function normalizePath(p: string): string {
   return p;
 }
 
-const canonicalPath = normalizePath(Astro.url.pathname);
+const pathForSeo = stripTrailingLangSegments(Astro.url.pathname);
+const canonicalPath = normalizePath(pathForSeo);
 // 使用规范化后的 siteBase 确保 URL 拼接正确
 const canonicalURL = new URL(canonicalPath, siteBase);
 
@@ -180,12 +185,17 @@ function buildLangPath(nakedPath: string, targetLang: string): string {
   return fullPath;
 }
 
-const nakedPath = stripLangPrefix(Astro.url.pathname, lang);
+const nakedPath = stripLangPrefix(pathForSeo, lang);
 
-const alternateLinks = Object.keys(languages).map((l) => {
+let langsForHreflang = Object.keys(languages);
+if (hreflangLocales && hreflangLocales.length > 0) {
+  const filtered = [...new Set(hreflangLocales)].filter((l) => l in languages);
+  if (filtered.length > 0) langsForHreflang = filtered;
+}
+
+const alternateLinks = langsForHreflang.map((l) => {
   const fullPath = buildLangPath(nakedPath, l);
   const hreflang = localeMap[l] || l;
-  // 完整确保 URL 正确生成
   return { lang: hreflang, href: new URL(fullPath, siteBase).toString() };
 });
 
@@ -215,7 +225,8 @@ function generateStructuredData(type: 'website' | 'organization' | 'product' | '
     case 'website':
       return {
         ...baseData,
-        "url": canonicalURL.toString(),
+        // WebSite 表示整站，url 必须为站点根，勿用当前页 canonical（否则与 Article 冲突、易触发 GSC 规范网址不一致）
+        "url": siteBaseNormalized,
         "name": "Seedance 2.0",
         "description": description,
       };
@@ -253,6 +264,11 @@ function generateStructuredData(type: 'website' | 'organization' | 'product' | '
     case 'article':
       return {
         ...baseData,
+        "url": canonicalURL.toString(),
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": `${canonicalURL.toString()}#webpage`,
+        },
         "headline": title,
         "description": description,
         "image": ogImage,
@@ -324,10 +340,10 @@ if (schemaType === 'faq') {
   structuredDataList.push(generateStructuredData('softwareapplication'));
 }
 
-// x-default 指向英文（遵循 Google hreflang 最佳实践）
-// x-default 应该指向默认语言的对应页面，而不总是指向首页
+// x-default：优先英文对应 URL；无英文译文时退回当前 canonical
 const defaultLocaleCode = localeMap['en'] || 'en';
-const xDefaultHref = (alternateLinks.find((l) => l.lang === defaultLocaleCode) ?? alternateLinks[0] ?? { href: canonicalURL.toString() }).href;
+const xDefaultHref =
+  alternateLinks.find((l) => l.lang === defaultLocaleCode)?.href ?? canonicalURL.toString();
 
 // content-language meta（百度/360 依赖此 meta 识别语言）
 const contentLanguage = localeMap[lang] || (lang === 'en' ? 'en-US' : lang);
@@ -411,9 +427,10 @@ const loadBaiduAnalytics = lang === 'zh-cn' || lang === 'zh-tw';
 ))}
 <link rel="alternate" hreflang="x-default" href={xDefaultHref} />
 
-{/* JSON-LD 结构化数据 */}
+{/* JSON-LD：勿用 is:inline，否则子表达式不会被编译，页面会出现字面量 "{JSON.stringify...}" */}
 {structuredDataList.map((data) => (
-  <script type="application/ld+json" is:inline>
-    {JSON.stringify(data, null, 2)}
-  </script>
+  <script
+    type="application/ld+json"
+    set:html={JSON.stringify(data).replace(/</g, '\\u003c')}
+  />
 ))}
