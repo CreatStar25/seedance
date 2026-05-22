@@ -11,70 +11,70 @@ lang: "ar"
 
 ![أقوى منافس لـ Seedance 2.0 يظهر](https://img.seedance22.com/aiweb/seedance22-260513-1.png)
 
-A major leak hit the AI video generation space recently. Google is reportedly testing a new video generation model codenamed **Gemini Omni**, and a user accidentally triggered access inside the Gemini app. Based on the leaked test results, Gemini Omni performs remarkably well in several key scenarios and could be the strongest rival Seedance 2.0 has faced so far.
+مؤخرا، شهد مجال توليد الفيديو بالذكاء الاصطناعي اخبارا كبيرة جديدة. اذ تم الكشف عن ان شركة جوجل تختبر نموذجا جديدا لتوليد الفيديو يحمل الاسم الرمزي **Gemini Omni**، وقد تمكن مستخدم من الوصول اليه بالصدفة داخل تطبيق Gemini. بناء على النتائج المسربة للاختبار، فان Gemini Omni يقدم اداء متميزا في عدة سيناريوهات رئيسية، مما يجعله اقوى منافس يواجهه Seedance 2.0 حتى الان.
 
-## What Is Gemini Omni
+## ما هو Gemini Omni؟
 
-According to leaked screenshots, Gemini Omni is described as Google's "new video generation model." It supports not only generating videos from scratch but also video remixing, conversational editing, and template-based creation. In short, it aims to let users modify video content through chat-like interactions, not just "generate a clip."
+حسب ما ظهر في لقطات الشاشة المسربة للواجهة، تم وصف Gemini Omni بانه نموذج توليد فيديو جديد من جوجل. وهو لا يدعم فقط توليد الفيديو من الصفر، بل يتضمن كذلك ميزات مثل اعادة مزج الفيديو والتحرير التفاعلي وتطبيق القوالب. ببساطة، ما تسعى اليه جوجل ليس مجرد توليد مقطع فيديو، بل تمكين المستخدمين من تعديل محتوى الفيديو بالطريقة التي يتحدثون بها في المحادثات.
 
-Google has not officially released it yet, and the leaked test access was quickly revoked. So the following comparison is mainly based on test clips that have surfaced online.
+غير ان جوجل لم تقم بالاصدار الرسمي بعد، وقد تم الغاء صلاحيات الاختبار المسربة سريعا. لذلك، يعتمد التحليل المقارن التالي في الاساس على مقاطع الاختبار المتداولة على شبكة للانترنت.
 
-## Test 1: Complex Math Blackboard Text Rendering
+## الاختبار الاول: عرض النص على السبورة الرياضية المعقدة
 
-One long-standing pain point in AI video generation is text coherence. Many models produce blackboards or sheets of paper with garbled text, or the writing doesn't match across shots.
+احدى المشاكل القديمة والصعبة في توليد الفيديو بالذكاء الاصطناعي هي اتساق النص. فكثير من النماذج تنتج رموزا غير واضحة او نصوصا غير متسقة بين اللقطات المتتالية على السبورات او الاوراق.
 
-In the leaked test, someone used a one-sentence prompt to generate a 10-second video with Gemini Omni: a professor writes a trigonometric identity proof on a blackboard and explains the current step.
+في هذا الاختبار المسرب، استخدم شخص ما مطالبة نصية بجملة واحدة لتوليد مقطع فيديو مدته عشر ثوان باستخدام Gemini Omni: حيث يكتب استاذ على السبورة ويشرح الخطوة الحالية في اثبات المتطابقة المثلثية.
 
-The result showed that the mathematical formulas on the blackboard were generally readable and remained relatively stable throughout camera movement. Although careful inspection still reveals some AI artifacts, the improvement over previous models is clear.
+من النتائج، كانت الصيغ الرياضية على السبورة مقروءة بشكل عام، وحافظ النص على استقرار نسبي اثناء حركة الكاميرا. رغم انه لا يزال يمكن اكتشاف بعض اثار الذكاء الاصطناعي عند الفحص الدقيق، الا ان التحسن كان واضحا مقارنة بالنماذج السابقة.
 
-For a fair comparison, we fed the same prompt to **Seedance 2.0**. Seedance 2.0 still excels in photorealism and lighting, but the mathematical accuracy of the board content was slightly off, with some text rendering remaining blurry.
+من اجل المقارنة العادلة، قدمنا نفس المطالبة الى **Seedance 2.0** للاختبار. يظل Seedance 2.0 متفوقا جدا في واقعية الصورة وجودة الاضاءة، لكن الدقة الرياضية لمحتوى السبورة كانت تعاني من انحراف طفيف، ولا تزال بعض عروض النصوص تعاني من العيوب.
 
-| Comparison Item | Gemini Omni (Leaked) | Seedance 2.0 |
+| عنصر المقارنة | Gemini Omni (نسخة مسربة) | Seedance 2.0 |
 | :--- | :--- | :--- |
-| Visual Realism | Excellent | Excellent |
-| Text Readability | Good, formulas mostly legible | Average, some text blurry |
-| Camera Stability | Stable | Stable |
+| واقعية الصورة | ممتاز | ممتاز |
+| قابلية قراءة النص | جيد نسبيا، الصيغ مقروءة بشكل اساسي | متوسط، بعض النصوص ضبابية |
+| استقرار الكاميرا | مستقر | مستقر |
 
-This test shows that **text rendering** is becoming a new battleground among top-tier models. For instructional videos that need to display text, formulas, or interface operations, this capability is particularly critical.
+يوضح هذا الاختبار ان **عرض النص** اصبح ساحة معركة جديدة بين النماذج الرائدة. وهذا امر بالغ الاهمية بشكل خاص لمقاطع الفيديو التعليمية التي تحتاج الى عرض النصوص والصيغ وعمليات الواجهة.
 
-## Test 2: "Will Smith Eating Spaghetti"
+## الاختبار الثاني: ويل سميث يأكل المعكرونة
 
-This prompt has become a standard benchmark for almost every video generation model. The test focuses on whether character movements are natural, whether object physics are correct, and whether the eating process is coherent.
+اصبحت هذه المطالبة بمثابة اختبار الزامي لجميع نماذج توليد الفيديو. يركز الاختبار على ما اذا كانت حركات الشخصيات طبيعية، وما اذا كانت فيزياء الاجسام صحيحة، وما اذا كانت عملية الاكل متسقة.
 
-In the Gemini Omni-generated version, the character appearance and scene atmosphere were quite realistic. However, some viewers noticed a detail issue: there was no spaghetti on the plate before the character sat down, but it appeared after sitting; then during eating, the noodles inexplicably vanished. This indicates the model still has gaps in **long-chain physical logic**.
+في النسخة التي انتجها Gemini Omni، كان مظهر الشخصية واجماء المشهد مقنعين جدا. لكن لاحظ احد المراقبين مشكلة في التفاصيل: لم تكن هناك معكرونة في الطبق قبل جلوس الشخصية، ثم ظهرت فجاة بعد الجلوس، واختفت الخيوط دون سبب اثناء الاكل. وهذا يدل على ان النموذج لا يزال يعاني من فجوات في المنطق الفيزيائي للسلاسل الطويلة.
 
-We entered the same complex prompt into **Seedance 2.0**. In terms of eating action naturalness, Seedance 2.0 performed more smoothly. The chewing rhythm, hand movements, and food interaction were more consistent with real-world physics.
+قدمنا نفس مجموعة المطالبات المعقدة الى **Seedance 2.0**، وفي ما يخص طبيعية حركات الاكل، قدم Seedance 2.0 اداء افضل واكثر سلاسة. كان ايقاع المضغ وحركات اليد والتفاعل مع الطعام اكثر انسجاما مع المنطق السليم.
 
-| Comparison Item | Gemini Omni (Leaked) | Seedance 2.0 |
+| عنصر المقارنة | Gemini Omni (نسخة مسربة) | Seedance 2.0 |
 | :--- | :--- | :--- |
-| Character Appearance | Photorealistic | Photorealistic |
-| Scene Atmosphere | Strong upscale-restaurant feel | Excellent lighting and texture |
-| Eating Action Coherence | Discontinuous, physics need work | More natural, complete action chain |
+| مظهر الشخصية | واقعي | واقعي |
+| اجماء المشهد | احساس قوي باجماء المطعم الفاخر | جودة ممتازة في الاضاءة والملمس |
+| اتساق حركات الاكل | به فجوات، يحتاج تحسين المنطق الفيزيائي | اكثر طبيعية، سلسلة حركات كاملة |
 
-In this round, **Seedance 2.0** edged ahead on action physics and logical coherence.
+في هذه الجولة، تفوق **Seedance 2.0** في المنطق الفيزيائي للحركات والاتساق المنطقي.
 
-## Gemini Omni's Video Editing Capabilities
+## قدرات تحرير الفيديو في Gemini Omni
 
-Beyond generation, Gemini Omni also demonstrated surprising **video editing** capabilities. For example:
+بالاضافة الى التوليد، قدم Gemini Omni قدرات مذهلة في تحرير الفيديو. على سبيل المثال:
 
-- Replace the spaghetti in a video directly with a bowl of Thai tom yum soup;
-- Remove a Sora watermark from a video while keeping the footage consistent.
+- استبدال المعكرونة في الفيديو مباشرة بحساء تايلاندي حار
+- ازالة علامة Sora المائية من مقطع فيديو مع الحفاظ على اتساق اللقطات
 
-If this capability remains intact at official launch, its practical value will be enormous. Currently, most AI video tools make secondary editing difficult after generation. Gemini Omni's "conversational editing" approach could change that status quo.
+اذا تم الحفاظ على هذه القدرة عند الاصدار الرسمي، ستكون قيمتها العملية كبيرة جدا. معظم ادوات فيديو الذكاء الاصطناعي الحالية يصعب تعديلها بشكل ثانوي بعد التوليد، وقد تغير طريقة التحرير التفاعلي من Gemini Omni هذا الوضع.
 
-## AI Video Is Going Mainstream
+## فيديو الذكاء الاصطناعي يدخل التيار الرئيسي
 
-Regardless of Gemini Omni's final performance, one trend is clear: the quality of AI video is rapidly approaching professional production standards.
+بغض النظر عن الاداء النهائي لـ Gemini Omni، فان اتجاها واحدا اصبح واضحا: جودة فيديو الذكاء الاصطناعي تقترب سريعا من معايير الانتاج الاحترافي.
 
-Recently, several shorts created with Seedance 2.0 have gained massive attention on social platforms. For example, an AI short dubbed "China's Love, Death & Robots" was completed by its creator in just 10 days and has already received collaboration offers from film studios. A pigeon video made by Runway technical artist Marko Slavnic using Seedance 2.0 racked up millions of views in a short time, with many commenters saying they "couldn't tell it was AI at all."
+خلال هذه الفترة، حققت عدة افلام قصيرة مصنوعة بالذكاء الاصطناعي اهتماما كبيرة على المنصات الاجتماعية. على سبيل المثال، حصل فيلم قصير بالذكاء الاصطناعي على اهتمام كبير حيث لوحق عليه المشاهدون بلقب النسخة الصينية من Love, Death and Robots، حيث اكمله المخرج في عشرة ايام فقط، وتلقى عروض تعاون من شركات الانتاج السينمائي. كما حصل فيديو الحمام الذي صنعه فنان تقني باستخدام Seedance 2.0 على ملايين المشاهدات في وقت قصير، مع العديد من التعليقات من المشاهدين الذين قالوا انهم لم يكونوا يعلمون ان هذا فيديو ذكاء اصطناعي.
 
-These cases show that AI video is no longer a toy—it's becoming a real creative tool.
+تظهر هذه الامثلة ان فيديو الذكاء الاصطناعي لم يعد لعبة، بل اصبح اداة ابداعية حقيقية.
 
-## Final Thoughts
+## كلمة اخيرة
 
-The accidental leak of Gemini Omni has added more fuel to the AI video generation race. Google may officially unveil the product at next week's I/O conference, and its real-world performance will be worth watching.
+اضاف التسرب غير المتوقع لـ Gemini Omni الوقود الى سباق توليد الفيديو بالذكاء الاصطناعي. قد تعلن جوجل رسميا عن هذا المنتج في مؤتمر I/O الاسبوع القادم، وسيكون الاداء الفعلي جديرا بالمتابعة.
 
-For everyday users, competition between models is good news—generation quality is improving, barriers to entry are dropping, and the choice of tools is expanding. **Seedance 2.0** remains in the top tier for visual quality, action physics, and creative workflow. If you want to experience the current state-of-the-art in AI video generation, you can start using it right away.
+بالنسبة للمستخدمين العاديين، فان المنافسة بين النماذج امر جيد، فجودة التوليد تتحسن، وعوائق الدخول تتناقص، والخيارات المتاحة من الادوات تزداد. لا يزال **Seedance 2.0** في الطليعة من حيث جودة الصورة والمنطق الفيزيائي للحركات وسير عمل الابداع. اذا كنت ترغب في تجربة اقوى قدرات توليد الفيديو بالذكاء الاصطناعي مباشرة، فيمكنك البدء في استخدامه فورا.
 
 ---
 

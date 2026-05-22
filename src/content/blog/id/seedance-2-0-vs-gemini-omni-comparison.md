@@ -11,70 +11,70 @@ lang: "id"
 
 ![Pesaing Terkuat Seedance 2.0 Telah Muncul](https://img.seedance22.com/aiweb/seedance22-260513-1.png)
 
-A major leak hit the AI video generation space recently. Google is reportedly testing a new video generation model codenamed **Gemini Omni**, and a user accidentally triggered access inside the Gemini app. Based on the leaked test results, Gemini Omni performs remarkably well in several key scenarios and could be the strongest rival Seedance 2.0 has faced so far.
+Baru-baru ini, ada kabar besar di ranah pembuatan video AI. Google dikabarkan sedang menguji model pembuatan video baru dengan kode **Gemini Omni**, dan seorang pengguna secara tidak sengaja memicu aksesnya di aplikasi Gemini. Berdasarkan hasil tes yang bocor, Gemini Omni berkinerja sangat baik di beberapa skenario kunci dan mungkin menjadi rival terberat yang pernah dihadapi Seedance 2.0.
 
-## What Is Gemini Omni
+## Apa Itu Gemini Omni?
 
-According to leaked screenshots, Gemini Omni is described as Google's "new video generation model." It supports not only generating videos from scratch but also video remixing, conversational editing, and template-based creation. In short, it aims to let users modify video content through chat-like interactions, not just "generate a clip."
+Berdasarkan tangkapan layar yang bocor, Gemini Omni digambarkan sebagai "model pembuatan video baru Google". Ini tidak hanya mendukung pembuatan video dari awal, tetapi juga remixing video, pengeditan percakapan, dan pembuatan berbasis template. Sederhananya, tujuannya adalah memungkinkan pengguna memodifikasi konten video melalui interaksi seperti聊天, bukan hanya "menghasilkan klip".
 
-Google has not officially released it yet, and the leaked test access was quickly revoked. So the following comparison is mainly based on test clips that have surfaced online.
+Namun, Google belum merilisnya secara resmi, dan akses tes yang bocor dengan cepat dicabut. Jadi perbandingan berikut terutama didasarkan pada klip tes yang muncul online.
 
-## Test 1: Complex Math Blackboard Text Rendering
+## Tes 1: Render Teks Papan Matematika Kompleks
 
-One long-standing pain point in AI video generation is text coherence. Many models produce blackboards or sheets of paper with garbled text, or the writing doesn't match across shots.
+Salah satu masalah lama dalam pembuatan video AI adalah koherensi teks. Banyak model menghasilkan papan atau lembaran kertas dengan teks yang berantakan, atau tulisan tidak cocok antar bidikan.
 
-In the leaked test, someone used a one-sentence prompt to generate a 10-second video with Gemini Omni: a professor writes a trigonometric identity proof on a blackboard and explains the current step.
+Dalam tes yang bocor, seseorang menggunakan prompt satu kalimat untuk menghasilkan video 10 detik dengan Gemini Omni: seorang profesor menulis bukti identitas trigonometri di papan dan menjelaskan langkah saat ini.
 
-The result showed that the mathematical formulas on the blackboard were generally readable and remained relatively stable throughout camera movement. Although careful inspection still reveals some AI artifacts, the improvement over previous models is clear.
+Hasilnya menunjukkan bahwa rumus matematika di papan umumnya dapat dibaca dan tetap relatif stabil sepanjang gerakan kamera. Meskipun pemeriksaan cermat masih mengungkapkan beberapa artefak AI, peningkatan dibandingkan model sebelumnya jelas.
 
-For a fair comparison, we fed the same prompt to **Seedance 2.0**. Seedance 2.0 still excels in photorealism and lighting, but the mathematical accuracy of the board content was slightly off, with some text rendering remaining blurry.
+Untuk perbandingan yang adil, kami memberikan prompt yang sama kepada **Seedance 2.0**. Seedance 2.0 masih unggul dalam fotorealisme dan pencahayaan, tetapi akurasi matematika konten papan sedikit melenceng, dengan beberapa render teks tetap buram.
 
-| Comparison Item | Gemini Omni (Leaked) | Seedance 2.0 |
+| Item Perbandingan | Gemini Omni (Bocor) | Seedance 2.0 |
 | :--- | :--- | :--- |
-| Visual Realism | Excellent | Excellent |
-| Text Readability | Good, formulas mostly legible | Average, some text blurry |
-| Camera Stability | Stable | Stable |
+| Realisme Visual | Sangat Baik | Sangat Baik |
+| Keterbacaan Teks | Baik, rumus 대부분 dapat dibaca | Rata-rata, beberapa teks buram |
+| Stabilitas Kamera | Stabil | Stabil |
 
-This test shows that **text rendering** is becoming a new battleground among top-tier models. For instructional videos that need to display text, formulas, or interface operations, this capability is particularly critical.
+Tes ini menunjukkan bahwa **render teks** sedang menjadi medan pertempuran baru di antara model tier atas. Untuk video instruksional yang perlu menampilkan teks, rumus, atau operasi antarmuka, kemampuan ini sangat penting.
 
-## Test 2: "Will Smith Eating Spaghetti"
+## Tes 2: "Will Smith Makan Spaghetti"
 
-This prompt has become a standard benchmark for almost every video generation model. The test focuses on whether character movements are natural, whether object physics are correct, and whether the eating process is coherent.
+Prompt ini telah menjadi tolok ukur standar untuk hampir setiap model pembuatan video. Tes ini berfokus pada apakah gerakan karakter alami, apakah fisika objek benar, dan apakah proses makan koheren.
 
-In the Gemini Omni-generated version, the character appearance and scene atmosphere were quite realistic. However, some viewers noticed a detail issue: there was no spaghetti on the plate before the character sat down, but it appeared after sitting; then during eating, the noodles inexplicably vanished. This indicates the model still has gaps in **long-chain physical logic**.
+Dalam versi yang dihasilkan Gemini Omni, penampilan karakter dan suasana adegan cukup realistis. Namun, beberapa penonton mencatat masalah detail: tidak ada spaghetti di piring sebelum karakter duduk, tapi muncul setelah duduk; kemudian saat makan, mie itu lenyap tanpa penjelasan. Ini menunjukkan bahwa model tersebut masih memiliki kesenjangan dalam **logika fisika rantai panjang**.
 
-We entered the same complex prompt into **Seedance 2.0**. In terms of eating action naturalness, Seedance 2.0 performed more smoothly. The chewing rhythm, hand movements, and food interaction were more consistent with real-world physics.
+Kami memasukkan prompt kompleks yang sama ke **Seedance 2.0**. Dalam hal kealamian aksi makan, Seedance 2.0 berkinerja lebih mulus. Ritme mengunyah, gerakan tangan, dan interaksi dengan makanan lebih konsisten dengan fisika dunia nyata.
 
-| Comparison Item | Gemini Omni (Leaked) | Seedance 2.0 |
+| Item Perbandingan | Gemini Omni (Bocor) | Seedance 2.0 |
 | :--- | :--- | :--- |
-| Character Appearance | Photorealistic | Photorealistic |
-| Scene Atmosphere | Strong upscale-restaurant feel | Excellent lighting and texture |
-| Eating Action Coherence | Discontinuous, physics need work | More natural, complete action chain |
+| Penampilan Karakter | Fotorealistik | Fotorealistik |
+| Suasana Adegan | Nuansa restoran kelas atas yang kuat | Pencahayaan dan tekstur sangat baik |
+| Koherensi Aksi Makan | Tidak kontinu, fisika perlu diperbaiki | Lebih alami, rantai aksi lengkap |
 
-In this round, **Seedance 2.0** edged ahead on action physics and logical coherence.
+Di babak ini, **Seedance 2.0** lebih unggul dalam fisika aksi dan koherensi logis.
 
-## Gemini Omni's Video Editing Capabilities
+## Kemampuan Edit Video Gemini Omni
 
-Beyond generation, Gemini Omni also demonstrated surprising **video editing** capabilities. For example:
+Selain pembuatan, Gemini Omni juga mendemonstrasikan **kemampuan edit video** yang mengejutkan. Misalnya:
 
-- Replace the spaghetti in a video directly with a bowl of Thai tom yum soup;
-- Remove a Sora watermark from a video while keeping the footage consistent.
+- Mengganti spaghetti dalam video langsung dengan mangkuk sup tom yum Thailand;
+- Menghapus watermark Sora dari video sambil menjaga konsistensi footage.
 
-If this capability remains intact at official launch, its practical value will be enormous. Currently, most AI video tools make secondary editing difficult after generation. Gemini Omni's "conversational editing" approach could change that status quo.
+Jika kemampuan ini tetap ada di peluncuran resmi, nilai praktisnya akan sangat besar. Saat ini, sebagian besar alat video AI membuat pengeditan sekunder sulit setelah pembuatan. Pendekatan "pengeditan percakapan" Gemini Omni dapat mengubah status quo ini.
 
-## AI Video Is Going Mainstream
+## Video AI Sedang Menjadi Mainstream
 
-Regardless of Gemini Omni's final performance, one trend is clear: the quality of AI video is rapidly approaching professional production standards.
+Terlepas dari performa akhir Gemini Omni, satu tren sudah jelas: kualitas video AI dengan cepat mendekati standar produksi profesional.
 
-Recently, several shorts created with Seedance 2.0 have gained massive attention on social platforms. For example, an AI short dubbed "China's Love, Death & Robots" was completed by its creator in just 10 days and has already received collaboration offers from film studios. A pigeon video made by Runway technical artist Marko Slavnic using Seedance 2.0 racked up millions of views in a short time, with many commenters saying they "couldn't tell it was AI at all."
+Baru-baru ini, beberapa film pendek yang dibuat dengan Seedance 2.0获得了 perhatian besar di platform sosial. Misalnya, film pendek AI yang dijuluki "Love, Death & Robots China" selesai dibuat oleh pembuatnya hanya dalam 10 hari dan telah menerima penawaran kolaborasi dari studio film. Video merpati yang dibuat oleh seniman teknis Runway Marko Slavnic menggunakan Seedance 2.0 meraih jutaan tampilan dalam waktu singkat, dengan banyak komentator yang mengatakan mereka "tidak bisa membedakan itu AI".
 
-These cases show that AI video is no longer a toy—it's becoming a real creative tool.
+Kasus-kasus ini menunjukkan bahwa video AI bukan lagi mainan—ini menjadi alat kreatif yang nyata.
 
-## Final Thoughts
+## Pikiran Terakhir
 
-The accidental leak of Gemini Omni has added more fuel to the AI video generation race. Google may officially unveil the product at next week's I/O conference, and its real-world performance will be worth watching.
+Kebocoran accidental Gemini Omni telah menambahkan lebih banyak bahan bakar ke perlombaan pembuatan video AI. Google mungkin akan secara resmi mengungkapkan produk di konferensi I/O minggu depan, dan performanya di dunia nyata akan layak untuk ditonton.
 
-For everyday users, competition between models is good news—generation quality is improving, barriers to entry are dropping, and the choice of tools is expanding. **Seedance 2.0** remains in the top tier for visual quality, action physics, and creative workflow. If you want to experience the current state-of-the-art in AI video generation, you can start using it right away.
+Untuk pengguna sehari-hari, kompetisi antar model adalah kabar baik—kualitas pembuatan meningkat, hambatan masuk berkurang, dan pilihan alat semakin banyak. **Seedance 2.0** tetap di梯队 teratas untuk kualitas visual, fisika aksi, dan alur kerja kreatif. Jika Anda ingin mengalami kemampuan pembuatan video AI tercanggih saat ini, Anda dapat langsung mulai menggunakannya.
 
 ---
 
