@@ -1,0 +1,233 @@
+/**
+ * Derives locale packs from German base via phrase-level replacements + locale meta.
+ * Run: node scripts/derive-packs-from-de.mjs
+ */
+import fs from "node:fs";
+import path from "node:path";
+import { fileURLToPath } from "node:url";
+import { de } from "./translation-packs/de.mjs";
+import { writePackFile } from "./write-pack-file.mjs";
+
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
+const outDir = path.join(__dirname, "translation-packs");
+const packJsonDir = path.join(__dirname, "pack-json");
+fs.mkdirSync(packJsonDir, { recursive: true });
+
+/** @type {Record<string, { title: string; description: string; tags: string[]; alt: string; related: string; closing: string; pairs: [string, string][] }>} */
+const LOCALES = {
+  es: {
+    title: "Seedance 2.0: análisis completo de entrada multimodal",
+    description:
+      "Texto, imagen, audio y vídeo en Seedance 2.0, sistema @ y hasta 12 archivos de referencia. Tutorial Seedance para vídeo IA multimodal.",
+    tags: ["Seedance 2.0", "Tutorial Seedance", "Versión china Seedance"],
+    alt: "Seedance 2.0: análisis completo de entrada multimodal",
+    related:
+      "**Búsquedas relacionadas**: Seedance 2.0, tutorial Seedance, versión china Seedance, vídeo IA multimodal, prompts @ referencia.",
+    closing:
+      "¿Listo para probar la entrada multimodal? Use el botón inferior para abrir **Seedance 2.0** — flujo multimodal completo, incluida la interfaz **versión china Seedance**.",
+    pairs: [
+      ["Wenn Sie KI-Video noch mit", "Si aún crea vídeo IA con"],
+      ["verpassen Sie vermutlich das Kern-Upgrade von", "probablemente pierde la mejora central de"],
+      ["Auf einer einheitlichen multimodalen Audio-Video-Architektur akzeptiert", "Sobre una arquitectura audio-vídeo multimodal unificada, acepta"],
+      ["Text, Bilder, Audio und Video", "texto, imágenes, audio y vídeo"],
+      ["in einem Workflow", "en un solo flujo"],
+      ["bis zu **12 Referenzdateien** gleichzeitig", "hasta **12 archivos de referencia** a la vez"],
+      ["9 Bilder + 3 Videos + 3 Audiospuren", "9 imágenes + 3 vídeos + 3 pistas de audio"],
+      ["natürlichsprachliche Anweisungen", "instrucciones en lenguaje natural"],
+      ["Für Creator, die Charakterlook, Kamerabewegung und AV-Sync steuern müssen", "Para creadores que deben controlar el aspecto del personaje, el movimiento de cámara y la sincronización AV"],
+      ["ist multimodale Eingabe kein Nice-to-have", "la entrada multimodal no es un extra"],
+      ["sie beeinflusst die Ausgabequalität direkt", "afecta directamente la calidad del resultado"],
+      ["Multimodale Eingabe im Überblick", "análisis completo de entrada multimodal"],
+      ["Dieses **Seedance-Tutorial**", "Este **tutorial Seedance**"],
+      ["erklärt alle vier Eingabemodalitäten", "explica las cuatro modalidades de entrada"],
+      ["das @-Referenzsystem", "el sistema de referencias @"],
+      ["typische Produktionsszenarien", "escenarios de producción habituales"],
+      ["Seedance Chinesische Version", "versión china Seedance"],
+      ["## 1. Warum multimodale Eingabe jetzt wichtig ist", "## 1. Por qué importa ahora la entrada multimodal"],
+      ["Viele frühere Tools akzeptierten nur Text", "Muchas herramientas anteriores solo aceptaban texto"],
+      ["Je feiner die Beschreibung", "Cuanto más fina la descripción"],
+      ["desto mehr musste das Modell raten", "más tenía que adivinar el modelo"],
+      ["Aussehen, Kameraführung, Musiktempo", "apariencia, movimientos de cámara, tempo musical"],
+      ["In echten Projekten liegen Lookframes, Referenzclips, BGM oder Voiceover oft schon vor", "En proyectos reales, los equipos ya tienen planches look, clips de referencia, BGM o voz en off"],
+      ["konnten aber nicht direkt ins Modell", "que no podían alimentar directamente al modelo"],
+      ["vereint vier Modalitäten auf einem Generierungspfad", "une cuatro modalidades en una ruta de generación"],
+      ["Das Modell liest Textsemantik, Bildvisuals, Videobewegung und Kamera-Sprache sowie Audiorhythmus gemeinsam", "El modelo lee semántica de texto, visuales de imagen, movimiento de vídeo y lenguaje de cámara, más ritmo de audio"],
+      ["und erzeugt Video mit nativen Audiospuren", "y produce vídeo con pistas de audio nativas"],
+      ["Gegenüber 1.5 sind komplexe Interaktionen und Bewegungsszenen besser nutzbar", "Frente a 1.5, las escenas de interacción y movimiento complejas son más utilizables"],
+      ["näher an Werbung, Kurzdrama und Social Workflows", "más cerca de flujos de publicidad, cortometraje y redes sociales"],
+      ["## 2. Vier Eingabemodalitäten im Detail", "## 2. Cuatro modalidades de entrada explicadas"],
+      ["### 2.1 Text: Absicht klar formulieren", "### 2.1 Texto: exprese claramente la intención"],
+      ["Text bleibt die Basis", "El texto sigue siendo la base"],
+      ["versteht lange Anweisungen, Shotlisten und Stil-Keywords deutlich besser", "entiende mucho mejor instrucciones largas, listas de planos y palabras clave de estilo"],
+      ["Sie können:", "Puede:"],
+      ["vollständige Szenennarrative schreiben", "escribir narrativas de escena completas"],
+      ["storyboardartige Mehrfachshot-Beschreibungen nutzen", "usar descripciones multi-plano tipo storyboard"],
+      ["mit **@**-Referenzen jedem Asset eine Rolle zuweisen", "asignar a cada recurso un rol con referencias **@**"],
+      ["Beispiel:", "Ejemplo:"],
+      ["für das Gesicht der Hauptfigur", "para el rostro del personaje principal"],
+      ["für Follow-Cam-Bewegung", "para movimiento de cámara en seguimiento"],
+      ["als Hintergrundmusik", "como música de fondo"],
+      ["die Figur läuft durch einen Neon-Nachtmarkt", "el personaje recorre un mercado nocturno de neón"],
+      ["die Kamera folgt von hinten", "la cámara sigue por detrás"],
+      ["dreht sich dann lächelnd zur Linse", "luego se gira sonriendo hacia la cámara"],
+      ["### 2.2 Bilder: Charakter und visuellen Stil fixieren", "### 2.2 Imágenes: fijar personaje y estilo visual"],
+      ["Bilder sind die häufigste Referenz", "Las imágenes son la referencia más habitual"],
+      ["Nach Upload von Lookframes, Szenenboards, Marken-VI oder Styleplates", "Tras subir planches look, tableros de escena, VI de marca o placas de estilo"],
+      ["extrahiert das Modell Gesicht, Kleidung, Farbe und Komposition", "el modelo extrae rostro, vestuario, color y composición"],
+      ["und hält sie über Einstellungen relativ stabil", "y las mantiene relativamente estables entre planos"],
+      ["Typischer Einsatz", "Uso típico"],
+      ["Hinweise", "Notas"],
+      ["Charakter-Look", "Aspecto del personaje"],
+      ["Gesicht und Outfit über Shots hinweg", "Rostro y vestuario consistentes entre planos"],
+      ["Szenenreferenz", "Referencia de escena"],
+      ["Umgebung, Licht und Palette fixieren", "Fijar entorno, iluminación y paleta"],
+      ["Styleplate", "Placa de estilo"],
+      ["Werbe- und E-Commerce-Visuals vereinheitlichen", "Unificar visuales de publicidad y e-commerce"],
+      ["Erstes Frame", "Primer fotograma"],
+      ["Eröffnungskomposition steuern", "Controlar composición de apertura"],
+      ["Bis zu **9 Bilder**", "Hasta **9 imágenes**"],
+      ["### 2.3 Audio: Rhythmus, Dialog und Stimmung", "### 2.3 Audio: ritmo, diálogo y ambiente"],
+      ["akzeptiert hochgeladenes Audio und kann native synchronisierte Spuren ausgeben", "acepta audio subido y puede generar pistas sincronizadas nativas"],
+      ["Audio dient für:", "El audio se usa para:"],
+      ["Hintergrundmusik", "Música de fondo"],
+      ["beat-synchroner Schnitt und Pacing", "montaje y ritmo alineados con el beat"],
+      ["Voiceover/Dialog", "Voz en off/diálogo"],
+      ["Lip-Sync (Mandarin, Kantonesisch, Englisch u. a.)", "sincronización labial (mandarín, cantonés, inglés, etc.)"],
+      ["Umgebungs-SFX", "SFX ambientales"],
+      ["stärkere Atmosphäre", "mayor atmósfera"],
+      ["Bis zu **3 Audiospuren**", "Hasta **3 pistas de audio**"],
+      ["Gesamtlänge typisch innerhalb 15 Sekunden", "duración total normalmente dentro de 15 segundos"],
+      ["### 2.4 Video: Visuelle Referenz für Kamera und Bewegung", "### 2.4 Vídeo: referencia visual para cámara y movimiento"],
+      ["Referenzclips liefern Kamerabewegung, Körpersprache, Rhythmus und VFX-Stil", "Los clips de referencia aportan movimiento de cámara, acción corporal, ritmo y estilo VFX"],
+      ["ohne alles in Text zu „übersetzen“", "sin traducir todo al texto"],
+      ["Typisch:", "Casos habituales:"],
+      ["Follow-, Orbit-, Dolly- oder Push-Pull-Kamera", "Cámara de seguimiento, órbita, travelling o push-pull"],
+      ["Tanz- oder Action-Choreografie", "Coreografía de baile o acción"],
+      ["Szenen aus vorhandenem Material verlängern oder ergänzen", "Prolongar o completar escenas del metraje existente"],
+      ["Bis zu **3 Videos**", "Hasta **3 vídeos**"],
+      ["Längenlimits pro Clip und gesamt (typisch ≤ 15 s)", "límites por clip y total (normalmente ≤ 15 s)"],
+      ["## 3. @-Referenzsystem: Jedem Asset eine Aufgabe", "## 3. Sistema @: asignar una tarea a cada recurso"],
+      ["**@-Referenzen** machen multimodale Eingabe praktikabel", "Las **referencias @** hacen práctica la entrada multimodal"],
+      ["Nach dem Upload markieren Sie", "Tras la subida, marque"],
+      ["im Prompt, damit das Modell die Rolle kennt statt zu raten", "en el prompt para que el modelo conozca el rol en lugar de adivinar"],
+      ["Tag", "Etiqueta"],
+      ["Typische Rolle", "Rol habitual"],
+      ["Gesicht / Kleidung / Szene", "Rostro / vestuario / escena"],
+      ["Kamerabewegung / Aktionsrhythmus", "Movimiento de cámara / ritmo de acción"],
+      ["BGM / Lip-Sync-Voiceover", "BGM / voz en off con lip-sync"],
+      ["Story, Stil, Dauer", "Historia, estilo, duración"],
+      ["**Kombibeispiel**", "**Ejemplo combinado**"],
+      ["Bild + Video + Audio", "imagen + vídeo + audio"],
+      ["Durchgehend die Ego-Perspektive von @Video1 verwenden", "Usar el encuadre en primera persona de @Video1 en todo el clip"],
+      ["als Hintergrundmusik, Schnitt im Takt", "como música de fondo, montaje al ritmo"],
+      ["Figur aus @Image1 durch Neon-Nachtmarkt", "Personaje de @Image1 por mercado nocturno de neón"],
+      ["Kamera folgt von hinten", "cámara sigue por detrás"],
+      ["Bewegungsstil wie in @Video1", "estilo de movimiento como en @Video1"],
+      ["Stopp, Drehung, Lächeln", "pausa, giro, sonrisa"],
+      ["Filmische Nachtaufnahme, satte Farben, geringe Schärfentiefe", "Look nocturno cinematográfico, color intenso, poca profundidad de campo"],
+      ["Klare @-Rollen verbessern die Steuerbarkeit deutlich", "Roles @ claros mejoran mucho la controlabilidad"],
+      ["## 4. Kerndaten auf einen Blick", "## 4. Especificaciones clave de un vistazo"],
+      ["Punkt", "Elemento"],
+      ["Spezifikation", "Especificación"],
+      ["Eingabemodalitäten", "Modalidades de entrada"],
+      ["Text + Bild + Video + Audio", "Texto + imagen + vídeo + audio"],
+      ["Referenz-Obergrenze", "Límite de archivos de referencia"],
+      ["12 gesamt", "12 en total"],
+      ["Clip-Länge", "Duración del clip"],
+      ["4–15 Sekunden", "4–15 segundos"],
+      ["Auflösung", "Resolución"],
+      ["480p / 720p / 1080p (Pro bis 2K)", "480p / 720p / 1080p (Pro hasta 2K)"],
+      ["Seitenverhältnisse", "Relaciones de aspecto"],
+      ["Native AV-Sync, mehrsprachiges Lip-Sync", "Sincronización AV nativa, lip-sync multilingüe"],
+      ["Bildrate", "Cuadros por segundo"],
+      ["24 fps", "24 fps"],
+      ["## 5. Drei typische Produktionsszenarien", "## 5. Tres escenarios de producción habituales"],
+      ["### 5.1 Kurzform und Social Content", "### 5.1 Contenido corto y redes sociales"],
+      ["Teams brauchen oft Volumen mit gleicher IP und Look", "Los equipos suelen necesitar volumen con la misma IP y look"],
+      ["Charakter per Bild fixieren", "Fijar personaje con imágenes"],
+      ["Kamera-Sprache per Video-Referenz", "lenguaje de cámara con referencia de vídeo"],
+      ["Skripte im Text variieren", "variar guiones en texto"],
+      ["schneller iterieren mit weniger Rerolls", "iterar más rápido con menos rerolls"],
+      ["### 5.2 Marken-Marketing-Assets", "### 5.2 Activos de marketing de marca"],
+      ["Marken verlangen VI-Konsistenz", "Las marcas exigen coherencia de VI"],
+      ["Logo, Key Visuals und Styleboards plus Text-Prompts", "Logo, visuales clave y placas de estilo más prompts de texto"],
+      ["Werbe- oder Social-Clips mit einheitlichem Ton", "clips publicitarios o sociales con tono unificado"],
+      ["zuverlässiger als nur Text", "más fiable que solo texto"],
+      ["### 5.3 Bildungs- und Wissensvideo", "### 5.3 Vídeo educativo y de conocimiento"],
+      ["Vorlesungs- oder Erzählaudio für lip-synced Visuals hochladen", "Subir audio de clase o narración para visuales con lip-sync"],
+      ["Szenenreferenzbilder ergänzen", "añadir imágenes de referencia de escena"],
+      ["kostengünstiger multimodaler Lehrinhalt", "contenido didáctico multimodal de bajo coste"],
+      ["## 6. Einstieg: Vier-Schritte-Workflow", "## 6. Primeros pasos: flujo en cuatro pasos"],
+      ["**Lieferobjekt definieren**", "**Definir el entregable**"],
+      ["Werbung, Kurzdrama, Social-Clip", "anuncio, corto, clip social"],
+      ["Dauer und Seitenverhältnis", "duración y relación de aspecto"],
+      ["**Referenzen vorbereiten**", "**Preparar referencias**"],
+      ["Charakter, Kamera, BGM nach Bedarf", "personaje, cámara, BGM según necesidad"],
+      ["nicht jedes Mal alle 12 Dateien", "no hace falta usar los 12 archivos cada vez"],
+      ["**Prompt + @ schreiben**", "**Escribir prompt + @**"],
+      ["zuerst Story, dann Assets binden", "primero la historia, luego vincular recursos"],
+      ["widersprüchliche Anweisungen vermeiden", "evitar instrucciones contradictorias"],
+      ["**Klein iterieren**", "**Iterar en pequeño**"],
+      ["4–6 s zur Validierung von Charakter und Kamera", "4–6 s para validar personaje y cámara"],
+      ["dann auf 10–15 s verlängern", "luego alargar a 10–15 s"],
+      ["## FAQ", "## Preguntas frecuentes"],
+      ["**F: Muss ich alle vier Modalitäten nutzen?**", "**P: ¿Debo usar las cuatro modalitäten?**".replace("Modalitäten", "modalidades")],
+      ["**F: Muss ich alle vier Modalitäten nutzen?**", "**P: ¿Debo usar las cuatro modalidades?**"],
+      ["A: Nein. Nur Text funktioniert", "R: No. Solo texto funciona"],
+      ["ein oder zwei Bilder reichen", "una o dos imágenes bastan"],
+      ["Nach Bedarf mischen", "Combinar según necesidad"],
+      ["**F: Wie werden @-Nummern zugeordnet?**", "**P: ¿Cómo se asignan los números @?**"],
+      ["A: Nach Upload-Reihenfolge", "R: Por orden de subida"],
+      ["erstes Bild ist @Image1", "la primera imagen es @Image1"],
+      ["erstes Video @Video1 usw.", "el primer vídeo @Video1, etc."],
+      ["Nummerierung im Prompt konsistent halten", "mantener la numeración coherente en el prompt"],
+      ["**F: Garantieren Bilder 100 % Konsistenz?**", "**P: ¿Las imágenes garantizan 100 % de coherencia?**"],
+      ["Mehreinstellungs-Konsistenz schlägt Nur-Text deutlich", "La coherencia multi-plano supera con creces al solo texto"],
+      ["bei komplexen Multi-Subject- oder Extremwinkeln kann es abweichen", "en escenas multi-sujeto o ángulos extremos puede haber desviación"],
+      ["festes Testset nutzen", "usar un conjunto de prueba fijo"],
+      ["**F: Erscheint hochgeladenes Audio im finalen Clip?**", "**P: ¿El audio subido aparece en el clip final?**"],
+      ["Das Modell kann Rhythmus folgen", "El modelo puede seguir el ritmo"],
+      ["je nach Prompt/Modus auch native Dialoge, SFX und Musik erzeugen", "y según prompt/modo también generar diálogo, SFX y música nativos"],
+      ["Bereit, multimodale Eingaben selbst zu testen?", "¿Listo para probar la entrada multimodal usted mismo?"],
+      ["Über den Button unten gelangen Sie zu", "Use el botón inferior para abrir"],
+      ["vollständiger multimodaler Workflow inklusive", "flujo multimodal completo, incluida"],
+      ["Oberfläche", "interfaz"],
+      ["Verwandte Suchen", "Búsquedas relacionadas"],
+      ["multimodales KI-Video", "vídeo IA multimodal"],
+      ["@-Referenz-Prompts", "prompts @ referencia"],
+      ["Seedance-Tutorial", "Tutorial Seedance"],
+    ],
+  },
+};
+
+function applyPairs(text, pairs) {
+  let out = text;
+  for (const [from, to] of pairs) {
+    out = out.split(from).join(to);
+  }
+  return out;
+}
+
+function derivePack(lang, cfg) {
+  const main = de.main.map((block) => applyPairs(block, cfg.pairs));
+  return {
+    title: cfg.title,
+    description: cfg.description,
+    tags: cfg.tags,
+    alt: cfg.alt,
+    related: cfg.related,
+    closing: cfg.closing,
+    main,
+  };
+}
+
+for (const [lang, cfg] of Object.entries(LOCALES)) {
+  const pack = derivePack(lang, cfg);
+  fs.writeFileSync(
+    path.join(packJsonDir, `${lang}.json`),
+    JSON.stringify(pack, null, 2),
+    "utf8",
+  );
+  writePackFile(lang, pack, outDir);
+  console.log("Derived", lang);
+}
