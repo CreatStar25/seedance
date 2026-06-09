@@ -394,10 +394,6 @@
         {
           "label": "利用規約",
           "path": "terms"
-        },
-        {
-          "label": "API",
-          "href": "https://api.limaxai.com/"
         }
       ]
     },

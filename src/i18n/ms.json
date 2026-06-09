@@ -183,10 +183,6 @@
         {
           "label": "Terma",
           "path": "terms"
-        },
-        {
-          "label": "API",
-          "href": "https://api.limaxai.com/"
         }
       ]
     },

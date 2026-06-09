@@ -200,10 +200,6 @@
         {
           "label": "服務條款",
           "path": "terms"
-        },
-        {
-          "label": "API",
-          "href": "https://api.limaxai.com/"
         }
       ]
     },
