@@ -1,7 +1,6 @@
 ---
 title: "Seedance 2.0公式サイトを発見：究極のByteDance AI動画生成体験"
 description: "Seedance 2.0の公式サイトをお探しですか？本記事では、複数画像によるキャラクター一貫性や映画的なカメラ制御など、Seedance 2.0のコア機能を包括的にご紹介します。Seedance22.comにアクセスして、創作を始めましょう。"
-slug: seedance-2-0-website-official-features-guide
 lang: "ja"
 date: 2026-02-25
 author: "Seedance Team"

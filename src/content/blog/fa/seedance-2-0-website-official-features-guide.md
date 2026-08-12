@@ -1,7 +1,6 @@
 ---
 title: "کشف وب‌سایت واقعی Seedance 2.0: تجربه نهایی تولید ویدیو هوش مصنوعی بایت‌دنس"
 description: "به دنبال وب‌سایت رسمی seedance 2.0 هستید؟ این مقاله مروری جامع بر ویژگی‌های اصلی Seedance 2.0، شامل ثبات شخصیت از چند تصویر و کنترل سینمایی دوربین ارائه می‌دهد. برای شروع ساخت، به Seedance22.com مراجعه کنید."
-slug: seedance-2-0-website-official-features-guide
 lang: "fa"
 date: 2026-02-25
 author: "Seedance Team"

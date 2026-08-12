@@ -2,7 +2,7 @@
 title: "Seedance 2.0 İleri: Adım Adım AI Vlog Eğitimi"
 description: "AI vlog ve animasyonlu kısalar oluşturmak için Seedance prompt'ları ve Seedance 2.0 kullanın: storyboard, karakter tasarımı, 全能参考 modu, tek tıkla üretim. Tam adım adım Seedance 2.0 vlog rehberi."
 pubDate: "2026-03-15"
-heroImage: "https://img.seedance22.com/aiweb/seedance-3.webp"
+heroImage: "https://img.seedance22.com/aiweb/seedance-260522-1.png"
 ---
 
 Seedance 2.0 ile kamerada oyuncu veya karmaşık çekim olmadan AI vlog ve animasyonlu kısalar oluşturabilirsiniz. Bu **adım adım Seedance 2.0 AI vlog eğitimi** storyboard'dan son klibe kadar.
@@ -19,7 +19,7 @@ AI video için tutarlı bir karaktere ihtiyacınız var. Yoksa metin-görsele il
 
 Örnek prompt: “Anime karakter tasarımcısısın. Genç kadın (25, kentsel profesyonel), kısa saç, yüksek burun köprüsü, büyük gözler, ~165 cm, normal ten, açık gri gündelik takım, çizgi film stili tasarla.” Karakter sayfasını kaydedin ve storyboard ile birlikte kullanın.
 
-![Seedance 2.0 AI vlog storyboard ve karakter](https://img.seedance22.com/aiweb/seedance-3.webp)
+![Seedance 2.0 AI vlog storyboard ve karakter](https://img.seedance22.com/aiweb/seedance-260522-1.png)
 
 ## 3. Seedance 2.0'da kurulum
 

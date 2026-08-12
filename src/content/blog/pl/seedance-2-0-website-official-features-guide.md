@@ -1,7 +1,6 @@
 ---
 title: "Odkryj prawdziwą stronę Seedance 2.0: Ostateczne doświadczenie z generatorem wideo AI od ByteDance"
 description: "Szukasz oficjalnej strony seedance 2.0? Ten artykuł zapewnia kompleksowy przegląd kluczowych funkcji Seedance 2.0, w tym spójności postaci z wielu obrazów i kinematograficznej kontroli kamery. Odwiedź Seedance22.com, aby rozpocząć tworzenie."
-slug: seedance-2-0-website-official-features-guide
 lang: "pl"
 date: 2026-02-25
 author: "Seedance Team"

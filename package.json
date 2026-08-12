@@ -4,19 +4,22 @@
   "version": "0.0.1",
   "scripts": {
     "dev": "astro dev",
-    "build": "astro build && node scripts/generate-zh-sitemap.js",
+    "build": "node scripts/build-content-quality-index.mjs && node scripts/build-responsive-images.mjs && astro build && node scripts/generate-zh-sitemap.js",
+    "seo:content-quality": "node scripts/build-content-quality-index.mjs",
     "preview": "astro preview",
     "astro": "astro",
     "test:blog": "node scripts/test_blog_routes.js",
     "test:multilang": "node scripts/test_multilang_http.js",
-    "i18n:merge-blog-bodies": "node scripts/merge-blog-localized-bodies.mjs"
+    "test:seedance25": "node scripts/test-seedance-25-locales.mjs",
+    "i18n:merge-blog-bodies": "node scripts/merge-blog-localized-bodies.mjs",
+    "seo:images": "node scripts/build-responsive-images.mjs"
   },
   "dependencies": {
-    "@astrojs/cloudflare": "^12.6.12",
     "@astrojs/sitemap": "^3.7.0",
     "@astrojs/tailwind": "^6.0.2",
     "astro": "^5.16.11",
-    "tailwindcss": "^3.4.19"
+    "tailwindcss": "^3.4.19",
+    "sharp": "^0.34.5"
   },
   "devDependencies": {
     "@tailwindcss/typography": "^0.5.19"

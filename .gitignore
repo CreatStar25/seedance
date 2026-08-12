@@ -1,6 +1,9 @@
 # build output
 dist/
 
+# local SEO audit cache
+.seo-cache/
+
 # generated types
 .astro/
 
@@ -25,3 +28,5 @@ pnpm-debug.log*
 
 # jetbrains setting folder
 .idea/
+.seo-cache/
+public/_responsive-images/

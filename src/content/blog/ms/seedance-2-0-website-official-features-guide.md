@@ -1,7 +1,6 @@
 ---
 title: "Temui Laman Web Seedance 2.0 Sebenar: Pengalaman Penjana Video AI ByteDance Yang Maksima"
 description: "Mencari laman web seedance 2.0 rasmi? Artikel ini memberikan gambaran menyeluruh tentang ciri teras Seedance 2.0, termasuk konsistensi watak berbilang imej dan kawalan kamera sinematik. Lawati Seedance22.com untuk mula mencipta."
-slug: seedance-2-0-website-official-features-guide
 lang: "ms"
 date: 2026-02-25
 author: "Seedance Team"

@@ -2,7 +2,7 @@
 title: "Seedance 2.0 Zaawansowany: tutorial vloga AI krok po kroku"
 description: "Użyj promptów Seedance i Seedance 2.0 do tworzenia vlogów AI i krótkich animacji: storyboard, projekt postaci, tryb 全能参考, generowanie jednym kliknięciem. Pełny przewodnik vloga Seedance 2.0 krok po kroku."
 pubDate: "2026-03-15"
-heroImage: "https://img.seedance22.com/aiweb/seedance-3.webp"
+heroImage: "https://img.seedance22.com/aiweb/seedance-260522-1.png"
 ---
 
 Z Seedance 2.0 możesz tworzyć vlogi AI i krótkie animacje bez talentu przed kamerą ani skomplikowanych zdjęć. To **tutorial vloga AI Seedance 2.0 krok po kroku** od storyboardu do końcowego klipu.

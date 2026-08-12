@@ -6,6 +6,7 @@ import Footer from '../../../components/Footer.astro';
 import SEOHead from '../../../components/SEOHead.astro';
 import PersistLang from '../../../components/PersistLang.astro';
 import { loadTranslations } from '../../../i18n/loadTranslations';
+import ResponsiveImage from '../../../components/ResponsiveImage.astro';
 
 // 1. 生成静态路径 (为每种语言生成一个列表页)
 export async function getStaticPaths() {
@@ -76,8 +77,9 @@ function formatDate(date: Date) {
                 <a href={lang === 'en' ? `/blog/${cleanSlug}/` : `/${lang}/blog/${cleanSlug}/`}>
                   {coverImage && (
                     <div class="aspect-video overflow-hidden">
-                      <img 
+                      <ResponsiveImage
                         src={coverImage} 
+                        sizes="(min-width: 768px) 448px, calc(100vw - 3rem)"
                         alt={post.data.title} 
                         class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                       />

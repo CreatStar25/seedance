@@ -5,6 +5,7 @@ import Header from '../../components/Header.astro';
 import Footer from '../../components/Footer.astro';
 import PersistLang from '../../components/PersistLang.astro';
 import { loadTranslations } from '../../i18n/loadTranslations';
+import ResponsiveImage from '../../components/ResponsiveImage.astro';
 
 export async function getStaticPaths() {
   return Object.keys(languages).filter(l => l !== 'en').map((lang) => ({ params: { lang } }));
@@ -21,7 +22,7 @@ const t = await loadTranslations(lang);
       description={t.seo.description}
       keywords={t.seo.keywords}
       lang={lang}
-      image="https://img.seedance22.com/seedance/seedance-2-cover.webp"
+      image="https://img.seedance22.com/aiweb/seedance2-260812-1.png"
       schemaType="faq"
       faqs={t.faq?.items?.map((item: { q: string; a: string }) => ({
         question: item.q,
@@ -77,7 +78,7 @@ const t = await loadTranslations(lang);
                   playsinline
                   class="absolute inset-0 w-full h-full object-cover"
                 >
-                  <img src="https://img.seedance22.com/seedance/seedance-2-cover.webp" alt={t.hero?.highlight} class="w-full h-full object-cover" />
+                  <ResponsiveImage src="https://img.seedance22.com/aiweb/seedance2-260812-1.png" priority alt={t.hero?.highlight} class="w-full h-full object-cover" />
                 </video>
              </div>
           </div>
@@ -139,7 +140,7 @@ const t = await loadTranslations(lang);
                   playsinline
                   class="absolute inset-0 w-full h-full object-cover"
                 >
-                  <img src="https://img.seedance22.com/seedance/seedance-2-demo1.webp" alt={t.product_features?.text_to_video?.title || t.hero?.highlight} class="w-full h-full object-cover" />
+                  <ResponsiveImage src="https://img.seedance22.com/aiweb/seedance2-260812-1.png" alt={t.product_features?.text_to_video?.title || t.hero?.highlight} class="w-full h-full object-cover" />
                 </video>
               </div>
             </div>
@@ -180,7 +181,7 @@ const t = await loadTranslations(lang);
                <div class="grid grid-cols-2 gap-4">
                   <div class="relative group rounded-2xl overflow-hidden shadow-lg hover:-translate-y-1 transition-transform duration-300">
                     <div class="aspect-[4/5] bg-gray-200 relative">
-                       <img src="https://img.seedance22.com/seedance/seedance-2-demo2.webp" alt={t.product_features?.image_to_video?.title || t.hero?.highlight} class="absolute inset-0 w-full h-full object-cover object-[50%_30%]" />
+                       <ResponsiveImage src="https://img.seedance22.com/seedance/seedance-2-demo2.webp" alt={t.product_features?.image_to_video?.title || t.hero?.highlight} class="absolute inset-0 w-full h-full object-cover object-[50%_30%]" />
                     </div>
                   </div>
                   <div class="relative group rounded-2xl overflow-hidden shadow-lg hover:-translate-y-1 transition-transform duration-300 mt-8">
@@ -193,7 +194,7 @@ const t = await loadTranslations(lang);
                          playsinline
                          class="absolute inset-0 w-full h-full object-cover object-[50%_30%]"
                        >
-                         <img src="https://img.seedance22.com/seedance/seedance-2-demo3.webp" alt={t.product_features?.ai_tools?.title || t.hero?.highlight} class="absolute inset-0 w-full h-full object-cover object-[50%_30%]" />
+                         <ResponsiveImage src="https://img.seedance22.com/aiweb/seedance2-260812-1.png" alt={t.product_features?.ai_tools?.title || t.hero?.highlight} class="absolute inset-0 w-full h-full object-cover object-[50%_30%]" />
                        </video>
                     </div>
                   </div>
@@ -339,7 +340,7 @@ const t = await loadTranslations(lang);
                  <svg class="w-10 h-10 text-yellow-300 absolute top-6 left-6 -z-0" fill="currentColor" viewBox="0 0 24 24"><path d="M14.017 21L14.017 18C14.017 16.896 14.389 16.03 15.133 15.401C15.877 14.773 16.924 14.459 18.274 14.459L18.736 14.459L18.736 11.459L18.064 11.459C16.974 11.459 15.897 11.085 14.833 10.338C13.769 9.591 13.044 8.528 12.658 7.149L12.5 6.5L15.5 6.5L15.659 7.426C15.877 8.653 16.38 9.576 17.169 10.194C17.958 10.812 19.096 11.121 20.582 11.121L21 11.121L21 21L14.017 21ZM5.01699 21L5.01699 18C5.01699 16.896 5.389 16.03 6.13299 15.401C6.87699 14.773 7.92399 14.459 9.27399 14.459L9.73599 14.459L9.73599 11.459L9.06399 11.459C7.97399 11.459 6.89699 11.085 5.83299 10.338C4.76899 9.591 4.04399 8.528 3.65799 7.149L3.49999 6.5L6.49999 6.5L6.65899 7.426C6.87699 8.653 7.37999 9.576 8.16899 10.194C8.95799 10.812 10.096 11.121 11.582 11.121L12 11.121L12 21L5.01699 21Z" /></svg>
                  <p class="text-gray-700 italic mb-6 relative z-10">"{item.review}"</p>
                  <div class="flex items-center gap-4">
-                  <img src={['https://img.seedance22.com/seedance/avatar1.webp','https://img.seedance22.com/seedance/avatar2.webp','https://img.seedance22.com/seedance/avatar3.webp'][i % 3]} alt={item.author} class="w-10 h-10 rounded-full object-cover" loading="lazy" />
+                  <ResponsiveImage src={['https://img.seedance22.com/seedance/avatar1.webp','https://img.seedance22.com/seedance/avatar2.webp','https://img.seedance22.com/seedance/avatar3.webp'][i % 3]} sizes="40px" alt={item.author} class="w-10 h-10 rounded-full object-cover" />
                    <div>
                      <div class="font-bold text-gray-900">{item.author}</div>
                      <div class="text-sm text-gray-500">{item.role}</div>

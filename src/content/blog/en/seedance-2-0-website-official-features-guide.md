@@ -1,7 +1,6 @@
 ---
 title: "Discover the Real Seedance 2.0 Website: The Ultimate ByteDance AI Video Generator Experience"
 description: "Looking for the official seedance 2.0 website? This article provides a comprehensive overview of Seedance 2.0's core features, including multi-image character consistency and cinematic camera control. Visit Seedance22.com to start creating."
-slug: seedance-2-0-website-official-features-guide
 lang: "en"
 date: 2026-02-25
 author: "Seedance Team"

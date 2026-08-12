@@ -1,7 +1,6 @@
 ---
 title: "Temukan Website Seedance 2.0 yang Asli: Pengalaman Ultimate Generator Video AI ByteDance"
 description: "Mencari website resmi seedance 2.0? Artikel ini memberikan gambaran komprehensif tentang fitur inti Seedance 2.0, termasuk konsistensi karakter multi-gambar dan kontrol kamera sinematik. Kunjungi Seedance22.com untuk mulai membuat."
-slug: seedance-2-0-website-official-features-guide
 lang: "id"
 date: 2026-02-25
 author: "Seedance Team"

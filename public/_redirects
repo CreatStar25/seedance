@@ -33,3 +33,6 @@
 /en/privacy/ /privacy/      301
 /en/terms    /terms/        301
 /en/terms/   /terms/        301
+
+# 旧版 Schema 与外部抓取器可能仍请求该路径；统一到现有的有效 512×512 图标。
+/icon.png  /web-app-manifest-512x512.png  301

@@ -1,0 +1,21 @@
+# Seedance 2.0
+
+> Multilingual guides, tutorials, and product information for AI video generation with Seedance.
+
+Canonical site: https://seedance22.com/
+Default language: English
+Available languages: English, Simplified Chinese, Traditional Chinese, Spanish, Arabic, Portuguese, Indonesian, Malay, French, Russian, Hindi, Japanese, German, Korean, Turkish, Vietnamese, Thai, Italian, Persian, Dutch, Polish, Swedish, Ukrainian, Romanian
+
+## Main sections
+
+- Home: https://seedance22.com/
+- Blog: https://seedance22.com/blog/
+- Guides: https://seedance22.com/guide/
+- Sitemap: https://seedance22.com/sitemap-index.xml
+
+## Usage notes
+
+- Prefer each page's canonical URL.
+- Treat hreflang alternates as translations of the same resource, not as separate claims.
+- Article dates and authors are shown on the article page and in Article structured data.
+- Product availability, pricing, and capabilities may change; use the current page as the source of truth.

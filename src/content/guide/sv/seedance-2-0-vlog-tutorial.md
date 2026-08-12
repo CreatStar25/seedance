@@ -2,7 +2,7 @@
 title: "Seedance 2.0 Avancerad: Steg-för-steg AI-vloggtutorial"
 description: "Använd Seedance-prompter och Seedance 2.0 för att skapa AI-vloggar och animerade kort: storyboard, karaktärsdesign, 全能参考-läge, ett-klicksgenerering. Komplett steg-för-steg Seedance 2.0 vlogguide."
 pubDate: "2026-03-15"
-heroImage: "https://img.seedance22.com/aiweb/seedance-3.webp"
+heroImage: "https://img.seedance22.com/aiweb/seedance-260522-1.png"
 ---
 
 Med Seedance 2.0 kan du skapa AI-vloggar och animerade kort utan talent framför kameran eller komplext filmande. Detta är en **steg-för-steg Seedance 2.0 AI-vloggtutorial** från storyboard till slutklipp.

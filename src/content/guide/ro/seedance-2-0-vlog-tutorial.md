@@ -2,7 +2,7 @@
 title: "Seedance 2.0 Avansat: Tutorial vlog AI pas cu pas"
 description: "Folosește prompturile Seedance și Seedance 2.0 pentru a crea vloguri AI și shorturi animate: storyboard, design personaj, mod 全能参考, generare cu un clic. Ghid complet vlog Seedance 2.0 pas cu pas."
 pubDate: "2026-03-15"
-heroImage: "https://img.seedance22.com/aiweb/seedance-3.webp"
+heroImage: "https://img.seedance22.com/aiweb/seedance-260522-1.png"
 ---
 
 Cu Seedance 2.0 poți crea vloguri AI și shorturi animate fără talent în fața camerei sau filmare complexă. Acesta este un **tutorial vlog AI Seedance 2.0 pas cu pas** de la storyboard la clipul final.

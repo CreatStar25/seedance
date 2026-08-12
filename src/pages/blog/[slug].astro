@@ -6,6 +6,7 @@ import SEOHead from '../../components/SEOHead.astro';
 import PersistLang from '../../components/PersistLang.astro';
 import { loadTranslations } from '../../i18n/loadTranslations';
 import { localesForContentSlug } from '../../i18n/hreflangLocales';
+import { contentRobots } from '../../utils/contentQuality';
 
 export async function getStaticPaths() {
   const posts = await getCollection('blog');
@@ -30,6 +31,7 @@ const { Content } = await post.render();
 const coverImage = post.data.image ?? post.data.heroImage;
 const t = await loadTranslations(lang);
 const rawDate = post.data.pubDate ?? post.data.date ?? new Date(0);
+const articleAuthor = post.data.author ?? 'Seedance Team';
 const formattedDate = new Date(rawDate).toLocaleDateString(lang, {
   year: 'numeric',
   month: 'long',
@@ -40,17 +42,18 @@ const formattedDate = new Date(rawDate).toLocaleDateString(lang, {
 <html lang={lang} data-lang={lang}>
   <head>
     <SEOHead
-      title={`${post.data.title} - Seedance`}
+      title={post.data.appendBrandToTitle === false ? post.data.title : `${post.data.title} - Seedance`}
       description={post.data.description}
       keywords={t.seo?.keywords}
       lang={lang}
+      robots={contentRobots('blog', post.id)}
       image={coverImage}
       schemaType="article"
       hreflangLocales={hreflangLocales}
       article={{
         datePublished: new Date(rawDate).toISOString().split('T')[0],
         dateModified: post.data.lastModified ? new Date(post.data.lastModified).toISOString().split('T')[0] : new Date(rawDate).toISOString().split('T')[0],
-        author: 'Seedance Team'
+        author: articleAuthor
       }}
     />
   </head>
@@ -66,7 +69,7 @@ const formattedDate = new Date(rawDate).toLocaleDateString(lang, {
           </div>
           <h1 class="text-4xl md:text-5xl font-black mb-6 leading-tight">{post.data.title}</h1>
           <div class="flex items-center justify-center gap-4 text-gray-500 text-sm">
-            <span class="text-black font-bold">{post.data.author}</span>
+            <span class="text-black font-bold">{articleAuthor}</span>
             <span>•</span>
             <time>{formattedDate}</time>
           </div>

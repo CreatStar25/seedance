@@ -1,7 +1,6 @@
 ---
 title: "Descoperiți Site-ul Real Seedance 2.0: Experiența Ultimate de Generator de Video AI ByteDance"
 description: "Căutați site-ul oficial seedance 2.0? Acest articol oferă o prezentare cuprinzătoare a caracteristicilor de bază ale Seedance 2.0, inclusiv consistența personajelor cu imagini multiple și controlul cinematic al camerei. Vizitați Seedance22.com pentru a începe să creați."
-slug: seedance-2-0-website-official-features-guide
 lang: "ro"
 date: 2026-02-25
 author: "Seedance Team"

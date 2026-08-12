@@ -53,7 +53,7 @@ const articleModifiedOg =
     ? `${article.dateModified}T00:00:00.000Z`
     : articlePublishedOg;
 
-const defaultOgImage = 'https://img.seedance22.com/seedance/seedance-2-cover.webp';
+const defaultOgImage = 'https://img.seedance22.com/aiweb/seedance2-260812-1.png';
 const ogImage = image ? (image.startsWith('http') ? image : new URL(image, Astro.site ?? Astro.url.origin).toString()) : defaultOgImage;
 
 // 默认 keywords（如果未提供）
@@ -65,6 +65,9 @@ const defaultKeywords = "Seedance, Seedance 2.0, AI video, AI video generator, t
 const siteBase = Astro.site ? Astro.site.href : Astro.url.origin;
 // 确保 siteBase 以斜杠结尾，避免 URL 拼接错误
 const siteBaseNormalized = siteBase.endsWith('/') ? siteBase : `${siteBase}/`;
+const organizationId = `${siteBaseNormalized}#organization`;
+const websiteId = `${siteBaseNormalized}#website`;
+const organizationLogoUrl = new URL('web-app-manifest-512x512.png', siteBaseNormalized).toString();
 
 // 语言与地区映射，用于 hreflang 与 OG locale
 // 完全覆盖 astro.config.mjs 中 sitemap 配置的全部 25 种语言
@@ -225,28 +228,28 @@ function generateStructuredData(type: 'website' | 'organization' | 'product' | '
     case 'website':
       return {
         ...baseData,
+        "@id": websiteId,
         // WebSite 表示整站，url 必须为站点根，勿用当前页 canonical（否则与 Article 冲突、易触发 GSC 规范网址不一致）
         "url": siteBaseNormalized,
         "name": "Seedance 2.0",
-        "description": description,
+        "description": "Seedance AI video generation guides, tutorials, and product information.",
+        "publisher": { "@id": organizationId },
       };
     
     case 'organization':
       return {
         ...baseData,
+        "@id": organizationId,
         "name": "Seedance AI",
         "url": siteBaseNormalized,
         "logo": {
           "@type": "ImageObject",
-          "url": new URL('icon.png', siteBaseNormalized).toString(),
-          "width": "512",
-          "height": "512"
-        },
-        "sameAs": [
-          "https://twitter.com/seedanceai",
-          "https://github.com/seedance",
-          "https://www.linkedin.com/company/seedanceai"
-        ]
+          "@id": `${organizationId}/logo`,
+          "url": organizationLogoUrl,
+          "contentUrl": organizationLogoUrl,
+          "width": 512,
+          "height": 512
+        }
       };
     
     case 'product':
@@ -264,6 +267,7 @@ function generateStructuredData(type: 'website' | 'organization' | 'product' | '
     case 'article':
       return {
         ...baseData,
+        "@id": `${canonicalURL.toString()}#article`,
         "url": canonicalURL.toString(),
         "mainEntityOfPage": {
           "@type": "WebPage",
@@ -277,7 +281,9 @@ function generateStructuredData(type: 'website' | 'organization' | 'product' | '
         "author": {
           "@type": "Person",
           "name": data?.author || "Seedance Team"
-        }
+        },
+        "publisher": { "@id": organizationId },
+        "isPartOf": { "@id": websiteId }
       };
     
     case 'faq':
@@ -301,8 +307,7 @@ function generateStructuredData(type: 'website' | 'organization' | 'product' | '
         "image": ogImage,
         "url": canonicalURL.toString(),
         "author": {
-          "@type": "Organization",
-          "name": "Seedance AI"
+          "@id": organizationId
         },
         "applicationCategory": "MultimediaApplication",
         "operatingSystem": "Any",

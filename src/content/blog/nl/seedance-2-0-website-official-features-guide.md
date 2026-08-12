@@ -1,7 +1,6 @@
 ---
 title: "Ontdek de echte Seedance 2.0-website: De ultieme ByteDance AI-videogenerator-ervaring"
 description: "Op zoek naar de officiële seedance 2.0-website? Dit artikel geeft een uitgebreid overzicht van de kernfuncties van Seedance 2.0, waaronder multi-image personageconsistentie en cinematografische camerabesturing. Bezoek Seedance22.com om te beginnen met creëren."
-slug: seedance-2-0-website-official-features-guide
 lang: "nl"
 date: 2026-02-25
 author: "Seedance Team"

@@ -2,7 +2,7 @@
 title: "Seedance 2.0 활용편! AI vlog 단계별 튜토리얼"
 description: "Seedance 프롬프트와 즉몽 Seedance 2.0으로 AI vlog·애니메이션 단편 제작: 콘티, 캐릭터 설정, 全能参考 모드, 원클릭 생성. Seedance 2.0 vlog 실전 순서."
 pubDate: "2026-03-15"
-heroImage: "https://img.seedance22.com/aiweb/seedance-3.webp"
+heroImage: "https://img.seedance22.com/aiweb/seedance-260522-1.png"
 ---
 
 Seedance 2.0으로 AI vlog·애니메이션 단편을 만들면 실제 출연·복잡한 촬영 없이 초보도 빠르게 완성할 수 있습니다. 본문은 **Seedance 2.0**으로 AI vlog를 만드는 단계별 튜토리얼입니다.
@@ -26,7 +26,7 @@ AI 영상에는 고정된 주인공 이미지가 필요합니다. 없으면 문�
 
 캐릭터 이미지를 저장한 뒤 콘티와 함께 다음 단계에서 사용합니다.
 
-![Seedance 2.0 AI vlog 콘티와 캐릭터](https://img.seedance22.com/aiweb/seedance-3.webp)
+![Seedance 2.0 AI vlog 콘티와 캐릭터](https://img.seedance22.com/aiweb/seedance-260522-1.png)
 
 ## 3. Seedance 2.0에서 설정
 

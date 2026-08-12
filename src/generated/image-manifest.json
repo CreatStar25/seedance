@@ -1,0 +1,227 @@
+{
+  "generatedAt": "2026-08-12T11:28:34.372Z",
+  "images": {
+    "https://img.seedance22.com/aiweb/seedance-260522-1.png": {
+      "src": "/_responsive-images/db14b9ea648c5147-1530.webp",
+      "srcset": "/_responsive-images/db14b9ea648c5147-480.webp 480w, /_responsive-images/db14b9ea648c5147-768.webp 768w, /_responsive-images/db14b9ea648c5147-1200.webp 1200w, /_responsive-images/db14b9ea648c5147-1530.webp 1530w",
+      "width": 1530,
+      "height": 1052
+    },
+    "https://img.seedance22.com/aiweb/seedance-260526-1.png": {
+      "src": "/_responsive-images/aff50132392b56fe-1216.webp",
+      "srcset": "/_responsive-images/aff50132392b56fe-480.webp 480w, /_responsive-images/aff50132392b56fe-768.webp 768w, /_responsive-images/aff50132392b56fe-1200.webp 1200w, /_responsive-images/aff50132392b56fe-1216.webp 1216w",
+      "width": 1216,
+      "height": 554
+    },
+    "https://img.seedance22.com/aiweb/seedance-260603-1.png": {
+      "src": "/_responsive-images/a59c7536b3690ef4-1200.webp",
+      "srcset": "/_responsive-images/a59c7536b3690ef4-480.webp 480w, /_responsive-images/a59c7536b3690ef4-768.webp 768w, /_responsive-images/a59c7536b3690ef4-1200.webp 1200w",
+      "width": 1200,
+      "height": 1089
+    },
+    "https://img.seedance22.com/aiweb/seedance-260609-2.png": {
+      "src": "/_responsive-images/f79dcc9f363a3a5c-2156.webp",
+      "srcset": "/_responsive-images/f79dcc9f363a3a5c-480.webp 480w, /_responsive-images/f79dcc9f363a3a5c-768.webp 768w, /_responsive-images/f79dcc9f363a3a5c-1200.webp 1200w, /_responsive-images/f79dcc9f363a3a5c-2156.webp 2156w",
+      "width": 2156,
+      "height": 1110
+    },
+    "https://img.seedance22.com/aiweb/seedance-260617-1.png": {
+      "src": "/_responsive-images/26ba189d47b17e02-1000.webp",
+      "srcset": "/_responsive-images/26ba189d47b17e02-480.webp 480w, /_responsive-images/26ba189d47b17e02-768.webp 768w, /_responsive-images/26ba189d47b17e02-1000.webp 1000w",
+      "width": 1000,
+      "height": 554
+    },
+    "https://img.seedance22.com/aiweb/seedance-260617-3.png": {
+      "src": "/_responsive-images/df891cb63b35a175-956.webp",
+      "srcset": "/_responsive-images/df891cb63b35a175-480.webp 480w, /_responsive-images/df891cb63b35a175-768.webp 768w, /_responsive-images/df891cb63b35a175-956.webp 956w",
+      "width": 956,
+      "height": 534
+    },
+    "https://img.seedance22.com/aiweb/seedance2-260812-1.png": {
+      "src": "/_responsive-images/67903266ea2c48bb-1200.webp",
+      "srcset": "/_responsive-images/67903266ea2c48bb-480.webp 480w, /_responsive-images/67903266ea2c48bb-768.webp 768w, /_responsive-images/67903266ea2c48bb-1200.webp 1200w",
+      "width": 1200,
+      "height": 618
+    },
+    "https://img.seedance22.com/aiweb/seedance2-5-260623-1.png": {
+      "src": "/_responsive-images/4492d7b73e2e47a3-900.webp",
+      "srcset": "/_responsive-images/4492d7b73e2e47a3-480.webp 480w, /_responsive-images/4492d7b73e2e47a3-768.webp 768w, /_responsive-images/4492d7b73e2e47a3-900.webp 900w",
+      "width": 900,
+      "height": 500
+    },
+    "https://img.seedance22.com/aiweb/seedance2-ai-video-guide-cover.png": {
+      "src": "/_responsive-images/a41249d4bae1d621-1668.webp",
+      "srcset": "/_responsive-images/a41249d4bae1d621-480.webp 480w, /_responsive-images/a41249d4bae1d621-768.webp 768w, /_responsive-images/a41249d4bae1d621-1200.webp 1200w, /_responsive-images/a41249d4bae1d621-1668.webp 1668w",
+      "width": 1668,
+      "height": 798
+    },
+    "https://img.seedance22.com/aiweb/seedance2-how-to-use-cover.png": {
+      "src": "/_responsive-images/44c4f13af42dc764-1224.webp",
+      "srcset": "/_responsive-images/44c4f13af42dc764-480.webp 480w, /_responsive-images/44c4f13af42dc764-768.webp 768w, /_responsive-images/44c4f13af42dc764-1200.webp 1200w, /_responsive-images/44c4f13af42dc764-1224.webp 1224w",
+      "width": 1224,
+      "height": 638
+    },
+    "https://img.seedance22.com/aiweb/seedance2-official-entry-cover.png": {
+      "src": "/_responsive-images/a501bbd00a8d1b70-1280.webp",
+      "srcset": "/_responsive-images/a501bbd00a8d1b70-480.webp 480w, /_responsive-images/a501bbd00a8d1b70-768.webp 768w, /_responsive-images/a501bbd00a8d1b70-1200.webp 1200w, /_responsive-images/a501bbd00a8d1b70-1280.webp 1280w",
+      "width": 1280,
+      "height": 545
+    },
+    "https://img.seedance22.com/aiweb/seedance2-official-guide-article.png": {
+      "src": "/_responsive-images/690871e2bec639f0-2834.webp",
+      "srcset": "/_responsive-images/690871e2bec639f0-480.webp 480w, /_responsive-images/690871e2bec639f0-768.webp 768w, /_responsive-images/690871e2bec639f0-1200.webp 1200w, /_responsive-images/690871e2bec639f0-2834.webp 2834w",
+      "width": 2834,
+      "height": 1500
+    },
+    "https://img.seedance22.com/aiweb/seedance2-text-to-video-cover.png": {
+      "src": "/_responsive-images/ff53b23a8eff6f68-1320.webp",
+      "srcset": "/_responsive-images/ff53b23a8eff6f68-480.webp 480w, /_responsive-images/ff53b23a8eff6f68-768.webp 768w, /_responsive-images/ff53b23a8eff6f68-1200.webp 1200w, /_responsive-images/ff53b23a8eff6f68-1320.webp 1320w",
+      "width": 1320,
+      "height": 932
+    },
+    "https://img.seedance22.com/aiweb/seedance22-10.png": {
+      "src": "/_responsive-images/7bb1d1bead9a276e-1386.webp",
+      "srcset": "/_responsive-images/7bb1d1bead9a276e-480.webp 480w, /_responsive-images/7bb1d1bead9a276e-768.webp 768w, /_responsive-images/7bb1d1bead9a276e-1200.webp 1200w, /_responsive-images/7bb1d1bead9a276e-1386.webp 1386w",
+      "width": 1386,
+      "height": 836
+    },
+    "https://img.seedance22.com/aiweb/seedance22-260427-1.png": {
+      "src": "/_responsive-images/2a95437354adcb77-1362.webp",
+      "srcset": "/_responsive-images/2a95437354adcb77-480.webp 480w, /_responsive-images/2a95437354adcb77-768.webp 768w, /_responsive-images/2a95437354adcb77-1200.webp 1200w, /_responsive-images/2a95437354adcb77-1362.webp 1362w",
+      "width": 1362,
+      "height": 626
+    },
+    "https://img.seedance22.com/aiweb/seedance22-260427-2.png": {
+      "src": "/_responsive-images/953ad07ac6ad5616-1798.webp",
+      "srcset": "/_responsive-images/953ad07ac6ad5616-480.webp 480w, /_responsive-images/953ad07ac6ad5616-768.webp 768w, /_responsive-images/953ad07ac6ad5616-1200.webp 1200w, /_responsive-images/953ad07ac6ad5616-1798.webp 1798w",
+      "width": 1798,
+      "height": 960
+    },
+    "https://img.seedance22.com/aiweb/seedance22-260427-3.png": {
+      "src": "/_responsive-images/fc20a7cbdc3d708b-2380.webp",
+      "srcset": "/_responsive-images/fc20a7cbdc3d708b-480.webp 480w, /_responsive-images/fc20a7cbdc3d708b-768.webp 768w, /_responsive-images/fc20a7cbdc3d708b-1200.webp 1200w, /_responsive-images/fc20a7cbdc3d708b-2380.webp 2380w",
+      "width": 2380,
+      "height": 1356
+    },
+    "https://img.seedance22.com/aiweb/seedance22-260513-1.png": {
+      "src": "/_responsive-images/aff4cdfab26f962f-1256.webp",
+      "srcset": "/_responsive-images/aff4cdfab26f962f-480.webp 480w, /_responsive-images/aff4cdfab26f962f-768.webp 768w, /_responsive-images/aff4cdfab26f962f-1200.webp 1200w, /_responsive-images/aff4cdfab26f962f-1256.webp 1256w",
+      "width": 1256,
+      "height": 724
+    },
+    "https://img.seedance22.com/aiweb/seedance22-6.png": {
+      "src": "/_responsive-images/c3e57b14c7173bc9-1682.webp",
+      "srcset": "/_responsive-images/c3e57b14c7173bc9-480.webp 480w, /_responsive-images/c3e57b14c7173bc9-768.webp 768w, /_responsive-images/c3e57b14c7173bc9-1200.webp 1200w, /_responsive-images/c3e57b14c7173bc9-1682.webp 1682w",
+      "width": 1682,
+      "height": 754
+    },
+    "https://img.seedance22.com/aiweb/seedance22-7.png": {
+      "src": "/_responsive-images/738b27f58a923087-1148.webp",
+      "srcset": "/_responsive-images/738b27f58a923087-480.webp 480w, /_responsive-images/738b27f58a923087-768.webp 768w, /_responsive-images/738b27f58a923087-1148.webp 1148w",
+      "width": 1148,
+      "height": 1416
+    },
+    "https://img.seedance22.com/aiweb/seedance22-8.png": {
+      "src": "/_responsive-images/fac5c98442050211-1148.webp",
+      "srcset": "/_responsive-images/fac5c98442050211-480.webp 480w, /_responsive-images/fac5c98442050211-768.webp 768w, /_responsive-images/fac5c98442050211-1148.webp 1148w",
+      "width": 1148,
+      "height": 1214
+    },
+    "https://img.seedance22.com/aiweb/seedance22-9.png": {
+      "src": "/_responsive-images/47ba3eb4ed2d8eb2-1724.webp",
+      "srcset": "/_responsive-images/47ba3eb4ed2d8eb2-480.webp 480w, /_responsive-images/47ba3eb4ed2d8eb2-768.webp 768w, /_responsive-images/47ba3eb4ed2d8eb2-1200.webp 1200w, /_responsive-images/47ba3eb4ed2d8eb2-1724.webp 1724w",
+      "width": 1724,
+      "height": 1122
+    },
+    "https://img.seedance22.com/aiweb/seedance22-blog-1.png": {
+      "src": "/_responsive-images/f47ddd69406db606-1310.webp",
+      "srcset": "/_responsive-images/f47ddd69406db606-480.webp 480w, /_responsive-images/f47ddd69406db606-768.webp 768w, /_responsive-images/f47ddd69406db606-1200.webp 1200w, /_responsive-images/f47ddd69406db606-1310.webp 1310w",
+      "width": 1310,
+      "height": 722
+    },
+    "https://img.seedance22.com/aiweb/seedance22-blog-2.png": {
+      "src": "/_responsive-images/1d1db05c98df1d56-1240.webp",
+      "srcset": "/_responsive-images/1d1db05c98df1d56-480.webp 480w, /_responsive-images/1d1db05c98df1d56-768.webp 768w, /_responsive-images/1d1db05c98df1d56-1200.webp 1200w, /_responsive-images/1d1db05c98df1d56-1240.webp 1240w",
+      "width": 1240,
+      "height": 674
+    },
+    "https://img.seedance22.com/aiweb/seedance22-blog-3.png": {
+      "src": "/_responsive-images/7486d9ab7989b21d-1248.webp",
+      "srcset": "/_responsive-images/7486d9ab7989b21d-480.webp 480w, /_responsive-images/7486d9ab7989b21d-768.webp 768w, /_responsive-images/7486d9ab7989b21d-1200.webp 1200w, /_responsive-images/7486d9ab7989b21d-1248.webp 1248w",
+      "width": 1248,
+      "height": 670
+    },
+    "https://img.seedance22.com/aiweb/seedance22-blog-5.png": {
+      "src": "/_responsive-images/2837f37cb7bc06df-952.webp",
+      "srcset": "/_responsive-images/2837f37cb7bc06df-480.webp 480w, /_responsive-images/2837f37cb7bc06df-768.webp 768w, /_responsive-images/2837f37cb7bc06df-952.webp 952w",
+      "width": 952,
+      "height": 916
+    },
+    "https://img.seedance22.com/seedance/avatar1.webp": {
+      "src": "/_responsive-images/042da5e041439c92-200.webp",
+      "srcset": "/_responsive-images/042da5e041439c92-200.webp 200w",
+      "width": 200,
+      "height": 200
+    },
+    "https://img.seedance22.com/seedance/avatar2.webp": {
+      "src": "/_responsive-images/76a5625140ca0e2e-200.webp",
+      "srcset": "/_responsive-images/76a5625140ca0e2e-200.webp 200w",
+      "width": 200,
+      "height": 200
+    },
+    "https://img.seedance22.com/seedance/avatar3.webp": {
+      "src": "/_responsive-images/84441f925dccf967-200.webp",
+      "srcset": "/_responsive-images/84441f925dccf967-200.webp 200w",
+      "width": 200,
+      "height": 200
+    },
+    "https://img.seedance22.com/seedance/eedance-2-0-cover-1.png": {
+      "src": "/_responsive-images/1c538f14eb4b2d48-900.webp",
+      "srcset": "/_responsive-images/1c538f14eb4b2d48-480.webp 480w, /_responsive-images/1c538f14eb4b2d48-768.webp 768w, /_responsive-images/1c538f14eb4b2d48-900.webp 900w",
+      "width": 900,
+      "height": 675
+    },
+    "https://img.seedance22.com/seedance/eedance-2-0-cover-2.png": {
+      "src": "/_responsive-images/3e6ebc7f2009e1ac-900.webp",
+      "srcset": "/_responsive-images/3e6ebc7f2009e1ac-480.webp 480w, /_responsive-images/3e6ebc7f2009e1ac-768.webp 768w, /_responsive-images/3e6ebc7f2009e1ac-900.webp 900w",
+      "width": 900,
+      "height": 675
+    },
+    "https://img.seedance22.com/seedance/eedance-2-0-cover-3.png": {
+      "src": "/_responsive-images/e736becc637f467f-900.webp",
+      "srcset": "/_responsive-images/e736becc637f467f-480.webp 480w, /_responsive-images/e736becc637f467f-768.webp 768w, /_responsive-images/e736becc637f467f-900.webp 900w",
+      "width": 900,
+      "height": 675
+    },
+    "https://img.seedance22.com/seedance/eedance-2-0-cover-4.png": {
+      "src": "/_responsive-images/6b89f355ac37eb3d-900.webp",
+      "srcset": "/_responsive-images/6b89f355ac37eb3d-480.webp 480w, /_responsive-images/6b89f355ac37eb3d-768.webp 768w, /_responsive-images/6b89f355ac37eb3d-900.webp 900w",
+      "width": 900,
+      "height": 675
+    },
+    "https://img.seedance22.com/seedance/sandance-2-0-sundance2-0-typo-seedance-cover.png": {
+      "src": "/_responsive-images/bcb98ee2bf4ba6fc-800.webp",
+      "srcset": "/_responsive-images/bcb98ee2bf4ba6fc-480.webp 480w, /_responsive-images/bcb98ee2bf4ba6fc-768.webp 768w, /_responsive-images/bcb98ee2bf4ba6fc-800.webp 800w",
+      "width": 800,
+      "height": 485
+    },
+    "https://img.seedance22.com/seedance/seedance-2-0-website-official-cover.png": {
+      "src": "/_responsive-images/ea660323c9918a18-800.webp",
+      "srcset": "/_responsive-images/ea660323c9918a18-480.webp 480w, /_responsive-images/ea660323c9918a18-768.webp 768w, /_responsive-images/ea660323c9918a18-800.webp 800w",
+      "width": 800,
+      "height": 526
+    },
+    "https://img.seedance22.com/seedance/seedance-2-demo2.webp": {
+      "src": "/_responsive-images/1cb578ca3d51f2ca-988.webp",
+      "srcset": "/_responsive-images/1cb578ca3d51f2ca-480.webp 480w, /_responsive-images/1cb578ca3d51f2ca-768.webp 768w, /_responsive-images/1cb578ca3d51f2ca-988.webp 988w",
+      "width": 988,
+      "height": 1750
+    },
+    "https://img.seedance22.com/seedance/sundance-2-0-mistake-seedance-ai-cover.png": {
+      "src": "/_responsive-images/836e812e66bc9db0-800.webp",
+      "srcset": "/_responsive-images/836e812e66bc9db0-480.webp 480w, /_responsive-images/836e812e66bc9db0-768.webp 768w, /_responsive-images/836e812e66bc9db0-800.webp 800w",
+      "width": 800,
+      "height": 466
+    }
+  }
+}

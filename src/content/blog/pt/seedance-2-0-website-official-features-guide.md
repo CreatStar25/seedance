@@ -1,7 +1,6 @@
 ---
 title: "Descubra o Site Oficial do Seedance 2.0: A Experiência Definitiva do Gerador de Vídeos de IA da ByteDance"
 description: "À procura do site oficial do seedance 2.0? Este artigo fornece uma visão geral abrangente das funcionalidades principais do Seedance 2.0, incluindo consistência de personagens com múltiplas imagens e controlo cinematográfico da câmara. Visite Seedance22.com para começar a criar."
-slug: seedance-2-0-website-official-features-guide
 lang: "pt"
 date: 2026-02-25
 author: "Seedance Team"

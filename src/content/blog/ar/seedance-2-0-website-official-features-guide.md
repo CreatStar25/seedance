@@ -1,7 +1,6 @@
 ---
 title: "اكتشف موقع Seedance 2.0 الحقيقي: تجربة مولد فيديو الذكاء الاصطناعي من ByteDance المثالية"
 description: "تبحث عن الموقع الرسمي لـ Seedance 2.0؟ تقدم هذه المقالة نظرة شاملة على الميزات الأساسية لـ Seedance 2.0، بما في ذلك اتساق الشخصية متعدد الصور والتحكم السينمائي بالكاميرا. قم بزيارة Seedance22.com للبدء في الإبداع."
-slug: seedance-2-0-website-official-features-guide
 lang: "ar"
 date: 2026-02-25
 author: "Seedance Team"

@@ -1,7 +1,6 @@
 ---
 title: "探索真正的Seedance 2.0网站：终极字节跳动AI视频生成器体验"
 description: "正在寻找官方的seedance 2.0网站？本文全面概述了Seedance 2.0的核心功能，包括多图像角色一致性和电影级镜头控制。访问Seedance22.com，即刻开始创作。"
-slug: seedance-2-0-website-official-features-guide
 lang: "zh-cn"
 date: 2026-02-25
 author: "Seedance Team"

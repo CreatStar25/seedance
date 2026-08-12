@@ -2,7 +2,7 @@
 title: "Seedance 2.0 ขั้นสูง: สอนทำ Vlog AI ทีละขั้น"
 description: "ใช้ prompt Seedance และ Seedance 2.0 สร้าง vlog AI และ short แอนิเมชัน: สตอรี่บอร์ด ออกแบบตัวละคร โหมด 全能参考 สร้างครั้งเดียว คู่มือ vlog Seedance 2.0 เต็มทีละขั้น"
 pubDate: "2026-03-15"
-heroImage: "https://img.seedance22.com/aiweb/seedance-3.webp"
+heroImage: "https://img.seedance22.com/aiweb/seedance-260522-1.png"
 ---
 
 ด้วย Seedance 2.0 คุณสร้าง vlog AI และ short แอนิเมชันได้โดยไม่ต้องมีคนหน้ากล้องหรือถ่ายซับซ้อน นี่คือ **การสอนทำ vlog AI Seedance 2.0 ทีละขั้น** จากสตอรี่บอร์ดถึงคลิปสุดท้าย
@@ -19,7 +19,7 @@ heroImage: "https://img.seedance22.com/aiweb/seedance-3.webp"
 
 ตัวอย่าง prompt: “คุณเป็นดีไซเนอร์ตัวละครอนิเมะ ออกแบบหญิงสาว (25 มืออาชีพเมือง) ผมสั้น สันจมูกสูง ตาใหญ่ ~165 ซม. โทนผิวปกติ ชุดส casual สีเทาอ่อน สไตล์การ์ตูน” บันทึกชีทตัวละครและใช้ร่วมกับสตอรี่บอร์ด
 
-![สตอรี่บอร์ดและตัวละคร vlog AI Seedance 2.0](https://img.seedance22.com/aiweb/seedance-3.webp)
+![สตอรี่บอร์ดและตัวละคร vlog AI Seedance 2.0](https://img.seedance22.com/aiweb/seedance-260522-1.png)
 
 ## 3. ตั้งค่าใน Seedance 2.0
 

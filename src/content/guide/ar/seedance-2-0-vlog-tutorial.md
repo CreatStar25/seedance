@@ -2,7 +2,7 @@
 title: "Seedance 2.0 متقدم: تعليمي فلوق الذكاء الاصطناعي خطوة بخطوة"
 description: "استخدم أوامر Seedance وSeedance 2.0 لإنشاء فلوقات وشارتات ذكاء اصطناعي: لوحة القصة، تصميم الشخصية، وضع 全能参考، توليد بنقرة. دليل فلوق Seedance 2.0 خطوة بخطوة."
 pubDate: "2026-03-15"
-heroImage: "https://img.seedance22.com/aiweb/seedance-3.webp"
+heroImage: "https://img.seedance22.com/aiweb/seedance-260522-1.png"
 ---
 
 مع Seedance 2.0 يمكنك إنشاء فلوقات وشارتات ذكاء اصطناعي بدون موهبة أمام الكاميرا أو تصوير معقد. هذا **تعليمي فلوق Seedance 2.0 خطوة بخطوة** من لوحة القصة إلى المقطع النهائي.
@@ -19,7 +19,7 @@ heroImage: "https://img.seedance22.com/aiweb/seedance-3.webp"
 
 مثال أمر: "أنت مصمم شخصيات أنمي. صمم امرأة شابة (25، محترفة حضرية)، شعر قصير، جسر أنف مرتفع، عينان كبيرتان، ~165 سم، لون بشرة عادي، بدلة كاجوال رمادية فاتحة، أسلوب كرتون." احفظ ورقة الشخصية واستخدمها مع لوحة القصة.
 
-![لوحة قصة وشخصية فلوق Seedance 2.0](https://img.seedance22.com/aiweb/seedance-3.webp)
+![لوحة قصة وشخصية فلوق Seedance 2.0](https://img.seedance22.com/aiweb/seedance-260522-1.png)
 
 ## 3. الإعداد في Seedance 2.0
 

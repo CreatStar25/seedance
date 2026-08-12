@@ -2,7 +2,7 @@
 title: "Seedance2.0 進階玩法！AI vlog 保姆級教學來了！！"
 description: "用 Seedance 提示詞與即夢 Seedance2.0 做 AI vlog、動畫短劇：分鏡腳本、人設圖、全能參考模式、一鍵成片，保姆級步驟與 seedance2 實操技巧。"
 pubDate: "2026-03-15"
-heroImage: "https://img.seedance22.com/aiweb/seedance-3.webp"
+heroImage: "https://img.seedance22.com/aiweb/seedance-260522-1.png"
 ---
 
 用 Seedance 2.0 做 AI vlog、動畫短劇，可省去真人出鏡與複雜拍攝。本文是 **Seedance2.0** 做 AI vlog 的保姆級教學。
@@ -15,7 +15,7 @@ heroImage: "https://img.seedance22.com/aiweb/seedance-3.webp"
 
 用文生圖設計固定主角形象，儲存人設圖與分鏡一起使用。
 
-![Seedance 2.0 AI vlog](https://img.seedance22.com/aiweb/seedance-3.webp)
+![Seedance 2.0 AI vlog](https://img.seedance22.com/aiweb/seedance-260522-1.png)
 
 ## 三、在 Seedance2.0 中設定
 

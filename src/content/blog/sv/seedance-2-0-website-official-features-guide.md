@@ -1,7 +1,6 @@
 ---
 title: "Upptäck den riktiga Seedance 2.0-webbplatsen: Den ultimata ByteDance AI-videogeneratorupplevelsen"
 description: "Letar du efter den officiella seedance 2.0-webbplatsen? Den här artikeln ger en omfattande översikt över Seedance 2.0:s kärnfunktioner, inklusive flerbildskaraktärskonsistens och filmisk kamerakontroll. Besök Seedance22.com för att börja skapa."
-slug: seedance-2-0-website-official-features-guide
 lang: "sv"
 date: 2026-02-25
 author: "Seedance Team"

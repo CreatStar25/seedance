@@ -2,7 +2,7 @@
 title: "Seedance 2.0 Lanjutan: Tutorial Vlog AI Langkah demi Langkah"
 description: "Gunakan prompt Seedance dan Seedance 2.0 untuk membuat vlog AI dan short animasi: storyboard, desain karakter, mode 全能参考, generasi satu klik. Panduan vlog Seedance 2.0 lengkap langkah demi langkah."
 pubDate: "2026-03-15"
-heroImage: "https://img.seedance22.com/aiweb/seedance-3.webp"
+heroImage: "https://img.seedance22.com/aiweb/seedance-260522-1.png"
 ---
 
 Dengan Seedance 2.0 Anda bisa membuat vlog AI dan short animasi tanpa talent di depan kamera atau syuting rumit. Ini **tutorial vlog AI Seedance 2.0 langkah demi langkah** dari storyboard ke klip final.
@@ -19,7 +19,7 @@ Anda butuh karakter yang konsisten untuk video AI. Jika belum punya, hasilkan de
 
 Contoh prompt: “Kamu desainer karakter anime. Rancang wanita muda (25, profesional urban), rambut pendek, hidung mancung, mata besar, ~165 cm, warna kulit normal, setelan kasual abu-abu terang, gaya kartun.” Simpan lembar karakter dan gunakan bersama storyboard.
 
-![Storyboard dan karakter vlog AI Seedance 2.0](https://img.seedance22.com/aiweb/seedance-3.webp)
+![Storyboard dan karakter vlog AI Seedance 2.0](https://img.seedance22.com/aiweb/seedance-260522-1.png)
 
 ## 3. Atur di Seedance 2.0
 

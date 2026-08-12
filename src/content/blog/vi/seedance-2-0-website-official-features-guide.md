@@ -1,7 +1,6 @@
 ---
 title: "Khám Phá Trang Web Seedance 2.0 Chính Thức: Trải Nghiệm Tối Ưu Với Công Cụ Tạo Video AI Của ByteDance"
 description: "Đang tìm kiếm trang web seedance 2.0 chính thức? Bài viết này cung cấp cái nhìn tổng quan toàn diện về các tính năng cốt lõi của Seedance 2.0, bao gồm tính nhất quán nhân vật từ nhiều hình ảnh và điều khiển camera điện ảnh. Truy cập Seedance22.com để bắt đầu sáng tạo."
-slug: seedance-2-0-website-official-features-guide
 lang: "vi"
 date: 2026-02-25
 author: "Seedance Team"

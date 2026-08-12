@@ -2,7 +2,7 @@
 title: "Seedance2.0进阶玩法！AI vlog保姆级教程来了！！"
 description: "用 Seedance 提示词与即梦 Seedance2.0 做 AI vlog、动画短剧：分镜脚本、人设图、全能参考模式、一键成片，保姆级步骤与 seedance2 实操技巧。"
 pubDate: "2026-03-15"
-heroImage: "https://img.seedance22.com/aiweb/seedance-3.webp"
+heroImage: "https://img.seedance22.com/aiweb/seedance-260522-1.png"
 ---
 
 用 Seedance 2.0 做 AI vlog、动画短剧，可以省去真人出镜与复杂拍摄，新手也能快速出片。本文是 **Seedance2.0** 做 AI vlog 的保姆级教程，从分镜到成片一步步说明。
@@ -28,7 +28,7 @@ AI 视频需要固定主角形象。若没有现成人物图，可用文生图�
 
 得到人设图后保存，与分镜一起用于下一步。
 
-![Seedance 2.0 AI vlog 分镜与人设](https://img.seedance22.com/aiweb/seedance-3.webp)
+![Seedance 2.0 AI vlog 分镜与人设](https://img.seedance22.com/aiweb/seedance-260522-1.png)
 
 ## 三、在 Seedance2.0 中设置
 

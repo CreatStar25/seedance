@@ -14,6 +14,19 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const root = path.resolve(__dirname, '..');
 const distDir = process.env.OUT_DIR || path.join(root, 'dist');
 const siteBase = 'https://seedance22.com';
+const qualityReportPath = path.join(root, 'src', 'generated', 'content-quality.json');
+const qualityReport = fs.existsSync(qualityReportPath)
+  ? JSON.parse(fs.readFileSync(qualityReportPath, 'utf8'))
+  : { entries: {} };
+const noindexPaths = new Set(
+  Object.entries(qualityReport.entries)
+    .filter(([, value]) => !value.indexable)
+    .map(([key]) => {
+      const [collection, lang, ...slugParts] = key.split('/');
+      const prefix = lang === 'en' ? '' : `/${lang}`;
+      return `${prefix}/${collection}/${slugParts.join('/')}/`;
+    })
+);
 
 function extractLocUrls(xml) {
   const urls = [];
@@ -55,6 +68,7 @@ function main() {
     const urls = extractLocUrls(xml);
     urls
       .filter((u) => u.includes('/zh-cn/') || u.includes('/zh-tw/'))
+      .filter((u) => !noindexPaths.has(new URL(u).pathname))
       .forEach((u) => allUrls.add(u));
   }
 

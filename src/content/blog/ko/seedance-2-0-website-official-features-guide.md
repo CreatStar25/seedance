@@ -1,7 +1,6 @@
 ---
 title: "진짜 Seedance 2.0 웹사이트를 발견하세요: 궁극의 ByteDance AI 비디오 생성기 경험"
 description: "공식 seedance 2.0 웹사이트를 찾고 계신가요? 이 글은 다중 이미지 캐릭터 일관성과 시네마틱 카메라 제어를 포함한 Seedance 2.0의 핵심 기능에 대한 포괄적인 개요를 제공합니다. Seedance22.com을 방문하여 제작을 시작하세요."
-slug: seedance-2-0-website-official-features-guide
 lang: "ko"
 date: 2026-02-25
 author: "Seedance Team"

@@ -2,7 +2,7 @@
 title: "Seedance 2.0 応用編！AI vlog ステップバイステップ教程"
 description: "Seedance プロンプトと即夢 Seedance 2.0 で AI vlog・アニメ短編を制作：絵コンテ、キャラ設定、全能参考モード、ワンクリック生成。Seedance 2.0 vlog の実践手順。"
 pubDate: "2026-03-15"
-heroImage: "https://img.seedance22.com/aiweb/seedance-3.webp"
+heroImage: "https://img.seedance22.com/aiweb/seedance-260522-1.png"
 ---
 
 Seedance 2.0 で AI vlog やアニメ短編を作ると、実写出演や複雑な撮影が不要で、初心者でも短時間で仕上げられます。本稿は **Seedance 2.0** で AI vlog を作るステップバイステップ教程です。
@@ -26,7 +26,7 @@ AI 動画には固定の主人公像が必要です。既存のキャラ図が�
 
 キャラ図を保存し、絵コンテとあわせて次のステップで使います。
 
-![Seedance 2.0 AI vlog 絵コンテとキャラ](https://img.seedance22.com/aiweb/seedance-3.webp)
+![Seedance 2.0 AI vlog 絵コンテとキャラ](https://img.seedance22.com/aiweb/seedance-260522-1.png)
 
 ## 三、Seedance 2.0 で設定する
 

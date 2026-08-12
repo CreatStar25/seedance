@@ -2,7 +2,7 @@
 title: "Seedance 2.0 Fortgeschritten: AI-Vlog-Tutorial Schritt für Schritt"
 description: "Mit Seedance-Prompts und Seedance 2.0 AI-Vlogs und animierte Kurzclips erstellen: Storyboard, Figurendesign, 全能参考 Modus, Ein-Klick-Generierung. Kompletter Seedance 2.0 Vlog-Guide."
 pubDate: "2026-03-15"
-heroImage: "https://img.seedance22.com/aiweb/seedance-3.webp"
+heroImage: "https://img.seedance22.com/aiweb/seedance-260522-1.png"
 ---
 
 Mit Seedance 2.0 kannst du AI-Vlogs und animierte Kurzclips ohne Kamerapräsenz oder aufwändige Drehs erstellen. Dies ist ein **Schritt-für-Schritt Seedance 2.0 AI-Vlog-Tutorial** vom Storyboard bis zum fertigen Clip.
@@ -26,7 +26,7 @@ Beispiel-Prompt: „Du bist Anime-Character-Designer. Entwirf eine junge Frau (2
 
 Speichere das Figurenblatt und nutze es zusammen mit dem Storyboard.
 
-![Seedance 2.0 AI-Vlog Storyboard und Figur](https://img.seedance22.com/aiweb/seedance-3.webp)
+![Seedance 2.0 AI-Vlog Storyboard und Figur](https://img.seedance22.com/aiweb/seedance-260522-1.png)
 
 ## 3. In Seedance 2.0 einrichten
 

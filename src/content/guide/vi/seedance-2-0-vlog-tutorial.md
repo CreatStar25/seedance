@@ -2,7 +2,7 @@
 title: "Seedance 2.0 Nâng cao: Hướng dẫn Vlog AI Từng bước"
 description: "Dùng prompt Seedance và Seedance 2.0 để tạo vlog AI và short hoạt hình: storyboard, thiết kế nhân vật, chế độ 全能参考, tạo một chạm. Hướng dẫn vlog Seedance 2.0 đầy đủ từng bước."
 pubDate: "2026-03-15"
-heroImage: "https://img.seedance22.com/aiweb/seedance-3.webp"
+heroImage: "https://img.seedance22.com/aiweb/seedance-260522-1.png"
 ---
 
 Với Seedance 2.0 bạn có thể tạo vlog AI và short hoạt hình không cần người trước camera hay quay phức tạp. Đây là **hướng dẫn vlog AI Seedance 2.0 từng bước** từ storyboard đến clip cuối.
@@ -19,7 +19,7 @@ Bạn cần nhân vật nhất quán cho video AI. Chưa có thì tạo bằng v
 
 Ví dụ prompt: “Bạn là nhà thiết kế nhân vật anime. Thiết kế phụ nữ trẻ (25, chuyên gia đô thị), tóc ngắn, sống mũi cao, mắt to, ~165 cm, tông da bình thường, bộ casual xám nhạt, phong cách hoạt hình.” Lưu bảng nhân vật và dùng cùng storyboard.
 
-![Storyboard và nhân vật vlog AI Seedance 2.0](https://img.seedance22.com/aiweb/seedance-3.webp)
+![Storyboard và nhân vật vlog AI Seedance 2.0](https://img.seedance22.com/aiweb/seedance-260522-1.png)
 
 ## 3. Thiết lập trong Seedance 2.0
 

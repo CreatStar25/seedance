@@ -1,7 +1,6 @@
 ---
 title: "探索真正的Seedance 2.0網站：終極的ByteDance AI影片生成器體驗"
 description: "正在尋找官方的seedance 2.0網站嗎？本文全面介紹Seedance 2.0的核心功能，包括多圖像角色一致性與電影級鏡頭控制。立即訪問Seedance22.com開始創作。"
-slug: seedance-2-0-website-official-features-guide
 lang: "zh-tw"
 date: 2026-02-25
 author: "Seedance Team"

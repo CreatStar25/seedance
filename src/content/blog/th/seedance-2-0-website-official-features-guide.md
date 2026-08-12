@@ -1,7 +1,6 @@
 ---
 title: "ค้นพบเว็บไซต์ Seedance 2.0 จริง: ประสบการณ์สุดยอดเครื่องมือสร้างวิดีโอ AI จาก ByteDance"
 description: "กำลังมองหาเว็บไซต์ทางการของ seedance 2.0 ใช่ไหม? บทความนี้ให้ภาพรวมครบถ้วนเกี่ยวกับฟีเจอร์หลักของ Seedance 2.0 รวมถึงความสม่ำเสมอของตัวละครจากหลายภาพและการควบคุมกล้องระดับภาพยนตร์ เยี่ยมชม Seedance22.com เพื่อเริ่มต้นการสร้างสรรค์"
-slug: seedance-2-0-website-official-features-guide
 lang: "th"
 date: 2026-02-25
 author: "Seedance Team"

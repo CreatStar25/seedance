@@ -1,7 +1,6 @@
 ---
 title: "Seedance 2.0 官网入口在哪？最新地址汇总"
 description: "Seedance 2.0 官网入口与体验渠道一览：即梦 AI、豆包、火山方舟等 7 大入口，附使用方式与 Seedance 2.0 多模态能力说明。"
-slug: "seedance2-official-entry-guide"
 tags: ["Seedance 2.0 官网入口", "Seedance 2.0", "AI 视频生成", "即梦", "豆包"]
 pubDate: "2026-03-03"
 author: "Seedance Team"

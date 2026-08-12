@@ -2,7 +2,7 @@
 title: "Seedance 2.0 پیشرفته: آموزش گام‌به‌گام ولوگ AI"
 description: "از پرامپت Seedance و Seedance 2.0 برای ساخت ولوگ AI و شورت انیمیشن استفاده کنید: استوری‌بورد، طراحی شخصیت، حالت 全能参考، تولید یک‌کلیکی. راهنمای کامل ولوگ Seedance 2.0 گام‌به‌گام."
 pubDate: "2026-03-15"
-heroImage: "https://img.seedance22.com/aiweb/seedance-3.webp"
+heroImage: "https://img.seedance22.com/aiweb/seedance-260522-1.png"
 ---
 
 با Seedance 2.0 می‌توانید ولوگ AI و شورت انیمیشن بدون حضور جلوی دوربین یا فیلمبرداری پیچیده بسازید. این **آموزش گام‌به‌گام ولوگ AI Seedance 2.0** از استوری‌بورد تا کلیپ نهایی است.

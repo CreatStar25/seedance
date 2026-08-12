@@ -2,7 +2,7 @@
 title: "Seedance 2.0 Gevorderd: Stapsgewijze AI-vlogtutorial"
 description: "Gebruik Seedance-prompts en Seedance 2.0 om AI-vlogs en animatieshorts te maken: storyboard, personageontwerp, 全能参考-modus, één-klik generatie. Volledige stapsgewijze Seedance 2.0 vloggids."
 pubDate: "2026-03-15"
-heroImage: "https://img.seedance22.com/aiweb/seedance-3.webp"
+heroImage: "https://img.seedance22.com/aiweb/seedance-260522-1.png"
 ---
 
 Met Seedance 2.0 kun je AI-vlogs en animatieshorts maken zonder talent voor de camera of complexe opnames. Dit is een **stapsgewijze Seedance 2.0 AI-vlogtutorial** van storyboard tot eindclip.

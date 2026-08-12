@@ -1,7 +1,6 @@
 ---
 title: "Gerçek Seedance 2.0 Web Sitesini Keşfedin: Nihai ByteDance AI Video Oluşturucu Deneyimi"
 description: "Resmi seedance 2.0 web sitesini mi arıyorsunuz? Bu makale, çoklu görüntü karakter tutarlılığı ve sinematik kamera kontrolü dahil olmak üzere Seedance 2.0'ın temel özelliklerine kapsamlı bir genel bakış sunuyor. Oluşturmaya başlamak için Seedance22.com'u ziyaret edin."
-slug: seedance-2-0-website-official-features-guide
 lang: "tr"
 date: 2026-02-25
 author: "Seedance Team"

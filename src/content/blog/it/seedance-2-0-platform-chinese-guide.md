@@ -52,7 +52,7 @@ Il modello supporta terminologia cinematografica professionale. Puoi aggiungere 
 Se non sai come descriverlo a parole, i giocatori della comunità **Seedance cinese** hanno scoperto un trucco: carica direttamente un video di riferimento, e Seedance 2.0 imparerà automaticamente lo stile di ripresa di quel video e lo applicherà alla tua creazione.
 
 <div class="video-container" style="margin: 20px 0;">
-  <video width="100%" controls poster="https://img.seedance22.com/seedance/eedance-2.0-cover-4.png">
+  <video width="100%" controls poster="https://img.seedance22.com/seedance/eedance-2-0-cover-4.png">
     <source src="https://img.seedance22.com/seedance/seedance-camera-poster-5.mp4" type="video/mp4">
     Il tuo browser non supporta il tag video.
   </video>
