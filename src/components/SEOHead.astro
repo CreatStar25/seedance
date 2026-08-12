@@ -57,7 +57,7 @@ const defaultOgImage = 'https://img.seedance22.com/aiweb/seedance2-260812-1.png'
 const ogImage = image ? (image.startsWith('http') ? image : new URL(image, Astro.site ?? Astro.url.origin).toString()) : defaultOgImage;
 
 // 默认 keywords（如果未提供）
-const defaultKeywords = "Seedance, Seedance 2.0, AI video, AI video generator, text to video, image to video, multimodal AI, video AI model, AI video creation, ByteDance AI";
+const defaultKeywords = "Seedance, Seedance 2.5, AI video, AI video generator, text to video, image to video, multimodal AI, video AI model, AI video creation, ByteDance AI";
 
 // ---------------------------------------------------------------------------
 // Base URL
@@ -231,7 +231,7 @@ function generateStructuredData(type: 'website' | 'organization' | 'product' | '
         "@id": websiteId,
         // WebSite 表示整站，url 必须为站点根，勿用当前页 canonical（否则与 Article 冲突、易触发 GSC 规范网址不一致）
         "url": siteBaseNormalized,
-        "name": "Seedance 2.0",
+        "name": "Seedance 2.5",
         "description": "Seedance AI video generation guides, tutorials, and product information.",
         "publisher": { "@id": organizationId },
       };
@@ -302,7 +302,7 @@ function generateStructuredData(type: 'website' | 'organization' | 'product' | '
     case 'softwareapplication':
       return {
         ...baseData,
-        "name": "Seedance 2.0",
+        "name": "Seedance 2.5",
         "description": description,
         "image": ogImage,
         "url": canonicalURL.toString(),
@@ -420,7 +420,7 @@ const loadBaiduAnalytics = lang === 'zh-cn' || lang === 'zh-tw';
 <meta property="og:image:height" content="630" />
 <meta property="og:image:alt" content={title} />
 <meta property="og:locale" content={ogLocale} />
-<meta property="og:site_name" content="Seedance 2.0" />
+<meta property="og:site_name" content="Seedance 2.5" />
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:title" content={title} />
 <meta name="twitter:description" content={description} />

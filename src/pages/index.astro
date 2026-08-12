@@ -6,9 +6,10 @@ import Footer from '../components/Footer.astro';
 import PersistLang from '../components/PersistLang.astro';
 import { loadTranslations } from '../i18n/loadTranslations';
 import ResponsiveImage from '../components/ResponsiveImage.astro';
+import { updateHomeVersion } from '../i18n/homeTranslations';
 
 const { lang = 'en' } = Astro.params;
-const t = await loadTranslations(lang);
+const t = updateHomeVersion(await loadTranslations(lang));
 ---
 
 <html lang={lang} dir={['ar','fa'].includes(lang) ? 'rtl' : 'ltr'} class="scroll-smooth" data-lang={lang}>
