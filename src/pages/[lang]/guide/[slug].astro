@@ -7,7 +7,9 @@ import PersistLang from '../../../components/PersistLang.astro';
 import { loadTranslations } from '../../../i18n/loadTranslations';
 import { localesForContentSlug } from '../../../i18n/hreflangLocales';
 import GuideArticleShell from '../../../components/guide/GuideArticleShell.astro';
+import RelatedContent from '../../../components/RelatedContent.astro';
 import { contentRobots } from '../../../utils/contentQuality';
+import { getRelatedContent } from '../../../utils/internalLinks';
 
 function getPostDate(data: { pubDate?: Date; date?: Date }) {
   return data.pubDate ?? data.date ?? new Date(0);
@@ -30,7 +32,9 @@ export async function getStaticPaths() {
 const { entry } = Astro.props;
 const { lang, slug: currentSlug } = Astro.params;
 const allGuides = await getCollection('guide');
+const allBlog = await getCollection('blog');
 const hreflangLocales = localesForContentSlug(allGuides, currentSlug!);
+const relatedLinks = getRelatedContent('guide', entry, allBlog, allGuides, lang!);
 const { Content } = await entry.render();
 
 const coverImage = entry.data.image ?? entry.data.heroImage;
@@ -98,6 +102,13 @@ const appUrl = 'https://app.seedance22.com/generate/video-tools/seedance2.0';
         appUrl={appUrl}
       >
         <Content />
+        <RelatedContent
+          slot="related"
+          lang={lang!}
+          links={relatedLinks}
+          blogLabel={t.nav.blog}
+          guideLabel={t.nav.guide}
+        />
       </GuideArticleShell>
     </main>
 

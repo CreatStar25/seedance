@@ -1,0 +1,264 @@
+---
+import type { InternalLink } from '../utils/internalLinks';
+
+interface Props {
+  lang: string;
+  links: InternalLink[];
+  blogLabel: string;
+  guideLabel: string;
+}
+
+const { lang, links, blogLabel, guideLabel } = Astro.props;
+
+const headings: Record<string, string> = {
+  en: 'Continue exploring',
+  'zh-cn': '继续探索',
+  'zh-tw': '繼續探索',
+  es: 'Sigue explorando',
+  ar: 'تابع الاستكشاف',
+  pt: 'Continue explorando',
+  id: 'Lanjutkan menjelajah',
+  ms: 'Teruskan meneroka',
+  fr: 'Continuez votre lecture',
+  ru: 'Продолжить изучение',
+  hi: 'आगे पढ़ें',
+  ja: '関連コンテンツ',
+  de: 'Mehr entdecken',
+  ko: '더 알아보기',
+  tr: 'Keşfetmeye devam edin',
+  vi: 'Khám phá thêm',
+  th: 'สำรวจเพิ่มเติม',
+  it: 'Continua a esplorare',
+  fa: 'بیشتر بخوانید',
+  nl: 'Verder ontdekken',
+  pl: 'Czytaj dalej',
+  sv: 'Utforska vidare',
+  uk: 'Дізнайтеся більше',
+  ro: 'Explorează în continuare',
+};
+
+const sectionTitle = headings[lang] ?? headings.en;
+const prefix = lang === 'en' ? '' : `/${lang}`;
+const sectionId = `related-content-${links.map((link) => link.href).join('-').length}`;
+---
+
+{links.length > 0 && (
+  <nav class="related-content" aria-labelledby={sectionId}>
+    <div class="related-content__header">
+      <div>
+        <p class="related-content__eyebrow">Seedance</p>
+        <h2 id={sectionId}>{sectionTitle}</h2>
+      </div>
+      <div class="related-content__hubs" aria-label={sectionTitle}>
+        <a href={`${prefix}/blog/`}>{blogLabel}</a>
+        <a href={`${prefix}/guide/`}>{guideLabel}</a>
+      </div>
+    </div>
+
+    <ul class="related-content__grid">
+      {links.map((link) => {
+        const typeLabel = link.collection === 'blog' ? blogLabel : guideLabel;
+        return (
+          <li>
+            <a class="related-card" href={link.href} aria-label={`${typeLabel}: ${link.title}`}>
+              <span class="related-card__type">{typeLabel}</span>
+              <span class="related-card__title">{link.title}</span>
+              <span class="related-card__description">{link.description}</span>
+              <span class="related-card__action" aria-hidden="true">
+                <svg viewBox="0 0 20 20" fill="none" focusable="false">
+                  <path d="M4 10h12m-5-5 5 5-5 5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+              </span>
+            </a>
+          </li>
+        );
+      })}
+    </ul>
+  </nav>
+)}
+
+<style>
+  .related-content {
+    margin-top: 3.5rem;
+    padding-top: 2rem;
+    border-top: 1px solid rgb(226 232 240);
+  }
+
+  .related-content__header {
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    gap: 1.5rem;
+    margin-bottom: 1.25rem;
+  }
+
+  .related-content__eyebrow {
+    margin: 0 0 0.35rem;
+    color: rgb(180 83 9);
+    font-size: 0.75rem;
+    font-weight: 800;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+  }
+
+  h2 {
+    margin: 0;
+    color: rgb(15 23 42);
+    font-size: clamp(1.5rem, 4vw, 2rem);
+    line-height: 1.2;
+    font-weight: 900;
+    text-wrap: balance;
+  }
+
+  .related-content__hubs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    gap: 0.5rem;
+  }
+
+  .related-content__hubs a {
+    display: inline-flex;
+    align-items: center;
+    min-height: 2.75rem;
+    padding: 0.55rem 0.9rem;
+    border: 1px solid rgb(226 232 240);
+    border-radius: 9999px;
+    background: white;
+    color: rgb(51 65 85);
+    font-size: 0.875rem;
+    font-weight: 700;
+    line-height: 1.2;
+    text-decoration: none;
+    transition: border-color 150ms ease, background-color 150ms ease, color 150ms ease;
+  }
+
+  .related-content__hubs a:hover {
+    border-color: rgb(245 158 11);
+    background: rgb(255 251 235);
+    color: rgb(146 64 14);
+  }
+
+  .related-content__grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .related-card {
+    position: relative;
+    display: flex;
+    min-height: 12rem;
+    height: 100%;
+    flex-direction: column;
+    padding: 1.25rem 3.25rem 1.25rem 1.25rem;
+    overflow: hidden;
+    border: 1px solid rgb(226 232 240);
+    border-radius: 1rem;
+    background: linear-gradient(145deg, rgb(255 255 255), rgb(255 251 235 / 0.55));
+    color: rgb(15 23 42);
+    text-decoration: none;
+    box-shadow: 0 1px 2px rgb(15 23 42 / 0.04);
+    transition: border-color 180ms ease, box-shadow 180ms ease, background-color 180ms ease;
+  }
+
+  .related-card:hover {
+    border-color: rgb(245 158 11);
+    box-shadow: 0 10px 24px rgb(120 53 15 / 0.09);
+  }
+
+  .related-card__type {
+    align-self: flex-start;
+    margin-bottom: 0.75rem;
+    padding: 0.25rem 0.55rem;
+    border-radius: 9999px;
+    background: rgb(254 243 199);
+    color: rgb(146 64 14);
+    font-size: 0.6875rem;
+    font-weight: 800;
+    line-height: 1.25;
+  }
+
+  .related-card__title {
+    color: rgb(15 23 42);
+    font-size: 1rem;
+    font-weight: 800;
+    line-height: 1.4;
+    overflow-wrap: anywhere;
+  }
+
+  .related-card__description {
+    display: -webkit-box;
+    margin-top: 0.55rem;
+    overflow: hidden;
+    color: rgb(71 85 105);
+    font-size: 0.875rem;
+    line-height: 1.55;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+  }
+
+  .related-card__action {
+    position: absolute;
+    top: 1.25rem;
+    right: 1.25rem;
+    display: grid;
+    width: 2rem;
+    height: 2rem;
+    place-items: center;
+    border-radius: 9999px;
+    background: rgb(15 23 42);
+    color: white;
+  }
+
+  :global([dir='rtl']) .related-card {
+    padding-right: 1.25rem;
+    padding-left: 3.25rem;
+  }
+
+  :global([dir='rtl']) .related-card__action {
+    right: auto;
+    left: 1.25rem;
+    transform: scaleX(-1);
+  }
+
+  .related-card__action svg {
+    width: 1rem;
+    height: 1rem;
+  }
+
+  .related-card:focus-visible,
+  .related-content__hubs a:focus-visible {
+    outline: 3px solid rgb(245 158 11);
+    outline-offset: 3px;
+  }
+
+  @media (max-width: 639px) {
+    .related-content__header {
+      align-items: flex-start;
+      flex-direction: column;
+    }
+
+    .related-content__hubs {
+      justify-content: flex-start;
+    }
+
+    .related-content__grid {
+      grid-template-columns: minmax(0, 1fr);
+    }
+
+    .related-card {
+      min-height: 10.5rem;
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .related-card,
+    .related-content__hubs a {
+      transition: none;
+    }
+  }
+</style>

@@ -11,6 +11,7 @@
     "test:blog": "node scripts/test_blog_routes.js",
     "test:multilang": "node scripts/test_multilang_http.js",
     "test:seedance25": "node scripts/test-seedance-25-locales.mjs",
+    "test:internal-links": "node scripts/test-internal-links.mjs",
     "i18n:merge-blog-bodies": "node scripts/merge-blog-localized-bodies.mjs",
     "seo:images": "node scripts/build-responsive-images.mjs"
   },
