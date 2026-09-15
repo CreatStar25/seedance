@@ -1,6 +1,9 @@
 # build output
 dist/
 
+# WorkBuddy workspace data
+.workbuddy/
+
 # local SEO audit cache
 .seo-cache/
 
